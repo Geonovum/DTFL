@@ -8,6 +8,6 @@ op http://docs.geostandaarden.nl
 Overzicht van de documenten:
 
 
-| Versie | Link in index.html	                                           | Opmerkingen          |
-|--------|---------------------------------------------------------------|----------------------|
-| 0.0.1  | (Referentie Architectuur)["https://geonovum.github.io/DTFL/Referentie Architectuur"] |
+| Versie | Link in index.html	                                                                       | Opmerkingen          | 
+|--------|-------------------------------------------------------------------------------------------|----------------------|
+| 0.0.1  |  [Referentie Architectuur](https://geonovum.github.io/DTFL/Referentie%20Architectuur/)    |                      |
