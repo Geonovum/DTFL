@@ -46,7 +46,7 @@ var respecConfig =
   //specStatus: "GN-DEF",             // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                   // Norm
-  specType: "ST",                   // Standaard
+  //specType: "ST",                   // Standaard
   //specType: "IM",                   // Informatie Model
   //specType: "PR",                   // Praktijkrichtlijn
   //specType: "HR",                   // HandReiking
@@ -196,8 +196,8 @@ var respecConfig =
   //previousMaturity: "VV",  	                // kies 1 van deze 2 regels
 
   //-- Optionele parameters:
-  //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
-  subtitle: "iets",                         // Subtitel van het document
+  emailComments: "adres@geonovum.nl",         // reactie mailadres, alleen bij CV!
+  subtitle: "Digitale Tweeling voor de Fysieke Leefomgeving",                         // Subtitel van het document
   //maxTocLevel: 3,                           // Aantal niveau's ToC, default is 0
   //-- LOGO: Hier kan je een ander logo opgeven indien nodig
   //logos: [{
