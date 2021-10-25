@@ -1,14 +1,17 @@
 ## Samenvatting
 
-*Hier de (management)samenvatting van het rapport, onderwerp, belangrijkste conclusies/aanbevelingen*
+De Referentie-architectuur DTFL is gebaseerd op een ‘system-of-systems’ architectuur.
+In plaats van 1 systeemarchitectuur, maken we een architectuur voor een wolk van systemen die interoperabel zijn (= federatief model). Er is dus niet 1 Nationale Digitale Twin; de ‘federatie’ is de Digital Twin.
+Overall architectuur:
+Data, modellen, informatieproducten, toepassingen: gedistribueerd
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
+Zaken als Identity, datacatalogus (incl. gebruiksbeperkingen), modellen catalogus, bevragings-API’s en infra-voorzieningen: gefedereerd. Voorbeeld: Inspire.
 
+De functionaliteit van een van de systemen in de wolk zal zeer verschillend zijn: Van zeer breed (domeinen, functies) en vele systemen verbindend, tot zeer gespecialiseerde systemen, die supergoed zijn in een beperkte functie (zoals ontwerpen, simuleren of voorspellen).
+
+De opbouw van de R.A. verloopt langs functionele componenten, zoals op de vorige dia getoond. Per component kan – indien nodig - nader gedifferentieerd worden naar domein.
+
+De R.A. is een ‘open, publieke architectuur’. Op termijn is certificering van componenten denkbaar.
+
+Verdere decompositie te vinden in o.m.:
+DUET: D5.1 System Architecture & Implementation Plan 
