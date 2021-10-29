@@ -1,6 +1,4 @@
-## Inleiding
-
-*Hier de inleiding, een generieke tekst over het onderwerp van het rapport, de omgeving van eht rapport, enz ...* 
+## Klantperspectief
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
@@ -12,9 +10,7 @@ Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver
 Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
 Curabitur ullamcorper ultricies nisi. Nam eget dui.
 
-### Toepassingsgebied
-
-*Beschrijf het toepassingsgebied, voorbeeld: het installatieregister, wat is het, waarvoor wordt het gebruikt (of gaat het worden gebruikt), enz ...*
+### paragraaf 1
 
 In deze paragraaf wordt de bedoeling van het nDTFL programma beschreven en het klantperspectief.
 
@@ -28,9 +24,7 @@ Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver
 Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
 Curabitur ullamcorper ultricies nisi. Nam eget dui.
 
-### Doelgroep
-
-*Beschrijf de doelgroep, wie dat zijn, en hoe ze het rapport kunnen gebruiken*
+### paragraaf 2
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
 Aenean massa. Cum sociis natoque penatibi et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
@@ -42,9 +36,7 @@ Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver
 Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
 Curabitur ullamcorper ultricies nisi. Nam eget dui.
 
-### Leeswijzer
-
-*Beschrijf hoe het document gelzezen moet worden, welke hoofdstukken voor wie bedoeld zijn, enz...*
+### paragraaf 3
 
 Lorem ipsum dolor sit amet, consectetuer [Analyse](#analyse) elit. Aenean commodo ligula eget dolor. 
 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
@@ -69,8 +61,3 @@ Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vit
 Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
 Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
 Curabitur ullamcorper ultricies nisi. Nam eget dui.
-
-<figure id="voorbeeld plaatje">
-    <img src="media/voorbeeldplaatje.jpg" alt="voorbeeldplaatje">
-    <figcaption>Dit is een voobeeld van een plaatje</figcaption>
-</figure>
