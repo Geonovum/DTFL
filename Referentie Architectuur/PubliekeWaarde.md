@@ -1,4 +1,4 @@
-## Publiek Waarde
+## Publiek Waarden
 
 ### Inleiding
 
