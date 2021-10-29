@@ -39,3 +39,4 @@ gerichte context/vraag (Ton, obv personal dataspaces, data-altruisme, AVG)
 (data altruisme is persoonsgebonden of bedrijfsvertrouwelijke data die van een daartoe erkende tussenpersoon komt en voor een specifiek publiek belang kan worden ingezet, onder tevoren bepaalde gebruikscondities  
 •	databronnen kunnen verwijderen (en aantoonbaar, e.g. door logs) (Ton, obv EU AVG, digital principles, data minimalisatie)  
 
+test
