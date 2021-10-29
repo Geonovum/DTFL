@@ -16,8 +16,6 @@ Curabitur ullamcorper ultricies nisi. Nam eget dui.
 
 *Beschrijf het toepassingsgebied, voorbeeld: het installatieregister, wat is het, waarvoor wordt het gebruikt (of gaat het worden gebruikt), enz ...*
 
-In deze paragraaf wordt de bedoeling van het nDTFL programma beschreven en het klantperspectief.
-
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
 ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
