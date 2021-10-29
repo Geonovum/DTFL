@@ -16,7 +16,7 @@ In dit hoofdstuk worden de ontwerpprincipes beschreven. Ook wordt de link gelegd
 
 
 <aside class='note'>
-    JvG: Hoofdstuk over "by design", zoals security by design
+    JvG: Hoofdstuk over "by design", zoals security by design. TZ: en onderstaande principes telkens ook meeformuleren in andere functionele blokken
 </aside> 
 
 
