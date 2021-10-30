@@ -20,7 +20,7 @@ De ontwerpprincipes zijn afgeleid van:
 * Landelijke richtlijnen architectuur: NORA
 * Landelijke richtlijnen gegevensbescherming: AVG & GDPR
 * Landelijke richtlijnen software ontwikkeling: Common Ground
-* overig
+* overig 
 
 <figure id="infographic capabilities">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL.jpg" alt="infographic capabilities">
