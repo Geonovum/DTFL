@@ -2,7 +2,30 @@
 
 ### Inleiding
 
-Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuurprincipes worden in dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden beschreven. 
+Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuurprincipes worden in dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden beschreven.
+
+Voor de ordening van de ontwerpprincipes wordt het overzicht van de capabilities of te wel "bouwblokken" gebruikt. De ontwerpprincipes zijn direct te relateren aan capabilities.
+Voor een bepaalde digital twin toepassing te realiseren, bijvoorbeeld een geluid simulatiemodel, is een combinaties van capabilities/ bouwblokken nodig. Doordat de ontwerpprincipes gerelateerd zijn aan de capabilities/ bouwblokken is inzichtelijk welke ontwerpprincipes op de realisatie van toepassing zijn.  
+
+De ontwerpprincipes zijn te plotten op 5 lagen van capability overzichtsplaat:
+Laag 1 - interactie-laag met de gebruikersinterface van Digital twins waarin functionaliteit aanwezig is zoals bijvoorbeeld: 3D visualisatie, simulatie, what-if scenario, tijdreizen en gamification 
+Laag 2 - proces-laag met daarin functionaliteit voor bijvoorbeeld BIM gerelateerd werken.
+Laag 3 – integratie-laag met functionaliteit voor data uitwisseling in digital twin ecosysteem
+Laag 4 - service laag met functionaliteit om allerlei soorten data uit laag 1 registratie-laag beschikbaar te stellen aan de boven liggende lagen middels open standaard services, datatransformatie en datamodel mapping, etc.
+Laag 3 – Registraties laag met datareristraties zoals bijvoorbeeld taakapplicaties, (basis)administraties, sensoren, complex event processing, maar ook digital twins als een bronsysteem.
+
+De ontwerpprincipes zijn afgeleid van
+* NORA
+* Common Ground
+* Wetgeving: Wet Open Overheid; Wet Hergebruik Overheidsinformatie, Archiefwet
+* AVG & GDPR
+* Doelstellingen & visie
+* overig
+
+<figure id="voorbeeld plaatje">
+    <img src="media/infographic capabilities NL_DFTL v01.pdf" alt="infographic capabilities">
+    <figcaption>Dit is capability overzicht</figcaption>
+</figure>
 
 ### Infrastructuur
 
