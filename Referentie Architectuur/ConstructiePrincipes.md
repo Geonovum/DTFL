@@ -23,7 +23,7 @@ De ontwerpprincipes zijn afgeleid van
 * overig
 
 <figure id="infographic capabilities">
-    <img src="media/infographic capabilities NLDFTL.jpg" alt="infographic capabilities">
+    <img src="media/infographic bedrijfsarchitectuur NLDFTL.jpg" alt="infographic capabilities">
     <figcaption>Dit is de plaat van het capability overzicht</figcaption>
 </figure>
 
