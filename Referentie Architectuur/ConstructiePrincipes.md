@@ -108,7 +108,7 @@ De constructieprincipes die van toepassing zijn op de capabilities/ bouwblokken 
 | implicatie  | * We gebruiken open standaarden: IFC 2.0; NLCS; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
 | | * Open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
 | | * We maken gebruik van ETSI CIM NGSI-LD Saref4City ontologie                                           |
-| | * We maken gebruik van API strategie en design rules: API design rules en update API strategie         |
+| | * We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)         |
 | | * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie |
 | | * We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving                        |
 | | * We gebruiken voor geografische data uitwisseling WMS en WFS en 3D data: CityGML en CityJSON          |
@@ -233,8 +233,8 @@ De capabilities, bouwstenen in  deze laag 2 zijn:
 | rationale   | Voor de inrichting van processen, informatievoorziening en applicaties hanteren wij een service-georiënteerde architectuur. Informatievoorziening is gebaseerd op applicatiecomponenten in de proces-laag die elk een specifieke bedrijfsfunctie ondersteunen. Interactie tussen de registraties waarin de data opgeslagen is en de applicatiecomponenten vindt plaats op basis van gestandaardiseerde services om flexibiliteit en koppelbaarheid te vergroten. Deze services kunnen andere services aanroepen waardoor een gelaagde service-architectuur ontstaat.                                                                            |
 | implicatie  | * Data in authentieke registers wordt via gestandaardiseerde- en beschreven services ontsloten.        |
 | | * Service georiënteerd werken heeft altijd de voorkeur boven andere manieren van koppelen. Dit is enerzijds door het ontmoedigen van "silo-applicaties" en leverancier specifieke integraties                                                           |
-| | * Servicegerichte architectuur betekent gebruik maken van standaard webservices, de API strategie en design rules: Consultatie API design rules en update API strategie | Geonovum                                                                        |
-| | * Geografische data passen we de open standaarden toe WMS & WFS; NEN 3610 Basismodel Geoinformatie; ISO 19136: GML en voor 3D data: CityGML en CityJSON                                                                                                    |
+| | * Servicegerichte architectuur betekent gebruik maken van standaard webservices, de design rules[NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)                                                                        |
+| | * Geografische data passen we de open standaarden toe WMS & WFS; NEN 3610 Basismodel Geoinformatie [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen); ISO 19136: GML en voor 3D data: CityGML en CityJSON                                                                                                    |
 | | * De ontwikkelde services/API's zijn vindbaar (Github) en herbruikbaar middels de actuele documentatie.            |
 
 | Principe 12 | We hanteren uniforme begrippen & definities voor gegevens.                   |
