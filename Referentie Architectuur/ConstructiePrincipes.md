@@ -117,7 +117,15 @@ tekst.
 | | * Samenhangend gebruik van gegevens is makkelijk mogelijk, zodat gegevens uit verschillende gegevensverzamelingen te combineren zijn.                                                                |
 | |                                                                  |
 
-| Principe 06 | Taken, bevoegdheden en verantwoordelijkheden in het gebruik van digital twins is in de organisatie belegd en werkafspraken zijn gemaakt.                                          |
+| Principe 06 | Verbinden digital twins in ecosysteem - We maken gebruik canonieke data-objecten om digital twins met elkaar te kunnen verbinden en gemeenschappelijke smart city-ontologieen.              |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | We gebruiken afgesproken canonieke data objecten. Dit betekent dat elk 3D visualisatie, simulatiemodel etc. uniforme data objecten heeft. In een volgend ontwikkel plateau kunnen we relaties leggen tussen digital twins (in verschillende domeinen) en navigeren via een graph, niet alleen via canoniek dataobjecten zoals “locatie”, maar in een gemeenschappelijke smart city-ontologie. Dit is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         |
+| implicatie  | * We gebruiken afgesproken canonieke data objecten: 3D model heeft uniforme data objecten “RD- coördinaten”, “NAP”, “tijd”, “0-punt” (mogelijk aanvullende data objecten).                                    |
+| | * In een volgend ontwikkel plateau maken we gebruik van Europese open standaard ontologie mapping SAREF extension: SAREF extension for Smart Cities (mariapoveda.github.io)                                                  |
+| |                                                                                       |
+
+| Principe 07 | Taken, bevoegdheden en verantwoordelijkheden in het gebruik van digital twins is in de organisatie belegd en werkafspraken zijn gemaakt.                                          |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
 | rationale   | We maken afspraken over het eigenaarschap van digital twins en diverse rollen en verantwoordelijkheden die nodig zijn in het ontwikkelen, onderhouden, data- en informatie delen en beheren van digital twins. |
@@ -136,7 +144,7 @@ De Ontwerppricipes voor de capabilities, bouwstenen:
 #### User interface
 #### Customer Experience
 
-| Principe 07 | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
+| Principe 08 | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
 | rationale   | We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- & informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. Overheidsinstanties zijn bij wet verplicht om alle websites van de organisatie, websites, (mobiele) apps en digitale documenten waar de organisatie aan meebetaalt of medeopdrachtgever voor is, toegankelijk(er) te maken.                         |
@@ -150,14 +158,28 @@ Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de pr
 De Ontwerppricipes voor de capabilities, bouwstenen:
 * BIM gerelateerd werken - Samenwerken; workflow management; issue tracking
 
-| Principe 08 | Proces logica is software onafhankelijk - De business rules en proces logica kunnen meervoudig worden gebruikt en is transparant naar de burger.                                          |
+| Principe 09 | Proces logica is software onafhankelijk - De business rules en proces logica kunnen meervoudig worden gebruikt en is transparant naar de burger.                                          |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
 | rationale   | We zorgen en toetsen dat de proceslogica en businessrules zoals bijvoorbeeld beslisbomen is software tool onafhankelijk ontwikkeld worden en meervoudig gebruikt kunnen worden in andere software producten. In de proceslogica worden berekeningen gedaan, volgordelijkheid bijgehouden (proces of state) en functies uitgevoerd.         |
 | implicatie  | * We maken gebruik van software tool onafhankelijk talen zoals BPMN, Python, Django, Go                                                                             |
-| | * We ontwikkelen proces logica niet in de presentatie laag 1               |
+| | * We ontwikkelen proces logica in laag 2 en niet in de presentatie laag 1  |
 | | * We zijn transparant en publiceren de proceslogica                        |
 | |                                                                            |
+
+### Laag 3. Integratie laag
+Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de proces- & business logica laag
+De Ontwerppricipes voor de capabilities, bouwstenen:
+##### Gateway
+
+| Principe 10 | Uniforme gegevensuitwisseling en integratie - De gegevens kunnen in digital twin ecosysteem uitgewisseld worden op basis van open standaard integraties software onafhankelijke.                                          |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | We passen open standaarden en dataformaten toe en gebruiken landelijke referentie implementatie in het ontwikkelen van integraties tussen informatiesystemen in het digital twin ecosysteem ten behoeve van optimale gegevens uitwisseling.         |
+| implicatie  | * We maken gebruik van de landelijke referentie implementatie NLX                                                                                           |
+| | * We ontwikkelen (systeem)integraties op basis van privacy-by-design en open standaarden  |
+| | * ...                                                                                     |
+| |                                                                                           |
 
 
 ### Infrastructuur
@@ -285,7 +307,6 @@ tekst
 ##### Service
 .
 
-##### Gateway
 .
 
 ##### Verwijsindex
