@@ -23,8 +23,8 @@ De ontwerpprincipes zijn afgeleid van
 * overig
 
 <figure id="infographic capabilities">
-    <img src="media/infographic capabilities NL_DFTL v01.pdf" alt="infographic capabilities">
-    <figcaption>Dit is capability overzicht</figcaption>
+    <img src="media/infographic capabilities NLDFTL.jpg" alt="infographic capabilities">
+    <figcaption>Dit is de plaat van het capability overzicht</figcaption>
 </figure>
 
 ### Infrastructuur
