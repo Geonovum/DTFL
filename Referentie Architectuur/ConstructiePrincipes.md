@@ -28,10 +28,14 @@ De constructieprincipes zijn geordend op de 5 lagen van capability overzichtspla
 * Laag 4 - servicelaag met functionaliteit om allerlei soorten data uit laag 1 registratie-laag beschikbaar te stellen aan de boven liggende lagen middels open standaard services, datatransformatie en datamodel mapping, etc.
 * Laag 5 – Registratielaag met datareristraties zoals bijvoorbeeld taakapplicaties, (basis)administraties, sensoren, complex event processing, maar ook digital twins als een bronsysteem.
 
-
 <figure id="infographic capabilities">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL.jpg" alt="infographic capabilities">
     <figcaption>Dit is de plaat van het capability overzicht</figcaption>
+</figure>
+
+<figure id="infographic capabilities2">
+    <img src="media/infographic bedrijfsarchitectuur NLDFTL2.jpg" alt="infographic capabilities2">
+    <figcaption>Dit is de plaat van een toepassing die capabilities (in rood) gebruikt uit het overzicht</figcaption>
 </figure>
 
 ### Laag 1. Interactie- & business laag
@@ -315,7 +319,7 @@ De capabilities, bouwstenen in deze laag 1 zijn:
 | | * Geografische metadata wordt vastgelegd conform ISO 19115 metadata standaard.               |
 | | * Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.               |
 
-| Principe 18 | Linked data is een manier om informatie te structureren en te delen met behulp van links. Deze links maken gegevens zinvoller en nuttiger in diverse toepassingen.            |
+| Principe 18 | <<under construction>> Linked data is een manier om informatie te structureren en te delen met behulp van links. Deze links maken gegevens zinvoller en nuttiger in diverse toepassingen.            |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
 | rationale   | Linked Data is een manier om gestructureerde data te publiceren zodanig dat data met elkaar verbonden kan worden. Het is gebaseerd op de fundamenten van het World Wide Web en is in grote mate gestandaardiseerd met open W3C standaarden. Data krijgt betekenis (semantiek), waardoor de data beter ingezet (hergebruik) kan worden. Dit zal resulteren in innovatie en betere dienstverlening, waarmee economische en maatschappelijke waarde wordt gecreëerd. Linked Data is gebaseerd op de gedachte dat bij het verbinden van inhoud met inhoud de relatie betekenisvol gemaakt moet worden. |
