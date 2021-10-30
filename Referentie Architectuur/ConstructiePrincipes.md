@@ -28,11 +28,14 @@ De constructieprincipes zijn geordend op de 5 lagen van capability overzichtspla
 * Laag 4 - servicelaag met functionaliteit om allerlei soorten data uit laag 1 registratie-laag beschikbaar te stellen aan de boven liggende lagen middels open standaard services, datatransformatie en datamodel mapping, etc.
 * Laag 5 – Registratielaag met datareristraties zoals bijvoorbeeld taakapplicaties, (basis)administraties, sensoren, complex event processing, maar ook digital twins als een bronsysteem.
 
+Onderstaand een overzicht van de capabilities/ bouwblokken in het digital twin ecosysteem:
+
 <figure id="infographic capabilities">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL.jpg" alt="infographic capabilities">
     <figcaption>Dit is de plaat van het capability overzicht</figcaption>
 </figure>
 
+Onderstaand een overzicht van een toepassing in het digital twin ecosysteemdie capabilities (in rood) gebruikt uit het overzicht:
 <figure id="infographic capabilities2">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL2.jpg" alt="infographic capabilities2">
     <figcaption>Dit is de plaat van een toepassing die capabilities (in rood) gebruikt uit het overzicht</figcaption>
