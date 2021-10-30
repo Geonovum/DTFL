@@ -32,13 +32,13 @@ Onderstaand een overzicht van de capabilities/ bouwblokken in het digital twin e
 
 <figure id="infographic capabilities">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL.jpg" alt="infographic capabilities">
-    <figcaption>Dit is de plaat van het capability overzicht</figcaption>
+    <figcaption>figuur 1. Dit is de plaat van het capability overzicht</figcaption>
 </figure>
 
 Onderstaand een overzicht van een toepassing in het digital twin ecosysteem die capabilities (in rood) gebruikt uit het overzicht:
 <figure id="infographic capabilities2">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL 2.jpg" alt="infographic capabilities2">
-    <figcaption>Dit is de plaat van een toepassing die capabilities (in rood) gebruikt uit het overzicht</figcaption>
+    <figcaption>figuur 2. Dit is de plaat van een toepassing die capabilities (in rood) gebruikt uit het overzicht</figcaption>
 </figure>
 
 ### Laag 1. Interactie- & business laag
