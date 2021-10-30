@@ -4,6 +4,20 @@
 
 In dit hoofdstuk worden de ontwerpprincipes beschreven. Ook wordt de link gelegd met de principes uit NORA, DisGeo en Common Ground.
 
+De ontwerpprincipes zijn te plotten op 3 lagen:
+Laag 1 - Toepassingen laag van Digital twins waarin functionaliteit aanwezig is zoals bijvoorbeeld: 3D visualisatie, simulatie, what-if scenario, tijdreizen, gamification, BIM gerelateerd werken.
+Laag 2 – Transformatie laag waarin functionaliteit aanwezig is om allerlei soorten data (bijvoorbeeld procesdata uit taakapplicatie, sensor data , streaming data) uit bronsystemen beschikbaar wordt gesteld aan de toepassingen middels open standaard services, datatransformatie functionaliteit en datamodel mapping, etc.
+Laag 3 – Registraties laag waarin bijvoorbeeld taakapplicaties, (basis)administraties, sensoren, complex event processing, maar ook digital twins als een bronsysteem, etc. aanwezig zijn.
+
+De ontwerpprincipes zijn afgeleid van
+* NORA
+* Common Ground
+* Wetgeving: Wet Open Overheid; Wet Hergebruik Overheidsinformatie, Archiefwet
+* AVG & GDPR
+* Doelstellingen & visie
+* overig
+
+
 ### Principes
 
 *Tabel hieronder is Illustratief*
