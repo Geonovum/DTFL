@@ -8,6 +8,7 @@ Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende arch
 De constructieprincipes geven richting aan de innovaties, de pilots en andere ontwikkelingen in het digital twin ecosysteem om de doelstellingen & visie van het programma NL-DFTL te behalen.
 De constructieprincipes geven de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd binnen het programma NL-DFTL.
 
+#### Waarop zijn de constructieprincipes gebaseerd?
 De constructieprincipes zijn gebaseerd op:
 * De ontwerpprincipes van het programma NL-DFTL
 * Wetgeving: Wet Open Overheid; Wet Hergebruik Overheidsinformatie, Archiefwet, Digitale toegankelijkheid
@@ -16,6 +17,7 @@ De constructieprincipes zijn gebaseerd op:
 * Landelijke richtlijnen voor software ontwikkeling: Common Ground
 * overig <>...
 
+#### Relatie constructieprincipes en capabilities/ bouwblokken
 Voor de ordening van de constructieprincipes hebben we het overzicht van de capabilities of te wel "bouwblokken" gebruikt. De constructieprincipes zijn direct te relateren aan 5 lagen waarin de capabilities opgenomen zijn.
 Om een digital twin toepassing te realiseren, bijvoorbeeld een landelijk geluid-simulatiemodel, is een combinaties van capabilities/ bouwblokken nodig. Doordat de constructieprincipes gerelateerd zijn aan de capabilities/ bouwblokken, is direct inzichtelijk welke constructieprincipes op de realisatie van toepassing zijn.  
 
