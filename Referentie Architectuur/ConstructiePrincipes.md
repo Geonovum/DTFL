@@ -2,7 +2,7 @@
 
 ### Inleiding
 
-Constructieprincipes, gebaseerd op functionele componenten
+Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuurprincipes worden in dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden beschreven. 
 
 ### Infrastructuur
 
