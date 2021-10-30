@@ -37,7 +37,7 @@ Onderstaand een overzicht van de capabilities/ bouwblokken in het digital twin e
 
 Onderstaand een overzicht van een toepassing in het digital twin ecosysteem die capabilities (in rood) gebruikt uit het overzicht:
 <figure id="infographic capabilities2">
-    <img src="media/infographic bedrijfsarchitectuur NLDFTL2.jpg" alt="infographic capabilities2">
+    <img src="media/infographic bedrijfsarchitectuur NLDFTL 2.jpg" alt="infographic capabilities2">
     <figcaption>Dit is de plaat van een toepassing die capabilities (in rood) gebruikt uit het overzicht</figcaption>
 </figure>
 
