@@ -65,8 +65,7 @@ Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de in
 | Principe 03 | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
-| rationale   | WWe toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of
-discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
+| rationale   | We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
 | implicatie  | * We toetsen de algoritme op rechtmatigheid |
 | | * We hebben de werking van et algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register ten behoeve van transparantie |
 | | * Weten met welke data het algoritme getraind en ontwikkeld is. We kunnen de data kwaliteit en de gebreken ervan. We letten op de vooroordelen en de bias die erin kunnen zitten |
