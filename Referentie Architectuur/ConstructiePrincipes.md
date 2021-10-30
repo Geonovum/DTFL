@@ -7,19 +7,19 @@ Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende arch
 Voor de ordening van de ontwerpprincipes wordt het overzicht van de capabilities of te wel "bouwblokken" gebruikt. De ontwerpprincipes zijn direct te relateren aan capabilities.
 Voor een bepaalde digital twin toepassing te realiseren, bijvoorbeeld een geluid simulatiemodel, is een combinaties van capabilities/ bouwblokken nodig. Doordat de ontwerpprincipes gerelateerd zijn aan de capabilities/ bouwblokken is inzichtelijk welke ontwerpprincipes op de realisatie van toepassing zijn.  
 
-De ontwerpprincipes zijn te plotten op 5 lagen van capability overzichtsplaat:
+De ontwerpprincipes dienen te worden toegepast op de 5 lagen van capability overzichtsplaat:
 * Laag 1 - interactie-laag met de gebruikersinterface van Digital twins waarin functionaliteit aanwezig is zoals bijvoorbeeld: 3D visualisatie, simulatie, what-if scenario, tijdreizen en gamification 
 * Laag 2 - proces-laag met daarin functionaliteit voor bijvoorbeeld BIM gerelateerd werken.
 * Laag 3 – integratie-laag met functionaliteit voor data uitwisseling in digital twin ecosysteem
 * Laag 4 - service laag met functionaliteit om allerlei soorten data uit laag 1 registratie-laag beschikbaar te stellen aan de boven liggende lagen middels open standaard services, datatransformatie en datamodel mapping, etc.
 * Laag 3 – Registraties laag met datareristraties zoals bijvoorbeeld taakapplicaties, (basis)administraties, sensoren, complex event processing, maar ook digital twins als een bronsysteem.
 
-De ontwerpprincipes zijn afgeleid van
+De ontwerpprincipes zijn afgeleid van:
+* Doelstellingen & visie van het programma NL-DFTL
+* Wetgeving: Wet Open Overheid; Wet Hergebruik Overheidsinformatie, Archiefwet, Digitale toegankelijkheid
 * NORA
-* Common Ground
-* Wetgeving: Wet Open Overheid; Wet Hergebruik Overheidsinformatie, Archiefwet
 * AVG & GDPR
-* Doelstellingen & visie
+* Common Ground
 * overig
 
 <figure id="infographic capabilities">
@@ -30,7 +30,7 @@ De ontwerpprincipes zijn afgeleid van
 ### Laag 1. Interactie- & business laag
 Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag
 De interactie- & business laag bestaat uit de volgende capabilities, bouwstenen:
-#### Algoritmen
+*####* Algoritmen
 tekst.
 #### Business logic
 tekst.
