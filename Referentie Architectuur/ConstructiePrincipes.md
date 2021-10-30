@@ -30,10 +30,10 @@ De ontwerpprincipes zijn afgeleid van
 ### Interactie- & business laag
 
 
-| Principe   | We ontwikkelen open source en publiceren de code die herbruikbaar en vrij toegankelijk is, visualisatie- & simulatie tool en platform agnostic                       |
-|---------  -|------------------------------------------------------|
-| referentie |               |
-| rationale  | We maken gebruik van de programma code en (deel)producten die al in de markt beschikbaar zijn. We publiceren de eigen ontwikkelde programma code en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van programma code is een simulatie model voor mobiliteit. Indien wenselijk spreken we samenwerkingsverbanden af (bijvoorbeeld gemeente Utrecht en Amsterdam, binnenkort ook Rotterdam). |
+| Principe   | We ontwikkelen open source en publiceren de code die herbruikbaar en vrij toegankelijk is, visualisatie- & simulatie tool en platform agnostic                                           |
+|------------|------------------------------------------------------|
+| referentie |                                                      |
+| rationale  | We maken gebruik van de programma code en (deel)producten die al in de markt beschikbaar zijn. We publiceren de eigen ontwikkelde programma code en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van programma code is een simulatie model voor mobiliteit. Indien wenselijk spreken we samenwerkingsverbanden af (bijvoorbeeld gemeente Utrecht en Amsterdam, binnenkort ook Rotterdam).                    |
 | implicatie |    * We maken gebruik van beschikbare programma code 
 * We publiceren programma code op GitHub (public tenzij private)
 * We documenteren programma code volgens de voorgeschreven standaarden
@@ -41,7 +41,7 @@ De ontwerpprincipes zijn afgeleid van
 * We gebruiken software (dit kan betaalde software zijn met een licentie) die open source ontwikkelen ondersteunt
 * We ontwikkelen op infrastructuur die agnostisch is
 * We ontwikkelen op infrastructuur die voldoet aan de Common Ground richtlijnen, of te wel “haven-compliant” is.
-          |
+                                                                    |
 
 
 ### Infrastructuur
