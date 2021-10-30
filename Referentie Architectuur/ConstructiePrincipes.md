@@ -30,11 +30,11 @@ De ontwerpprincipes zijn afgeleid van
 ### Interactie- & business laag
 Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag
 
-| Principe   | We ontwikkelen open source en publiceren de code die herbruikbaar en vrij toegankelijk is, visualisatie- & simulatie tool en platform agnostic is, tenzij                                |
-|------------|------------------------------------------------------|
-| referentie | NTB                                                  |
-| rationale  | We maken gebruik van de programma code en (deel)producten die al in de markt beschikbaar zijn. We publiceren de eigen ontwikkelde programma code en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van programma code is een simulatie model voor mobiliteit. Indien wenselijk spreken we samenwerkingsverbanden af. |
-| implicatie | * we selecteren programma code onafhankelijke software   |
+| Principe 01 | We ontwikkelen open source en publiceren de code die herbruikbaar en vrij toegankelijk is, visualisatie- & simulatie tool en platform agnostic is, tenzij                                |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | We maken gebruik van de programma code en (deel)producten die al in de markt beschikbaar zijn. We publiceren de eigen ontwikkelde programma code en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van programma code is een simulatie model voor mobiliteit. Indien wenselijk spreken we samenwerkingsverbanden af. |
+| implicatie  | * we selecteren programma code onafhankelijke software   |
 | | * We maken gebruik van beschikbare programma code                   |
 | | * We publiceren programma code op GitHub (public tenzij private)    |
 | | * We documenteren programma code volgens de voorgeschreven standaarden |
@@ -45,11 +45,11 @@ Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de in
 | |                                                                   |
 
 
-| Principe   | Vertrouwd - Privacy & security worden integraal meegenomen in het ontwerp van de 3D visualisatie (simulatie, voorspelmodel)                                                      |
-|------------|------------------------------------------------------|
-| referentie | NTB                                                  |
-| rationale  | We houden ons aan wettelijke richtlijnen, nemen maatregelen om risico’s te minimaliseren, en verantwoorden naar betrokkenen wat we doen. We zorgen voor een goede beveiliging van gegevens en garanderen privacy. We ontwikkelen en borgen technische, organisatorische, fysieke en procedurele maatregelen voor privacy en informatiebeveiliging. |
-| implicatie | * Vanuit de informatiebeveiliging worden eisen gesteld aan de integriteit en vertrouwelijkheid van gegevens |
+| Principe 02 | Vertrouwd - Privacy & security worden integraal meegenomen in het ontwerp van de 3D visualisatie (simulatie, voorspelmodel)                                                      |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | We houden ons aan wettelijke richtlijnen, nemen maatregelen om risico’s te minimaliseren, en verantwoorden naar betrokkenen wat we doen. We zorgen voor een goede beveiliging van gegevens en garanderen privacy. We ontwikkelen en borgen technische, organisatorische, fysieke en procedurele maatregelen voor privacy en informatiebeveiliging. |
+| implicatie  | * Vanuit de informatiebeveiliging worden eisen gesteld aan de integriteit en vertrouwelijkheid van gegevens |
 | | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
 | | * Burgers hebben vanuit de Algemene Verordening Gegevensbescherming (AVG) het recht om op te vragen welke persoonsgegevens door de gemeente zijn verwerkt (inzagerecht) |
 | | * Het hebben van een verwerkingsregister |
