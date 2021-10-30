@@ -35,7 +35,7 @@ Onderstaand een overzicht van de capabilities/ bouwblokken in het digital twin e
     <figcaption>Dit is de plaat van het capability overzicht</figcaption>
 </figure>
 
-Onderstaand een overzicht van een toepassing in het digital twin ecosysteemdie capabilities (in rood) gebruikt uit het overzicht:
+Onderstaand een overzicht van een toepassing in het digital twin ecosysteem die capabilities (in rood) gebruikt uit het overzicht:
 <figure id="infographic capabilities2">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL2.jpg" alt="infographic capabilities2">
     <figcaption>Dit is de plaat van een toepassing die capabilities (in rood) gebruikt uit het overzicht</figcaption>
@@ -60,15 +60,15 @@ De constructieprincipes die van toepassing zijn op de capabilities/ bouwblokken 
 * *####* Rekenmodellen
 * *####* Simulatiemodellen
 
-| Principe 01 | Eerst hergebruik, dan ontwikkelen we open source en publiceren de code die herbruikbaar en onafhankelijk is van dashboard-, monitor-, visualisatie- & simulatie tooling en is platform agnostic.                                |
+| Principe 01 | Eerst hergebruik, dan ontwikkelen we open source programmacode voor functionaliteit die herbruikbaar en onafhankelijk is van dashboard-, monitor-, visualisatie- & simulatie tooling en is platform agnostic.                                |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
-| rationale   | We hergebruiken de programmacode en (deel)producten die al binnen het ecosysteem beschikbaar zijn. Indien niet beschikbaar ontwikkelen we open source, zodat het herbruikbaar is. We publiceren de eigen ontwikkelde programmacode en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van een ontwikkeling is een simulatie- model voor mobiliteit. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af. |
+| rationale   | Voor een nieuwe toepassing hergebruiken we functionaliteit, de programmacode, die al binnen het ecosysteem beschikbaar is. Indien de functionaliteit niet beschikbaar is ontwikkelen we open source, zodat de programmacode herbruikbaar is. We publiceren de de ontwikkelde programmacode incl. documentatie zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van een ontwikkeling is een simulatie- model voor mobiliteit. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
 | implicatie  | * we maken gebruik van programmacode onafhankelijke software   |
-| | * We herbruiken beschikbare programmacode                                  |
-| | * We publiceren ontwikkelde programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid            |
+| | * We herbruiken beschikbare functionalitei, programmacode                  |
+| | * We publiceren ontwikkelde functionaliteit, programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid.                                                              |
 | | * We documenteren programmacode volgens de voorgeschreven standaarden      |
-| | * We beheren de programmacode in een community                             |
+| | * We beheren de programmacode in een community, samenwerkingsverbanden     |
 | | * We gebruiken software (dit kan betaalde software zijn met een licentie) die open source ontwikkelen ondersteunt |
 | | * We ontwikkelen dashboard-, monitor-, visualisatie- & simulatie op infrastructuur die agnostisch is voor tooling |
 | | * We ontwikkelen op infrastructuur die voldoet aan Common Ground richtlijnen, d.w.z. “haven-compliant” |
