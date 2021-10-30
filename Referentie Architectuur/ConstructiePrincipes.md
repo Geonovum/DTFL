@@ -34,7 +34,8 @@ De ontwerpprincipes zijn afgeleid van
 |------------|------------------------------------------------------|
 | referentie |                                                      |
 | rationale  | We maken gebruik van de programma code en (deel)producten die al in de markt beschikbaar zijn. We publiceren de eigen ontwikkelde programma code en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van programma code is een simulatie model voor mobiliteit. Indien wenselijk spreken we samenwerkingsverbanden af (bijvoorbeeld gemeente Utrecht en Amsterdam, binnenkort ook Rotterdam).                    |
-| implicatie |    * We maken gebruik van beschikbare programma code 
+| implicatie |    
+* We maken gebruik van beschikbare programma code 
 * We publiceren programma code op GitHub (public tenzij private)
 * We documenteren programma code volgens de voorgeschreven standaarden
 * We beheren de programma code in een community.
