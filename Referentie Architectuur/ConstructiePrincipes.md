@@ -29,22 +29,22 @@ De ontwerpprincipes zijn afgeleid van:
 
 ### Laag 1. Interactie- & business laag
 De ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag zijn beschreven in deze paragaarf. De capabilities, bouwstenen zijn:
-#### Algoritmen
-#### Business logic
-##### [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
-### Analytics
-#### (Big data) analyse tools
-#### Self learning systems
-#### Artificial Intelligence
-#### Visualisatie componenten
-##### 2D afbeeldingen (data statisch)
-##### 3D afbeeldingen (data statisch)
-##### Dashboards
-##### Grafieken
-##### Monitors (data dynamisch)
-##### Simulaties (manipuleerbare data en modellen)
-#### Rekenmodellen
-#### Simulatiemodellen
+* *####* Algoritmen
+* *####* Business logic
+* *#####* [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
+* *###* Analytics
+* *####* (Big data) analyse tools
+* *####* Self learning systems
+* *####* Artificial Intelligence
+* *####* Visualisatie componenten
+* *#####* 2D afbeeldingen (data statisch)
+* *#####* 3D afbeeldingen (data statisch)
+* *#####* Dashboards
+* *#####* Grafieken
+* *#####* Monitors (data dynamisch)
+* *#####* Simulaties (manipuleerbare data en modellen)
+* *####* Rekenmodellen
+* *####* Simulatiemodellen
 
 | Principe 01 | We ontwikkelen open source en publiceren de code die herbruikbaar en onafhankelijk is van dashboard-, monitor-, visualisatie- & simulatie tooling en is platform agnostic.                                |
 |-------------|------------------------------------------------------|
@@ -138,9 +138,9 @@ De ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de
 | | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.         |
 
 De Ontwerppricipes voor de capabilities, bouwstenen in laag 1:
-### Presentatie
-#### User interface
-#### Customer Experience
+* *###* Presentatie
+* *####* User interface
+* *####* Customer Experience
 
 | Principe 08 | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
 |-------------|------------------------------------------------------|
@@ -182,29 +182,29 @@ De capability, bouwsteen:
 ### Laag 2. Service laag
 In deze paragraaf zijn de ontwerppricipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de service laag.
 De capabilities, bouwstenen:
-#### Semantiek / ontologie
-#### Dataobjectmodellen
-#### Metadata
-#### Attribuutbeveiliging
-### Masterdata / begrippen & definities
-### Datacommunicatie
+* *####* Semantiek / ontologie
+* *####* Dataobjectmodellen
+* *####* Metadata
+* *####* Attribuutbeveiliging
+* *###* Masterdata / begrippen & definities
+* *###* Datacommunicatie
 
 <aside class='note'>
     JvG: Data Uitwisseling? 
     JvG: én Data Uitwisselingsstandaarden. 
 </aside> 
 
-#### Berichtformaat
-#### Communicatieprotocol
-##### Service/ API
-##### Verwijsindex
-### Transformaties
-#### Transformatieregels
-#### Transformatiecomponent
-### Databewerking
-#### Data verwerving
-#### Dataverrijking
-#### Toegang
+* *####* Berichtformaat
+* *####* Communicatieprotocol
+* *#####* Service/ API
+* *#####* Verwijsindex
+* *###* Transformaties
+* *####* Transformatieregels
+* *####* Transformatiecomponent
+* *###* Databewerking
+* *####* Data verwerving
+* *####* Dataverrijking
+* *####* Toegang
 
 <aside class='note'>
     JvG: Authenticatie noemen? zie ook [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
@@ -221,7 +221,7 @@ De capabilities, bouwstenen:
 | implicatie  | * Data in authentieke registers wordt via gestandaardiseerde- en beschreven services ontsloten.        |
 | | * Service georiënteerd werken heeft altijd de voorkeur boven andere manieren van koppelen. Dit is enerzijds door het ontmoedigen van "silo-applicaties" en leverancier specifieke integraties                                                           |
 | | * Servicegerichte architectuur betekent gebruik maken van standaard webservices, de API strategie en design rules: Consultatie API design rules en update API strategie | Geonovum                                                                        |
-| | * TGeografische data gelden de open standaard WMS & WFS; NEN 3610 Basismodel Geoinformatie; ISO 19136: GML en 3D data: CityGML en CityJSON                                                                                                               |
+| | * Geografische data passen we de open standaarden toe WMS & WFS; NEN 3610 Basismodel Geoinformatie; ISO 19136: GML en voor 3D data: CityGML en CityJSON                                                                                                    |
 | | * ...                                                                                                              |
 
 | Principe 12 | We hanteren uniforme begrippen & definities voor gegevens.                   |
@@ -239,35 +239,46 @@ De capabilities, bouwstenen:
 | Principe 13 | We borgen de beschikbaarheid, vertrouwelijkheid en integriteit van gegevens (BIV).      |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
-| rationale   | Gegevens die binnen digital twin ecosysteem en organisaties worden gegevens verwerkt worden, worden conform de overeengekomen kaders beschikbaar gesteld en beveiligd tegen ongeautoriseerde toegang, frauduleus gebruik of mutatie en gegevensverlies. De eigenaar van digital twin, informatiesysteem dan wel registratie zorgt ervoor dat afnemers van vertrouwelijke gegevens enkel de gegevens verstrekt krijgen waar ze conform hun doelbinding recht op hebben.                                                                            |
-| implicatie  | * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen.                                                                                            |
+| rationale   | Gegevens die binnen digital twin ecosysteem en organisaties worden gegevens verwerkt worden, worden conform de overeengekomen kaders beschikbaar gesteld en beveiligd tegen ongeautoriseerde toegang, frauduleus gebruik of mutatie en gegevensverlies. De eigenaar van digital twin, informatiesysteem dan wel registratie zorgt ervoor dat afnemers van vertrouwelijke gegevens enkel de gegevens verstrekt krijgen waar ze conform hun doelbinding recht op hebben.           |
+| implicatie  | * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen in  het beschikbaar stellen van data, bewerkingen en transformaties.                                            |
 | | * We beschermen van een belangrijk bedrijfsmiddel, asset: de gegevens                               |
-| | * We voldoen aan de Baseline informatiebeveiliging Overheid (BIO)                                   |
+| | * We voldoen aan de Baseline informatiebeveiliging Overheid (BIO) in data services, transformaties  |
 | | * Toegang tot privacygevoelige gegevens wordt alleen geboden aan afnemers met doelbinding. Een gebruiker heeft toegang tot de data waarvoor hij/ zij geautoriseerd is. Dit wordt vastgelegd in de gegevens-leveringsovereenkomsten (GLO)   |
 | | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.                                                                                                    |
-
-
 
 ### Laag 1. Registratie laag
 In deze paragraaf zijn de ontwerppricipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de service laag.
 De capabilities, bouwstenen:
-### Infrastructuur
-#### Datacenter
-#### Cloud
-##### Public
-##### Private
-#### Netwerk
-##### Public
-##### Private
-### Internet of Things
-#### Sensoren
-#### Scada
-#### Remote sensing
-#### Edge computing
-### Dataopslag
-#### Traditioneel
-#### In memory
-### Data
+* *###* Infrastructuur
+* *####* Datacenter
+* *####* Cloud
+* *#####* Public
+* *#####* Private
+* *####* Netwerk
+* *#####* Public
+* *#####* Private
+* *###* Internet of Things
+* *####* Sensoren
+* *####* Scada
+* *####* Remote sensing
+* *####* Edge computing
+* *###* Dataopslag
+* *####* Traditioneel registratie
+* *####* In memory
+
+| Principe 14 | We borgen de duurzame toegankelijkheid van gegevens daar waar het vereist is.            |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | Gegevens worden conform de geldende bewaar- en vernietigingstermijnen uit de vigerende wet- en regelgeving behandeld (Archief Wet). Zowel gestructureerde als ongestructureerde gegevens worden duurzaam toegankelijk gehouden. |
+| implicatie  | * We voldoen aan wet- en regelgeving zoals de Archiefwet                                   |
+| | * Verantwoording kunnen afleggen over uitgevoerde acties en transparantie                              |
+| | * We zorgen er voor dat de opslag van gegevens duurzaam is                                             |
+| | * We bewaren gegevens niet langer dan nodig is                                                         |
+| | * We nemen maatregelen voor tijdige en volledige archivering van gegevens.                             |
+
+
+
+
 
 ### Beveiliging
 .
