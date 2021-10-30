@@ -241,10 +241,11 @@ De capabilities, bouwstenen:
 | referentie  | NTB                                                  |
 | rationale   | Gegevens die binnen digital twin ecosysteem en organisaties worden gegevens verwerkt worden, worden conform de overeengekomen kaders beschikbaar gesteld en beveiligd tegen ongeautoriseerde toegang, frauduleus gebruik of mutatie en gegevensverlies. De eigenaar van digital twin, informatiesysteem dan wel registratie zorgt ervoor dat afnemers van vertrouwelijke gegevens enkel de gegevens verstrekt krijgen waar ze conform hun doelbinding recht op hebben.           |
 | implicatie  | * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen in  het beschikbaar stellen van data, bewerkingen en transformaties.                                            |
-| | * We beschermen van een belangrijk bedrijfsmiddel, asset: de gegevens                               |
+| | * We voeren Data Protection Impact Assessment (DPIA)3 uit op bestaande & nieuwe dataverwerkingen    |
 | | * We voldoen aan de Baseline informatiebeveiliging Overheid (BIO) in data services, transformaties  |
 | | * Toegang tot privacygevoelige gegevens wordt alleen geboden aan afnemers met doelbinding. Een gebruiker heeft toegang tot de data waarvoor hij/ zij geautoriseerd is. Dit wordt vastgelegd in de gegevens-leveringsovereenkomsten (GLO)   |
 | | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.                                                                                                    |
+| | * Auditing vindt plaats op het gebruik van persoonsgegevens conform vastgestelde protocollen en gegevensbeveiliging |
 
 ### Laag 1. Registratie laag
 In deze paragraaf zijn de ontwerppricipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de service laag.
@@ -276,10 +277,45 @@ De capabilities, bouwstenen:
 | | * We bewaren gegevens niet langer dan nodig is                                                         |
 | | * We nemen maatregelen voor tijdige en volledige archivering van gegevens.                             |
 
+| Principe 15 | We beheren de kwaliteit van gegevens actief middels continue verbetering en communiceren de kwaliteit.     |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | De kwaliteit van de gegevens die worden verwerkt binnen de gemeente wordt actief gemonitord en continu verbeterd en op een niveau gehouden wat in overeenstemming is met de eisen die daar vanuit de wetgeving en de afnemers aan gesteld worden. Datakwaliteit sluit aan op het proces waarbinnen het gebruik gegenereerd wordt. De kwaliteit wordt gepubliceerd.           |
+| implicatie  | * Processen die het kwaliteitsbeheer en continu verbeteren borgen zijn ingericht                           |
+| | * De kwaliteit van gegevens zijn van alke databron vastgelegd als metadata                                             |
+| | * Buiten de syntactische correctheid van gegevens bewaakt men ook de integriteit over gegevens- verzamelingen heen     |
+| | * Afnemers dienen aan te geven wat hun eisen zijn ten aanzien van de kwaliteit en actualiteit van gegevens. Datakwaliteit wordt afgesproken en vastgelegd de GLO gegevens levering overeenkomst                                                            |
+| | * Datakwaliteit wordt geoptimaliseerd voor het proces waarbinnen het gebruikt wordt. De broneigenaar (en proceseigenaar) is verantwoordelijk voor de optimalisatie.                                                                                    |
+| | * Proceseigenaren zien erop toe dat de data, de data die binnen een proces worden ingewonnen of geactualiseerd. Datakwaliteit wordt door proceseigenaren voortdurend gerapporteerd en datakwaliteit inzichtelijk aangeboden in datacatalogus, aangeduid met een kwaliteitslabel op een duidelijke schaal conform de handreiking gegevenskwaliteit.                                         |
+
+| Principe 16 | Alle databronnen zijn een logisch onderdeel van digital twin ecosysteem die onderling samenhang en uniform zijn in het gegevenslandschap van ecosysteem.            |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | Alle binnen digital twin ecosysteem aanwezige databronnen hebben een logische functie in het totaal aan beschikbare bronnen, vastgelegd in gemeenschappelijke datamodellen. Nieuwe databronnen moeten iets toevoegen aan het bestaande data en bevatten geen of zeer beperkte inhoudelijke overlap met bestaande databronnen. Bij twijfel over de juistheid van overlappende data bepaalt de eigenaar welke bron als meest authentiek en daarmee leidend is. |
+| implicatie  | * Vastleggen data- & informatiemodellen met bedrijfs-/ data objecten/begrippen en definities in landelijke repository  |
+| | * We hergebruiken landelijke datamodellen                              |
+| | * Modelleren van datamodellen in UML conform conventies van MIM standaard (Metamodel voor Informatiemodellering)                |
+
+| Principe 17 | Alle databronnen, informatie producten en digital twins in digital twin ecosysteem zijn vindbaar en zijn voorzien van metadata.            |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | Alle binnen digital twin ecosysteem aanwezige databronnen, informatie producten en digital twins zijn vindbaar. |
+| implicatie  | * Er is een federatief stelsel van landelijke datacatalogi met daarin geregistreerd alle binnen het digital twin ecosysteem gebruikte databronnen, databestanden, informatie producten en digital twins met de relevante metadata conform DCAT standaard en DMTO Duurzaam Toegankelijke Overheidsinformatie voor archivering en vernietiging in de Datacatalogus. Data Catalog Vocabulary (DCAT) is een metadata-standaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi te vereenvoudigen  |
+| | * We hergebruiken landelijke datacatalogi                              |
+| | * Geografische metadata wordt vastgelegd conform ISO 19115 metadata standaard.               |
+| | * Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.               |
 
 
+| Principe 18 | Linked data is een manier om informatie te structureren en te delen met behulp van links. Deze links maken gegevens zinvoller en nuttiger in diverse toepassingen.            |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | Linked Data is een manier om gestructureerde data te publiceren zodanig dat data met elkaar verbonden kan worden. Het is gebaseerd op de fundamenten van het World Wide Web en is in grote mate gestandaardiseerd met open W3C standaarden. Data krijgt betekenis (semantiek), waardoor de data beter ingezet (hergebruik) kan worden. Dit zal resulteren in innovatie en betere dienstverlening, waarmee economische en maatschappelijke waarde wordt gecreëerd. Linked Data is gebaseerd op de gedachte dat bij het verbinden van inhoud met inhoud de relatie betekenisvol gemaakt moet worden. |
+| implicatie  | * Geef alle dingen waaraan je wilt kunnen linken, een uniek adres op internet (Uniform Resource Identifiers; URIs), conform de Nederlandse URI-strategie  |
+| | * Gebruik HTTP-URI’s zodat er naar deze dingen kan worden verwezen en ze kunnen worden opgezocht door mensen en machines                              |
+| | * GLeg de informatie over het concept vast in een ‘triple’ (subject-predicaat-objectrelatie). Leg die triple vast en maak het beschikbaar op basis van standaarden, zoals RDF of OWL. Presenteer linked data middels een endpoint in SPARQL of JSON-LD. Gebruik SKOS (Simple Knowledge Organization System) voor het maken van taxonomieen en thesauri, het is een internationale standaard.               |
+| | * Neem links naar andere gerelateerde, open data - concepten op in de beschrijving om het ontdekken van gerelateerde informatie op het web te verbeteren.               |
 
-
+Algemeen:
 ### Beveiliging
 .
 ##### Identity catalogus
