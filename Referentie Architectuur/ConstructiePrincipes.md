@@ -17,9 +17,9 @@ De ontwerpprincipes dienen te worden toegepast op de 5 lagen van capability over
 De ontwerpprincipes zijn afgeleid van:
 * Doelstellingen & visie van het programma NL-DFTL
 * Wetgeving: Wet Open Overheid; Wet Hergebruik Overheidsinformatie, Archiefwet, Digitale toegankelijkheid
-* NORA
-* AVG & GDPR
-* Common Ground
+* Landelijke richtlijnen architectuur: NORA
+* Landelijke richtlijnen gegevensbescherming: AVG & GDPR
+* Landelijke richtlijnen software ontwikkeling: Common Ground
 * overig
 
 <figure id="infographic capabilities">
@@ -28,7 +28,7 @@ De ontwerpprincipes zijn afgeleid van:
 </figure>
 
 ### Laag 1. Interactie- & business laag
-De ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag zijn beschreven in deze paragaarf. De capabilities, bouwstenen zijn:
+De ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag zijn beschreven in deze paragraaf. De capabilities, bouwstenen zijn:
 * *####* Algoritmen
 * *####* Business logic
 * *#####* [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
@@ -46,33 +46,32 @@ De ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de
 * *####* Rekenmodellen
 * *####* Simulatiemodellen
 
-| Principe 01 | We ontwikkelen open source en publiceren de code die herbruikbaar en onafhankelijk is van dashboard-, monitor-, visualisatie- & simulatie tooling en is platform agnostic.                                |
+| Principe 01 | Eerst hergebruik, dan ontwikkelen we open source en publiceren de code die herbruikbaar en onafhankelijk is van dashboard-, monitor-, visualisatie- & simulatie tooling en is platform agnostic.                                |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
-| rationale   | We maken gebruik van de programmacode en (deel)producten die al in de markt beschikbaar zijn. We publiceren de eigen ontwikkelde programma code en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van programmacode is een simulatie model voor mobiliteit. Indien wenselijk spreken we samenwerkingsverbanden af. |
+| rationale   | We hergebruiken de programmacode en (deel)producten die al binnen het ecosysteem beschikbaar zijn. Indien niet beschikbaar ontwikkelen we open source, zodat het herbruikbaar is. We publiceren de eigen ontwikkelde programmacode en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van een ontwikkeling is een simulatie- model voor mobiliteit. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af. |
 | implicatie  | * we maken gebruik van programmacode onafhankelijke software   |
-| | * We maken gebruik van beschikbare programmacode                   |
-| | * We publiceren programmacode op GitHub (public tenzij private)    |
-| | * We documenteren programmacode volgens de voorgeschreven standaarden |
-| | * We beheren de programmacode in een community                     |
+| | * We herbruiken beschikbare programmacode                                  |
+| | * We publiceren ontwikkelde programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid            |
+| | * We documenteren programmacode volgens de voorgeschreven standaarden      |
+| | * We beheren de programmacode in een community                             |
 | | * We gebruiken software (dit kan betaalde software zijn met een licentie) die open source ontwikkelen ondersteunt |
-| | * We ontwikkelen op infrastructuur die agnostisch is                |
-| | * We ontwikkelen op infrastructuur die voldoet aan Common Ground richtlijnen, is “haven-compliant” |
+| | * We ontwikkelen dashboard-, monitor-, visualisatie- & simulatie op infrastructuur die agnostisch is voor tooling |
+| | * We ontwikkelen op infrastructuur die voldoet aan Common Ground richtlijnen, d.w.z. “haven-compliant” |
 | |                                                                   |
 
-| Principe 02 | Vertrouwd - Privacy & security worden integraal meegenomen in het ontwerp van de 3D visualisatie (simulatie, voorspelmodel)                                                      |
+| Principe 02 | Vertrouwd - Privacy & security worden integraal meegenomen in het ontwerp van de 3D visualisaties, simulaties, monitors, dashboards en voorspelmodellen.                                                      |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
 | rationale   | We houden ons aan wettelijke richtlijnen, nemen maatregelen om risico’s te minimaliseren, en verantwoorden naar betrokkenen wat we doen. We zorgen voor een goede beveiliging van gegevens en garanderen privacy. We ontwikkelen en borgen technische, organisatorische, fysieke en procedurele maatregelen voor privacy en informatiebeveiliging. |
 | implicatie  | * Vanuit de informatiebeveiliging worden eisen gesteld aan de integriteit en vertrouwelijkheid van gegevens |
 | | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
 | | * Burgers hebben vanuit de Algemene Verordening Gegevensbescherming (AVG) het recht om op te vragen welke persoonsgegevens door de gemeente zijn verwerkt (inzagerecht) |
-| | * Het hebben van een verwerkingsregister |
+| | * We hebben een verwerkingsregister dat actueel wordt bijgehouden |
 | | * 3D visualisaties, informatieproducten en data worden beveiligd afhankelijk van hun gevoeligheid |
 | | * Vastleggen wie, wanneer en waarom welke persoonsgegevens heeft verwerkt |
 | | * Inrichting monitoring en controle op gebruik van 3D visualisaties, informatieproducten en data |
-| | * Auditing op het gebruik van persoonsgegevens conform vastgestelde protocollen |
-| | * Auditing op gegevensbeveiliging |
+| | * We auditen regulier op het gebruik van persoonsgegevens conform vastgestelde protocollen op gegevensbeveiliging|
 | | * De data en informatie zijn alleen inzichtelijk voor die personen die het betreft en op zo'n wijze dat deze het inzicht bieden dat past bij de rol van de medewerker binnen de organisatie               |
 | |                                                                   |
 
