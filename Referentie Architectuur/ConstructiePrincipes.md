@@ -161,11 +161,12 @@ De Ontwerppricipes voor de capabilities, bouwstenen:
 | Principe 09 | Proces logica is software onafhankelijk - De business rules en proces logica kunnen meervoudig worden gebruikt en is transparant naar de burger.                                          |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
-| rationale   | We zorgen en toetsen dat de proceslogica en businessrules zoals bijvoorbeeld beslisbomen is software tool onafhankelijk ontwikkeld worden en meervoudig gebruikt kunnen worden in andere software producten. In de proceslogica worden berekeningen gedaan, volgordelijkheid bijgehouden (proces of state) en functies uitgevoerd.         |
-| implicatie  | * We maken gebruik van software tool onafhankelijk talen zoals BPMN, Python, Django, Go                                                                             |
-| | * We ontwikkelen proces logica in laag 2 en niet in de presentatie laag 1  |
-| | * We zijn transparant en publiceren de proceslogica                        |
-| |                                                                            |
+| rationale   | We zorgen en toetsen dat de proceslogica en businessrules zoals bijvoorbeeld beslisbomen is software tool onafhankelijk ontwikkeld worden en meervoudig gebruikt kunnen worden in andere software producten. In de proceslogica worden berekeningen gedaan, volgordelijkheid bijgehouden (proces of state) en functies uitgevoerd.          |
+| implicatie  | * We maken gebruik van software tool onafhankelijk talen zoals BPMN, Python, Django, Go                                                                              |
+| | * De proceslogica in BIM oplossing is software onafhankelijk en transparant |
+| | * We zijn transparant en publiceren de proceslogica                         |
+| | * We ontwikkelen proces logica in laag 2 en niet in de presentatie laag 1   |
+| |                                                                             |
 
 ### Laag 3. Integratie laag
 Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de proces- & business logica laag
