@@ -28,8 +28,7 @@ De ontwerpprincipes zijn afgeleid van:
 </figure>
 
 ### Laag 1. Interactie- & business laag
-Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag
-De Ontwerppricipes voor de capabilities, bouwstenen:
+De ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag zijn beschreven in deze paragaarf. De capabilities, bouwstenen zijn:
 #### Algoritmen
 #### Business logic
 ##### [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
@@ -47,8 +46,7 @@ De Ontwerppricipes voor de capabilities, bouwstenen:
 #### Rekenmodellen
 #### Simulatiemodellen
 
-tekst.
-| Principe 01 | We ontwikkelen open source en publiceren de code die herbruikbaar en vrij toegankelijk is, dashboard-, monitor-, visualisatie- & simulatie tool en platform agnostic is, tenzij                                |
+| Principe 01 | We ontwikkelen open source en publiceren de code die herbruikbaar en onafhankelijk is van dashboard-, monitor-, visualisatie- & simulatie tooling en is platform agnostic.                                |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
 | rationale   | We maken gebruik van de programmacode en (deel)producten die al in de markt beschikbaar zijn. We publiceren de eigen ontwikkelde programma code en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van programmacode is een simulatie model voor mobiliteit. Indien wenselijk spreken we samenwerkingsverbanden af. |
@@ -128,7 +126,7 @@ tekst.
 | Principe 07 | Taken, bevoegdheden en verantwoordelijkheden in het gebruik van digital twins is in de organisatie belegd en werkafspraken zijn gemaakt.                                          |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
-| rationale   | We maken afspraken over het eigenaarschap van digital twins en diverse rollen en verantwoordelijkheden die nodig zijn in het ontwikkelen, onderhouden, data- en informatie delen en beheren van digital twins. |
+| rationale   | We maken afspraken over het eigenaarschap van digital twins, bedrijfs- en dataobjecten en diverse rollen en verantwoordelijkheden die nodig zijn in het ontwikkelen, onderhouden, data- en informatie delen en beheren van digital twins. |
 | implicatie  | * We hebben nieuwe rollen van medewerkers belegd in de Organisatie. Men is getraind en geïnstrueerd op de nieuwe taken te kunnen uitvoeren:                                                 |
 | | * Digital twin eigenaar                                          |
 | | * Digital twin coordinator                                       |
@@ -137,9 +135,9 @@ tekst.
 | | * Digital twin modelleur/ beheerder                              |
 | | * Digital twin engineer                                          |
 | | * Datasteward                                                    |
-| |                                                                  |
+| | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.         |
 
-De Ontwerppricipes voor de capabilities, bouwstenen:
+De Ontwerppricipes voor de capabilities, bouwstenen in laag 1:
 ### Presentatie
 #### User interface
 #### Customer Experience
@@ -148,15 +146,14 @@ De Ontwerppricipes voor de capabilities, bouwstenen:
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
 | rationale   | We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- & informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. Overheidsinstanties zijn bij wet verplicht om alle websites van de organisatie, websites, (mobiele) apps en digitale documenten waar de organisatie aan meebetaalt of medeopdrachtgever voor is, toegankelijk(er) te maken.                         |
-| implicatie  | * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM                                  |
-| | * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker                                           |
+| implicatie  | * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM          | 
+| * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker                                           |
 | | * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht                        |
 | | * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet men als overheidsinstantie ‘in control’ zijn. Dat betekent dat men weet, ook als bestuurder, voor welke digitale communicatie de overheidsinstantie verantwoordelijk is, dat men de status weet en maatregelen benoemt met een planning om de toegankelijkheid te vergroten en grip te krijgen          |
 
 ### Laag 2. Proces- & business logica laag
-Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de proces- & business logica laag
-De Ontwerppricipes voor de capabilities, bouwstenen:
-* BIM gerelateerd werken - Samenwerken; workflow management; issue tracking
+In deze paragraaf zijn de ontwerppricipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de proces- & business logica laag. De capabilities, bouwstenen:
+* BIM gerelateerd werken; samenwerken; workflow management; issue tracking
 
 | Principe 09 | Proces logica is software onafhankelijk - De business rules en proces logica kunnen meervoudig worden gebruikt en is transparant naar de burger.                                          |
 |-------------|------------------------------------------------------|
@@ -169,122 +166,27 @@ De Ontwerppricipes voor de capabilities, bouwstenen:
 | |                                                                             |
 
 ### Laag 3. Integratie laag
-Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de proces- & business logica laag
-De Ontwerppricipes voor de capabilities, bouwstenen:
+In deze paragraaf zijn de ontwerppricipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de integratie laag.
+De capability, bouwsteen:
 ##### Gateway
 
-| Principe 10 | Uniforme gegevensuitwisseling en integratie - De gegevens kunnen in digital twin ecosysteem uitgewisseld worden op basis van open standaard integraties software onafhankelijke.                                          |
+| Principe 10 | Uniforme gegevensuitwisseling en integratie - De gegevens worden in digital twin ecosysteem uitgewisseld op basis van open standaard integraties en zijn software onafhankelijk.                                    |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
 | rationale   | We passen open standaarden en dataformaten toe en gebruiken landelijke referentie implementatie in het ontwikkelen van integraties tussen informatiesystemen in het digital twin ecosysteem ten behoeve van optimale gegevens uitwisseling.         |
-| implicatie  | * We maken gebruik van de landelijke referentie implementatie NLX                                                                                           |
-| | * We ontwikkelen (systeem)integraties op basis van privacy-by-design en open standaarden  |
-| | * ...                                                                                     |
+| implicatie  | * We maken gebruik van de landelijke referentie implementatie NLX                                            |
+| | * We ontwikkelen (systeem)integraties op basis van privacy-by-design                      |
+| | * We ontwikkelen (systeem)integraties op basis van open standaarden.                      |
 | |                                                                                           |
 
-
-### Infrastructuur
-
-tekst.
-
-#### Datacenter
-
-tekst.
-
-#### Cloud
-
-tekst.
-
-##### Public
-
-tekst.
-
-##### Private
-
-tekst.
-
-#### Netwerk
-
-tekst.
-
-##### Public
-
-tekst.
-
-##### Private
-
-tekst.
-
-### Internet of Things
-
-tekst.
-
-#### Sensoren
-
-tekst.
-
-#### Scada
-
-tekst
-
-#### Remote sensing
-
-tekst.
-
-#### Edge computing
-
-tekst.
-
-### Dataopslag
-
-tekst.
-
-#### Traditioneel
-
-tekst.
-
-#### In memory
-
-tekst.
-
-### Data
-
-tekst.
-
+### Laag 2. Service laag
+In deze paragraaf zijn de ontwerppricipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de service laag.
+De capabilities, bouwstenen:
 #### Semantiek / ontologie
-
-tekst.
-
-#### Datamodellen
-
-tekst.
-
+#### Dataobjectmodellen
 #### Metadata
-
-tekst
-
 #### Attribuutbeveiliging
-
-tekst.
-
-### Modellen
-
-tekst.
-
-#### Objectmodellen
-
-tekst.
-
-<aside class='note'>
-    JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
-</aside> 
-
-
-
-#### Dynamische modellen
-
-tekst.
-
+### Masterdata / begrippen & definities
 ### Datacommunicatie
 
 <aside class='note'>
@@ -292,52 +194,83 @@ tekst.
     JvG: én Data Uitwisselingsstandaarden. 
 </aside> 
 
-tekst
-
 #### Berichtformaat
-
-.
-
 #### Communicatieprotocol
-.
-
-##### API
-
-.
-
-##### Service
-.
-
-.
-
+##### Service/ API
 ##### Verwijsindex
-.
-
 ### Transformaties
-.
-
 #### Transformatieregels
-.
-
 #### Transformatiecomponent
-.
-
 ### Databewerking
-.
-
 #### Data verwerving
-.
-
 #### Dataverrijking
-.
-
-### Beveiliging
-.
 #### Toegang
 
 <aside class='note'>
     JvG: Authenticatie noemen? zie ook [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
 </aside> 
+
+<aside class='note'>
+    JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
+</aside> 
+
+| Principe 11 | Voor de inrichting van processen, informatievoorziening en applicaties hanteert de gemeente een service-gerichte architectuur, de landelijke API strategie.      |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | Voor de inrichting van processen, informatievoorziening en applicaties hanteren wij een service-georiënteerde architectuur. Informatievoorziening is gebaseerd op applicatiecomponenten in de proces-laag die elk een specifieke bedrijfsfunctie ondersteunen. Interactie tussen de registraties waarin de data opgeslagen is en de applicatiecomponenten vindt plaats op basis van gestandaardiseerde services om flexibiliteit en koppelbaarheid te vergroten. Deze services kunnen andere services aanroepen waardoor een gelaagde service-architectuur ontstaat.                                                                            |
+| implicatie  | * Data in authentieke registers wordt via gestandaardiseerde- en beschreven services ontsloten.        |
+| | * Service georiënteerd werken heeft altijd de voorkeur boven andere manieren van koppelen. Dit is enerzijds door het ontmoedigen van "silo-applicaties" en leverancier specifieke integraties                                                           |
+| | * Servicegerichte architectuur betekent gebruik maken van standaard webservices, de API strategie en design rules: Consultatie API design rules en update API strategie | Geonovum                                                                        |
+| | * TGeografische data gelden de open standaard WMS & WFS; NEN 3610 Basismodel Geoinformatie; ISO 19136: GML en 3D data: CityGML en CityJSON                                                                                                               |
+| | * ...                                                                                                              |
+
+| Principe 12 | We hanteren uniforme begrippen & definities voor gegevens.                   |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | Om het delen en hergebruiken van gegevens mogelijk te maken worden voor zowel gestructureerde- als
+ongestructureerde gegevens uniforme definities gebruikt. Iedere bedrijfsobject en onderliggend data object heeft een definitie die eenduidig is beschreven en vastgelegd. Door eenduidige definities van bedrijfs- en data objecten in datamodellen wordt het mogelijk om de informatie correct uit te wisselen op zowel syntactisch als semantisch niveau, zonder interpretatie verschillen. Bij het ontwikkelen van rapportages en van registratiesystemen voorkomt bedrijfs- en data objecten met een eenduidige definitie misvattingen en misinterpretaties.                                                                            |
+| implicatie  | * We maken in het ontwerp van de services en registraties in de informatiesystemen gebruik van de landelijk vastgestelde informatiemodellen en standaarden. Zoals het landelijk bedrijfsobjectenmodel GEMMA en standaard informatiemodellen zoals ZTC 2.0, RSGB, RGBZ, IMRO, IMWA, IMKICH.                                                                |
+| | * Voor maximale interoperabiliteit is het van belang dat structuur en syntax gestandaardiseerd zijn |
+| | * We standaardiseren de semantiek van gegevens conform de werkelijkheid                             |
+| | * Bij uitwisseling van gegevens maken we ook de context van het gebruik van gegevens inzichtelijk   |
+| | * We gebruiken gegevens volgens een eenduidige landelijke taxonomie                                 |
+| | * We passen typering van gegevens toe volgens uniforme landelijke bedrijfs- en data objecten met een eenduidige in de dataobjectmodellen in de landelijke repository/ datacatalogus                                           |
+| |                                                                                                     |
+
+| Principe 13 | We borgen de beschikbaarheid, vertrouwelijkheid en integriteit van gegevens (BIV).      |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | Gegevens die binnen digital twin ecosysteem en organisaties worden gegevens verwerkt worden, worden conform de overeengekomen kaders beschikbaar gesteld en beveiligd tegen ongeautoriseerde toegang, frauduleus gebruik of mutatie en gegevensverlies. De eigenaar van digital twin, informatiesysteem dan wel registratie zorgt ervoor dat afnemers van vertrouwelijke gegevens enkel de gegevens verstrekt krijgen waar ze conform hun doelbinding recht op hebben.                                                                            |
+| implicatie  | * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen.                                                                                            |
+| | * We beschermen van een belangrijk bedrijfsmiddel, asset: de gegevens                               |
+| | * We voldoen aan de Baseline informatiebeveiliging Overheid (BIO)                                   |
+| | * Toegang tot privacygevoelige gegevens wordt alleen geboden aan afnemers met doelbinding. Een gebruiker heeft toegang tot de data waarvoor hij/ zij geautoriseerd is. Dit wordt vastgelegd in de gegevens-leveringsovereenkomsten (GLO)   |
+| | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.                                                                                                    |
+
+
+
+### Laag 1. Registratie laag
+In deze paragraaf zijn de ontwerppricipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de service laag.
+De capabilities, bouwstenen:
+### Infrastructuur
+#### Datacenter
+#### Cloud
+##### Public
+##### Private
+#### Netwerk
+##### Public
+##### Private
+### Internet of Things
+#### Sensoren
+#### Scada
+#### Remote sensing
+#### Edge computing
+### Dataopslag
+#### Traditioneel
+#### In memory
+### Data
+
+### Beveiliging
 .
 ##### Identity catalogus
 .
