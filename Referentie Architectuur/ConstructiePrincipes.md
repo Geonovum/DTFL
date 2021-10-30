@@ -54,7 +54,7 @@ tekst.
 tekst.
 ##### 2D afbeeldingen (data statisch)
 tekst.
-##### 3d afbeeldingen (data statisch)
+##### 3D afbeeldingen (data statisch)
 tekst.
 ##### Dashboards
 tekst.
@@ -107,7 +107,6 @@ tekst.
 | | * We voeren een assessment van de fairness van het machine-learning algoritme. Een controle waarbij getest wordt op de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
 | |                                                                   |
 
-
 | Principe 04 | Taken, bevoegdheden en verantwoordelijkheden in het gebruik van digital twins is in de organisatie belegd en werkafspraken zijn gemaakt.                                          |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
@@ -120,8 +119,22 @@ te kunnen uitvoeren:                                                 |
 | | * Digital twin analist                                           |
 | | * Digital twin modelleur/ beheerder                              |
 | | * Digital twin engineer                                          |
-| | * datasteward                                                    |
+| | * Datasteward                                                    |
 | |                                                                  |
+
+| Principe 05 | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
+| implicatie  | * We gebruiken open standaarden: IFC 2.0; NLCS; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
+| | * Open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
+| | * We maken gebruik van ETSI CIM NGSI-LD Saref4City ontologie                                           |
+| | * We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving                        |
+| | * We gebruiken voor geografische data uitwisseling WMS en WFS en 3D data: CityGML en CityJSON          |
+| | * We gebruiken NEN 3610 Basismodel Geoinformatie en ISO 19136: GML                                     |
+| | * Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
+| | * Common Data Environment CDE conform ISO 19650; NEN2660                 |
+| | * Datamodelleren conform de MIM standaard  |
 
 ### Infrastructuur
 
