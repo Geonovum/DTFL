@@ -170,14 +170,14 @@ In deze paragraaf zijn de ontwerppricipes beschreven die van toepassing zijn op 
 De capability, bouwsteen:
 ##### Gateway
 
-| Principe 10 | Uniforme gegevensuitwisseling en integratie - De gegevens worden in digital twin ecosysteem uitgewisseld op basis van open standaard integraties en zijn software onafhankelijk.                                    |
+| Principe 10 | Uniforme gegevensuitwisseling en integratie - De gegevens worden in digital twin ecosysteem uitgewisseld op basis van open standaard integraties en de integraties zijn software onafhankelijk.                                    |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
-| rationale   | We passen open standaarden en dataformaten toe en gebruiken landelijke referentie implementatie in het ontwikkelen van integraties tussen informatiesystemen in het digital twin ecosysteem ten behoeve van optimale gegevens uitwisseling.         |
-| implicatie  | * We maken gebruik van de landelijke referentie implementatie NLX                                            |
-| | * We ontwikkelen (systeem)integraties op basis van privacy-by-design                      |
-| | * We ontwikkelen (systeem)integraties op basis van open standaarden.                      |
-| |                                                                                           |
+| rationale   | We passen open standaarden en dataformaten toe en gebruiken landelijke referentie implementatie in het ontwikkelen van integraties tussen informatiesystemen in het digital twin ecosysteem ten behoeve van optimale gegevens uitwisseling.      |
+| implicatie  | * We maken gebruik van de landelijke referentie implementatie NLX                                         |
+| | * We ontwikkelen (systeem)integraties op basis van privacy-by-design                                                  |
+| | * We ontwikkelen (systeem)integraties op basis van open standaarden en zorgen voor documentatie.                      |
+| | * De ontwikkelde (systeem)integraties zijn vindbaar (Github) en herbruikbaar middels de actuele documentatie.         |
 
 ### Laag 2. Service laag
 In deze paragraaf zijn de ontwerppricipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de service laag.
@@ -222,7 +222,7 @@ De capabilities, bouwstenen:
 | | * Service georiënteerd werken heeft altijd de voorkeur boven andere manieren van koppelen. Dit is enerzijds door het ontmoedigen van "silo-applicaties" en leverancier specifieke integraties                                                           |
 | | * Servicegerichte architectuur betekent gebruik maken van standaard webservices, de API strategie en design rules: Consultatie API design rules en update API strategie | Geonovum                                                                        |
 | | * Geografische data passen we de open standaarden toe WMS & WFS; NEN 3610 Basismodel Geoinformatie; ISO 19136: GML en voor 3D data: CityGML en CityJSON                                                                                                    |
-| | * ...                                                                                                              |
+| | * De ontwikkelde services/API's zijn vindbaar (Github) en herbruikbaar middels de actuele documentatie.            |
 
 | Principe 12 | We hanteren uniforme begrippen & definities voor gegevens.                   |
 |-------------|------------------------------------------------------|
@@ -291,10 +291,14 @@ De capabilities, bouwstenen:
 | Principe 16 | Alle databronnen zijn een logisch onderdeel van digital twin ecosysteem die onderling samenhang en uniform zijn in het gegevenslandschap van ecosysteem.            |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
-| rationale   | Alle binnen digital twin ecosysteem aanwezige databronnen hebben een logische functie in het totaal aan beschikbare bronnen, vastgelegd in gemeenschappelijke datamodellen. Nieuwe databronnen moeten iets toevoegen aan het bestaande data en bevatten geen of zeer beperkte inhoudelijke overlap met bestaande databronnen. Bij twijfel over de juistheid van overlappende data bepaalt de eigenaar welke bron als meest authentiek en daarmee leidend is. |
-| implicatie  | * Vastleggen data- & informatiemodellen met bedrijfs-/ data objecten/begrippen en definities in landelijke repository  |
-| | * We hergebruiken landelijke datamodellen                              |
+| rationale   | Alle binnen digital twin ecosysteem aanwezige databronnen hebben een logische functie in het totaal aan beschikbare bronnen, vastgelegd in gemeenschappelijke datamodellen. We maken afspraken over datamodelleren in een afspraken document (bijvoorbeeld Waterschappen DAMO Data Afspreken Model Ondersteunend). We hergebruiken bestaande generieke landelijke informatie modellen en standaarden en wijken af of voegen data objecten toe daar waar het werkproces dit bepaald. |
+| implicatie  | * Vastleggen data- & informatiemodellen met bedrijfs-/ data objecten/begrippen en definities in landelijke UML repository  |
+| | * We hergebruiken landelijke datamodellen zoals IMRO, BRK, NEN3620, IMBOR, IMGeo, IMSW, IMKL, IMVG, etc.                              |
 | | * Modelleren van datamodellen in UML conform conventies van MIM standaard (Metamodel voor Informatiemodellering)                |
+| | * We documenteren het gebruik van datamodellen en stellen het vrij toegankelijk  |
+| | * We registeren objecten (‘begrippen’) en definities in objectenhandboek van digital twin ecosysteem  |
+| | * Logisch datamodel is het beschrijvende datamodel met alle definities van de objecten en attributen en is als dit objectenhandboek beschikbaar voor iedereen  |
+| | * Fysiek datamodel is de vertaling van het logische datamodel naar een fysieke realisatie inclusief de benodigde installatie- en upgrade procedure  |
 
 | Principe 17 | Alle databronnen, informatie producten en digital twins in digital twin ecosysteem zijn vindbaar en zijn voorzien van metadata.            |
 |-------------|------------------------------------------------------|
