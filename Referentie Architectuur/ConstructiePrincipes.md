@@ -33,12 +33,12 @@ Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de in
 | Principe 01 | We ontwikkelen open source en publiceren de code die herbruikbaar en vrij toegankelijk is, visualisatie- & simulatie tool en platform agnostic is, tenzij                                |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
-| rationale   | We maken gebruik van de programma code en (deel)producten die al in de markt beschikbaar zijn. We publiceren de eigen ontwikkelde programma code en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van programma code is een simulatie model voor mobiliteit. Indien wenselijk spreken we samenwerkingsverbanden af. |
-| implicatie  | * we selecteren programma code onafhankelijke software   |
-| | * We maken gebruik van beschikbare programma code                   |
-| | * We publiceren programma code op GitHub (public tenzij private)    |
-| | * We documenteren programma code volgens de voorgeschreven standaarden |
-| | * We beheren de programma code in een community                     |
+| rationale   | We maken gebruik van de programmacode en (deel)producten die al in de markt beschikbaar zijn. We publiceren de eigen ontwikkelde programma code en producten/kennis, stellen het beschikbaar zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van programmacode is een simulatie model voor mobiliteit. Indien wenselijk spreken we samenwerkingsverbanden af. |
+| implicatie  | * we maken gebruik van programmacode onafhankelijke software   |
+| | * We maken gebruik van beschikbare programmacode                   |
+| | * We publiceren programmacode op GitHub (public tenzij private)    |
+| | * We documenteren programmacode volgens de voorgeschreven standaarden |
+| | * We beheren de programmacode in een community                     |
 | | * We gebruiken software (dit kan betaalde software zijn met een licentie) die open source ontwikkelen ondersteunt |
 | | * We ontwikkelen op infrastructuur die agnostisch is                |
 | | * We ontwikkelen op infrastructuur die voldoet aan Common Ground richtlijnen, is “haven-compliant” |
@@ -59,6 +59,20 @@ Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de in
 | | * Auditing op het gebruik van persoonsgegevens conform vastgestelde protocollen |
 | | * Auditing op gegevensbeveiliging |
 | | * De data en informatie zijn alleen inzichtelijk voor die personen die het betreft en op zo'n wijze dat deze het inzicht bieden dat past bij de rol van de medewerker binnen de organisatie               |
+| |                                                                   |
+
+
+| Principe 03 | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | WWe toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of
+discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
+| implicatie  | * We toetsen de algoritme op rechtmatigheid |
+| | * We hebben de werking van et algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register ten behoeve van transparantie |
+| | * Weten met welke data het algoritme getraind en ontwikkeld is. We kunnen de data kwaliteit en de gebreken ervan. We letten op de vooroordelen en de bias die erin kunnen zitten |
+| | * We voeren assessment uit op zoek naar eventueel bias en minderheden in de data |
+| | * We ontwikkelen het algoritme zodanig in om gelijkwaardige uitkomsten in de hand te werken |
+| | * We voeren een assessment van de fairness van het machine-learning algoritme. Een controle waarbij getest wordt op de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
 | |                                                                   |
 
 ### Infrastructuur
