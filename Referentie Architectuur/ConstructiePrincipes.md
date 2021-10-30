@@ -111,8 +111,7 @@ tekst.
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
 | rationale   | We maken afspraken over het eigenaarschap van digital twins en diverse rollen en verantwoordelijkheden die nodig zijn in het ontwikkelen, onderhouden, data- en informatie delen en beheren van digital twins. |
-| implicatie  | * We hebben nieuwe rollen van medewerkers belegd in de Organisatie. Men is getraind en geïnstrueerd op de nieuwe taken 
-te kunnen uitvoeren:                                                 |
+| implicatie  | * We hebben nieuwe rollen van medewerkers belegd in de Organisatie. Men is getraind en geïnstrueerd op de nieuwe taken te kunnen uitvoeren:                                                 |
 | | * Digital twin eigenaar                                          |
 | | * Digital twin coordinator                                       |
 | | * Digital twin regisseur                                         |
@@ -135,6 +134,18 @@ te kunnen uitvoeren:                                                 |
 | | * Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
 | | * Common Data Environment CDE conform ISO 19650; NEN2660                 |
 | | * Datamodelleren conform de MIM standaard  |
+
+
+| Principe 05 | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
+|-------------|------------------------------------------------------|
+| referentie  | NTB                                                  |
+| rationale   | We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- & informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. Overheidsinstanties zijn bij wet verplicht om alle websites van
+de organisatie, websites, (mobiele) apps en digitale documenten waar de organisatie aan meebetaalt of medeopdrachtgever voor is, toegankelijk(er) te maken.                         |
+| implicatie  | * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM                                  |
+| | * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker                                           |
+| | * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht                        |
+| | * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet men als overheidsinstantie ‘in control’ zijn. Dat betekent dat men weet, ook als bestuurder, voor welke digitale communicatie de overheidsinstantie verantwoordelijk is, dat men de status weet en maatregelen benoemt met een planning om de toegankelijkheid te vergroten en grip te krijgen          |
+
 
 ### Infrastructuur
 
