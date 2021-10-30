@@ -30,40 +30,23 @@ De ontwerpprincipes zijn afgeleid van:
 ### Laag 1. Interactie- & business laag
 Ontwerppricipes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag
 De interactie- & business laag bestaat uit de volgende capabilities, bouwstenen:
-*####* Algoritmen
-tekst.
+#### Algoritmen
 #### Business logic
-tekst.
 ##### [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
-tekst.
 ### Analytics
-tekst.
 #### (Big data) analyse tools
-tekst.
 #### Self learning systems
-tekst.
 #### Artificial Intelligence
-tekst.
 ### Presentatie
-tekst.
 #### User interface
-tekst.
 #### Customer Experience
-tekst.
 #### Visualisatie componenten
-tekst.
 ##### 2D afbeeldingen (data statisch)
-tekst.
 ##### 3D afbeeldingen (data statisch)
-tekst.
 ##### Dashboards
-tekst.
 ##### Grafieken
-tekst.
 ##### Monitors (data dynamisch)
-tekst.
 ##### Simulaties (manipuleerbare data en modellen)
-tekst.
 
 | Principe 01 | We ontwikkelen open source en publiceren de code die herbruikbaar en vrij toegankelijk is, dashboard-, monitor-, visualisatie- & simulatie tool en platform agnostic is, tenzij                                |
 |-------------|------------------------------------------------------|
