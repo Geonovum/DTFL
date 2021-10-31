@@ -8,14 +8,14 @@ De constructieprincipes geven richting aan de pilots, de innovaties en andere on
 De constructieprincipes zijn de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd in binnen het programma NL-DFTL.
 
 #### wat is de feedback loop?
-De feedbackloop is de afstemming tussen het team architectuur en de medewerkers van de pilots over het toepassen van de principes en indien noodzakelijk tijdelijk moeten afwijken. Ook kan het zijn dat een pilot leidt tot een nieuw constructie principe die toegevoegd wordt aan het ecosysteem. Pilots hebben mogelijk aanvullend domein specifieke constructie principes & open standaarden specifiek voor een domein of thema.
+De feedbackloop is de afstemming tussen het team architectuur en de medewerkers van de pilots over het toepassen van de constructieprincipes en het gesprek indien men noodzakelijk tijdelijk moeten afwijken. Ook kan het zijn dat een pilot leidt tot een nieuw constructieprincipe die toegevoegd wordt aan de referentie architectuur. Het is ook mogelijk dat de pilots aanvullende domein specifieke constructieprincipes & open standaarden moeten hanteren specifiek voor een domein of thema.
 
 #### Constructieprincipes in relatie tot andere architectuurproducten
 De constructieprincipes zijn een onderdeel van de NL-DFTL referentiearchitectuur en de andere architectuurproducten die gerealiseerd worden. In onderstaand figuur is de samenhang weergegeven met de pilots en de architectuurproducten. 
 
 <figure id="duiding constructieprincipes">
     <img src="media/duiding constructie principes.jpg" alt="duiding constructieprincipes">
-    <figcaption>figuur 1. Dit is de plaat van constructieprincipes in samenhang met de rerentie architectuur</figcaption>
+    <figcaption>figuur 1. De constructieprincipes in samenhang met de referentie architectuur en de pilots</figcaption>
 </figure>
 
 #### Waarop zijn de constructieprincipes gebaseerd?
@@ -52,13 +52,13 @@ Onderstaand een overzicht van de capabilities/ bouwblokken in het digital twin e
 
 <figure id="infographic capabilities">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL.jpg" alt="infographic capabilities">
-    <figcaption>figuur 1. Dit is de plaat van het capability overzicht</figcaption>
+    <figcaption>figuur 1. Het capability overzicht</figcaption>
 </figure>
 
 Onderstaand een toepassing "druktemonitor" in het digital twin ecosysteem die bepaalde capabilities (in rood) gebruikt:
 <figure id="infographic capabilities2">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL 2.jpg" alt="infographic capabilities2">
-    <figcaption>figuur 2. Dit is de plaat van een toepassing die bepaalde capabilities (in rood) gebruikt.</figcaption>
+    <figcaption>figuur 2. Een toepassing die bepaalde capabilities (in rood) gebruikt.</figcaption>
 </figure>
 
 ### Laag 1. Interactie- & business laag
