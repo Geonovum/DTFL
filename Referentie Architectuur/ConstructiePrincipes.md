@@ -1,13 +1,14 @@
 ## Constructie Principes
 
 ### Inleiding
-Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes worden in dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden beschreven.
+Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes en de referentie architectuur worden in dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden beschreven.
 
 #### Wat is het doel van constructieprincipes?
 De constructieprincipes geven richting aan de pilots, de innovaties en andere ontwikkelingen in het digital twin ecosysteem om de visie, publieke waarden & doelstellingen van het programma NL-DFTL te behalen.
-De constructieprincipes zijn de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd in binnen het programma NL-DFTL.
+De constructieprincipes zijn de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd in het landelijke programma NL-DFTL.
 
-#### wat is de feedback loop?
+#### Hoe worden constructieprincipes toegepast?
+De constructieprincipes worden in de pilots opgenomen in de Project Start Architecturen (PSA's) en toegepast in de solutions van de pilot. Het is niet een eenmalig proces, er vindt regulier afstemming plaats over het toepassen van de constructieprincipes in de PSA's. 
 De feedbackloop is de afstemming tussen het team architectuur en de medewerkers van de pilots over het toepassen van de constructieprincipes en het gesprek indien men noodzakelijk tijdelijk moeten afwijken. Ook kan het zijn dat een pilot leidt tot een nieuw constructieprincipe die toegevoegd wordt aan de referentie architectuur. Het is ook mogelijk dat de pilots aanvullende domein specifieke constructieprincipes & open standaarden moeten hanteren specifiek voor een domein of thema.
 
 #### Constructieprincipes in relatie tot andere architectuurproducten
