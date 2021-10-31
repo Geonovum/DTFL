@@ -1,26 +1,26 @@
 ## Constructie Principes
 
 ### Inleiding
-Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes en de referentie architectuur worden in dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden beschreven.
+Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes en de referentie architectuur worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.
 
-#### Wat is het doel van constructieprincipes?
-De constructieprincipes geven richting aan de pilots, de innovaties en andere ontwikkelingen in het digital twin ecosysteem om de visie, publieke waarden & doelstellingen van het programma NL-DFTL te behalen.
-De constructieprincipes zijn de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd in het landelijke programma NL-DFTL.
+#### Wat is het doel van constructie principes?
+De constructie principes geven richting aan de pilots, de innovaties en andere ontwikkelingen in het digital twin ecosysteem om de visie, publieke waarden & doelstellingen van het programma NL-DFTL te behalen.
+De constructie principes zijn de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd in het landelijke programma NL-DFTL.
 
-#### Hoe worden constructieprincipes toegepast?
-De constructieprincipes worden in de pilots opgenomen in de Project Start Architecturen (PSA's) en toegepast in de solutions van de pilot. Het is niet een eenmalig proces, er vindt regulier afstemming plaats over het toepassen van de constructieprincipes in de PSA's. 
-De feedbackloop is de afstemming tussen het team architectuur en de medewerkers van de pilots over het toepassen van de constructieprincipes en het gesprek indien men noodzakelijk tijdelijk moeten afwijken. Ook kan het zijn dat een pilot leidt tot een nieuw constructieprincipe die toegevoegd wordt aan de referentie architectuur. Het is ook mogelijk dat de pilots aanvullende domein specifieke constructieprincipes & open standaarden moeten hanteren specifiek voor een domein of thema.
+#### Hoe worden constructie principes toegepast?
+De constructie principes worden in de pilots opgenomen in de Project Start Architecturen (PSA's) en toegepast in de solutions van de pilot. Het is niet een eenmalig proces, er vindt regulier afstemming plaats over het toepassen van de constructie principes in de PSA's. 
+De feedbackloop is de afstemming tussen het team architectuur en de medewerkers van de pilots over het toepassen van de constructie principes en het gesprek indien men noodzakelijk tijdelijk moeten afwijken. Ook kan het zijn dat een pilot leidt tot een nieuw constructieprincipe die toegevoegd wordt aan de referentie architectuur. Het is ook mogelijk dat de pilots aanvullende domein specifieke constructie principes & open standaarden moeten hanteren specifiek voor een domein of thema.
 
 #### Constructieprincipes in relatie tot andere architectuurproducten
-De constructieprincipes zijn een onderdeel van de NL-DFTL referentiearchitectuur en de andere architectuurproducten die gerealiseerd worden. In onderstaand figuur is de samenhang weergegeven met de pilots en de architectuurproducten. 
+De constructie principes zijn een onderdeel van de NL-DFTL referentiearchitectuur en de andere architectuurproducten die gerealiseerd worden. In onderstaand figuur is de samenhang weergegeven met de pilots en de architectuurproducten. 
 
 <figure id="duiding constructieprincipes">
     <img src="media/duiding constructie principes.jpg" alt="duiding constructieprincipes">
-    <figcaption>figuur 1. De constructieprincipes in samenhang met de referentie architectuur en de pilots</figcaption>
+    <figcaption>figuur 1. De constructie principes in samenhang met de referentie architectuur en de pilots</figcaption>
 </figure>
 
-#### Waarop zijn de constructieprincipes gebaseerd?
-De constructieprincipes zijn gebaseerd op:
+#### Waarop zijn de constructie principes gebaseerd?
+De constructie principes zijn gebaseerd op:
 * De ontwerpprincipes van het programma NL-DFTL
 * Wetgeving: 
     * Wet Open Overheid
@@ -35,14 +35,14 @@ De constructieprincipes zijn gebaseerd op:
 * Landelijke richtlijnen voor software ontwikkeling: Common Ground
 * overig <>...
 
-#### Constructieprincipes hebben als scope het NL-DFTL fundament
-De constructieprincipes zijn van toepassing op het digital twins ecosysteem fundament, maar een toepassing zoals bijvoorbeeld een landelijke geluidsmodelsimulatie heeft aanvullende specifieke domein constructie principes o.a. gebaseerd op de wet Geluidhinder (die in Omgevingswet overgaat). Of te wel een toepassing moet in ieder geval voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
+#### Constructie principes hebben als scope het NL-DFTL fundament
+De constructie principes zijn van toepassing op het digital twins ecosysteem fundament, maar een toepassing zoals bijvoorbeeld een landelijke geluidsmodelsimulatie heeft aanvullende specifieke domein constructie principes o.a. gebaseerd op de wet Geluidhinder (die in Omgevingswet overgaat). Of te wel een toepassing moet in ieder geval voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
 
-#### Relatie constructieprincipes en capabilities/ bouwblokken
-Voor de ordening van de constructieprincipes hebben we het overzicht van de capabilities /bouwblokken gebruikt. De constructieprincipes zijn direct te relateren aan 5 lagen waarin de capabilities/ bouwblokken opgenomen zijn.
-Om een digital twin toepassing te realiseren, bijvoorbeeld een landelijk geluid-simulatiemodel, is een combinaties van capabilities/ bouwblokken nodig. Doordat de constructieprincipes gerelateerd zijn aan de capabilities/ bouwblokken, is direct inzichtelijk welke constructieprincipes op de realisatie van toepassing zijn.  
+#### Relatie constructie principes en capabilities/ bouwblokken
+Voor de ordening van de constructie principes hebben we het overzicht van de capabilities /bouwblokken gebruikt. De constructie principes zijn direct te relateren aan 5 lagen waarin de capabilities/ bouwblokken opgenomen zijn.
+Om een digital twin toepassing te realiseren, bijvoorbeeld een landelijk geluid-simulatiemodel, is een combinaties van capabilities/ bouwblokken nodig. Doordat de constructie principes gerelateerd zijn aan de capabilities/ bouwblokken, is direct inzichtelijk welke constructie principes op de realisatie van toepassing zijn.  
 
-De constructieprincipes zijn geordend op de 5 lagen van capability overzichtsplaat volgens Common Ground:
+De constructie principes zijn geordend op de 5 lagen van capability overzichtsplaat volgens Common Ground:
 * Laag 1 - interactielaag met de gebruikersinterface van Digital twins waarin functionaliteit aanwezig is zoals bijvoorbeeld: 3D visualisatie, simulatie, what-if scenario, tijdreizen en gamification 
 * Laag 2 - proceslaag met daarin functionaliteit voor bijvoorbeeld BIM gerelateerd werken.
 * Laag 3 – integratielaag met functionaliteit voor data uitwisseling in digital twin ecosysteem
@@ -63,7 +63,7 @@ Onderstaand een toepassing "druktemonitor" in het digital twin ecosysteem die be
 </figure>
 
 ### Laag 1. Interactie- & business laag
-De constructieprincipes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag zijn beschreven in deze paragraaf. De capabilities, bouwstenen in deze laag 1 zijn:
+De constructie principes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag zijn beschreven in deze paragraaf. De capabilities, bouwstenen in deze laag 1 zijn:
 * *####* Algoritmen
 * *####* Business logic
 * *#####* [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
