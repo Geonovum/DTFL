@@ -1,21 +1,41 @@
 ## Constructie Principes
 
 ### Inleiding
-
-Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuurprincipes worden in dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden beschreven.
+Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes worden in dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden beschreven.
 
 #### Wat is het doel van constructieprincipes?
-De constructieprincipes geven richting aan de innovaties, de pilots en andere ontwikkelingen in het digital twin ecosysteem om de doelstellingen & visie van het programma NL-DFTL te behalen.
-De constructieprincipes geven de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd binnen het programma NL-DFTL.
+De constructieprincipes geven richting aan de pilots, de innovaties en andere ontwikkelingen in het digital twin ecosysteem om de visie, publieke waarden & doelstellingen van het programma NL-DFTL te behalen.
+De constructieprincipes zijn de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd in binnen het programma NL-DFTL.
+
+#### wat is de feedback loop?
+De feedbackloop is de afstemming tussen het team architectuur en de medewerkers van de pilots over het toepassen van de principes en indien noodzakelijk tijdelijk moeten afwijken. Ook kan het zijn dat een pilot leidt tot een nieuw constructie principe die toegevoegd wordt aan het ecosysteem. Pilots hebben mogelijk aanvullend domein specifieke constructie principes & open standaarden specifiek voor een domein of thema.
+
+#### Constructieprincipes in relatie tot andere architectuurproducten
+De constructieprincipes zijn een onderdeel van de NL-DFTL referentiearchitectuur en de andere architectuurproducten die gerealiseerd worden. In onderstaand figuur is de samenhang weergegeven met de pilots en de architectuurproducten. 
+
+<figure id="duiding constructieprincipes">
+    <img src="media/duiding constructie principes.jpg" alt="duiding constructieprincipes">
+    <figcaption>figuur 1. Dit is de plaat van constructieprincipes in samenhang met de rerentie architectuur</figcaption>
+</figure>
 
 #### Waarop zijn de constructieprincipes gebaseerd?
 De constructieprincipes zijn gebaseerd op:
 * De ontwerpprincipes van het programma NL-DFTL
-* Wetgeving: Wet Open Overheid; Wet Hergebruik Overheidsinformatie, Archiefwet, Digitale toegankelijkheid
+* Wetgeving: 
+    * Wet Open Overheid
+    * Wet Hergebruik Overheidsinformatie
+    * Archiefwet
+    * Wet digitale toegankelijkheid
+    * Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE)
+    * Wet Basisadministraties zoals BAG; BGT; BRO
+    * omgevingswet en Wet Ruimtelijke Ordening
 * Landelijke richtlijnen voor architectuur: NORA
 * Landelijke richtlijnen voor gegevensbescherming: AVG & GDPR
 * Landelijke richtlijnen voor software ontwikkeling: Common Ground
 * overig <>...
+
+#### Constructieprincipes hebben als scope het NL-DFTL fundament
+De constructieprincipes zijn van toepassing op het digital twins ecosysteem fundament, maar een toepassing zoals bijvoorbeeld een landelijke geluidsmodelsimulatie heeft aanvullende specifieke domein constructie principes o.a. gebaseerd op de wet Geluidhinder (die in Omgevingswet overgaat). Of te wel een toepassing moet in ieder geval voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
 
 #### Relatie constructieprincipes en capabilities/ bouwblokken
 Voor de ordening van de constructieprincipes hebben we het overzicht van de capabilities of te wel "bouwblokken" gebruikt. De constructieprincipes zijn direct te relateren aan 5 lagen waarin de capabilities opgenomen zijn.
