@@ -39,7 +39,6 @@ De constructieprincipes zijn gebaseerd op:
 De constructieprincipes zijn van toepassing op het digital twins ecosysteem fundament, maar een toepassing zoals bijvoorbeeld een landelijke geluidsmodelsimulatie heeft aanvullende specifieke domein constructie principes o.a. gebaseerd op de wet Geluidhinder (die in Omgevingswet overgaat). Of te wel een toepassing moet in ieder geval voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
 
 #### Relatie constructieprincipes en capabilities/ bouwblokken
-Voor de ordening van de constructieprincipes hebben we het overzicht van de capabilities of te wel "bouwblokken" gebruikt. De constructieprincipes zijn direct te relateren aan 5 lagen waarin de capabilities opgenomen zijn.
 Om een digital twin toepassing te realiseren, bijvoorbeeld een landelijk geluid-simulatiemodel, is een combinaties van capabilities/ bouwblokken nodig. Doordat de constructieprincipes gerelateerd zijn aan de capabilities/ bouwblokken, is direct inzichtelijk welke constructieprincipes op de realisatie van toepassing zijn.  
 
 De constructieprincipes zijn geordend op de 5 lagen van capability overzichtsplaat volgens Common Ground:
