@@ -108,5 +108,5 @@ De bouwblokken/ solutions op de roadmap is de basis voor de NL-DFTL doelarchitec
 In onderstaand figuur zijn de architectuurproducten weergegeven met een rode stip die in het programma gerealiseerd worden:
 <figure id="Architectuur producten">
     <img src="media/Architectuur producten NL DFTL v02.jpg" alt="Architectuur producten">
-    <figcaption>Dit is een voobeeld van een plaatje</figcaption>
+    <figcaption>Figuur 2 Architectuur producten</figcaption>
 </figure>
