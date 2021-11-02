@@ -353,39 +353,74 @@ De capabilities, bouwstenen in deze laag 1 zijn:
 | | * Neem links naar andere gerelateerde, open data - concepten op in de beschrijving om het ontdekken van gerelateerde informatie op het web te verbeteren.               |
 
 Algemene capabilities waar nog constructieprincipes toegevoegd moeten worden zijn (under construction):
+
 ### Beveiliging
-.
+
+Lorem enz
+
 ##### Identity catalogus
-.
+
+Lorem enz
+
 ##### Identity check
 
+Lorem enz
+
 ##### Identity federation (bijv. SAML)
-.
+
+Lorem enz
+
 #### Autorisatie
-.
+
+Lorem enz
+
 ##### Autorisatie register
+
 .
+
 ##### Autorisatie check
+
 .
+
 ##### Autorisatie federatie
+
 .
+
 ### Ontwikkeling
+
 .
+
 #### Building
+
 .
+
 ##### Development tooling
+
 .
+
 #### Testing
+
 .
+
 ##### Test procedures
 
+
 ##### Test tooling
+
 .
+
 ### Beheer
+
 .
+
 #### ASL
+
 .
+
 #### Console
+
 .
+
 #### ITIL
+
 .
