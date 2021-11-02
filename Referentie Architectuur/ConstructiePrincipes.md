@@ -83,8 +83,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 01 | Eerst hergebruik, dan ontwikkelen we open source programmacode voor functionaliteit die herbruikbaar en onafhankelijk is van dashboard-, monitor-, visualisatie- & simulatie tooling en is platform agnostic.                                |
 |-------------|------------------------------------------------------|
-| referentie  | * NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen; 
-* NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden                                             |
+| referentie  | NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden                                             |
 | rationale   | Voor een nieuwe toepassing hergebruiken we functionaliteit, de programmacode, die al binnen het ecosysteem beschikbaar is. Indien de functionaliteit niet beschikbaar is ontwikkelen we open source, zodat de programmacode herbruikbaar is. We publiceren de de ontwikkelde programmacode incl. documentatie zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van een ontwikkeling is een simulatie- model voor mobiliteit. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
 | implicatie  | * we maken gebruik van programmacode onafhankelijke software   |
 | | * We herbruiken beschikbare functionalitei, programmacode                  |
@@ -98,7 +97,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 02 | Beschikbaarheid, integriteit en vertrouwelijkheid - Privacy & security worden integraal meegenomen in het ontwerp van de 3D visualisaties, simulaties, monitors, dashboards en voorspelmodellen.                                                      |
 |-------------|------------------------------------------------------|
-| referentie  | * AP41   https://www.noraonline.nl/wiki/Beschikbaarheid; * AP42 https://www.noraonline.nl/wiki/Integriteit; * AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe) * AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe)                             |
+| referentie  | AP41   https://www.noraonline.nl/wiki/Beschikbaarheid AP42 https://www.noraonline.nl/wiki/Integriteit  AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)  AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe)                             |
 | rationale   | We houden ons aan wettelijke richtlijnen, nemen maatregelen om risico’s te minimaliseren, en verantwoorden naar betrokkenen wat we doen. We zorgen voor een goede beschikbaarheid, integriteit en vertrouwelijkheid en garanderen privacy. We ontwikkelen en borgen technische, organisatorische, fysieke en procedurele maatregelen voor privacy en informatiebeveiliging. |
 | implicatie  | * Vanuit de informatiebeveiliging worden eisen gesteld aan de integriteit en vertrouwelijkheid van gegevens |
 | | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
@@ -113,7 +112,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 03 | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
 |-------------|------------------------------------------------------|
-| referentie  | AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening * AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)                                                 |
+| referentie  | AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening  AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)                                                 |
 | rationale   | We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
 | implicatie  | * We toetsen de algoritme op rechtmatigheid |
 | | * We hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register ten behoeve van transparantie |
@@ -125,7 +124,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 04 | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
-| referentie  | * AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden * CG: Standaarden We standaardiseren maximaal                                                |
+| referentie  | AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden CG: Standaarden We standaardiseren maximaal                                                |
 | rationale   | Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
 | implicatie  | * We gebruiken open standaarden: IFC 2.0; NLCS; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
 | | * Open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
@@ -141,7 +140,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 05 | Eenmalige vastlegging - Gegevens worden eenmalig vastgelegd, rechtstreeks bij de bron bevraagd en meervoudig gebruikt.                                                            |
 |-------------|------------------------------------------------------|
-| referentie  | * AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend  * CG: Eenmalige vastlegging We leggen gegevens eenmalig vast en vragen op bij de bron                                               |
+| referentie  | AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend  CG: Eenmalige vastlegging We leggen gegevens eenmalig vast en vragen op bij de bron                                               |
 | rationale   | We voorkomen duplicatie (kopieën) van gegevens in de cloud omgeving van de aanbieder van visualisatie- dashboard-, simulatie tooling. Dit ten behoeve van leveranciersonafhankelijkheid en ter voorkoming van verouderde kopiegegevens die gebruikt worden. Het bronsysteem is een administratie, (basis)registratie, een documentregistratie, sensor en kan ook een digital twin of BIM zijn.                                                                |
 | implicatie  | * Gegevens worden gescheiden van visualisatie- dashboard-, simulatie tooling bewaard, zodat opslag van gegevens onafhankelijk is van de gebruikte applicaties & softwareleveranciers en gegevens te (her)gebruiken zijn in verschillende applicaties voor verschillende doeleinden.                                       |
 | | * Ieder gegeven wordt op precies één plek bijgehouden, zodat altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dubbele opslag betekent synchroniseren, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.                                                        |
@@ -274,7 +273,7 @@ De capabilities, bouwstenen in  deze laag 2 zijn:
 
 | Principe 13 | We borgen de beschikbaarheid, vertrouwelijkheid en integriteit van registratie van gegevens (BIV).      |
 |-------------|------------------------------------------------------|
-| referentie  | * AP44  https://www.noraonline.nl/wiki/Controleerbaarheid; * AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe) * AP41  https://www.noraonline.nl/wiki/Beschikbaarheid * AP42 https://www.noraonline.nl/wiki/Integriteit * AP43 https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)                                               |
+| referentie  | AP44  https://www.noraonline.nl/wiki/Controleerbaarheid  AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe)  AP41  https://www.noraonline.nl/wiki/Beschikbaarheid  AP42 https://www.noraonline.nl/wiki/Integriteit  AP43 https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)                                               |
 | rationale   | Gegevens die binnen digital twin ecosysteem en organisaties worden gegevens verwerkt worden, worden conform de overeengekomen kaders beschikbaar gesteld en beveiligd tegen ongeautoriseerde toegang, frauduleus gebruik of mutatie en gegevensverlies. De eigenaar van digital twin, informatiesysteem dan wel registratie zorgt ervoor dat afnemers van vertrouwelijke gegevens enkel de gegevens verstrekt krijgen waar ze conform hun doelbinding recht op hebben.           |
 | implicatie  | * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen in  het beschikbaar stellen van data, bewerkingen en transformaties.                                            |
 | | * We voeren Data Protection Impact Assessment (DPIA)3 uit op bestaande & nieuwe dataverwerkingen    |
@@ -315,7 +314,7 @@ De capabilities, bouwstenen in deze laag 1 zijn:
 
 | Principe 15 | We beheren de kwaliteit van gegevens actief middels continue verbetering en communiceren de kwaliteit.     |
 |-------------|------------------------------------------------------|
-| referentie  | * AP31 https://www.noraonline.nl/wiki/PDCA-cyclus_in_besturing_kwaliteit * AP32  https://www.noraonline.nl/wiki/Sturing_kwaliteit_op_het_hoogste_niveau * AP33  https://www.noraonline.nl/wiki/Baseline_kwaliteit_diensten * AP34 https://www.noraonline.nl/wiki/Verantwoording_besturing_kwaliteit                                               |
+| referentie  |  AP31 https://www.noraonline.nl/wiki/PDCA-cyclus_in_besturing_kwaliteit  AP32  https://www.noraonline.nl/wiki/Sturing_kwaliteit_op_het_hoogste_niveau  AP33  https://www.noraonline.nl/wiki/Baseline_kwaliteit_diensten  AP34 https://www.noraonline.nl/wiki/Verantwoording_besturing_kwaliteit                                               |
 | rationale   | De kwaliteit van de gegevens die worden verwerkt binnen de gemeente wordt actief gemonitord en continu verbeterd en op een niveau gehouden wat in overeenstemming is met de eisen die daar vanuit de wetgeving en de afnemers aan gesteld worden. Datakwaliteit sluit aan op het proces waarbinnen het gebruik gegenereerd wordt. De kwaliteit wordt gepubliceerd.           |
 | implicatie  | * Processen die het kwaliteitsbeheer en continu verbeteren borgen zijn ingericht                           |
 | | * De kwaliteit van gegevens zijn van alke databron vastgelegd als metadata                                             |
