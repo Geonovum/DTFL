@@ -96,9 +96,9 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 | | * We ontwikkelen op infrastructuur die voldoet aan Common Ground richtlijnen, d.w.z. “haven-compliant” |
 | |                                                                   |
 
-| Principe 02 | Vertrouwd - Privacy & security worden integraal meegenomen in het ontwerp van de 3D visualisaties, simulaties, monitors, dashboards en voorspelmodellen.                                                      |
+| Principe 02 | Beschikbaarheid, integriteit en vertrouwelijkheid - Privacy & security worden integraal meegenomen in het ontwerp van de 3D visualisaties, simulaties, monitors, dashboards en voorspelmodellen.                                                      |
 |-------------|------------------------------------------------------|
-| referentie  | * AP41   https://www.noraonline.nl/wiki/Beschikbaarheid; * AP42 https://www.noraonline.nl/wiki/Integriteit; * AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)                                             |
+| referentie  | * AP41   https://www.noraonline.nl/wiki/Beschikbaarheid; * AP42 https://www.noraonline.nl/wiki/Integriteit; * AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe) * AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe)                             |
 | rationale   | We houden ons aan wettelijke richtlijnen, nemen maatregelen om risico’s te minimaliseren, en verantwoorden naar betrokkenen wat we doen. We zorgen voor een goede beschikbaarheid, integriteit en vertrouwelijkheid en garanderen privacy. We ontwikkelen en borgen technische, organisatorische, fysieke en procedurele maatregelen voor privacy en informatiebeveiliging. |
 | implicatie  | * Vanuit de informatiebeveiliging worden eisen gesteld aan de integriteit en vertrouwelijkheid van gegevens |
 | | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
@@ -113,7 +113,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 03 | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening * AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)                                                 |
 | rationale   | We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
 | implicatie  | * We toetsen de algoritme op rechtmatigheid |
 | | * We hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register ten behoeve van transparantie |
@@ -125,7 +125,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 04 | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | * AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden * CG: Standaarden We standaardiseren maximaal                                                |
 | rationale   | Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
 | implicatie  | * We gebruiken open standaarden: IFC 2.0; NLCS; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
 | | * Open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
@@ -141,7 +141,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 05 | Eenmalige vastlegging - Gegevens worden eenmalig vastgelegd, rechtstreeks bij de bron bevraagd en meervoudig gebruikt.                                                            |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | * AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend  * CG: Eenmalige vastlegging We leggen gegevens eenmalig vast en vragen op bij de bron                                               |
 | rationale   | We voorkomen duplicatie (kopieën) van gegevens in de cloud omgeving van de aanbieder van visualisatie- dashboard-, simulatie tooling. Dit ten behoeve van leveranciersonafhankelijkheid en ter voorkoming van verouderde kopiegegevens die gebruikt worden. Het bronsysteem is een administratie, (basis)registratie, een documentregistratie, sensor en kan ook een digital twin of BIM zijn.                                                                |
 | implicatie  | * Gegevens worden gescheiden van visualisatie- dashboard-, simulatie tooling bewaard, zodat opslag van gegevens onafhankelijk is van de gebruikte applicaties & softwareleveranciers en gegevens te (her)gebruiken zijn in verschillende applicaties voor verschillende doeleinden.                                       |
 | | * Ieder gegeven wordt op precies één plek bijgehouden, zodat altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dubbele opslag betekent synchroniseren, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.                                                        |
@@ -152,7 +152,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 06 | Verbinden digital twins in ecosysteem - We maken gebruik canonieke data-objecten om digital twins met elkaar te kunnen verbinden en gemeenschappelijke smart city-ontologieen.              |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                 |
 | rationale   | We gebruiken afgesproken canonieke data objecten. Dit betekent dat elk 3D visualisatie, simulatiemodel etc. uniforme data objecten heeft. In een volgend ontwikkel plateau kunnen we relaties leggen tussen digital twins (in verschillende domeinen) en navigeren via een graph, niet alleen via canoniek dataobjecten zoals “locatie”, maar in een gemeenschappelijke smart city-ontologie. Dit is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         |
 | implicatie  | * We gebruiken afgesproken canonieke data objecten: 3D model heeft uniforme data objecten “RD- coördinaten”, “NAP”, “tijd”, “0-punt” (mogelijk aanvullende data objecten).                                    |
 | | * In een volgend ontwikkel plateau maken we gebruik van Europese open standaard ontologie mapping SAREF extension: SAREF extension for Smart Cities (mariapoveda.github.io)                                                  |
@@ -160,7 +160,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 07 | Taken, bevoegdheden en verantwoordelijkheden in het gebruik van digital twins is in de organisatie belegd en werkafspraken zijn gemaakt.                                          |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | AP28  https://www.noraonline.nl/wiki/Afspraken_vastgelegd                                                 |
 | rationale   | We maken afspraken over het eigenaarschap van digital twins, bedrijfs- en dataobjecten en diverse rollen en verantwoordelijkheden die nodig zijn in het ontwikkelen, onderhouden, data- en informatie delen en beheren van digital twins. |
 | implicatie  | * We hebben nieuwe rollen van medewerkers belegd in de Organisatie. Men is getraind en geïnstrueerd op de nieuwe taken te kunnen uitvoeren:                                                 |
 | | * Digital twin eigenaar                                          |
@@ -170,6 +170,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 | | * Digital twin modelleur/ beheerder                              |
 | | * Digital twin engineer                                          |
 | | * Datasteward                                                    |
+| | * we maken data levering afspraken GLO tussen dat producer en consumer 
 | | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.         |
 
 De constructieprincipes voor de capabilities, bouwstenen in laag 1:
@@ -192,7 +193,7 @@ In deze paragraaf zijn de constructieprincipes beschreven die van toepassing zij
 
 | Principe 09 | Proces logica is software onafhankelijk - De business rules en proces logica kunnen meervoudig worden gebruikt en is transparant naar de burger.                                          |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | AP02 https://www.noraonline.nl/wiki/Ontkoppelen_met_diensten                                                  |
 | rationale   | We zorgen en toetsen dat de proceslogica en businessrules zoals bijvoorbeeld beslisbomen is software tool onafhankelijk ontwikkeld worden en meervoudig gebruikt kunnen worden in andere software producten. In de proceslogica worden berekeningen gedaan, volgordelijkheid bijgehouden (proces of state) en functies uitgevoerd.          |
 | implicatie  | * We maken gebruik van software tool onafhankelijk talen zoals BPMN, Python, Django, Go                                                                              |
 | | * De proceslogica in BIM oplossing is software onafhankelijk en transparant |
@@ -261,7 +262,7 @@ De capabilities, bouwstenen in  deze laag 2 zijn:
 
 | Principe 12 | We hanteren uniforme begrippen & definities voor gegevens.                   |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                  |
 | rationale   | Om het delen en hergebruiken van gegevens mogelijk te maken worden voor zowel gestructureerde- als ongestructureerde gegevens uniforme definities gebruikt. Iedere bedrijfsobject en onderliggend data object heeft een definitie die eenduidig is beschreven en vastgelegd. Door eenduidige definities van bedrijfs- en data objecten in datamodellen wordt het mogelijk om de informatie correct uit te wisselen op zowel syntactisch als semantisch niveau, zonder interpretatie verschillen. Bij het ontwikkelen van rapportages en van registratiesystemen voorkomt bedrijfs- en data objecten met een eenduidige definitie misvattingen en misinterpretaties.                                                                            |
 | implicatie  | * We maken in het ontwerp van de services en registraties in de informatiesystemen gebruik van de landelijk vastgestelde informatiemodellen en standaarden. Zoals het landelijk bedrijfsobjectenmodel GEMMA en standaard informatiemodellen zoals ZTC 2.0, RSGB, RGBZ, IMRO, IMWA, IMKICH.                                                                |
 | | * Voor maximale interoperabiliteit is het van belang dat structuur en syntax gestandaardiseerd zijn |
@@ -271,9 +272,9 @@ De capabilities, bouwstenen in  deze laag 2 zijn:
 | | * We passen typering van gegevens toe volgens uniforme landelijke bedrijfs- en data objecten met een eenduidige in de dataobjectmodellen in de landelijke repository/ datacatalogus                                           |
 | |                                                                                                     |
 
-| Principe 13 | We borgen de beschikbaarheid, vertrouwelijkheid en integriteit van gegevens (BIV).      |
+| Principe 13 | We borgen de beschikbaarheid, vertrouwelijkheid en integriteit van registratie van gegevens (BIV).      |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | * AP44  https://www.noraonline.nl/wiki/Controleerbaarheid; * AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe) * AP41  https://www.noraonline.nl/wiki/Beschikbaarheid * AP42 https://www.noraonline.nl/wiki/Integriteit * AP43 https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)                                               |
 | rationale   | Gegevens die binnen digital twin ecosysteem en organisaties worden gegevens verwerkt worden, worden conform de overeengekomen kaders beschikbaar gesteld en beveiligd tegen ongeautoriseerde toegang, frauduleus gebruik of mutatie en gegevensverlies. De eigenaar van digital twin, informatiesysteem dan wel registratie zorgt ervoor dat afnemers van vertrouwelijke gegevens enkel de gegevens verstrekt krijgen waar ze conform hun doelbinding recht op hebben.           |
 | implicatie  | * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen in  het beschikbaar stellen van data, bewerkingen en transformaties.                                            |
 | | * We voeren Data Protection Impact Assessment (DPIA)3 uit op bestaande & nieuwe dataverwerkingen    |
@@ -314,7 +315,7 @@ De capabilities, bouwstenen in deze laag 1 zijn:
 
 | Principe 15 | We beheren de kwaliteit van gegevens actief middels continue verbetering en communiceren de kwaliteit.     |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | * AP31 https://www.noraonline.nl/wiki/PDCA-cyclus_in_besturing_kwaliteit * AP32  https://www.noraonline.nl/wiki/Sturing_kwaliteit_op_het_hoogste_niveau * AP33  https://www.noraonline.nl/wiki/Baseline_kwaliteit_diensten * AP34 https://www.noraonline.nl/wiki/Verantwoording_besturing_kwaliteit                                               |
 | rationale   | De kwaliteit van de gegevens die worden verwerkt binnen de gemeente wordt actief gemonitord en continu verbeterd en op een niveau gehouden wat in overeenstemming is met de eisen die daar vanuit de wetgeving en de afnemers aan gesteld worden. Datakwaliteit sluit aan op het proces waarbinnen het gebruik gegenereerd wordt. De kwaliteit wordt gepubliceerd.           |
 | implicatie  | * Processen die het kwaliteitsbeheer en continu verbeteren borgen zijn ingericht                           |
 | | * De kwaliteit van gegevens zijn van alke databron vastgelegd als metadata                                             |
@@ -325,7 +326,7 @@ De capabilities, bouwstenen in deze laag 1 zijn:
 
 | Principe 16 | Alle databronnen zijn een logisch onderdeel van digital twin ecosysteem die onderling samenhang en uniform zijn in het gegevenslandschap van ecosysteem.            |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                  |
 | rationale   | Alle binnen digital twin ecosysteem aanwezige databronnen hebben een logische functie in het totaal aan beschikbare bronnen, vastgelegd in gemeenschappelijke datamodellen. We maken afspraken over datamodelleren in een afspraken document (bijvoorbeeld Waterschappen DAMO Data Afspreken Model Ondersteunend). We hergebruiken bestaande generieke landelijke informatie modellen en standaarden en wijken af of voegen data objecten toe daar waar het werkproces dit bepaald. |
 | implicatie  | * Vastleggen data- & informatiemodellen met bedrijfs-/ data objecten/begrippen en definities in landelijke UML repository  |
 | | * We hergebruiken landelijke datamodellen zoals IMRO, BRK, NEN3620, IMBOR, IMGeo, IMSW, IMKL, IMVG, etc.                              |
