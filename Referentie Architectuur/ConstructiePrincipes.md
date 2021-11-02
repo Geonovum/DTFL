@@ -83,7 +83,8 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 01 | Eerst hergebruik, dan ontwikkelen we open source programmacode voor functionaliteit die herbruikbaar en onafhankelijk is van dashboard-, monitor-, visualisatie- & simulatie tooling en is platform agnostic.                                |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
+| referentie  | * NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen; 
+* NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden                                             |
 | rationale   | Voor een nieuwe toepassing hergebruiken we functionaliteit, de programmacode, die al binnen het ecosysteem beschikbaar is. Indien de functionaliteit niet beschikbaar is ontwikkelen we open source, zodat de programmacode herbruikbaar is. We publiceren de de ontwikkelde programmacode incl. documentatie zodat andere daarop verder kunnen ontwikkelen. Een voorbeeld van een ontwikkeling is een simulatie- model voor mobiliteit. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
 | implicatie  | * we maken gebruik van programmacode onafhankelijke software   |
 | | * We herbruiken beschikbare functionalitei, programmacode                  |
@@ -97,8 +98,8 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 
 | Principe 02 | Vertrouwd - Privacy & security worden integraal meegenomen in het ontwerp van de 3D visualisaties, simulaties, monitors, dashboards en voorspelmodellen.                                                      |
 |-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
-| rationale   | We houden ons aan wettelijke richtlijnen, nemen maatregelen om risico’s te minimaliseren, en verantwoorden naar betrokkenen wat we doen. We zorgen voor een goede beveiliging van gegevens en garanderen privacy. We ontwikkelen en borgen technische, organisatorische, fysieke en procedurele maatregelen voor privacy en informatiebeveiliging. |
+| referentie  | * AP41   https://www.noraonline.nl/wiki/Beschikbaarheid; * AP42 https://www.noraonline.nl/wiki/Integriteit; * AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)                                             |
+| rationale   | We houden ons aan wettelijke richtlijnen, nemen maatregelen om risico’s te minimaliseren, en verantwoorden naar betrokkenen wat we doen. We zorgen voor een goede beschikbaarheid, integriteit en vertrouwelijkheid en garanderen privacy. We ontwikkelen en borgen technische, organisatorische, fysieke en procedurele maatregelen voor privacy en informatiebeveiliging. |
 | implicatie  | * Vanuit de informatiebeveiliging worden eisen gesteld aan de integriteit en vertrouwelijkheid van gegevens |
 | | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
 | | * Burgers hebben vanuit de Algemene Verordening Gegevensbescherming (AVG) het recht om op te vragen welke persoonsgegevens door de gemeente zijn verwerkt (inzagerecht) |
@@ -353,74 +354,39 @@ De capabilities, bouwstenen in deze laag 1 zijn:
 | | * Neem links naar andere gerelateerde, open data - concepten op in de beschrijving om het ontdekken van gerelateerde informatie op het web te verbeteren.               |
 
 Algemene capabilities waar nog constructieprincipes toegevoegd moeten worden zijn (under construction):
-
 ### Beveiliging
-
-Lorem enz
-
+.
 ##### Identity catalogus
-
-Lorem enz
-
+.
 ##### Identity check
 
-Lorem enz
-
 ##### Identity federation (bijv. SAML)
-
-Lorem enz
-
+.
 #### Autorisatie
-
-Lorem enz
-
+.
 ##### Autorisatie register
-
 .
-
 ##### Autorisatie check
-
 .
-
 ##### Autorisatie federatie
-
 .
-
 ### Ontwikkeling
-
 .
-
 #### Building
-
 .
-
 ##### Development tooling
-
 .
-
 #### Testing
-
 .
-
 ##### Test procedures
 
-
 ##### Test tooling
-
 .
-
 ### Beheer
-
 .
-
 #### ASL
-
 .
-
 #### Console
-
 .
-
 #### ITIL
-
 .
