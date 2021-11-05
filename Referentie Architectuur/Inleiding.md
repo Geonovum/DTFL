@@ -18,45 +18,15 @@ Deze referentie architectuur bevat daarom afspraken, principes en standaarden di
 
 ### Doelgroep
 
-*Beschrijf de doelgroep, wie dat zijn, en hoe ze het rapport kunnen gebruiken*
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibi et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
+Dit document is gericht op iedereen die betrokken is bij het ontwikkelen van vormen van digital twinning binnen het fysieke domein. Dit betreft uiteraard bedrijfs-, informatie-, data- en infrastructuur-architecten, maar ook model- en dataspecialisten, ontwikkelaars, user interface- en beveiligingsexperts en beheerders. Voor personen die iets verder van de techniek afstaan zijn de hoofdstukken over het klantperspectief, de publieke waarden en de stelselafspraken mogelijk ook van belang.
 
 ### Leeswijzer
 
-*Beschrijf hoe het document gelzezen moet worden, welke hoofdstukken voor wie bedoeld zijn, enz...*
-
-Lorem ipsum dolor sit amet, consectetuer [Analyse](#analyse) elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat [Inhoudelijke Keuzes](#inhoudelijke-keuzes) massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis [Conclusies en Aanbevelingen](#conclusies-en-aanbevelingen) pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus [Expert Sessies](#expert-sessies) viverra nulla ut metus varius laoreet. 
-Quisque rutrum. [Informatiemodel](#informatiemodel) Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
+*Lijkt me niet nodig. ER is een overzichtelijke inhouidsopgave en in de vorige paragraaf staat ook al welk deel van het document voor wie bedoeld is. - GB*
 
 ### Het proces
 
-*Beschrijf het proces waarmee dit document is ontwikkeld*
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
+Dit document is eind 2021 tot stand gekomen door samenwerking van architecten van onder meer Geonovum, TNO, Kadaster, Gemeente Utrecht en Gemeente Rotterdam. Er is gebruik gemaakt van een grote hoeveelheid recente literatuur over dit onderwerp. Daarnaast is gebruik gemaakt van voorbeelden uit de praktijk, aangevuld met de vaak jarenlange betrokkenheid van de leden van de werkgroep op het gebied van digital twinning, geo-informatie, modelleringstechnieken, data-analyse, referentie architecturen, etc. Via personele unies, gezamenlijke besprekingen en reviewwerkzaamheden hebben deskundigen uit andere werkgroepen binnen het programma Digital Twin van de Fysieke Leefomgeving invloed uitgeoefend op het eindresultaat. Dit geldt ook voor leden van de werkgroep met vertegenwoordigers uit het bedrijfsleven (nader te specificeren).
 
 <figure id="voorbeeld plaatje">
     <img src="media/voorbeeldplaatje.jpg" alt="voorbeeldplaatje">
@@ -64,6 +34,9 @@ Curabitur ullamcorper ultricies nisi. Nam eget dui.
 </figure>
 
 ### Architectuur producten
+
+*Deze paragraaf strookt niet helemaal met de inhoudsopgave van ons document. Een deel van de informatie staat (nu) in de voorgaande paragrafen.Daarnaast wordt veel gesproken over de bouwblokken, maar we hebben deze voorlopig even voor ons uitgeschoven. De informatie over de pilots zal snel leiden tot veroudering van het document. Ik stel voor deze paragraaf niet op te nemen. - GB*
+
 Het team architectuur ontwikkeld de volgende architectuur producten:
 * NL-DFTL Referentie architectuur bestaande uit:
     * Capabilities/ bouwblokken
