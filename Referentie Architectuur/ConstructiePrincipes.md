@@ -40,11 +40,36 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem fun
 
 ### Presentatie
 
+
 #### User interface
 
 #### Customer Experience
 
 #### Algoritmen
+
+| Principe 0x | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
+|-------------|------------------------------------------------------|
+| referentie  | AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening  AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)                                                 |
+| rationale   | We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
+| implicatie  | * We toetsen de algoritme op rechtmatigheid |
+| | * We hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register ten behoeve van transparantie |
+| | * We weten met welke data het algoritme getraind en ontwikkeld is, wat de data kwaliteit is en de eventueel gebreken in de trainingsdata. We letten op de vooroordelen en de bias en voorkomen dat die erin zijn |
+| | * We voeren assessment uit en voorkomen eventueel bias en minderheden in de data en algoritime|
+| | * We ontwikkelen het algoritme zodanig dat er gelijkwaardige uitkomsten gerealiseerd worden |
+| | * We voeren een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
+| |                                                                   |
+
+| Principe 0x | Hergebruik van algoritmen in digital twin ecosysteem, tenzij.                                |
+|-------------|------------------------------------------------------|
+| referentie  | NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden                                             |
+| rationale   | Voor een nieuwe toepassing hergebruiken we algoritme, de programmacode, die al binnen het ecosysteem beschikbaar is. We publiceren de ontwikkelde programmacode incl. documentatie zodat andere ontwikkelaars daarop verder kunnen ontwikkelen. Een voorbeeld van een ontwikkeling is een simulatie- model voor mobiliteit. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
+| implicatie  | * we maken gebruik van programmacode onafhankelijke software   |
+| | * We herbruiken beschikbare algoritmen, programmacode die software- en platform agnostic ontwikkeld is                  |
+| | * We publiceren ontwikkelde functionaliteit, programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid.                                                              |
+| | * We documenteren programmacode volgens de voorgeschreven standaarden      |
+| | * We beheren de programmacode in een community, samenwerkingsverbanden     |
+| | * We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn  |
+| |                                                                   |
 
 #### Business logic
 
@@ -93,6 +118,14 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem fun
 <aside class='note'>
     JvG: Data Uitwisseling? 
     JvG: én Data Uitwisselingsstandaarden. 
+</aside> 
+
+<aside class='note'>
+    JvG: Authenticatie noemen? zie ook [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
+</aside> 
+
+<aside class='note'>
+    JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
 </aside> 
 
 #### Berichtformaat
@@ -148,14 +181,6 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem fun
 #### Traditioneel registratie
 
 #### In memory
-
-<aside class='note'>
-    JvG: Authenticatie noemen? zie ook [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
-</aside> 
-
-<aside class='note'>
-    JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
-</aside> 
 
 ### Beveiliging
 .
@@ -271,18 +296,6 @@ Onderstaand een toepassing "druktemonitor" in het digital twin ecosysteem die be
 | referentie  | AP44  https://www.noraonline.nl/wiki/Controleerbaarheid                             |
 | rationale   | Het gebruik en gedrag van de dienst moet voldoen aan de gestelde regels. Om te borgen dat dit gebeurt, moet continu worden gemonitord. Om de juistheid van uitkomsten van het systeem aan te kunnen tonen, moet gelogd worden. |
 | implicatie  | * De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door registratie en bewaking van gebeurtenissen en door alarmering op het overschrijden van toelaatbare drempels. Specifiek voor logging: analyseer periodieke logbestanden om de juiste werking van het systeem vast te stellen en beveiligingsincidenten te detecteren             |
-| |                                                                   |
-
-| Principe 06 | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
-|-------------|------------------------------------------------------|
-| referentie  | AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening  AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)                                                 |
-| rationale   | We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
-| implicatie  | * We toetsen de algoritme op rechtmatigheid |
-| | * We hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register ten behoeve van transparantie |
-| | * We weten met welke data het algoritme getraind en ontwikkeld is, wat de data kwaliteit is en de eventueel gebreken in de trainingsdata. We letten op de vooroordelen en de bias en voorkomen dat die erin zijn |
-| | * We voeren assessment uit en voorkomen eventueel bias en minderheden in de data en algoritime|
-| | * We ontwikkelen het algoritme zodanig dat er gelijkwaardige uitkomsten gerealiseerd worden |
-| | * We voeren een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
 | |                                                                   |
 
 | Principe 07 | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
