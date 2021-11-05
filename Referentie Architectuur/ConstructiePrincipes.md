@@ -262,7 +262,7 @@ Onderstaand een toepassing "druktemonitor" in het digital twin ecosysteem die be
 | referentie  | AP41   https://www.noraonline.nl/wiki/Beschikbaarheid                              |
 | rationale   | De continuïteitsafspraken zijn gemaakt op basis van de afbreukrisico's die afnemers lopen bij uitval. De processen van afnemers kunnen spaak lopen met financiële en maatschappelijke schade en het vertrouwen in betrouwbaarheid van de dienst kan afnemen. |
 | implicatie  | * De beschikbaarheid van gegevens en systeemfuncties wordt gegarandeerd door vermeervoudiging van systeemfuncties, door herstelbaarheid en beheersing van verwerkingen, door voorspelling van discontinuïteit en handhaving van functionaliteit |
-| | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
+| | * Uitvoeren van afnemers behoeften management |
 | | * Het niveau van beschikbaarheid is in overleg met de afnemers vastgesteld |
 | | * ICT-voorzieningen, 3D visualisaties, informatieproducten en data bronaansluitingen, voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid |
 | | * De toegankelijkheid van openbare informatie en informatie die die relevant is voor vertrouwelijke gegevensuitwisseling, is gewaarborgd. |
