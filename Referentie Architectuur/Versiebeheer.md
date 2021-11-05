@@ -11,12 +11,24 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 Wie schrijft waaraan
 
 
-| **hoofdstuk**           | **Door**                                       |
-|-------------------------|------------------------------------------------| 
-| Inleiding               | ??                                             |
-| Klantperspectief        | Jan Bruijn                                     |
-| Publieke Waarden        | ??                                             |
-| Ontwerp Principes       | ??                                             |
-| Constructie Principes   | ??                                             |
-| Stelsel Afspraken       | ??                                             |
+| **hoofdstuk**           | **sub-hoofdstuk** | **Door**                                       |
+|-------------------------|-------------------|------------------------------------------------| 
+| Inleiding               |                   | Guido Baaijens                                 |
+| Klantperspectief        |                   | Jan Bruijn                                     |
+| Publieke Waarden        |                   | Jan Bruijn                                     |
+| Ontwerp Principes       | Inleiding         | Michel Grothe/Ton Zijlstra                     |
+| Ontwerp Principes       | Principes         | ??                                             |
+| Constructie Principes   | Inleiding         | ??                                             |
+| Constructie Principes   | Presentatie       | ??                                             |
+| Constructie Principes   | Analytics         | ??                                             |
+| Constructie Principes   | Masterdata        | ??                                             |
+| Constructie Principes   | Transformaties    | ??                                             |
+| Constructie Principes   | Databewerking     | ??                                             |
+| Constructie Principes   | Infrastructuur    | ??                                             |
+| Constructie Principes   | Internet Of Things| ??                                             |
+| Constructie Principes   | Dataopslag        | ??                                             |
+| Constructie Principes   | Beveiliging       | ??                                             |
+| Constructie Principes   | Ontwikkeling      | ??                                             |
+| Constructie Principes   | Beheer            | ??                                             |
+| Stelsel Afspraken       |                   | ??                                             |
                            
