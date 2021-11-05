@@ -160,8 +160,11 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 | Principe 07 | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
 | referentie  | AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden CG: Standaarden We standaardiseren maximaal                                                |
-| rationale   | Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
-| implicatie  | * We gebruiken open standaarden: IFC 2.0; NLCS; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
+| rationale   | Het gebruik van open standaarden bevordert de interoperabiliteit en kunnen (moeten) door alle partijen (vrijelijk) worden gebruikt. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
+| implicatie  | * Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
+| | * Organisaties werken volgens een open standaard voor procesmodellering die door alle samenwerkende partijen op uniforme wijze wordt toegepast. De gekozen open standaard is bepalend voor de keuze van modelleersystemen die deze standaard ondersteunen.
+Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
+| | * We gebruiken open standaarden: IFC 2.0; NLCS; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
 | | * Open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
 | | * We maken gebruik van ETSI CIM NGSI-LD Saref4City ontologie                                           |
 | | * We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)         |
