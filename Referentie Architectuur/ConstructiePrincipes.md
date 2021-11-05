@@ -56,8 +56,8 @@ tekst
 tekst
 
 #### Algoritmen
-To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie
-To do: aanvullen met ethisch kader
+* To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie
+* To do: aanvullen met ethisch kader
 
 | Principe 0x | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
 |-------------|------------------------------------------------------|
@@ -99,7 +99,7 @@ To do: aanvullen met ethisch kader
 | Principe 04 | vertrouwelijkheid - Algoritme is open tenzij alleen voor geautoriseerde afnemers toegankelijk in het digital twin ecosysteem.                                                      |
 |-------------|------------------------------------------------------|
 | referentie  | AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)   |
-| rationale   | De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet worden misbruikt. |
+| rationale   | De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbruikt. |
 | implicatie  | * De vertrouwelijkheid van algoritme wordt gegarandeerd door scheiding van systeemfuncties, door controle en validatie op toegang tot algoritme  |
 | | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen door algoritme |
 | | * Voor het algoritme zijn de mate van vertrouwelijkheid en de bijbehorende identificatie-eisen vastgesteld |
@@ -124,6 +124,24 @@ To do: aanvullen met ethisch kader
 #### Artificial Intelligence
 
 #### Visualisatie componenten
+
+| Principe 0x | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
+|-------------|------------------------------------------------------|
+| referentie  | AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht                                                |
+| rationale   | Het gebruik van open standaarden bevordert de interoperabiliteit en kunnen (moeten) door alle partijen (vrijelijk) worden gebruikt. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
+| implicatie  | * Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
+| | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
+| | * We gebruiken open standaarden: IFC 2.0; NLCS; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
+| | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
+| | * We maken gebruik van op standaard informatie modellen zoals ETSI CIM NGSI-LD Saref4City ontologie                                           |
+| | * We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)         |
+| | * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie |
+| | * We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving                        |
+| | * We gebruiken voor geografische data uitwisseling WMS en WFS en 3D data: CityGML en CityJSON          |
+| | * We gebruiken NEN 3610 Basismodel Geoinformatie en ISO 19136: GML                                     |
+| | * Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
+| | * We gebruiken open standaarden voor Common Data Environment CDE conform ISO 19650; NEN2660                 |
+| | * Datamodelleren conform de MIM standaard  |
 
 ##### 2D afbeeldingen (data statisch)
 
