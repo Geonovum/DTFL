@@ -55,6 +55,7 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem fun
 
 #### Algoritmen
 To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie
+To do: aanvullen met ethisch kader
 
 | Principe 0x | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
 |-------------|------------------------------------------------------|
@@ -78,6 +79,19 @@ To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inz
 | | * We documenteren programmacode volgens de voorgeschreven standaarden      |
 | | * We beheren de programmacode in een community, samenwerkingsverbanden     |
 | | * We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn  |
+| |                                                                   |
+
+| Principe 0x | Integriteit van algoritme is gewaarborgt in het digital twin ecosysteem.                                                      |
+|-------------|------------------------------------------------------|
+| referentie  | https://www.noraonline.nl/wiki/Integriteit      |
+| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat de werking van het algorime correcte, complete en actuele resultaten levert. |
+| implicatie  | * De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling |
+| | * Uitvoeren van auditing op nieuwe en bestaande verwerkingen van het algoritme|
+| | * De criteria voor juistheid, en tijdigheid zijn vastgesteld |
+| | * controleren vanuit nieuwe ingevoerde gegevens op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt |
+| | * controleren te versturen gegevens op juistheid, volledigheid en tijdigheid |
+| | * controleren ter verwerking aangeboden gegevens op juiste, volledig en tijdige verwerking |
+| | * vergelijken periodiek kritieke gegevens die in verschillende gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt alleen zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens               |
 | |                                                                   |
 
 #### Business logic
@@ -275,7 +289,7 @@ Onderstaand een toepassing "druktemonitor" in het digital twin ecosysteem die be
 | Principe 03 | Integriteit - De dienstverlener waarborgt de integriteit van gegevens en systeemfuncties in het digital twin ecosysteem.                                                      |
 |-------------|------------------------------------------------------|
 | referentie  | https://www.noraonline.nl/wiki/Integriteit      |
-| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat hij het correcte, complete en actuele gegeven ontvangt. |
+| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat hij het correcte, complete en actuele gegevens ontvangt. |
 | implicatie  | * De integriteit van gegevens en systeemfuncties wordt gegarandeerd door validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot gegevens en systeemfuncties, door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling en door beperking van functionaliteit |
 | | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
 | | * De criteria voor juistheid, en tijdigheid zijn vastgesteld |
