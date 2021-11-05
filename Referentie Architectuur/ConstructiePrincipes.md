@@ -40,11 +40,59 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem fun
 
 ### Presentatie
 
+| Principe 0x | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
+|-------------|------------------------------------------------------|
+| referentie  | https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa                                                   |
+| rationale   | We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- & informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. Overheidsinstanties zijn bij wet verplicht om alle websites van de organisatie, websites, (mobiele) apps en digitale documenten waar de organisatie aan meebetaalt of medeopdrachtgever voor is, toegankelijk(er) te maken.                         |
+| implicatie  | * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM          | 
+| | * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker                                           |
+| | * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht                        |
+| | * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet men als overheidsinstantie ‘in control’ zijn. Dat betekent dat men weet, ook als bestuurder, voor welke digitale communicatie de overheidsinstantie verantwoordelijk is, dat men de status weet en maatregelen benoemt met een planning om de toegankelijkheid te vergroten en grip te krijgen          |
+
 #### User interface
 
 #### Customer Experience
 
 #### Algoritmen
+To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie
+To do: aanvullen met ethisch kader
+
+| Principe 0x | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
+|-------------|------------------------------------------------------|
+| referentie  | AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening  AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)                                                 |
+| rationale   | We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
+| implicatie  | * We toetsen de algoritme op rechtmatigheid |
+| | * We hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register ten behoeve van transparantie |
+| | * We weten met welke data het algoritme getraind en ontwikkeld is, wat de data kwaliteit is en de eventueel gebreken in de trainingsdata. We letten op de vooroordelen en de bias en voorkomen dat die erin zijn |
+| | * We voeren assessment uit en voorkomen eventueel bias en minderheden in de data en algoritime|
+| | * We ontwikkelen het algoritme zodanig dat er gelijkwaardige uitkomsten gerealiseerd worden |
+| | * We voeren een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
+| |                                                                   |
+
+| Principe 0x | Hergebruik van algoritmen in digital twin ecosysteem, tenzij.                                |
+|-------------|------------------------------------------------------|
+| referentie  | NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden                                             |
+| rationale   | Voor een nieuwe toepassing hergebruiken we algoritme, de programmacode, die al binnen het ecosysteem beschikbaar is. We publiceren de ontwikkelde programmacode incl. documentatie zodat andere ontwikkelaars daarop verder kunnen ontwikkelen. Een voorbeeld van een ontwikkeling is een simulatie- model voor mobiliteit. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
+| implicatie  | * we maken gebruik van programmacode onafhankelijke software   |
+| | * We herbruiken beschikbare algoritmen, programmacode die software- en platform agnostic ontwikkeld is                  |
+| | * We publiceren ontwikkelde functionaliteit, programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid.                                                              |
+| | * We documenteren programmacode volgens de voorgeschreven standaarden      |
+| | * We beheren de programmacode in een community, samenwerkingsverbanden     |
+| | * We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn  |
+| |                                                                   |
+
+| Principe 0x | Integriteit van algoritme is gewaarborgt in het digital twin ecosysteem.                                                      |
+|-------------|------------------------------------------------------|
+| referentie  | https://www.noraonline.nl/wiki/Integriteit      |
+| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat de werking van het algorime correcte, complete en actuele resultaten levert. |
+| implicatie  | * De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling |
+| | * Uitvoeren van auditing op nieuwe en bestaande verwerkingen van het algoritme|
+| | * De criteria voor juistheid, en tijdigheid zijn vastgesteld |
+| | * controleren vanuit nieuwe ingevoerde gegevens op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt |
+| | * controleren te versturen gegevens op juistheid, volledigheid en tijdigheid |
+| | * controleren ter verwerking aangeboden gegevens op juiste, volledig en tijdige verwerking |
+| | * vergelijken periodiek kritieke gegevens die in verschillende gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt alleen zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens               |
+| |                                                                   |
 
 #### Business logic
 
@@ -93,6 +141,14 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem fun
 <aside class='note'>
     JvG: Data Uitwisseling? 
     JvG: én Data Uitwisselingsstandaarden. 
+</aside> 
+
+<aside class='note'>
+    JvG: Authenticatie noemen? zie ook [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
+</aside> 
+
+<aside class='note'>
+    JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
 </aside> 
 
 #### Berichtformaat
@@ -148,14 +204,6 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem fun
 #### Traditioneel registratie
 
 #### In memory
-
-<aside class='note'>
-    JvG: Authenticatie noemen? zie ook [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
-</aside> 
-
-<aside class='note'>
-    JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
-</aside> 
 
 ### Beveiliging
 .
@@ -228,7 +276,7 @@ Onderstaand een toepassing "druktemonitor" in het digital twin ecosysteem die be
 | referentie  | AP41   https://www.noraonline.nl/wiki/Beschikbaarheid                              |
 | rationale   | De continuïteitsafspraken zijn gemaakt op basis van de afbreukrisico's die afnemers lopen bij uitval. De processen van afnemers kunnen spaak lopen met financiële en maatschappelijke schade en het vertrouwen in betrouwbaarheid van de dienst kan afnemen. |
 | implicatie  | * De beschikbaarheid van gegevens en systeemfuncties wordt gegarandeerd door vermeervoudiging van systeemfuncties, door herstelbaarheid en beheersing van verwerkingen, door voorspelling van discontinuïteit en handhaving van functionaliteit |
-| | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
+| | * Uitvoeren van afnemers behoeften management |
 | | * Het niveau van beschikbaarheid is in overleg met de afnemers vastgesteld |
 | | * ICT-voorzieningen, 3D visualisaties, informatieproducten en data bronaansluitingen, voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid |
 | | * De toegankelijkheid van openbare informatie en informatie die die relevant is voor vertrouwelijke gegevensuitwisseling, is gewaarborgd. |
@@ -241,7 +289,7 @@ Onderstaand een toepassing "druktemonitor" in het digital twin ecosysteem die be
 | Principe 03 | Integriteit - De dienstverlener waarborgt de integriteit van gegevens en systeemfuncties in het digital twin ecosysteem.                                                      |
 |-------------|------------------------------------------------------|
 | referentie  | https://www.noraonline.nl/wiki/Integriteit      |
-| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat hij het correcte, complete en actuele gegeven ontvangt. |
+| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat hij het correcte, complete en actuele gegevens ontvangt. |
 | implicatie  | * De integriteit van gegevens en systeemfuncties wordt gegarandeerd door validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot gegevens en systeemfuncties, door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling en door beperking van functionaliteit |
 | | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
 | | * De criteria voor juistheid, en tijdigheid zijn vastgesteld |
@@ -271,18 +319,6 @@ Onderstaand een toepassing "druktemonitor" in het digital twin ecosysteem die be
 | referentie  | AP44  https://www.noraonline.nl/wiki/Controleerbaarheid                             |
 | rationale   | Het gebruik en gedrag van de dienst moet voldoen aan de gestelde regels. Om te borgen dat dit gebeurt, moet continu worden gemonitord. Om de juistheid van uitkomsten van het systeem aan te kunnen tonen, moet gelogd worden. |
 | implicatie  | * De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door registratie en bewaking van gebeurtenissen en door alarmering op het overschrijden van toelaatbare drempels. Specifiek voor logging: analyseer periodieke logbestanden om de juiste werking van het systeem vast te stellen en beveiligingsincidenten te detecteren             |
-| |                                                                   |
-
-| Principe 06 | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
-|-------------|------------------------------------------------------|
-| referentie  | AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening  AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)                                                 |
-| rationale   | We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
-| implicatie  | * We toetsen de algoritme op rechtmatigheid |
-| | * We hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register ten behoeve van transparantie |
-| | * We weten met welke data het algoritme getraind en ontwikkeld is, wat de data kwaliteit is en de eventueel gebreken in de trainingsdata. We letten op de vooroordelen en de bias en voorkomen dat die erin zijn |
-| | * We voeren assessment uit en voorkomen eventueel bias en minderheden in de data en algoritime|
-| | * We ontwikkelen het algoritme zodanig dat er gelijkwaardige uitkomsten gerealiseerd worden |
-| | * We voeren een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
 | |                                                                   |
 
 | Principe 07 | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
@@ -339,15 +375,6 @@ Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg u
 | | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.         |
 
 De constructieprincipes voor de capabilities, bouwstenen in laag 1:
-
-| Principe 11 | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
-|-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
-| rationale   | We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- & informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. Overheidsinstanties zijn bij wet verplicht om alle websites van de organisatie, websites, (mobiele) apps en digitale documenten waar de organisatie aan meebetaalt of medeopdrachtgever voor is, toegankelijk(er) te maken.                         |
-| implicatie  | * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM          | 
-| | * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker                                           |
-| | * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht                        |
-| | * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet men als overheidsinstantie ‘in control’ zijn. Dat betekent dat men weet, ook als bestuurder, voor welke digitale communicatie de overheidsinstantie verantwoordelijk is, dat men de status weet en maatregelen benoemt met een planning om de toegankelijkheid te vergroten en grip te krijgen          |
 
 * BIM gerelateerd werken; samenwerken; workflow management; issue tracking
 
