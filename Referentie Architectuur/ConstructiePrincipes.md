@@ -95,22 +95,57 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 | | * We ontwikkelen op infrastructuur die voldoet aan Common Ground richtlijnen, d.w.z. “haven-compliant” |
 | |                                                                   |
 
-| Principe 02 | Beschikbaarheid, integriteit en vertrouwelijkheid - Privacy & security worden integraal meegenomen in het ontwerp van de 3D visualisaties, simulaties, monitors, dashboards en voorspelmodellen.                                                      |
+| Principe 02 | Beschikbaarheid - De beschikbaarheid van digital twin ecosysteem voldoet aan de met de afnemers gemaakte continuïteitsafspraken.                                                      |
 |-------------|------------------------------------------------------|
-| referentie  | AP41   https://www.noraonline.nl/wiki/Beschikbaarheid AP42 https://www.noraonline.nl/wiki/Integriteit  AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)  AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe)                             |
-| rationale   | We houden ons aan wettelijke richtlijnen, nemen maatregelen om risico’s te minimaliseren, en verantwoorden naar betrokkenen wat we doen. We zorgen voor een goede beschikbaarheid, integriteit en vertrouwelijkheid en garanderen privacy. We ontwikkelen en borgen technische, organisatorische, fysieke en procedurele maatregelen voor privacy en informatiebeveiliging. |
-| implicatie  | * Vanuit de informatiebeveiliging worden eisen gesteld aan de integriteit en vertrouwelijkheid van gegevens |
+| referentie  | AP41   https://www.noraonline.nl/wiki/Beschikbaarheid                              |
+| rationale   | De continuïteitsafspraken zijn gemaakt op basis van de afbreukrisico's die afnemers lopen bij uitval. De processen van afnemers kunnen spaak lopen met financiële en maatschappelijke schade en het vertrouwen in betrouwbaarheid van de dienst kan afnemen. |
+| implicatie  | * De beschikbaarheid van gegevens en systeemfuncties wordt gegarandeerd door vermeervoudiging van systeemfuncties, door herstelbaarheid en beheersing van verwerkingen, door voorspelling van discontinuïteit en handhaving van functionaliteit |
 | | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
-| | * Burgers hebben vanuit de Algemene Verordening Gegevensbescherming (AVG) het recht om op te vragen welke persoonsgegevens door de gemeente zijn verwerkt (inzagerecht) |
-| | * We hebben een verwerkingsregister dat actueel wordt bijgehouden |
-| | * 3D visualisaties, informatieproducten en data worden beveiligd afhankelijk van hun gevoeligheid |
-| | * Vastleggen wie, wanneer en waarom welke persoonsgegevens heeft verwerkt |
-| | * Inrichting monitoring en controle op gebruik van 3D visualisaties, informatieproducten en data |
-| | * We auditen regulier op het gebruik van persoonsgegevens conform vastgestelde protocollen op gegevensbeveiliging|
-| | * De data en informatie zijn alleen inzichtelijk voor die personen die het betreft en op zo'n wijze dat deze het inzicht bieden dat past bij de rol van de medewerker binnen de organisatie               |
+| | * Het niveau van beschikbaarheid is in overleg met de afnemers vastgesteld |
+| | * ICT-voorzieningen, 3D visualisaties, informatieproducten en data bronaansluitingen, voldoen aan het voor de diensten overeengekomen niveau van beschikbaarheid |
+| | * De toegankelijkheid van openbare informatie en informatie die die relevant is voor vertrouwelijke gegevensuitwisseling, is gewaarborgd. |
+| | * De continuïteit van voorzieningen wordt bewaakt, bij bedreiging van de continuïteit wordt alarm geslagen en er is voorzien in een calamiteitenplan |
+| | * De afnemer merkt niets van wijzigingen in het beheer van de generieke componenten in het digital twin ecosysteem |
+| | * Wanneer een nieuwe versie van een standaard geïmplementeerd wordt, blijft de aanbieder de oude versie ondersteunen zolang als dat volgens afspraak nodig is|
+| | * De dienstverlener en de afnemers maken afspraken over de periode waarin overgegaan wordt op een nieuwe versie van de standaard               |
 | |                                                                   |
 
-| Principe 03 | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
+| Principe 03 | Integriteit - De dienstverlener waarborgt de integriteit van gegevens en systeemfuncties in het digital twin ecosysteem.                                                      |
+|-------------|------------------------------------------------------|
+| referentie  | https://www.noraonline.nl/wiki/Integriteit      |
+| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat hij het correcte, complete en actuele gegeven ontvangt. |
+| implicatie  | * De integriteit van gegevens en systeemfuncties wordt gegarandeerd door validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot gegevens en systeemfuncties, door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling en door beperking van functionaliteit |
+| | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
+| | * De criteria voor juistheid, en tijdigheid zijn vastgesteld |
+| | * controleren vanuit een systeemvreemde omgeving ingevoerde gegevens op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt |
+| | * controleren te versturen gegevens op juistheid, volledigheid en tijdigheid |
+| | * controleren ter verwerking aangeboden gegevens op juiste, volledig en tijdige verwerking |
+| | * vergelijken periodiek kritieke gegevens die in verschillende gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt alleen zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens               |
+| |                                                                   |
+
+| Principe 04 | vertrouwelijkheid - De dienstverlener verschaft alleen geautoriseerde afnemers toegang tot vertrouwelijke gegevens in het digital twin ecosysteem.                                                      |
+|-------------|------------------------------------------------------|
+| referentie  | AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)   |
+| rationale   | De gebruiker moet erop kunnen vertrouwen dat gegevens niet worden misbruikt. |
+| implicatie  | * De vertrouwelijkheid van gegevens wordt gegarandeerd door scheiding van systeemfuncties, door controle op communicatiegedrag en gegevensuitwisseling, door validatie op toegang tot gegevens en systeemfuncties en door versleuteling van gegevens |
+| | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen |
+| | * Per dienst zijn de mate van vertrouwelijkheid en de bijbehorende identificatie-eisen vastgesteld |
+| | * We hebben een verwerkingsregister dat actueel wordt bijgehouden |
+| | * Voor een intern systeem, besloten gebouw of ruimte, geldt: “niets mag, tenzij toegestaan”. Daarom wordt de gebruiker voor toegangsverlening geauthenticeerd. Voor afnemers van vertrouwelijke diensten geldt hetzelfde. Daardoor zijn deze gebruikers en afnemers uniek herleidbaar tot één natuurlijk persoon, organisatie of ICT-voorziening |
+| | * Bij authenticatie dwingt het systeem toepassing van sterke wachtwoordconventies af. |
+| | * De instellingen van het aanmeldproces voorkomen dat een gebruiker werkt onder een andere dan de eigen identiteit. |
+| | * Om de mogelijkheden van misbruik te beperken, hebben gebruikers van systemen niet méér rechten dan zij voor hun werk nodig hebben (autorisatie). Daarbij zijn maatregelen getroffen om een onbedoeld gebruik van autorisaties te voorkomen|
+| | * Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               |
+| | *De identificatie.-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie -eis |
+
+| Principe 05 | Controleerbaarheid - De dienstverlener zorgt ervoor dat de beoogde toegang tot gegevens en de juiste werking van zijn systemen continu alsook achteraf te controleren is.                                                      |
+|-------------|------------------------------------------------------|
+| referentie  | AP44  https://www.noraonline.nl/wiki/Controleerbaarheid                             |
+| rationale   | Het gebruik en gedrag van de dienst moet voldoen aan de gestelde regels. Om te borgen dat dit gebeurt, moet continu worden gemonitord. Om de juistheid van uitkomsten van het systeem aan te kunnen tonen, moet gelogd worden. |
+| implicatie  | * De controleerbaarheid van gebruikers- en systeemgedrag wordt gerealiseerd door registratie en bewaking van gebeurtenissen en door alarmering op het overschrijden van toelaatbare drempels. Specifiek voor logging: analyseer periodieke logbestanden om de juiste werking van het systeem vast te stellen en beveiligingsincidenten te detecteren             |
+| |                                                                   |
+
+| Principe 06 | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’. |
 |-------------|------------------------------------------------------|
 | referentie  | AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening  AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)                                                 |
 | rationale   | We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
@@ -122,7 +157,7 @@ De constructie principes die van toepassing zijn op de capabilities/ bouwblokken
 | | * We voeren een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
 | |                                                                   |
 
-| Principe 04 | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
+| Principe 07 | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
 | referentie  | AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden CG: Standaarden We standaardiseren maximaal                                                |
 | rationale   | Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
