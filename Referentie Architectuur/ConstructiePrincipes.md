@@ -4,7 +4,7 @@
 Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes en de referentie architectuur worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.
 
 #### Wat is het doel van constructie principes?
-De constructie principes geven richting aan de pilots, de innovaties en andere ontwikkelingen in het digital twin ecosysteem om de visie, publieke waarden & doelstellingen van het programma NL-DFTL te behalen.
+De constructie principes zijn de voorschriften van de pilots, de innovaties en andere ontwikkelingen in het digital twin ecosysteem om de visie, publieke waarden & doelstellingen van het programma NL-DFTL te behalen.
 De constructie principes zijn de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd in het landelijke programma NL-DFTL.
 
 #### Hoe worden constructie principes toegepast?
@@ -22,7 +22,7 @@ De constructie principes zijn een onderdeel van de NL-DFTL referentiearchitectuu
 #### Waarop zijn de constructie principes gebaseerd?
 De constructie principes zijn gebaseerd op:
 * De ontwerpprincipes van het programma NL-DFTL
-* Wetgeving: 
+* Wetgeving zoals o.a.: 
     * Wet Open Overheid
     * Wet Hergebruik Overheidsinformatie
     * Archiefwet
@@ -38,18 +38,165 @@ De constructie principes zijn gebaseerd op:
 #### Constructie principes hebben als scope het NL-DFTL fundament
 De constructie principes zijn van toepassing op het digital twins ecosysteem fundament, maar een toepassing zoals bijvoorbeeld een landelijke geluidsmodelsimulatie heeft aanvullende specifieke domein constructie principes o.a. gebaseerd op de wet Geluidhinder (die in Omgevingswet overgaat). Of te wel een toepassing moet in ieder geval voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
 
-#### Relatie constructie principes en capabilities/ bouwblokken
-Voor de ordening van de constructie principes hebben we het overzicht van de capabilities /bouwblokken gebruikt. De constructie principes zijn direct te relateren aan 5 lagen waarin de capabilities/ bouwblokken opgenomen zijn.
-Om een digital twin toepassing te realiseren, bijvoorbeeld een landelijk geluid-simulatiemodel, is een combinaties van capabilities/ bouwblokken nodig. Doordat de constructie principes gerelateerd zijn aan de capabilities/ bouwblokken, is direct inzichtelijk welke constructie principes op de realisatie van toepassing zijn.  
+### Presentatie
 
-De constructie principes zijn geordend op de 5 lagen van capability overzichtsplaat volgens Common Ground:
-* Laag 1 - interactielaag met de gebruikersinterface van Digital twins waarin functionaliteit aanwezig is zoals bijvoorbeeld: 3D visualisatie, simulatie, what-if scenario, tijdreizen en gamification 
-* Laag 2 - proceslaag met daarin functionaliteit voor bijvoorbeeld BIM gerelateerd werken.
-* Laag 3 – integratielaag met functionaliteit voor data uitwisseling in digital twin ecosysteem
-* Laag 4 - servicelaag met functionaliteit om allerlei soorten data uit laag 1 registratie-laag beschikbaar te stellen aan de boven liggende lagen middels open standaard services, datatransformatie en datamodel mapping, etc.
-* Laag 5 – Registratielaag met datareristraties zoals bijvoorbeeld taakapplicaties, (basis)administraties, sensoren, complex event processing, maar ook digital twins als een bronsysteem.
+#### User interface
 
-Onderstaand een overzicht van de capabilities/ bouwblokken in het digital twin ecosysteem:
+#### Customer Experience
+
+#### Algoritmen
+
+#### Business logic
+
+##### [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
+
+### Analytics
+
+#### (Big data) analyse tools
+
+#### Self learning systems
+
+#### Artificial Intelligence
+
+#### Visualisatie componenten
+
+##### 2D afbeeldingen (data statisch)
+
+##### 3D afbeeldingen (data statisch)
+
+##### Dashboards
+
+##### Grafieken
+
+##### Monitors (data dynamisch)
+
+##### Simulaties (manipuleerbare data en modellen)
+
+#### Rekenmodellen
+
+#### Simulatiemodellen
+
+##### Gateway
+
+#### Semantiek / ontologie
+
+#### Dataobjectmodellen
+
+#### Metadata
+
+#### Attribuutbeveiliging
+
+### Masterdata / begrippen & definities
+
+### Datacommunicatie
+
+<aside class='note'>
+    JvG: Data Uitwisseling? 
+    JvG: én Data Uitwisselingsstandaarden. 
+</aside> 
+
+#### Berichtformaat
+
+#### Communicatieprotocol
+
+##### Service/ API
+
+##### Verwijsindex
+
+### Transformaties
+
+#### Transformatieregels
+
+#### Transformatiecomponent
+
+### Databewerking
+
+#### Data verwerving
+
+#### Dataverrijking
+
+#### Toegang
+
+### Infrastructuur
+
+#### Datacenter
+
+#### Cloud
+
+##### Public
+
+##### Private
+
+#### Netwerk
+
+##### Public
+
+##### Private
+
+### Internet of Things
+
+#### Sensoren
+
+#### Scada
+
+#### Remote sensing
+
+#### Edge computing
+
+### Dataopslag
+
+#### Traditioneel registratie
+
+#### In memory
+
+<aside class='note'>
+    JvG: Authenticatie noemen? zie ook [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
+</aside> 
+
+<aside class='note'>
+    JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
+</aside> 
+
+### Beveiliging
+.
+##### Identity catalogus
+.
+##### Identity check
+
+##### Identity federation (bijv. SAML)
+.
+#### Autorisatie
+.
+##### Autorisatie register
+.
+##### Autorisatie check
+.
+##### Autorisatie federatie
+.
+### Ontwikkeling
+.
+#### Building
+.
+##### Development tooling
+.
+#### Testing
+.
+##### Test procedures
+
+##### Test tooling
+.
+### Beheer
+.
+#### ASL
+.
+#### Console
+.
+#### ITIL
+.
+
+### BIJLAGEN
+
+De relatie met de capabilities/ bouwblokken wordt in een later moment uitgewerkt. Onderstaand een overzicht van de capabilities/ bouwblokken in het digital twin ecosysteem:
 
 <figure id="infographic capabilities">
     <img src="media/infographic bedrijfsarchitectuur NLDFTL.jpg" alt="infographic capabilities">
@@ -61,25 +208,6 @@ Onderstaand een toepassing "druktemonitor" in het digital twin ecosysteem die be
     <img src="media/infographic bedrijfsarchitectuur NLDFTL 2.jpg" alt="infographic capabilities2">
     <figcaption>figuur 2. Een toepassing die bepaalde capabilities (in rood) gebruikt.</figcaption>
 </figure>
-
-### Laag 1. Interactie- & business laag
-De constructie principes die van toepassing zijn op de capabilities/ bouwblokken in de interactie- en business laag zijn beschreven in deze paragraaf. De capabilities, bouwstenen in deze laag 1 zijn:
-* *####* Algoritmen
-* *####* Business logic
-* *#####* [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
-* *###* Analytics
-* *####* (Big data) analyse tools
-* *####* Self learning systems
-* *####* Artificial Intelligence
-* *####* Visualisatie componenten
-* *#####* 2D afbeeldingen (data statisch)
-* *#####* 3D afbeeldingen (data statisch)
-* *#####* Dashboards
-* *#####* Grafieken
-* *#####* Monitors (data dynamisch)
-* *#####* Simulaties (manipuleerbare data en modellen)
-* *####* Rekenmodellen
-* *####* Simulatiemodellen
 
 | Principe 01 | Eerst hergebruik, dan ontwikkelen we open source programmacode voor functionaliteit die herbruikbaar en onafhankelijk is van dashboard-, monitor-, visualisatie- & simulatie tooling en is platform agnostic.                                |
 |-------------|------------------------------------------------------|
@@ -211,9 +339,6 @@ Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg u
 | | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.         |
 
 De constructieprincipes voor de capabilities, bouwstenen in laag 1:
-* *###* Presentatie
-* *####* User interface
-* *####* Customer Experience
 
 | Principe 11 | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
 |-------------|------------------------------------------------------|
@@ -224,8 +349,6 @@ De constructieprincipes voor de capabilities, bouwstenen in laag 1:
 | | * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht                        |
 | | * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet men als overheidsinstantie ‘in control’ zijn. Dat betekent dat men weet, ook als bestuurder, voor welke digitale communicatie de overheidsinstantie verantwoordelijk is, dat men de status weet en maatregelen benoemt met een planning om de toegankelijkheid te vergroten en grip te krijgen          |
 
-### Laag 2. Proces- & business logica laag
-In deze paragraaf zijn de constructieprincipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de proces- & business logica laag. De capabilities, bouwstenen in deze laag 2 zijn:
 * BIM gerelateerd werken; samenwerken; workflow management; issue tracking
 
 | Principe 12 | Proces logica is software onafhankelijk - De business rules en proces logica kunnen meervoudig worden gebruikt en is transparant naar de burger.                                          |
@@ -238,11 +361,6 @@ In deze paragraaf zijn de constructieprincipes beschreven die van toepassing zij
 | | * We ontwikkelen proces logica in laag 2 en niet in de presentatie laag 1   |
 | |                                                                             |
 
-### Laag 3. Integratie laag
-In deze paragraaf zijn de constructieprincipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de integratie laag.
-De capability, bouwsteen in deze laag 3 is:
-##### Gateway
-
 | Principe 13 | Uniforme gegevensuitwisseling en integratie - De gegevens worden in digital twin ecosysteem uitgewisseld op basis van open standaard integraties en de integraties zijn software onafhankelijk.                                    |
 |-------------|------------------------------------------------------|
 | referentie  | NTB                                                  |
@@ -251,41 +369,6 @@ De capability, bouwsteen in deze laag 3 is:
 | | * We ontwikkelen (systeem)integraties op basis van privacy-by-design                                                  |
 | | * We ontwikkelen (systeem)integraties op basis van open standaarden en zorgen voor documentatie.                      |
 | | * De ontwikkelde (systeem)integraties zijn vindbaar (Github) en herbruikbaar middels de actuele documentatie.         |
-
-### Laag 2. Service laag
-In deze paragraaf zijn de constructieprincipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de service laag.
-De capabilities, bouwstenen in  deze laag 2 zijn:
-* *####* Semantiek / ontologie
-* *####* Dataobjectmodellen
-* *####* Metadata
-* *####* Attribuutbeveiliging
-* *###* Masterdata / begrippen & definities
-* *###* Datacommunicatie
-
-<aside class='note'>
-    JvG: Data Uitwisseling? 
-    JvG: én Data Uitwisselingsstandaarden. 
-</aside> 
-
-* *####* Berichtformaat
-* *####* Communicatieprotocol
-* *#####* Service/ API
-* *#####* Verwijsindex
-* *###* Transformaties
-* *####* Transformatieregels
-* *####* Transformatiecomponent
-* *###* Databewerking
-* *####* Data verwerving
-* *####* Dataverrijking
-* *####* Toegang
-
-<aside class='note'>
-    JvG: Authenticatie noemen? zie ook [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
-</aside> 
-
-<aside class='note'>
-    JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
-</aside> 
 
 | Principe 14 | Voor de inrichting van processen, informatievoorziening en applicaties hanteert de gemeente een service-gerichte architectuur, de landelijke API strategie.      |
 |-------------|------------------------------------------------------|
@@ -320,25 +403,6 @@ De capabilities, bouwstenen in  deze laag 2 zijn:
 | | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.                                                                                                    |
 | | * Auditing vindt plaats op het gebruik van persoonsgegevens conform vastgestelde protocollen en gegevensbeveiliging |
 
-### Laag 1. Registratie laag
-In deze paragraaf zijn de constructieprincipes beschreven die van toepassing zijn op de capabilities/ bouwblokken in de service laag.
-De capabilities, bouwstenen in deze laag 1 zijn:
-* *###* Infrastructuur
-* *####* Datacenter
-* *####* Cloud
-* *#####* Public
-* *#####* Private
-* *####* Netwerk
-* *#####* Public
-* *#####* Private
-* *###* Internet of Things
-* *####* Sensoren
-* *####* Scada
-* *####* Remote sensing
-* *####* Edge computing
-* *###* Dataopslag
-* *####* Traditioneel registratie
-* *####* In memory
 
 | Principe 14 | We borgen de duurzame toegankelijkheid van gegevens daar waar het vereist is.            |
 |-------------|------------------------------------------------------|
@@ -392,39 +456,3 @@ De capabilities, bouwstenen in deze laag 1 zijn:
 | | * Neem links naar andere gerelateerde, open data - concepten op in de beschrijving om het ontdekken van gerelateerde informatie op het web te verbeteren.               |
 
 Algemene capabilities waar nog constructieprincipes toegevoegd moeten worden zijn (under construction):
-### Beveiliging
-.
-##### Identity catalogus
-.
-##### Identity check
-
-##### Identity federation (bijv. SAML)
-.
-#### Autorisatie
-.
-##### Autorisatie register
-.
-##### Autorisatie check
-.
-##### Autorisatie federatie
-.
-### Ontwikkeling
-.
-#### Building
-.
-##### Development tooling
-.
-#### Testing
-.
-##### Test procedures
-
-##### Test tooling
-.
-### Beheer
-.
-#### ASL
-.
-#### Console
-.
-#### ITIL
-.
