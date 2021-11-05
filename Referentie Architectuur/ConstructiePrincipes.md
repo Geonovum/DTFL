@@ -50,8 +50,10 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem fun
 | | * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet men als overheidsinstantie ‘in control’ zijn. Dat betekent dat men weet, ook als bestuurder, voor welke digitale communicatie de overheidsinstantie verantwoordelijk is, dat men de status weet en maatregelen benoemt met een planning om de toegankelijkheid te vergroten en grip te krijgen          |
 
 #### User interface
+tekst
 
 #### Customer Experience
+tekst
 
 #### Algoritmen
 To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie
@@ -72,7 +74,7 @@ To do: aanvullen met ethisch kader
 | Principe 0x | Hergebruik van algoritmen in digital twin ecosysteem, tenzij.                                |
 |-------------|------------------------------------------------------|
 | referentie  | NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden                                             |
-| rationale   | Voor een nieuwe toepassing hergebruiken we algoritme, de programmacode, die al binnen het ecosysteem beschikbaar is. We publiceren de ontwikkelde programmacode incl. documentatie zodat andere ontwikkelaars daarop verder kunnen ontwikkelen. Een voorbeeld van een ontwikkeling is een simulatie- model voor mobiliteit. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
+| rationale   | Voor een nieuwe toepassing hergebruiken we algoritme, de programmacode, die al binnen het ecosysteem beschikbaar is. We publiceren de ontwikkelde programmacode incl. documentatie zodat andere ontwikkelaars daarop verder kunnen ontwikkelen. Een voorbeeld is het hergebruik van het rekenmodel Groene Baten planner. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
 | implicatie  | * we maken gebruik van programmacode onafhankelijke software   |
 | | * We herbruiken beschikbare algoritmen, programmacode die software- en platform agnostic ontwikkeld is                  |
 | | * We publiceren ontwikkelde functionaliteit, programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid.                                                              |
@@ -93,6 +95,21 @@ To do: aanvullen met ethisch kader
 | | * controleren ter verwerking aangeboden gegevens op juiste, volledig en tijdige verwerking |
 | | * vergelijken periodiek kritieke gegevens die in verschillende gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt alleen zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens               |
 | |                                                                   |
+
+| Principe 04 | vertrouwelijkheid - Algoritme is open tenzij alleen voor geautoriseerde afnemers toegankelijk in het digital twin ecosysteem.                                                      |
+|-------------|------------------------------------------------------|
+| referentie  | AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)   |
+| rationale   | De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet worden misbruikt. |
+| implicatie  | * De vertrouwelijkheid van algoritme wordt gegarandeerd door scheiding van systeemfuncties, door controle en validatie op toegang tot algoritme  |
+| | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen door algoritme |
+| | * Voor het algoritme zijn de mate van vertrouwelijkheid en de bijbehorende identificatie-eisen vastgesteld |
+| | * In geval van vertrouwelijkheid van het algoritme wordt de gebruiker voor toegangsverlening geauthenticeerd.  |
+| | * Bij authenticatie dwingt het systeem toepassing van sterke wachtwoordconventies af. |
+| | * De instellingen van het aanmeldproces voorkomen dat een gebruiker werkt onder een andere dan de eigen identiteit. |
+| | * Om de mogelijkheden van misbruik te beperken, hebben gebruikers van algoritmen niet méér rechten dan zij voor hun werk nodig hebben (autorisatie). Daarbij zijn maatregelen getroffen om een onbedoeld gebruik van autorisaties te voorkomen|
+| | * Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               |
+| | * De identificatie-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie-eis |
+
 
 #### Business logic
 
