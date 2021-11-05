@@ -64,9 +64,9 @@ To do: aanvullen met ethisch kader
 | implicatie  | * We toetsen de algoritme op rechtmatigheid |
 | | * We hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register ten behoeve van transparantie |
 | | * We weten met welke data het algoritme getraind en ontwikkeld is, wat de data kwaliteit is en de eventueel gebreken in de trainingsdata. We letten op de vooroordelen en de bias en voorkomen dat die erin zijn |
-| | * We voeren assessment uit en voorkomen eventueel bias en minderheden in de data en algoritime|
 | | * We ontwikkelen het algoritme zodanig dat er gelijkwaardige uitkomsten gerealiseerd worden |
-| | * We voeren een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
+| | * We voeren bij aansluiting een assessment uit en voorkomen eventueel bias en minderheden in de data en algoritme|
+| | * We voeren bij aansluiting een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
 | |                                                                   |
 
 | Principe 0x | Hergebruik van algoritmen in digital twin ecosysteem, tenzij.                                |
