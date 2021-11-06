@@ -39,6 +39,12 @@ De constructie principes zijn gebaseerd op:
 #### Constructie principes hebben als scope het NL-DFTL fundament
 De constructie principes zijn van toepassing op het digital twins ecosysteem, het fundament. Een toepassing in het digital twin ecosysteem zoals bijvoorbeeld een landelijke geluidsmodelsimulatie, kan aanvullende specifieke domein constructie principes hebben, bijvoorbeeld gebaseerd op de wet Geluidhinder (binnenkort Omgevingswet). Of te wel een toepassing moet minimaal voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
 
+Onderstaand figuur een overzicht van de capabilities
+<figure id="overzicht capabilities">
+    <img src="media/infographic capabilities NLDFTL.jpg" alt="overzicht capabilities">
+    <figcaption>figuur 2. Overzicht capabilities</figcaption>
+</figure>
+
 ### Presentatie
 
 | Principe 0x | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
