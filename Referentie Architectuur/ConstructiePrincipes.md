@@ -62,7 +62,13 @@ tekst
 #### 1.1.2 Customer Experience
 tekst
 
-#### 1.1.3 Algoritmen
+##### 1.1.4 [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
+tekst
+
+### 1.2 Analytics
+tekst
+
+#### 1.2.1 Algoritmen
 * To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie
 
 | Principe 0x | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). |
@@ -113,23 +119,17 @@ tekst
 | | * Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               |
 | | * De identificatie-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie-eis |
 
-##### 1.1.4 [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
+#### 1.2.2 (Big data) analyse tools
 tekst
 
-### 1.2 Analytics
-tekst
-
-#### 1.2.1 (Big data) analyse tools
-tekst
-
-#### 1.2.2 Self learning systems
+#### 1.2.3 Self learning systems
 
 * In het Self learning systeem wordt ervoor gezorgd dat mensen op een verantwoorde wijze taken aan self learning-systeem kunnen toevertrouwen zonder daarbij de controle te verliezen.
 * Self learning systeem is controleerbaar door de mens
 * Self learning systeem is transparant en uitlegbaar
 * Ethisch assesment is verricht voor Self learning systeem 
 
-#### 1.2.3 Artificial Intelligence
+#### 1.2.4 Artificial Intelligence
 
 ### 1.3 Visualisatie componenten
 
