@@ -41,7 +41,7 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem, he
 
 Onderstaand figuur een overzicht van de capabilities
 <figure id="overzicht capabilities">
-    <img src="media/infographic capabilities NLDFTL.jpg" alt="overzicht capabilities">
+    <img src="media/infographic capabilities NLDFTL 3.jpg" alt="overzicht capabilities">
     <figcaption>figuur 2. Overzicht capabilities</figcaption>
 </figure>
 
