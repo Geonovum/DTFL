@@ -118,7 +118,7 @@ tekst
 | implicatie  | * We maken gebruik van open source software voor BPMN workflow en DMN decision automation zoals bijvoorbeeld Camunda. 
 | | * Businesslogica ondersteunt API REST OPEN APIspecification https://swagger.io/specification/ |
 | | * Voor BIM software is de praktijk dat workflow, issue management veelal geïntegreerd zijn met de visualisatie en de Common Data Environment en aan dit principe niet kunnen voldoen. Richtlijn is om specifieke business logica.. |
-| | * W...                                 |
+| | * We publiceren ontwikkelde business logica op GitHub (public tenzij private) incl. documentatie.                                 |
 
 
 ##### [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
@@ -139,7 +139,36 @@ tekst
 | rationale   | Het gebruik van open standaarden bevordert de interoperabiliteit en kunnen (moeten) door alle partijen (vrijelijk) worden gebruikt. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
 | implicatie  | * Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
 | | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
-| | * We gebruiken open standaarden: IFC 2.0 https://www.forumstandaardisatie.nl/open-standaarden/ifc; NLCS https://www.forumstandaardisatie.nl/open-standaarden/nlcs; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
+| | * We gebruiken open standaard: SLD voor visualisatie geografische informatie https://forumstandaardisatie.nl/open-standaarden/sld |
+| | * We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms |
+| | * We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service WFS https://www.ogc.org/standards/wfs |
+| | * We gebruiken open standaard: Open Geospatial Consortium OGC CityGML https://www.ogc.org/standards/citygml |
+| | * We gebruiken open standaard: Open Geospatial Consortium OGC CityJSON https://docs.ogc.org/cs/20-072r2/20-072r2.html |
+| | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
+| | * We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles |
+| | * We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)         |
+| | * We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving                        |
+| | * We gebruiken NEN 3610 Basismodel Geoinformatie en ISO 19136: GML                                     |
+| | * Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
+
+##### 2D afbeeldingen (data statisch)
+
+##### 3D afbeeldingen (data statisch)
+
+
+| Principe 0x | Standaard - We standaardiseren maximaal voor Bouw Informatie Modellen (BIM) in digital twin ecosysteem.|
+|-------------|------------------------------------------------------|
+| referentie  |                                                 |
+| rationale   | Het toepassen van open standaarden van BIM in het digital ecosysteem bevordert de interoperabiliteit en kunnen (moeten) door alle partijen (vrijelijk) worden gebruikt. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang.                         |
+| implicatie  | * Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
+| | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
+| | * We gebruiken open standaard: IFC 2.0 https://www.forumstandaardisatie.nl/open-standaarden/ifc | 
+| | * We gebruiken open standaard: NLCS https://www.forumstandaardisatie.nl/open-standaarden/nlcs |
+| | * We gebruiken open standaard: BCF |
+| | * We gebruiken open standaard: 3D vector tiles | 
+| | * We gebruiken open standaard: NLRS; |
+| | * We gebruiken open standaard: NL/Sfb |
+| | * We gebruiken open standaard: COINS2 |
 | | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
 | | * We maken gebruik van op standaard informatie modellen zoals ETSI CIM NGSI-LD Saref4City ontologie                                           |
 | | * We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)         |
@@ -150,10 +179,6 @@ tekst
 | | * Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
 | | * We gebruiken open standaarden voor Common Data Environment CDE conform ISO 19650; NEN2660                 |
 | | * Datamodelleren conform de MIM standaard  |
-
-##### 2D afbeeldingen (data statisch)
-
-##### 3D afbeeldingen (data statisch)
 
 ##### Dashboards
 
