@@ -72,16 +72,16 @@ tekst
 | | * We voeren bij aansluiting een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
 | |                                                                   |
 
-| Principe 0x | Hergebruik van algoritmen in digital twin ecosysteem, tenzij.                                |
+| Principe 0x | Hergebruik van algoritmen in digital twin ecosysteem.                                |
 |-------------|------------------------------------------------------|
 | referentie  | NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden                                             |
 | rationale   | Voor een nieuwe toepassing hergebruiken we algoritme, de programmacode, die al binnen het ecosysteem beschikbaar is. We publiceren de ontwikkelde programmacode incl. documentatie zodat andere ontwikkelaars daarop verder kunnen ontwikkelen. Een voorbeeld is het hergebruik van het rekenmodel Groene Baten planner. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
-| implicatie  | * we maken gebruik van programmacode onafhankelijke software   |
-| | * We herbruiken beschikbare algoritmen, programmacode die software- en platform agnostic ontwikkeld is                  |
-| | * We publiceren ontwikkelde functionaliteit, programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid.                                                              |
-| | * We documenteren programmacode volgens de voorgeschreven standaarden      |
-| | * We beheren de programmacode in een community, samenwerkingsverbanden     |
-| | * We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn  |
+| implicatie  | * we maken gebruik van algoritme programmacode onafhankelijke software   |
+| | * We herbruiken beschikbare algoritme programmacode die software- en platform agnostic ontwikkeld is                  |
+| | * We publiceren ontwikkelde algoritme programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid.                                                              |
+| | * We documenteren algoritme programmacode volgens de voorgeschreven standaarden      |
+| | * We beheren de algoritme programmacode in een community, samenwerkingsverbanden     |
+| | * We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn voor hergebruik |
 | |                                                                   |
 
 | Principe 0x | Integriteit van algoritme is gewaarborgt in het digital twin ecosysteem.                                                      |
@@ -89,12 +89,9 @@ tekst
 | referentie  | https://www.noraonline.nl/wiki/Integriteit      |
 | rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat de werking van het algorime correcte, complete en actuele resultaten levert. |
 | implicatie  | * De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling |
-| | * Uitvoeren van auditing op nieuwe en bestaande verwerkingen van het algoritme|
-| | * De criteria voor juistheid, en tijdigheid zijn vastgesteld |
-| | * controleren vanuit nieuwe ingevoerde gegevens op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt |
-| | * controleren te versturen gegevens op juistheid, volledigheid en tijdigheid |
-| | * controleren ter verwerking aangeboden gegevens op juiste, volledig en tijdige verwerking |
-| | * vergelijken periodiek kritieke gegevens die in verschillende gegevensverzamelingen voorkomen met elkaar op consistentie. Dit geldt alleen zolang als de gegevens niet frequent en integraal worden gesynchroniseerd met de brongegevens               |
+| | * Uitvoeren van auditing op nieuwe en bestaande werking en data verwerkingen van het algoritme|
+| | * De criteria voor juistheid, en tijdigheid en volledigheid van algoritme zijn vastgesteld en worden regulier gecontroleerd |
+| | * controleren vanuit nieuwe ontwikkelde algoritme of veranderende gegevensverwerking van algoritme op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt |
 | |                                                                   |
 
 | Principe 04 | vertrouwelijkheid - Algoritme is open tenzij alleen voor geautoriseerde afnemers toegankelijk in het digital twin ecosysteem.                                                      |
