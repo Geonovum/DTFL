@@ -22,21 +22,22 @@ De constructie principes zijn een onderdeel van de NL-DFTL referentiearchitectuu
 #### Waarop zijn de constructie principes gebaseerd?
 De constructie principes zijn gebaseerd op:
 * De ontwerpprincipes van het programma NL-DFTL
-* Wetgeving zoals o.a.: 
+* Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE)
+* Nederlandse Wetgeving: 
     * Wet Open Overheid
     * Wet Hergebruik Overheidsinformatie
     * Archiefwet
     * Wet digitale toegankelijkheid
-    * Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE)
-    * Wet Basisadministraties zoals BAG; BGT; BRO
-    * omgevingswet en Wet Ruimtelijke Ordening
+    * Wet Basisadministraties zoals bijvoorbeeld BAG; BGT; BRO
+    * Omgevingswet
+    * Wet Ruimtelijke Ordening
 * Landelijke richtlijnen voor architectuur: NORA
 * Landelijke richtlijnen voor gegevensbescherming: AVG & GDPR
 * Landelijke richtlijnen voor software ontwikkeling: Common Ground
 * overig <>...
 
 #### Constructie principes hebben als scope het NL-DFTL fundament
-De constructie principes zijn van toepassing op het digital twins ecosysteem fundament, maar een toepassing zoals bijvoorbeeld een landelijke geluidsmodelsimulatie heeft aanvullende specifieke domein constructie principes o.a. gebaseerd op de wet Geluidhinder (die in Omgevingswet overgaat). Of te wel een toepassing moet in ieder geval voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
+De constructie principes zijn van toepassing op het digital twins ecosysteem, het fundament. Een toepassing in het digital twin ecosysteem zoals bijvoorbeeld een landelijke geluidsmodelsimulatie, kan aanvullende specifieke domein constructie principes hebben, bijvoorbeeld gebaseerd op de wet Geluidhinder (binnenkort Omgevingswet). Of te wel een toepassing moet minimaal voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
 
 ### Presentatie
 
@@ -113,6 +114,16 @@ tekst
 
 #### Business logic
 
+| Principe 0x | Hergebruik businesslogica en business logica visualisatie tooling onafhankelijk ontwikkelen in digital twin ecosysteem.|
+|-------------|------------------------------------------------------|
+| referentie  |                                                 |
+| rationale   | Door business logica los van visualisatie tooling te ontwikkelen zijn we flexibel in keuze software en leveranciersonafhankelijk zowel voor businesslogica als visualisatie software. Dit geldt tevens zoor informatie- en datamodellen en ontologiën.                         |
+| implicatie  | * We maken gebruik van open source software voor BPMN workflow en DMN decision automation zoals bijvoorbeeld Camunda. 
+| | * Businesslogica ondersteunt API REST OPEN APIspecification https://swagger.io/specification/ |
+| | * Voor BIM software is de praktijk dat workflow, issue management veelal geïntegreerd zijn met de visualisatie en de Common Data Environment en aan dit principe niet kunnen voldoen. Richtlijn is om specifieke business logica.. |
+| | * W...                                 |
+
+
 ##### [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
 
 ### Analytics
@@ -131,7 +142,7 @@ tekst
 | rationale   | Het gebruik van open standaarden bevordert de interoperabiliteit en kunnen (moeten) door alle partijen (vrijelijk) worden gebruikt. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
 | implicatie  | * Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
 | | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
-| | * We gebruiken open standaarden: IFC 2.0; NLCS; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
+| | * We gebruiken open standaarden: IFC 2.0 https://www.forumstandaardisatie.nl/open-standaarden/ifc; NLCS https://www.forumstandaardisatie.nl/open-standaarden/nlcs; BCF; 3D vector tiles; NLRS; NL/Sfb, COINS2 |
 | | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
 | | * We maken gebruik van op standaard informatie modellen zoals ETSI CIM NGSI-LD Saref4City ontologie                                           |
 | | * We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)         |
