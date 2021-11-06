@@ -129,6 +129,11 @@ tekst
 
 #### Self learning systems
 
+* In het Self learning systeem Ervoor wordt ervoor gezorgd dat mensen op een verantwoorde wijze taken aan self learning-systeem kunnen toevertrouwen zonder daarbij de controle te verliezen.
+* Self learning systeem is controleerbaar door de mens
+* Self learning systeem is transparant en uitlegbaar
+* Ethisch assesment is verricht voor Self learning systeem 
+
 #### Artificial Intelligence
 
 #### Visualisatie componenten
@@ -137,7 +142,7 @@ tekst
 |-------------|------------------------------------------------------|
 | referentie  | AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht                                                |
 | rationale   | Het gebruik van open standaarden bevordert de interoperabiliteit en kunnen (moeten) door alle partijen (vrijelijk) worden gebruikt. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
-| implicatie  | * Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
+| implicatie  | * Met ontwikkelaars aan het digital twin ecosysteem zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
 | | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
 | | * We gebruiken open standaard: SLD voor visualisatie geografische informatie https://forumstandaardisatie.nl/open-standaarden/sld |
 | | * We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms |
@@ -147,9 +152,10 @@ tekst
 | | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
 | | * We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles |
 | | * We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)         |
-| | * We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving                        |
-| | * We gebruiken NEN 3610 Basismodel Geoinformatie en ISO 19136: GML                                     |
-| | * Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
+| | * We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving  https://wetten.overheid.nl/BWBR0026158/2009-09-01                      |
+| | * We gebruiken de NEN 3610 Basismodel Geoinformatie https://www.nen.nl/nen-3610-2011-nl-156811     | 
+| | * ISO 19136: Geography Markup Language  GML https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19136-1.                    |
+| | * We gebruiken de Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
 
 ##### 2D afbeeldingen (data statisch)
 
@@ -170,15 +176,13 @@ tekst
 | | * We gebruiken open standaard: NL/Sfb |
 | | * We gebruiken open standaard: COINS2 |
 | | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
-| | * We maken gebruik van op standaard informatie modellen zoals ETSI CIM NGSI-LD Saref4City ontologie                                           |
-| | * We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)         |
-| | * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie |
+
 | | * We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving                        |
 | | * We gebruiken voor geografische data uitwisseling WMS en WFS en 3D data: CityGML en CityJSON          |
 | | * We gebruiken NEN 3610 Basismodel Geoinformatie en ISO 19136: GML                                     |
 | | * Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
 | | * We gebruiken open standaarden voor Common Data Environment CDE conform ISO 19650; NEN2660                 |
-| | * Datamodelleren conform de MIM standaard  |
+
 
 ##### Dashboards
 
@@ -196,9 +200,36 @@ tekst
 
 #### Semantiek / ontologie
 
+| Principe 09 | Verbinden digital twins in ecosysteem - We maken gebruik gemeenschappelijkelandelijke- en smart city-ontologieen.              |
+|-------------|------------------------------------------------------|
+| referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                 |
+| rationale   | We maken gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         |
+| implicatie  | * We gebruiken de smart city-ontologie ETSI CIM NGSI-LD Saref4City ontologie  https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf                                |
+| | * We gebruiken ontologie IMBOR Informatie Model Openbare Ruimte https://github.com/Stichting-CROW/imbor                                  |
+| | * We gebruiken ontologie Gegevenswoordenboek Stedelijk Water (GWSW) https://data.gwsw.nl/ |
+| | * We gebruiken W3C/OGC GeoSparql ontologie https://www.ogc.org/projects/groups/geosparqlswg  |
+| | * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie | 
+| |                                                                                       |
+
+
 #### Dataobjectmodellen
 
+| Principe 09 | Verbinden digital twins in ecosysteem - We maken gebruik canonieke data-objecten om digital twins met elkaar te kunnen verbinden en gemeenschappelijke smart city-ontologieen.              |
+|-------------|------------------------------------------------------|
+| referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                 |
+| rationale   | We gebruiken afgesproken canonieke data objecten. Dit betekent dat elk 3D visualisatie, simulatiemodel etc. uniforme data objecten heeft. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         |
+| implicatie  | * We gebruiken afgesproken canonieke data object: Rijksdriehoekscoördinaten “RD- coördinaten” https://www.nsgi.nl/geodetische-infrastructuur/referentiestelsels/rdinfo      |
+| | * We gebruiken afgesproken canonieke data object: “NAP” https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil#:~:text=Om%20binnen%20Nederland%20hoogtes%20te,6%2C78%20m%20onder%20NAP.    |
+| | * We gebruiken afgesproken canonieke data object:  “Nederlandse tijd” https://24timezones.com/Nederland/tijd    |
+| | * We gebruiken afgesproken canonieke data object:  “geografisch middelpunt van Nederland”   https://nl.wikipedia.org/wiki/Geografisch_middelpunt_van_Nederland                                  |
+| | * We datamodelleren conform de MIM standaard  https://www.forumstandaardisatie.nl/open-standaarden/mim                                             |
+| | * We ontwikkelen datamodellen die uitwisselbaar zijn in een open standaard formaat UML eXchange Format (UXF) https://en.wikipedia.org/wiki/UXF
+| |                                                                                       |
+
+
 #### Metadata
+
+DCAT
 
 #### Attribuutbeveiliging
 
