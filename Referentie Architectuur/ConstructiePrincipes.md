@@ -107,25 +107,14 @@ tekst
 | | * Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               |
 | | * De identificatie-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie-eis |
 
-
-#### Business logic
-
-| Principe 0x | Hergebruik businesslogica en business logica visualisatie tooling onafhankelijk ontwikkelen in digital twin ecosysteem.|
-|-------------|------------------------------------------------------|
-| referentie  |                                                 |
-| rationale   | Door business logica los van visualisatie tooling te ontwikkelen zijn we flexibel in keuze software en leveranciersonafhankelijk zowel voor businesslogica als visualisatie software. Dit geldt tevens zoor informatie- en datamodellen en ontologiën.                         |
-| implicatie  | * We maken gebruik van open source software voor BPMN workflow en DMN decision automation zoals bijvoorbeeld Camunda. 
-| | * Businesslogica ondersteunt API REST OPEN APIspecification https://swagger.io/specification/ |
-| | * Voor BIM software is de praktijk dat workflow, issue management veelal geïntegreerd zijn met de visualisatie en de Common Data Environment en aan dit principe niet kunnen voldoen. Richtlijn is om specifieke business logica.. |
-| | * We publiceren ontwikkelde business logica op GitHub (public tenzij private) incl. documentatie.                                 |
-| | * We borgen dat business rules voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). |
-
-
 ##### [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
+tekst
 
 ### Analytics
+tekst
 
 #### (Big data) analyse tools
+tekst
 
 #### Self learning systems
 
@@ -178,20 +167,41 @@ tekst
 | | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
 | | * We gebruiken open standaarden voor Common Data Environment CDE conform ISO 19650  https://www.bimloket.nl/p/269/NEN-EN-ISO-19650 en NEN2660 https://www.nen.nl/nen-2660-1-2020-ontw-nl-278048 . NEN 2660-1  biedt een raamwerk voor het ontwikkelen van samenhangende conceptuele modellen en -views, die betrekking hebben op het gebruik van, en de gehele levenscyclus van de gebouwde omgeving, en elementen uit deze omgeving.                 |
 
-
 ##### Dashboards
+tekst
 
 ##### Grafieken
+tekst
 
 ##### Monitors (data dynamisch)
+tekst
 
 ##### Simulaties (manipuleerbare data en modellen)
+tekst
 
 #### Rekenmodellen
+tekst
 
 #### Simulatiemodellen
+tekst
 
-##### Gateway
+### Business logic
+
+| Principe 0x | Hergebruik businesslogica en business logica visualisatie tooling onafhankelijk ontwikkelen in digital twin ecosysteem.|
+|-------------|------------------------------------------------------|
+| referentie  |                                                 |
+| rationale   | Door business logica los van visualisatie tooling te ontwikkelen zijn we flexibel in keuze software en leveranciersonafhankelijk zowel voor businesslogica als visualisatie software. Dit geldt tevens zoor informatie- en datamodellen en ontologiën.                         |
+| implicatie  | * We maken gebruik van open source software voor BPMN workflow en DMN decision automation zoals bijvoorbeeld Camunda. 
+| | * Businesslogica ondersteunt API REST OPEN APIspecification https://swagger.io/specification/ |
+| | * Voor BIM software is de praktijk dat workflow, issue management veelal geïntegreerd zijn met de visualisatie en de Common Data Environment en aan dit principe niet kunnen voldoen. Richtlijn is om specifieke business logica.. |
+| | * We publiceren ontwikkelde business logica op GitHub (public tenzij private) incl. documentatie.                                 |
+| | * We borgen dat business rules voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). |
+
+#### Gateway
+tekst
+
+### Datacommunicatie
+tekst
 
 #### Semantiek / ontologie
 
@@ -205,7 +215,6 @@ tekst
 | | * We gebruiken W3C/OGC GeoSparql ontologie https://www.ogc.org/projects/groups/geosparqlswg  |
 | | * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie | 
 | |                                                                                       |
-
 
 #### Dataobjectmodellen
 
@@ -235,8 +244,9 @@ tekst
 | | * Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.               |
 
 #### Attribuutbeveiliging
+tekst
 
-### Masterdata / begrippen & definities
+#### Masterdata / begrippen & definities
 
 | Principe 0x | We hanteren uniforme begrippen & definities voor gegevens.                   |
 |-------------|------------------------------------------------------|
@@ -249,8 +259,6 @@ tekst
 | | * We gebruiken gegevens met een eenduidige landelijke taxonomie, classificatie van begrippen. We maken gebruik van Samenhangende Objecten Registratie SOR begrippenkader                                 |
 | | * We publiceren in de landelijke repository/ datacatalogus                                           |
 | |                                                                                                     |
-
-### Datacommunicatie
 
 <aside class='note'>
     JvG: Data Uitwisseling? 
@@ -266,8 +274,10 @@ tekst
 </aside> 
 
 #### Berichtformaat
+tekst
 
 #### Communicatieprotocol
+tekst
 
 ##### Service/ API
 
@@ -281,14 +291,19 @@ tekst
 | | * De ontwikkelde services/API's zijn vindbaar (Github) en herbruikbaar middels de actuele documentatie volgens de OpenAPI Specification (OAS) standaard.  https://swagger.io/specification/          |
 
 ##### Verwijsindex
+tekst
 
 ### Transformaties
+tekst
 
 #### Transformatieregels
+tekst
 
 #### Transformatiecomponent
+tekst
 
 ### Databewerking
+tekst
 
 #### Data verwerving
 
@@ -337,77 +352,112 @@ tekst
 | | * Proceseigenaren zien erop toe dat de data, de data die binnen een proces worden ingewonnen of geactualiseerd. Datakwaliteit wordt door proceseigenaren voortdurend gerapporteerd en datakwaliteit inzichtelijk aangeboden in datacatalogus, aangeduid met een kwaliteitslabel op een duidelijke schaal conform de handreiking gegevenskwaliteit.                                         |
 
 #### Dataverrijking
+tekst
 
 #### Toegang
+tekst
 
 ### Infrastructuur
+tekst
 
 #### Datacenter
+tekst
 
 #### Cloud
+tekst
 
 ##### Public
+tekst
 
 ##### Private
+tekst
 
 #### Netwerk
+tekst
 
 ##### Public
+tekst
 
 ##### Private
+tekst
 
 ### Internet of Things
+tekst
 
 #### Sensoren
+tekst
 
 #### Scada
+tekst
 
 #### Remote sensing
+tekst
 
 #### Edge computing
+tekst
 
 ### Dataopslag
+tekst
 
 #### Traditioneel registratie
+tekst
 
 #### In memory
+tekst
 
 ### Beveiliging
-.
+tekst
+
 ##### Identity catalogus
-.
+tekst
+
 ##### Identity check
+tekst
 
 ##### Identity federation (bijv. SAML)
-.
+tekst.
+
 #### Autorisatie
-.
+tekst.
+
 ##### Autorisatie register
-.
+tekst.
+
 ##### Autorisatie check
-.
+tekst.
+
 ##### Autorisatie federatie
-.
+tekst.
+
 ### Ontwikkeling
-.
+tekst.
+
 #### Building
-.
+tekst.
+
 ##### Development tooling
-.
+tekst.
+
 #### Testing
-.
+tekst.
+
 ##### Test procedures
+tekst
 
 ##### Test tooling
-.
+tekst.
+
 ### Beheer
-.
+tekst.
+
 #### ASL
-.
+tekst.
+
 #### Console
-.
+tekst.
+
 #### ITIL
-.
+tekst.
 
 ## BIJLAGEN
 
