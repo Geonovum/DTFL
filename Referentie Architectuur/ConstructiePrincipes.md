@@ -47,6 +47,7 @@ Onderstaand figuur een overzicht van de capabilities
 
 <aside class='note'>
     | | * FdW: functies toevoegen zoals ; Data markt plaats; enterprise search; data bevragingen/query; visualisatie/model/informatie abonnement; catalogi? |
+    |-------------|------------------------------------------------------|
     | | * FdW: én BIM gerelateerd werken functionaliteit? |
 </aside> 
 
