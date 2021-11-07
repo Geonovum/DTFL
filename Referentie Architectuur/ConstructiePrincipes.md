@@ -22,7 +22,7 @@ De constructie principes zijn een onderdeel van de NL-DFTL referentiearchitectuu
 #### Waarop zijn de constructie principes gebaseerd?
 De constructie principes zijn gebaseerd op:
 * De ontwerpprincipes van het programma NL-DFTL
-* Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE) en Minimal Interoperability Mechanisms https://oascities.org/minimal-interoperability-mechanisms/
+* Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE) https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving en Minimal Interoperability Mechanisms https://oascities.org/minimal-interoperability-mechanisms/
 * Nederlandse Wetgeving: 
     * Wet Open Overheid
     * Wet Hergebruik Overheidsinformatie
