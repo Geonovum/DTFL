@@ -75,7 +75,7 @@ tekst
 
 #### 1.2.1 Algoritmen
 <aside class='note'>
-    FdW: To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie? 
+    <p> FdW: To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie? </p> 
 </aside> 
 
 | Principe 0x | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). |
@@ -131,17 +131,17 @@ tekst
 
 #### 1.2.3 Self learning systems
 <aside class='note'>
-    FdW: toevoegen: * In het Self learning systeem wordt ervoor gezorgd dat mensen op een verantwoorde wijze taken aan self learning-systeem kunnen toevertrouwen zonder daarbij de controle te verliezen.
+    <p> FdW: toevoegen: * In het Self learning systeem wordt ervoor gezorgd dat mensen op een verantwoorde wijze taken aan self learning-systeem kunnen toevertrouwen zonder daarbij de controle te verliezen.
 * Self learning systeem is controleerbaar door de mens
 * Self learning systeem is transparant en uitlegbaar
-* Ethisch assesment is verricht voor Self learning systeem  
+* Ethisch assesment is verricht voor Self learning systeem  </p> 
 </aside> 
 
 #### 1.2.4 Artificial Intelligence
 
 ### 1.3 Visualisatie componenten
 <aside class='note'>
-    FdW: is het gebruik van open source software ook een constructie principe?  
+    <p> FdW: is het gebruik van open source software ook een constructie principe? </p>  
 </aside>
 
 | Principe 0x | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
@@ -217,7 +217,7 @@ tekst
 
 ### 3.1 Gateway
 <aside class='note'>
-    FdW: er zijn meerdere API gateway toepassingen voor voor API REST en geo-webservices maar ook API gateway voor streaming data.  
+    <p> FdW: er zijn meerdere API gateway toepassingen voor voor API REST en geo-webservices maar ook API gateway voor streaming data. </p>   
 </aside>
 
 | Principe 0x | Standaard - We standaardiseren maximaal in open source API Gateway oplossingen in digital twin ecosysteem.|
