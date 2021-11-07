@@ -45,6 +45,11 @@ Onderstaand figuur een overzicht van de capabilities
     <figcaption>figuur 2. Overzicht capabilities</figcaption>
 </figure>
 
+<aside class='note'>
+    FdW: functies toevoegen zoals ; Data markt plaats; enterprise search; data bevragingen/query; visualisatie/model/informatie abonnement; catalogi? 
+    FdW: én BIM gerelateerd werken functionaliteit? 
+</aside> 
+
 ### 1.1 Presentatie
 
 | Principe 0x | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
@@ -69,7 +74,9 @@ tekst
 tekst
 
 #### 1.2.1 Algoritmen
-* To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie
+<aside class='note'>
+    FdW: To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie? 
+</aside> 
 
 | Principe 0x | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). |
 |-------------|------------------------------------------------------|
@@ -123,17 +130,19 @@ tekst
 tekst
 
 #### 1.2.3 Self learning systems
-
-* In het Self learning systeem wordt ervoor gezorgd dat mensen op een verantwoorde wijze taken aan self learning-systeem kunnen toevertrouwen zonder daarbij de controle te verliezen.
+<aside class='note'>
+    FdW: toevoegen: * In het Self learning systeem wordt ervoor gezorgd dat mensen op een verantwoorde wijze taken aan self learning-systeem kunnen toevertrouwen zonder daarbij de controle te verliezen.
 * Self learning systeem is controleerbaar door de mens
 * Self learning systeem is transparant en uitlegbaar
-* Ethisch assesment is verricht voor Self learning systeem 
+* Ethisch assesment is verricht voor Self learning systeem  
+</aside> 
 
 #### 1.2.4 Artificial Intelligence
 
 ### 1.3 Visualisatie componenten
-
-* is het gebruik van open source software ook een constructie principe?
+<aside class='note'>
+    FdW: is het gebruik van open source software ook een constructie principe?  
+</aside>
 
 | Principe 0x | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
@@ -207,7 +216,9 @@ tekst
 | | * Note: voor BIM software is de praktijk dat functionaliteit workflow, issue management veelal wél geïntegreerd zijn met de visualisatie en de Common Data Environment en aan dit principe in de praktijk niet wordt voldaan. Richtlijn is in ieder geval van toepassing voor aanvullende specifieke business logica. |
 
 ### 3.1 Gateway
-* er zijn meerdere API gateway toepassingen voor voor API REST en geo-webservices maar ook API gateway voor streaming data
+<aside class='note'>
+    FdW: er zijn meerdere API gateway toepassingen voor voor API REST en geo-webservices maar ook API gateway voor streaming data.  
+</aside>
 
 | Principe 0x | Standaard - We standaardiseren maximaal in open source API Gateway oplossingen in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
