@@ -22,7 +22,7 @@ De constructie principes zijn een onderdeel van de NL-DFTL referentiearchitectuu
 #### Waarop zijn de constructie principes gebaseerd?
 De constructie principes zijn gebaseerd op:
 * De ontwerpprincipes van het programma NL-DFTL
-* Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE)
+* Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE) en Minimal Interoperability Mechanisms https://oascities.org/minimal-interoperability-mechanisms/
 * Nederlandse Wetgeving: 
     * Wet Open Overheid
     * Wet Hergebruik Overheidsinformatie
@@ -226,12 +226,12 @@ tekst
 |-------------|------------------------------------------------------|
 | referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                 |
 | rationale   | We maken gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         |
-| implicatie  | * We gebruiken de smart city-ontologie ETSI CIM NGSI-LD Saref4City ontologie  https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf                                |
+| implicatie  | * We gebruiken de smart city-ontologie ETSI CIM NGSI-LD Saref4City:  https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf                                |
 | | * We gebruiken ontologie IMBOR Informatie Model Openbare Ruimte https://github.com/Stichting-CROW/imbor                                  |
 | | * We gebruiken ontologie Gegevenswoordenboek Stedelijk Water (GWSW) https://data.gwsw.nl/ |
 | | * We gebruiken W3C/OGC GeoSparql ontologie https://www.ogc.org/projects/groups/geosparqlswg  |
 | | * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie | 
-| |                                                                                       |
+| | * Note: Microsoft maakt gebruik van smart city-ontologie ETSI CIM NGSI-LD en en heeft het geïmplementeerd op Micrsoft Azure Digital twin software middels een specifieke Microsoft taal: open source DTDL-based Smart Cities ontology  https://techcommunity.microsoft.com/t5/internet-of-things/smart-cities-ontology-for-digital-twins/ba-p/2166585. Het is niet volledig leveranciersonafhankelijk.     |
 
 #### 4.1.2 Dataobjectmodellen
 
