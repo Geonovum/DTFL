@@ -16,7 +16,7 @@ De constructie principes zijn een onderdeel van de NL-DFTL referentiearchitectuu
 
 <figure id="duiding constructieprincipes">
     <img src="media/duiding constructie principes.jpg" alt="duiding constructieprincipes">
-    <figcaption>figuur 1. De constructie principes in samenhang met de referentie architectuur en de pilots</figcaption>
+    <figcaption>De constructie principes in samenhang met de referentie architectuur en de pilots</figcaption>
 </figure>
 
 #### Waarop zijn de constructie principes gebaseerd?
@@ -42,7 +42,7 @@ De constructie principes zijn van toepassing op het digital twins ecosysteem, he
 Onderstaand figuur een overzicht van de capabilities
 <figure id="overzicht capabilities">
     <img src="media/infographic capabilities NLDFTL 3.jpg" alt="overzicht capabilities">
-    <figcaption>figuur 2. Overzicht capabilities</figcaption>
+    <figcaption>Overzicht capabilities</figcaption>
 </figure>
 
 <aside class='note'>

@@ -22,7 +22,10 @@ Dit document is gericht op iedereen die betrokken is bij het ontwikkelen van vor
 
 ### Leeswijzer
 
-*Lijkt me niet nodig. ER is een overzichtelijke inhouidsopgave en in de vorige paragraaf staat ook al welk deel van het document voor wie bedoeld is. - GB*
+<aside class='note'>
+GB: Lijkt me niet nodig. ER is een overzichtelijke inhouidsopgave en in de vorige paragraaf staat ook al welk deel van het document voor wie bedoeld is.
+</aside> 
+
 
 ### Het proces
 
@@ -71,5 +74,5 @@ De bouwblokken/ solutions op de roadmap is de basis voor de NL-DFTL doelarchitec
 In onderstaand figuur zijn de architectuurproducten weergegeven met een rode stip die in het programma gerealiseerd worden:
 <figure id="Architectuur producten">
     <img src="media/Architectuur producten NL DFTL v02.jpg" alt="Architectuur producten">
-    <figcaption>Figuur 2 Architectuur producten</figcaption>
+    <figcaption>Architectuur producten</figcaption>
 </figure>
