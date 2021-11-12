@@ -408,7 +408,8 @@ tekst
 tekst
 
 #### 5.3.4 Private
-tekst
+
+##### 5.3.4.1. Personal Data Pods (SOLID)
 
 ### 5.4 Netwerk
 tekst
@@ -425,13 +426,19 @@ tekst
 #### 5.5.1 Sensoren
 tekst
 
-#### 5.5.2 Scada
+#### 5.5.2 Actuatoren
 tekst
 
-#### 5.5.3 Remote sensing
+#### 5.5.3 Scada
 tekst
 
-#### 5.5.4 Edge computing
+#### 5.5.4 Remote sensing
+tekst
+
+#### 5.5.5 Edge computing
+tekst
+
+#### 5.5.6 Fog computing
 tekst
 
 ### 5.6 Dataopslag
@@ -452,7 +459,7 @@ tekst
 #### 6.1.2 Identity check
 tekst
 
-#### 6.1.3 Identity federation (bijv. SAML)
+#### 6.1.3 Identity federation (bijv. SAML2 of OpenID Connect)
 tekst.
 
 ### 6.2 Autorisatie
