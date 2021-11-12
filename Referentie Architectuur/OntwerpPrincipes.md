@@ -1,15 +1,15 @@
 ## Ontwerp Principes
 
-<aside class='note'>
+<!-- <aside class='note'>
     GT: template ontwerpprincipe met verwijzing naar constructieprincipe
-</aside>
+</aside> -->
 
 #### naamOntwerpprincipe1
-* referentie: tekst
-* rationale: tekst
-* constructieprincipe(s):
-   * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
-   * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+##### referentie: tekst
+##### rationale: tekst
+##### constructieprincipe(s):
+ * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
+ * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
 
 #### naamOntwerpprincipe2
 * referentie: tekst
