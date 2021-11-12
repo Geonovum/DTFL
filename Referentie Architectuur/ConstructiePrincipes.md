@@ -1,4 +1,4 @@
-## Constructie Principes
+## Constructie Principes en standaarden
 
 <!-- <aside class='note'>
     GT: template constructieprincipe(s) met verwijzing naar ontwerpprincipe
@@ -25,18 +25,21 @@ tekst
    * [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
 
 ### Inleiding
-Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes en de referentie architectuur worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.
+Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de ontwerpprincipes uit het vorige hoofdstuk worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.
 
 #### Wat is het doel van constructie principes?
-De constructie principes zijn de voorschriften van de pilots, de innovaties en andere ontwikkelingen in het digital twin ecosysteem om de visie, publieke waarden & doelstellingen van het programma NL-DFTL te behalen.
-De constructie principes zijn de kaders waarbinnen de innovaties, de pilots en andere ontwikkelingen zich moeten begeven, tenzij een tijdelijke afwijking noodzakelijk is. Hierop wordt gestuurd in het landelijke programma NL-DFTL.
+Constructieprincipes zijn te beschouwen als richtlijnen voor het ontwikkelen van bijdragen aan het Nederlandse digital twinstelsel. Veel gespecialiseerde architecten, ontwerpers, ontwikkelaars en beheerders spelen hierbij een rol, zoals user interface experts, solution architects, softwareontwikkelaars, informatie-analisten, data-specialisten, IT-architecten, informatiebeveilingsdeskundigen, etc. etc. In dit hoofdstuk vinden zij toe te passen ontwerpprincipes en daarbij behorende standaarden.
 
 #### Hoe worden constructie principes toegepast?
-De constructie principes worden in de pilots opgenomen in de Project Start Architecturen (PSA's) en toegepast in de solutions van de pilot. Het is niet een eenmalig proces, er vindt regulier afstemming plaats over het toepassen van de constructie principes in de PSA's. 
-De feedbackloop is de afstemming tussen het team architectuur en de medewerkers van de pilots over het toepassen van de constructie principes en het gesprek indien men noodzakelijk tijdelijk moeten afwijken. Ook kan het zijn dat een pilot leidt tot een nieuw constructieprincipe die toegevoegd wordt aan de referentie architectuur. Het is ook mogelijk dat de pilots aanvullende domein specifieke constructie principes & open standaarden moeten hanteren specifiek voor een domein of thema.
+De constructie principes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc. etc. Digital twinning kent immers veel componenten, die met elkaar het stelsel vormen. Elk van de hierbinnen toegepaste componenten, worden bij voorkeur in lijn met de constructieprincipes uit dit hoofdstuk ontworpen en gerealiseerd, waardoor zij inpasbaar zijn in het totale stelsel. Toepsassing van deze ontwerpprincipes kan dus ook gezien worden als het zorgen voor een hoge mate van interoperabiliteit binnen het stelsel.
 
 #### Constructieprincipes in relatie tot andere architectuurproducten
-De constructie principes zijn een onderdeel van de NL-DFTL referentiearchitectuur en de andere architectuurproducten die gerealiseerd worden. In onderstaand figuur is de samenhang weergegeven met de pilots en de architectuurproducten. 
+De constructie principes zijn een onderdeel van deze NL-DFTL referentiearchitectuur en de andere architectuurproducten die gerealiseerd worden. 
+<aside class='note'>
+    <p> * GB: Ik zou de plaat niet opnemen. De structuur ervan loopt niet meer helemaal parallel met onze inhoudsopgave. De relatie met pilots maakt deze R.A. erg tijdgebonden en legt het onderhoud ervan al te zeer vast. De suggestie dat er ook al documenten zijn met beschrijvingen vsan bouwblokken, de IST en SOLL architectuur roept verwachtingen op die we met de huidige versie van de R.A. nog zeker niet kunnen waarmaken. Sterker nog: Ik denk niet dat we ooit een IST of een Doelarchitectuur zullen beschrijven. De vele partijen die deze R.A. hopelijk gaan gebruiken, zorgen immers voor een voortdurende beweging binnen het stelsel, waardoor we hiervna nooit een afgeronde doelarchitectuurbeschrijving kunnen maken. . </p>
+</aside> 
+
+In onderstaand figuur is de samenhang weergegeven met de pilots en de architectuurproducten. 
 
 <figure id="duiding constructieprincipes">
     <img src="media/duiding constructie principes.jpg" alt="duiding constructieprincipes">
@@ -44,6 +47,10 @@ De constructie principes zijn een onderdeel van de NL-DFTL referentiearchitectuu
 </figure>
 
 #### Waarop zijn de constructie principes gebaseerd?
+<aside class='note'>
+    <p> * GB: Binnen deze paragraaf moeten we ons beperken tot het noemen van de belangrijkste bronnen die we gerbuikt hebben voor standaarden en richtlijnen, zoals W3C, de PTOLU-lijst van het Standaardisatieforum, etc. De hieronder genoemde wetten zouden we in hoofdstuk 4 moeten plaatsen, als verantwoording van de ontwerpprincipes die we hebben opgesteld. </p>
+</aside> 
+
 De constructie principes zijn gebaseerd op:
 * De ontwerpprincipes van het programma NL-DFTL
 * Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE) https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving en Minimal Interoperability Mechanisms https://oascities.org/minimal-interoperability-mechanisms/
@@ -61,7 +68,15 @@ De constructie principes zijn gebaseerd op:
 * overig <>...
 
 #### Constructie principes hebben als scope het NL-DFTL fundament
+<aside class='note'>
+    <p> * GB: Het zal de lezer duidelijk zijn wat de scope van de nDTFL is. We maken een open architectuur. Dat impliceert dat er ruimte is voor verdere 'vertakkingen' binnen extra domeinen of thema's. Dit moeten we goed in de gaten houden bij de verdere ontwikkeling van deze R.A. Als er vnauit de DTFL-community nieuwe zaken naar boven komen, kunnen we die toevoegen aan de volgende versie van deze R.A. Concreet: Geluidsmodelsimulatie kunnen we misschien nu al opnemen. Zo niet, dan in een volgende versie van deze R.A. M.i. kan de onderstaande alinea dus vervallen. </p>
+</aside> 
+
 De constructie principes zijn van toepassing op het digital twins ecosysteem, het fundament. Een toepassing in het digital twin ecosysteem zoals bijvoorbeeld een landelijke geluidsmodelsimulatie, kan aanvullende specifieke domein constructie principes hebben, bijvoorbeeld gebaseerd op de wet Geluidhinder (binnenkort Omgevingswet). Of te wel een toepassing moet minimaal voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
+
+<aside class='note'>
+    <p> * GB: De onderstaande figuur gaatr over capabilities. Dat 'past' hier niet lekker. Laten we eerst maar eens de ontwerp- en constructieprincipes en standaarden tot een consistent geheel te vormen. Dan kunnen we later wellicht nog iets gaan doen met de toepassing ervan via de capability-insteek. </p>
+</aside> 
 
 Onderstaand figuur een overzicht van de capabilities
 <figure id="overzicht capabilities">
@@ -79,7 +94,12 @@ Onderstaand figuur een overzicht van de capabilities
 | Principe 0x | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
 |-------------|------------------------------------------------------|
 | referentie  | https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa                                                   |
-| rationale   | We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- & informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. Overheidsinstanties zijn bij wet verplicht om alle websites van de organisatie, websites, (mobiele) apps en digitale documenten waar de organisatie aan meebetaalt of medeopdrachtgever voor is, toegankelijk(er) te maken.                         |
+| rationale   | We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- & informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. Overheidsinstanties zijn bij wet verplicht om alle websites van de organisatie, websites, (mobiele) apps en digitale documenten waar de organisatie aan meebetaalt of medeopdrachtgever voor is, toegankelijk(er) te maken.   
+
+<aside class='note'>
+    <p> * GB: De vraag is of dit een eis is die we aan het stelsel stellen of dat dit een eis is die we aan websites / portalen stellen. In het eerste geval moeten we ons afvragen hoe diep deze eis ingrijpt in de aard en het modelleren van gegevens, in de modellen en wellicht ook in de uitwissleingsstandaarden. In het tweede geval is het 'slechts' een eis die we stellen aan de presentatielaag. </p>
+</aside> 
+                      |
 | implicatie  | * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM          | 
 | | * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker                                           |
 | | * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht                        |
@@ -114,10 +134,14 @@ tekst
 | | * We voeren bij aansluiting een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
 | |                                                                   |
 
+<aside class='note'>
+    <p> * GB: Het onderstaande principe is een variant van de 'open source' gedachte. Naar de letter toegepast zou dit principe betekenen dat alle deelnemers in het DT-stelsel hun volledige code moeten publiceren. Dat zal de meeste private partijen doen afhaken. Ik ben er niet zeker van dat we dit principe in deze vorm moeten handhaven. Het omgekeerde kan wel: Partijen die dat wensen, kunnen via een gemeenschappelijke repository code aan anderen beschikbaar stellen. Dit zou een federatieve voorziening kunnen zijn. </p>
+</aside> 
+
 | Principe 0x | Hergebruik van algoritmen in digital twin ecosysteem.                                |
 |-------------|------------------------------------------------------|
 | referentie  | NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden                                             |
-| rationale   | Voor een nieuwe toepassing hergebruiken we algoritme, de programmacode, die al binnen het ecosysteem beschikbaar is. We publiceren de ontwikkelde programmacode incl. documentatie zodat andere ontwikkelaars daarop verder kunnen ontwikkelen. Een voorbeeld is het hergebruik van het rekenmodel Groene Baten planner. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
+| rationale   | Voor een nieuwe toepassing hergebruiken we algoritmen, de programmacode, die al binnen het ecosysteem beschikbaar is. We publiceren de ontwikkelde programmacode incl. documentatie zodat andere ontwikkelaars daarop verder kunnen ontwikkelen. Een voorbeeld is het hergebruik van het rekenmodel Groene Baten planner. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
 | implicatie  | * we maken gebruik van algoritme programmacode onafhankelijke software   |
 | | * We herbruiken beschikbare algoritme programmacode die software- en platform agnostic ontwikkeld is                  |
 | | * We publiceren ontwikkelde algoritme programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid.                                                              |
@@ -126,15 +150,22 @@ tekst
 | | * We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn voor hergebruik |
 | |                                                                   |
 
+<aside class='note'>
+    <p> * GB: De uitwerking van dit integriteitsprincipe omvat feitelijk een breed doorgevoerd stelsel van kwaliteitsborging. Er staan dan ook vooral activiteiten in die onder auspicien van een gezaghebbend lichaam in dit kader zouden moeten worden uitgevoerd. Als we dit willen, hoort dit onderwerp meer in het hoofdstuk over stelselafspraken. Denk ook aan certificering en code-inspectie. </p>
+</aside> 
+
 | Principe 0x | Integriteit van algoritme is gewaarborgt in het digital twin ecosysteem.                                                      |
 |-------------|------------------------------------------------------|
 | referentie  | https://www.noraonline.nl/wiki/Integriteit      |
-| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat de werking van het algorime correcte, complete en actuele resultaten levert. |
+| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat de werking van het algoritme correcte, complete en actuele resultaten levert. |
 | implicatie  | * De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling |
 | | * Uitvoeren van auditing op nieuwe en bestaande werking en data verwerkingen van het algoritme|
 | | * De criteria voor juistheid, en tijdigheid en volledigheid van algoritme zijn vastgesteld en worden regulier gecontroleerd |
 | | * controleren vanuit nieuwe ontwikkelde algoritme of veranderende gegevensverwerking van algoritme op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt |
 | |                                                                   |
+<aside class='note'>
+    <p> * GB: In het onderstaande principe worden veel, belangrijke beveiligingseisen 'opgehangen' aan het onderwerp algoritme. Het lijkt me beter om dit principe meer algemeen te formuleren en dan verder de concretisering ervan op te nemen onder hetr kopje informatiebeveiliging en privacyborging. </p>
+</aside> 
 
 | Principe 04 | vertrouwelijkheid - Algoritme is open tenzij alleen voor geautoriseerde afnemers toegankelijk in het digital twin ecosysteem.                                                      |
 |-------------|------------------------------------------------------|
@@ -165,7 +196,8 @@ tekst
 
 ### 1.3 Visualisatie componenten
 <aside class='note'>
-    <p> FdW: is het gebruik van open source software ook een constructie principe? </p>  
+    <p> FdW: is het gebruik van open source software ook een constructie principe? 
+    GB: Zie mijn eerdere comment over open source. We kunnen zeker in hoofdstuk 4 een paragraaf opnemen over onze voorkeur voor open source. Maar niet dwingend voorschrijven, zou ik zeggen.</p>  
 </aside>
 
 | Principe 0x | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
@@ -189,6 +221,10 @@ tekst
 | | * We gebruiken de Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
 
 #### 1.3.1 2D afbeeldingen (data statisch)
+
+<aside class='note'>
+    <p> * GB: Waarom deze VIP-behandeling voor BIM-modellen? ER zijn nog tal van andere modellen van belang binnen het DT-stelsel. Ook voor die modellen geldt dat we streven naar standaardisatie. Als 'zelfstandig' principe, kan deze er m.i. uit. </p>
+</aside> 
 
 #### 1.3.2 3D afbeeldingen (data statisch)
 
