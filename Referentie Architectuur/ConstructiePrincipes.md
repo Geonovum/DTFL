@@ -456,10 +456,13 @@ tekst
 #### 6.1.1 Identity catalogus
 tekst
 
-#### 6.1.2 Identity check
+#### 6.1.2 Identity management
 tekst
 
-#### 6.1.3 Identity federation (bijv. SAML2 of OpenID Connect)
+#### 6.1.3 Identity check
+tekst
+
+#### 6.1.4 Identity federation (bijv. SAML2 of OpenID Connect)
 tekst.
 
 ### 6.2 Autorisatie
