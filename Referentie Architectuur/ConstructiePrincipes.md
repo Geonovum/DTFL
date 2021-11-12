@@ -1,29 +1,5 @@
 ## Constructie Principes
 
-<!-- <aside class='note'>
-    GT: template constructieprincipe(s) met verwijzing naar ontwerpprincipe
-</aside> --> 
-
-#### naamConstructieprincipe1
-##### Referentie:
-tekst [link](url)
-
-##### Rationale:
-tekst
-
-##### ontwerpprincipe(s):
- * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
-
-#### naamConstructieprincipe2
-##### Referentie:
-tekst [link](url)
-
-##### Rationale:
-tekst
-
-##### Ontwerpprincipe(s):
-   * [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
-
 ### Inleiding
 Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes en de referentie architectuur worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.
 
@@ -73,6 +49,30 @@ Onderstaand figuur een overzicht van de capabilities
     <p> * FdW: functies toevoegen zoals ; Data markt plaats; enterprise search; data bevragingen/query; visualisatie/model/informatie abonnement; catalogi? 
     * FdW: én BIM gerelateerd werken functionaliteit? </p>
 </aside> 
+
+#### Template Constructieprincipe
+
+##### naamConstructieprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+##### naamConstructieprincipe2
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### Ontwerpprincipe(s):
+   * [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
 
 ### 1.1 Presentatie
 

@@ -1,31 +1,5 @@
 ## Ontwerp Principes
 
-<!-- <aside class='note'>
-    GT: template ontwerpprincipe met verwijzing naar constructieprincipe
-</aside> -->
-
-#### naamOntwerpprincipe1
-##### Referentie:
-tekst [link](url)
-
-##### Rationale:
-tekst
-
-##### Constructieprincipe(s):
- * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
- * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
-
-#### naamOntwerpprincipe2
-##### Referentie:
-tekst [link](url)
-
-##### Rationale:
-tekst
-
-##### Constructieprincipe(s):
-   * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
-   * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
-
 ### Inleiding
 
 In dit hoofdstuk worden de ontwerpprincipes beschreven. Ook wordt de link gelegd met de principes uit NORA, DisGeo en Common Ground.
@@ -79,4 +53,28 @@ gerichte context/vraag (Ton, obv personal dataspaces, data-altruisme, AVG)
 (data altruisme is persoonsgebonden of bedrijfsvertrouwelijke data die van een daartoe erkende tussenpersoon komt en voor een specifiek publiek belang kan worden ingezet, onder tevoren bepaalde gebruikscondities  
 •	databronnen kunnen verwijderen (en aantoonbaar, e.g. door logs) (Ton, obv EU AVG, digital principles, data minimalisatie)  
 
-test1
+#### Template Ontwerpprincipe
+
+##### naamOntwerpprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### Constructieprincipe(s):
+ * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
+ * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+
+##### naamOntwerpprincipe2
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### Constructieprincipe(s):
+   * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
+   * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
