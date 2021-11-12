@@ -1,5 +1,16 @@
 ## Constructie Principes
 
+<aside class='note'>
+    GT: template constructieprincipe(s) met verwijzing naar ontwerpprincipe
+</aside> 
+
+#### naamConstructieprincipe
+* referentie: tekst
+* rationale: tekst
+* constructieprincipe(s):
+   * naamConstructieprincipe1
+   * naamConstructieprincipe
+
 ### Inleiding
 Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes en de referentie architectuur worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.
 

@@ -21,15 +21,15 @@ De ontwerpprincipes zijn afgeleid van
 ### Principes
 
 <aside class='note'>
-    GT: template <b>ontwerpprincipe</b> met verwijzing naar <b>constructieprincipe</b>
+    GT: template ontwerpprincipe met verwijzing naar constructieprincipe
 </aside> 
 
 #### naamConstructieprincipe
-referentie: tekst
-rationale: tekst
-constructieprincipe(s):
-naamConstructieprincipe1
-naamConstructieprincipe2
+* referentie: tekst
+* rationale: tekst
+* constructieprincipe(s):
+   * naamConstructieprincipe1
+   * naamConstructieprincipe2
 
 *Tabel hieronder is Illustratief*
 
