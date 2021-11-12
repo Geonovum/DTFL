@@ -424,25 +424,30 @@ tekst
 tekst
 
 ### 5.5 Internet of Things
-tekst
+Het internet der dingen (Engels: Internet of Things, IoT) is het geheel aan kleine apparaten ("dingen") die via internetverbindingen met andere apparaten of systemen in contact staan en daarmee data uitwisselen. Alledaagse voorwerpen kunnen communiceren met met andere objecten en systemen, en op grond hiervan (autonome) beslissingen nemen of actuatoren aansturen. De mogelijkheden die ontstaan wanneer fysieke objecten en de virtuele wereld samenkomen (in de Digitale Tweeling), vormen een belangrijk aspect van het internet der dingen.
+
+Dingen hebben beperkte berekenings, -geheugen, -batterij en communicatiecapaciteit, waarmee rekening moet gehouden worden.
+Bij voorkeur communiceren dingen via een beveiligd communicatiekanaal.
+
+Apparaten zijn zich 'bewust' van hun fysieke locatie op aarde alsook de locatie van wat geobserveerd wordt, dit is de basis van de Observations en Measurement standaard (ISO 19156)
 
 #### 5.5.1 Sensoren
-tekst
+Sensoren verzamelen data over hun omgeving (bv temperatuur, luchtdruk, beelden van een kruispunt, ...), en sturen ze door of houden ze vast tot ze doorgestuurd kunnen worden.
 
 #### 5.5.2 Actuatoren
-tekst
+Via een actuator beïnvloeden de apparaten de fysieke wereld. Een actuator zet data om in een actie, bijvoorbeeld een beweging, aan of uit zetten van een licht of het nemen van een foto.
 
 #### 5.5.3 Scada
 tekst
 
-#### 5.5.4 Remote sensing
+#### 5.5.4 Remote sensing 
 tekst
 
-#### 5.5.5 Edge computing
-tekst
+#### 5.5.5 Edge computing (moet dit hier staan?)
+Edge computing is een gedistribueerd computerparadigma dat berekeningen en gegevensopslag dichter bij de gegevensbronnen brengt. Dit zal naar verwachting de reactietijden verbeteren en bandbreedte besparen
 
-#### 5.5.6 Fog computing
-tekst
+#### 5.5.6 Fog computing (moet dit hier staan?)
+Fog computing of fog-netwerken, ook wel fogging genoemd, is een architectuur die edge-apparaten gebruikt om een ​​aanzienlijke hoeveelheid berekeningen, opslag en communicatie lokaal uit te voeren en over de internetbackbone te leiden
 
 ### 5.6 Dataopslag
 tekst
@@ -453,7 +458,7 @@ tekst
 #### 5.6.2 In memory
 tekst
 
-### 6.1 Beveiliging
+### 6.1 Beveiliging / Authenticatie
 tekst
 
 #### 6.1.1 Identity catalogus
