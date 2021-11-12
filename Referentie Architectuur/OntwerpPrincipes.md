@@ -1,5 +1,23 @@
 ## Ontwerp Principes
 
+<aside class='note'>
+    GT: template ontwerpprincipe met verwijzing naar constructieprincipe
+</aside> 
+
+#### naamOntwerpprincipe1
+* referentie: tekst
+* rationale: tekst
+* constructieprincipe(s):
+   * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
+   * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+
+#### naamOntwerpprincipe2
+* referentie: tekst
+* rationale: tekst
+* constructieprincipe(s):
+   * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
+   * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+
 ### Inleiding
 
 In dit hoofdstuk worden de ontwerpprincipes beschreven. Ook wordt de link gelegd met de principes uit NORA, DisGeo en Common Ground.
@@ -19,17 +37,6 @@ De ontwerpprincipes zijn afgeleid van
 
 
 ### Principes
-
-<aside class='note'>
-    GT: template ontwerpprincipe met verwijzing naar constructieprincipe
-</aside> 
-
-#### naamConstructieprincipe
-* referentie: tekst
-* rationale: tekst
-* constructieprincipe(s):
-   * naamConstructieprincipe1
-   * naamConstructieprincipe2
 
 *Tabel hieronder is Illustratief*
 
