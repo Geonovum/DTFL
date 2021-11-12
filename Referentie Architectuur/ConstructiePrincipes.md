@@ -8,13 +8,13 @@
 * referentie: tekst
 * rationale: tekst
 * ontwerpprincipe(s):
-   * naamOntwerpprincipe1
+   * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### naamConstructieprincipe1
+#### naamConstructieprincipe2
 * referentie: tekst
 * rationale: tekst
 * ontwerpprincipe(s):
-   * naamOntwerpprincipe2
+   * [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
 
 ### Inleiding
 Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de architectuur ontwerpprincipes en de referentie architectuur worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.

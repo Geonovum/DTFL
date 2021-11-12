@@ -2,7 +2,7 @@
 
 <aside class='note'>
     GT: template ontwerpprincipe met verwijzing naar constructieprincipe
-</aside> 
+</aside>
 
 #### naamOntwerpprincipe1
 * referentie: tekst
