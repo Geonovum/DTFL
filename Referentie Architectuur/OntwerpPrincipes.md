@@ -5,8 +5,12 @@
 </aside> -->
 
 #### naamOntwerpprincipe1
-##### referentie: tekst
-##### rationale: tekst
+##### referentie:
+tekst
+
+##### rationale:
+tekst
+
 ##### constructieprincipe(s):
  * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
  * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
