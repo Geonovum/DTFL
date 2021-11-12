@@ -74,7 +74,7 @@ tekst
 ###### Ontwerpprincipe(s):
    * [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
 
-### 1.1 Presentatie
+### Presentatie
 
 | Principe 0x | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
 |-------------|------------------------------------------------------|
@@ -85,19 +85,19 @@ tekst
 | | * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht                        |
 | | * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet men als overheidsinstantie ‘in control’ zijn. Dat betekent dat men weet, ook als bestuurder, voor welke digitale communicatie de overheidsinstantie verantwoordelijk is, dat men de status weet en maatregelen benoemt met een planning om de toegankelijkheid te vergroten en grip te krijgen          |
 
-#### 1.1.1 User interface
+#### User interface
 tekst
 
-#### 1.1.2 Customer Experience
+#### Customer Experience
 tekst
 
-##### 1.1.4 [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
+##### [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
 tekst
 
-### 1.2 Analytics
+### Analytics
 tekst
 
-#### 1.2.1 Algoritmen
+#### Algoritmen
 <aside class='note'>
     <p> FdW: To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie? </p> 
 </aside> 
@@ -150,10 +150,10 @@ tekst
 | | * Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               |
 | | * De identificatie-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie-eis |
 
-#### 1.2.2 (Big data) analyse tools
+#### (Big data) analyse tools
 tekst
 
-#### 1.2.3 Self learning systems
+#### Self learning systems
 <aside class='note'>
     <p> FdW: toevoegen: * In het Self learning systeem wordt ervoor gezorgd dat mensen op een verantwoorde wijze taken aan self learning-systeem kunnen toevertrouwen zonder daarbij de controle te verliezen.
 * Self learning systeem is controleerbaar door de mens
@@ -161,9 +161,9 @@ tekst
 * Ethisch assesment is verricht voor Self learning systeem  </p> 
 </aside> 
 
-#### 1.2.4 Artificial Intelligence
+#### Artificial Intelligence
 
-### 1.3 Visualisatie componenten
+### Visualisatie componenten
 <aside class='note'>
     <p> FdW: is het gebruik van open source software ook een constructie principe? </p>  
 </aside>
@@ -188,9 +188,9 @@ tekst
 | | * ISO 19136: Geography Markup Language  GML https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19136-1.                    |
 | | * We gebruiken de Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
 
-#### 1.3.1 2D afbeeldingen (data statisch)
+#### 2D afbeeldingen (data statisch)
 
-#### 1.3.2 3D afbeeldingen (data statisch)
+#### 3D afbeeldingen (data statisch)
 
 | Principe 0x | Standaard - We standaardiseren maximaal voor Bouw Informatie Modellen (BIM) in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
@@ -208,25 +208,25 @@ tekst
 | | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
 | | * We gebruiken open standaarden voor Common Data Environment CDE conform ISO 19650  https://www.bimloket.nl/p/269/NEN-EN-ISO-19650 en NEN2660 https://www.nen.nl/nen-2660-1-2020-ontw-nl-278048 . NEN 2660-1  biedt een raamwerk voor het ontwikkelen van samenhangende conceptuele modellen en -views, die betrekking hebben op het gebruik van, en de gehele levenscyclus van de gebouwde omgeving, en elementen uit deze omgeving.                 |
 
-#### 1.3.3 Dashboards
+#### Dashboards
 tekst
 
-#### 1.3.4 Grafieken
+#### Grafieken
 tekst
 
-#### 1.3.5 Monitors (data dynamisch)
+#### Monitors (data dynamisch)
 tekst
 
-#### 1.3.6 Simulaties (manipuleerbare data en modellen)
+#### Simulaties (manipuleerbare data en modellen)
 tekst
 
-#### 1.3.7 Rekenmodellen
+#### Rekenmodellen
 tekst
 
-#### 1.3.8 Simulatiemodellen
+#### Simulatiemodellen
 tekst
 
-### 2.1 Business logic
+### Business logic
 
 | Principe 0x | Hergebruik businesslogica en business logica visualisatie tooling onafhankelijk ontwikkelen in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
@@ -239,7 +239,7 @@ tekst
 | | * We borgen dat business rules voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). |
 | | * Note: voor BIM software is de praktijk dat functionaliteit workflow, issue management veelal wél geïntegreerd zijn met de visualisatie en de Common Data Environment en aan dit principe in de praktijk niet wordt voldaan. Richtlijn is in ieder geval van toepassing voor aanvullende specifieke business logica. |
 
-### 3.1 Gateway
+### Gateway
 <aside class='note'>
     <p> FdW: er zijn meerdere API gateway toepassingen voor voor API REST en geo-webservices maar ook API gateway voor streaming data. </p>   
 </aside>
@@ -252,10 +252,10 @@ tekst
 | | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
 | | * We gebruiken open source NLX als referentie model voor API gateway API REST en geo-webservices https://nlx.io/.                 |
 
-### 4.1 Datacommunicatie
+### Datacommunicatie
 tekst
 
-#### 4.1.1 Semantiek / ontologie
+#### Semantiek / ontologie
 
 | Principe 09 | Verbinden digital twins in ecosysteem - We maken gebruik gemeenschappelijkelandelijke- en smart city-ontologieen.              |
 |-------------|------------------------------------------------------|
@@ -268,7 +268,7 @@ tekst
 | | * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie | 
 | | * Note: Microsoft maakt gebruik van smart city-ontologie ETSI CIM NGSI-LD en en heeft het geïmplementeerd op Micrsoft Azure Digital twin software middels een specifieke Microsoft taal: open source DTDL-based Smart Cities ontology  https://techcommunity.microsoft.com/t5/internet-of-things/smart-cities-ontology-for-digital-twins/ba-p/2166585. Het is niet volledig leveranciersonafhankelijk.     |
 
-#### 4.1.2 Dataobjectmodellen
+#### Dataobjectmodellen
 
 | Principe 09 | Verbinden digital twins in ecosysteem - We maken gebruik canonieke data-objecten om digital twins met elkaar te kunnen verbinden en gemeenschappelijke smart city-ontologieen.              |
 |-------------|------------------------------------------------------|
@@ -282,7 +282,7 @@ tekst
 | | * We ontwikkelen datamodellen die uitwisselbaar zijn in een open standaard formaat UML eXchange Format (UXF) https://en.wikipedia.org/wiki/UXF
 | |                                                                                       |
 
-#### 4.1.3 Metadata
+#### Metadata
 
 | Principe 0x | Alle databronnen, informatie producten en digital twins in digital twin ecosysteem zijn vindbaar en zijn voorzien van metadata.            |
 |-------------|------------------------------------------------------|
@@ -295,10 +295,10 @@ tekst
 | | * Geografische metadata wordt vastgelegd conform ISO 19115 metadata standaard https://docs.geostandaarden.nl/md/mdprofiel-iso19115/ .               |
 | | * Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.               |
 
-#### 4.1.4 Attribuutbeveiliging
+#### Attribuutbeveiliging
 tekst
 
-#### 4.1.5 Masterdata / begrippen & definities
+#### Masterdata / begrippen & definities
 
 | Principe 0x | We hanteren uniforme begrippen & definities voor gegevens.                   |
 |-------------|------------------------------------------------------|
@@ -325,13 +325,13 @@ tekst
     JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
 </aside> 
 
-#### 4.1.6 Berichtformaat
+#### Berichtformaat
 tekst
 
-### 4.2 Communicatieprotocol
+### Communicatieprotocol
 tekst
 
-#### 4.2.1 Service/ API
+#### Service/ API
 
 | Principe 0x | We hanteren wij een service-georiënteerde architectuur.      |
 |-------------|------------------------------------------------------|
@@ -352,25 +352,25 @@ tekst
 | | * We gebruiken open source API Management producten WSO2 https://wso2.com/api-manager/ en Tyke:  https://tyk.io/price-comparison/?utm_term=api%20management&utm_campaign=Price+Comparison+-+Best+2020+-+High+GDP+-+Search&utm_source=adwords&utm_medium=ppc&hsa_acc=4132762899&hsa_cam=14671572690&hsa_grp=134153488304&hsa_ad=546341718447&hsa_src=g&hsa_tgt=kwd-300455415258&hsa_kw=api%20management&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw8p2MBhCiARIsADDUFVF1YNJlQhNFs4cC4XU23KeWej2cStH7PD0xFurB9j4PhOo16RB4p-gaAlDsEALw_wcB en               |
 
 
-#### 4.2.2 Verwijsindex
+#### Verwijsindex
 tekst
 
-### 4.3 Transformaties
+### Transformaties
 tekst
 
-#### 4.3.1 Transformatieregels
+#### Transformatieregels
 tekst
 
-#### 4.3.2 Transformatiecomponent
+#### Transformatiecomponent
 tekst
 
-### 4.4 Databewerking
+### Databewerking
 tekst
 
-#### 4.4.1 Dataverrijking
+#### Dataverrijking
 tekst
 
-### 5.1 Data verwerving
+### Data verwerving
 
 | Principe 0x | Eenmalige vastlegging - Gegevens worden eenmalig vastgelegd, rechtstreeks bij de bron bevraagd en meervoudig gebruikt.                                                            |
 |-------------|------------------------------------------------------|
@@ -416,38 +416,38 @@ tekst
 | | * Datakwaliteit wordt geoptimaliseerd voor het proces waarbinnen het gebruikt wordt. De broneigenaar (en proceseigenaar) is verantwoordelijk voor de optimalisatie.                                                                                    |
 | | * Proceseigenaren zien erop toe dat de data, de data die binnen een proces worden ingewonnen of geactualiseerd. Datakwaliteit wordt door proceseigenaren voortdurend gerapporteerd en datakwaliteit inzichtelijk aangeboden in datacatalogus, aangeduid met een kwaliteitslabel op een duidelijke schaal conform de handreiking gegevenskwaliteit.                                         |
 
-#### 5.1.1 Toegang
+#### Toegang
 tekst
 
-### 5.2 Infrastructuur
+### Infrastructuur
 tekst
 
-#### 5.2.1 Datacenter
+#### Datacenter
 tekst
 
-#### 5.2.2 Cloud
+#### Cloud
 tekst
 
-#### 5.2.3 Public
+#### Public
 tekst
 
-#### 5.3.4 Private
+#### Private
 
 ##### 5.3.4.1. Personal Data Pods (Solid)
 Solid, afgeleid van "social linked data", is een set van conventies en tools om het web te decentraliseren. Gebruikers slaan persoonlijke data op in "pods" (personal online data stores) die gehost worden waar de gebruiker maar wil. Applicaties die door Solid zijn geverifieerd, mogen gegevens opvragen als de gebruiker hiervoor toestemming heeft gegeven. De gebruiker behoudt volledige eigendom van en controle over de gegevens en bepaalt zelf welke toepassingen toestemming hebben om de gegevens te gebruiken.
 
 Het doel van Solid is om de privacy van internet gebruikers te verbeteren en om individuele gebruikers volledige controle te geven over het gebruik van hun data.
 
-### 5.4 Netwerk
+### Netwerk
 tekst
 
-##### 5.4.1 Public
+##### Public
 tekst
 
-##### 5.4.2 Private
+##### Private
 tekst
 
-### 5.5 Internet of Things
+### Internet of Things
 Het internet der dingen (Engels: Internet of Things, IoT) is het geheel aan kleine apparaten ("dingen") die via internetverbindingen met andere apparaten of systemen in contact staan en daarmee data uitwisselen. Alledaagse voorwerpen kunnen communiceren met met andere objecten en systemen, en op grond hiervan (autonome) beslissingen nemen of actuatoren aansturen. De mogelijkheden die ontstaan wanneer fysieke objecten en de virtuele wereld samenkomen (in de Digitale Tweeling), vormen een belangrijk aspect van het internet der dingen.
 
 Dingen hebben beperkte berekenings, -geheugen, -batterij en communicatiecapaciteit, waarmee rekening moet gehouden worden.
@@ -455,88 +455,88 @@ Bij voorkeur communiceren dingen via een beveiligd communicatiekanaal.
 
 Apparaten zijn zich 'bewust' van hun fysieke locatie op aarde alsook de locatie van wat geobserveerd wordt, dit is de basis van de Observations en Measurement standaard (ISO 19156)
 
-#### 5.5.1 Sensoren
+#### Sensoren
 Sensoren verzamelen data over hun omgeving (bv temperatuur, luchtdruk, beelden van een kruispunt, ...), en sturen ze door of houden ze vast tot ze doorgestuurd kunnen worden.
 
-#### 5.5.2 Actuatoren
+#### Actuatoren
 Via een actuator beïnvloeden de apparaten de fysieke wereld. Een actuator zet data om in een actie, bijvoorbeeld een beweging, aan of uit zetten van een licht of het nemen van een foto.
 
-#### 5.5.3 Scada
+#### Scada
 tekst
 
-#### 5.5.4 Remote sensing 
+#### Remote sensing 
 tekst
 
-#### 5.5.5 Edge computing (moet dit hier staan?)
+#### Edge computing (moet dit hier staan?)
 Edge computing is een gedistribueerd computerparadigma dat berekeningen en gegevensopslag dichter bij de gegevensbronnen brengt. Dit zal naar verwachting de reactietijden verbeteren en bandbreedte besparen
 
-#### 5.5.6 Fog computing (moet dit hier staan?)
+#### Fog computing (moet dit hier staan?)
 Fog computing of fog-netwerken, ook wel fogging genoemd, is een architectuur die edge-apparaten gebruikt om een ​​aanzienlijke hoeveelheid berekeningen, opslag en communicatie lokaal uit te voeren en over de internetbackbone te leiden
 
-### 5.6 Dataopslag
+### Dataopslag
 tekst
 
-#### 5.6.1 Traditioneel registratie
+#### Traditioneel registratie
 tekst
 
-#### 5.6.2 In memory
+#### In memory
 tekst
 
-### 6.1 Beveiliging / Authenticatie
+### Beveiliging / Authenticatie
 tekst
 
-#### 6.1.1 Identity catalogus
+#### Identity catalogus
 tekst
 
-#### 6.1.2 Identity management
+#### Identity management
 tekst
 
-#### 6.1.3 Identity check
+#### Identity check
 tekst
 
-#### 6.1.4 Identity federation (bijv. SAML2 of OpenID Connect)
+#### Identity federation (bijv. SAML2 of OpenID Connect)
 tekst.
 
-### 6.2 Autorisatie
+### Autorisatie
 tekst.
 
-#### 6.1.1 Autorisatie register
+#### Autorisatie register
 tekst.
 
-#### 6.1.2 Autorisatie check
+#### Autorisatie check
 tekst.
 
-#### 6.1.3 Autorisatie federatie
+#### Autorisatie federatie
 tekst.
 
-### 6.2 Ontwikkeling
+### Ontwikkeling
 tekst.
 
-#### 6.2.1 Building
+#### Building
 tekst.
 
-#### 6.2.2 Development tooling
+#### Development tooling
 tekst.
 
-#### 6.2.3 Testing
+#### Testing
 tekst.
 
-#### 6.2.4 Test procedures
+#### Test procedures
 tekst
 
-##### 6.2.5 Test tooling
+##### Test tooling
 tekst.
 
-### 6.3 Beheer
+### Beheer
 tekst.
 
-#### 6.3.1 ASL
+#### ASL
 tekst.
 
-#### 6.3.2 Console
+#### Console
 tekst.
 
-#### 6.3.4 ITIL
+#### ITIL
 tekst.
 
 ## BIJLAGEN
