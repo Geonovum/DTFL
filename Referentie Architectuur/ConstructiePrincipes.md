@@ -409,7 +409,10 @@ tekst
 
 #### 5.3.4 Private
 
-##### 5.3.4.1. Personal Data Pods (SOLID)
+##### 5.3.4.1. Personal Data Pods (Solid)
+Solid, afgeleid van "social linked data", is een set van conventies en tools om het web te decentraliseren. Gebruikers slaan persoonlijke data op in "pods" (personal online data stores) die gehost worden waar de gebruiker maar wil. Applicaties die door Solid zijn geverifieerd, mogen gegevens opvragen als de gebruiker hiervoor toestemming heeft gegeven. De gebruiker behoudt volledige eigendom van en controle over de gegevens en bepaalt zelf welke toepassingen toestemming hebben om de gegevens te gebruiken.
+
+Het doel van Solid is om de privacy van internet gebruikers te verbeteren en om individuele gebruikers volledige controle te geven over het gebruik van hun data.
 
 ### 5.4 Netwerk
 tekst
