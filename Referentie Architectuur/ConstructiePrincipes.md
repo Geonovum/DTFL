@@ -92,7 +92,7 @@ tekst
 ### Presentatie
 
 ##### naamConstructieprincipe1
-Digitale toegankelijkheid van de digitale informatie.
+<<Digitale toegankelijkheid van de digitale informatie>>
 
 ###### Referentie:
 tekst [link]https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa    
@@ -129,7 +129,7 @@ tekst
 </aside> 
 
 ##### naamConstructieprincipe1
-FAIR algoritmen
+<<FAIR algoritmen>>
 
 ###### Referentie:
 tekst [link] AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening ; AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)
