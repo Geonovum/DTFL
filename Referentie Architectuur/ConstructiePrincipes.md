@@ -89,31 +89,6 @@ tekst
 ###### Ontwerpprincipe(s):
    * [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
 
-#### naamConstructieprincipe1
-Gebruike open standaarden
-
-###### Referentie:
-tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
-
-###### Rationale:
-* we maken visualisatie zónder kennisregels en transformaties zodat we visualisatie tool onafhankelijk blijven 
-* Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden 
-* We gebruiken open standaard: SLD voor visualisatie geografische informatie https://forumstandaardisatie.nl/open-standaarden/sld 
-* We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms 
-* We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service WFS https://www.ogc.org/standards/wfs 
-* We gebruiken open standaard: Open Geospatial Consortium OGC CityGML https://www.ogc.org/standards/citygml 
-* We gebruiken open standaard: Open Geospatial Consortium OGC CityJSON https://docs.ogc.org/cs/20-072r2/20-072r2.html 
-* We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  
-* We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles 
-* We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)       
-* We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving  https://wetten.overheid.nl/BWBR0026158/2009-09-01                    
-* We gebruiken de NEN 3610 Basismodel Geoinformatie https://www.nen.nl/nen-3610-2011-nl-156811
-* ISO 19136: Geography Markup Language  GML https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19136-1.                   
-* We gebruiken de Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur 
-
-###### ontwerpprincipe(s):
- * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
-
 ### Presentatie
 
 ##### naamConstructieprincipe1
@@ -283,34 +258,33 @@ tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  htt
 
 #### 1.3.2 3D afbeeldingen (data statisch)
 
-#### 3D afbeeldingen (data statisch)
+#### 3D afbeeldingen (data statisch en dynamisch)
 
 #### naamConstructieprincipe1
+Open standaarden voor Bouw Informatie Modellen (BIM)
 
 ###### Referentie:
 tekst [link](url)
 
 ###### Rationale:
-tekst
+* We passen open standaarden voor BIM in het digital ecosysteem toe om de interoperabiliteit te bevorderen en voor een optimale werking gegevensuitwisseling.                        
+* We gebruiken open bestands formaat: IFC 2.0 https://www.forumstandaardisatie.nl/open-standaarden/ifc . IFC is een neutraal en open bestandsformaat voor het uitwisselen van BIM-specifieke informatie (modelobjecten en hun eigenschappen). 
+* We gebruiken Nederlandse open standaard CAD: NLCS https://www.forumstandaardisatie.nl/open-standaarden/nlcs 
+* We gebruiken internationale open standaard: BIm Collaboration Format BCFhttps://www.buildingsmart.org/standards/bsi-standards/bim-collaboration-format-bcf/  
+* We gebruiken open standaard: 3D vector tiles https://www.ogc.org/standards/3DTiles  
+* We gebruiken de Nederlandse Revit open standaard: NLRS https://www.bimloket.nl/p/225/NLRS 
+* We gebruiken open standaard: NL/Sfb https://www.bimloket.nl/p/107/NL-SfB. NL/SfB is een classificatie van bouwdelen en installaties (‘elementen’ genoemd). In de bouw- en installatiebranche wordt deze standaard veel toegepast bij het ontwerpen, realiseren en beheren van gebouwen. 
+* We gebruiken open standaard: COINS2 https://www.bimloket.nl/p/100/COINS. Met COINS (Constructieve Objecten en de Integratie van Processen en Systemen) kunnen partijen die betrokken zijn bij bouwprojecten digitale informatie uitwisselen. 
+* We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc 
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-| Principe 0x | Standaard - We standaardiseren maximaal voor Bouw Informatie Modellen (BIM) in digital twin ecosysteem.|
+| Principe 0x | Standaard - We  in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
 | referentie  |                                                 |
-| rationale   | Het toepassen van open standaarden van BIM in het digital ecosysteem bevordert de interoperabiliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang.                         |
-| implicatie  | * Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
-| | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
-| | * We gebruiken open bestands formaat: IFC 2.0 https://www.forumstandaardisatie.nl/open-standaarden/ifc . IFC is een neutraal en open bestandsformaat voor het uitwisselen van BIM-specifieke informatie (modelobjecten en hun eigenschappen). | 
-| | * We gebruiken Nederlandse open standaard CAD: NLCS https://www.forumstandaardisatie.nl/open-standaarden/nlcs |
-| | * We gebruiken internationale open standaard: BIm Collaboration Format BCFhttps://www.buildingsmart.org/standards/bsi-standards/bim-collaboration-format-bcf/  |
-| | * We gebruiken open standaard: 3D vector tiles https://www.ogc.org/standards/3DTiles | 
-| | * We gebruiken de Nederlandse Revit open standaard: NLRS https://www.bimloket.nl/p/225/NLRS |
-| | * We gebruiken open standaard: NL/Sfb https://www.bimloket.nl/p/107/NL-SfB. NL/SfB is een classificatie van bouwdelen en installaties (‘elementen’ genoemd). In de bouw- en installatiebranche wordt deze standaard veel toegepast bij het ontwerpen, realiseren en beheren van gebouwen. |
-| | * We gebruiken open standaard: COINS2 https://www.bimloket.nl/p/100/COINS. Met COINS (Constructieve Objecten en de Integratie van Processen en Systemen) kunnen partijen die betrokken zijn bij bouwprojecten digitale informatie uitwisselen. |
-| | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
-| | * We gebruiken open standaarden voor Common Data Environment CDE conform ISO 19650  https://www.bimloket.nl/p/269/NEN-EN-ISO-19650 en NEN2660 https://www.nen.nl/nen-2660-1-2020-ontw-nl-278048 . NEN 2660-1  biedt een raamwerk voor het ontwikkelen van samenhangende conceptuele modellen en -views, die betrekking hebben op het gebruik van, en de gehele levenscyclus van de gebouwde omgeving, en elementen uit deze omgeving.                 |
+| rationale   | H                                 |
+| | 
 
 #### Dashboards
 tekst
@@ -333,26 +307,22 @@ tekst
 ### Business logic
 
 #### naamConstructieprincipe1
-
+business logica is onafhankelijk visualisatie tooling 
 ###### Referentie:
 tekst [link](url)
 
 ###### Rationale:
-tekst
+* Er wordt geen business logica los in de visualisatie tooling. Dit geldt ook voor de informatie- en datamodellen en ontologiën.                         |
+* We maken gebruik van open source software voor BPMN workflow en DMN decision automation zoals bijvoorbeeld Camunda. 
+* We ontwikkelen businesslogica in een taal die software onafhankelijk is zoals bijvoorbeeld BPMN, Python, Django en Go 
+* Businesslogica ondersteunt API REST OPEN APIspecification https://swagger.io/specification/ 
+* We publiceren ontwikkelde business logica op GitHub (public tenzij private) incl. documentatie.                                
+* We borgen dat business rules voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). 
+* We gebruiken Common Data Environment CDE conform ISO 19650  https://www.bimloket.nl/p/269/NEN-EN-ISO-19650 en NEN2660 https://www.nen.nl/nen-2660-1-2020-ontw-nl-278048 . NEN 2660-1 biedt een raamwerk voor het ontwikkelen van samenhangende conceptuele modellen en -views, die betrekking hebben op het gebruik van, en de gehele levenscyclus van de gebouwde omgeving, en elementen uit deze omgeving.                 
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-| Principe 0x | Hergebruik businesslogica en business logica visualisatie tooling onafhankelijk ontwikkelen in digital twin ecosysteem.|
-|-------------|------------------------------------------------------|
-| referentie  |                                                 |
-| rationale   | Door business logica los van visualisatie tooling te ontwikkelen zijn we flexibel in keuze software en leveranciersonafhankelijk zowel voor businesslogica als visualisatie software. Dit geldt tevens zoor informatie- en datamodellen en ontologiën.                         |
-| implicatie  | * We maken gebruik van open source software voor BPMN workflow en DMN decision automation zoals bijvoorbeeld Camunda. |
-| | * We ontwikkelen businesslogica in een taal die software onafhankelijk is zoals bijvoorbeeld BPMN, Python, Django en Go |
-| | * Businesslogica ondersteunt API REST OPEN APIspecification https://swagger.io/specification/ |
-| | * We publiceren ontwikkelde business logica op GitHub (public tenzij private) incl. documentatie.                                 |
-| | * We borgen dat business rules voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). |
-| | * Note: voor BIM software is de praktijk dat functionaliteit workflow, issue management veelal wél geïntegreerd zijn met de visualisatie en de Common Data Environment en aan dit principe in de praktijk niet wordt voldaan. Richtlijn is in ieder geval van toepassing voor aanvullende specifieke business logica. |
 
 ### Gateway
 <aside class='note'>
@@ -360,23 +330,17 @@ tekst
 </aside>
 
 #### naamConstructieprincipe1
-
+tandaardiseren in open source API Gateway oplossingen
 ###### Referentie:
 tekst [link](url)
 
 ###### Rationale:
-tekst
+* Het toepassen van open standaarden en open source API gateway referentie model bevordert de interoperabiliteit en hergebruik van kennis en moet door alle partijen worden toegepast.  
+* Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden 
+* We gebruiken open source NLX als referentie model voor API gateway API REST en geo-webservices https://nlx.io/. 
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
-
-| Principe 0x | Standaard - We standaardiseren maximaal in open source API Gateway oplossingen in digital twin ecosysteem.|
-|-------------|------------------------------------------------------|
-| referentie  |                                                 |
-| rationale   | Het toepassen van open standaarden en open source API gateway referentie model bevordert de interoperabiliteit en hergebruik van kennis en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang.                         |
-| implicatie  | * Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
-| | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
-| | * We gebruiken open source NLX als referentie model voor API gateway API REST en geo-webservices https://nlx.io/.                 |
 
 ### Datacommunicatie
 tekst
@@ -384,75 +348,60 @@ tekst
 #### Semantiek / ontologie
 
 #### naamConstructieprincipe1
+gebruik gemeenschappelijkelandelijke- en smart city-ontologieen om digital twins met elkaar te kunnen verbinden
 
 ###### Referentie:
-tekst [link](url)
+tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven  
 
 ###### Rationale:
-tekst
+* We maken gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         
+* We gebruiken de smart city-ontologie ETSI CIM NGSI-LD Saref4City:  https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf                               
+* We gebruiken ontologie IMBOR Informatie Model Openbare Ruimte https://github.com/Stichting-CROW/imbor                                 
+* We gebruiken ontologie Gegevenswoordenboek Stedelijk Water (GWSW) https://data.gwsw.nl/
+* We gebruiken W3C/OGC GeoSparql ontologie https://www.ogc.org/projects/groups/geosparqlswg 
+* We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie
+* Note: Microsoft maakt gebruik van smart city-ontologie ETSI CIM NGSI-LD en en heeft het geïmplementeerd op Micrsoft Azure Digital twin software middels een specifieke Microsoft taal: open source DTDL-based Smart Cities ontology  https://techcommunity.microsoft.com/t5/internet-of-things/smart-cities-ontology-for-digital-twins/ba-p/2166585. Het is niet volledig leveranciersonafhankelijk
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
-
-| Principe 09 | Verbinden digital twins in ecosysteem - We maken gebruik gemeenschappelijkelandelijke- en smart city-ontologieen.              |
-|-------------|------------------------------------------------------|
-| referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                 |
-| rationale   | We maken gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         |
-| implicatie  | * We gebruiken de smart city-ontologie ETSI CIM NGSI-LD Saref4City:  https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf                                |
-| | * We gebruiken ontologie IMBOR Informatie Model Openbare Ruimte https://github.com/Stichting-CROW/imbor                                  |
-| | * We gebruiken ontologie Gegevenswoordenboek Stedelijk Water (GWSW) https://data.gwsw.nl/ |
-| | * We gebruiken W3C/OGC GeoSparql ontologie https://www.ogc.org/projects/groups/geosparqlswg  |
-| | * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie | 
-| | * Note: Microsoft maakt gebruik van smart city-ontologie ETSI CIM NGSI-LD en en heeft het geïmplementeerd op Micrsoft Azure Digital twin software middels een specifieke Microsoft taal: open source DTDL-based Smart Cities ontology  https://techcommunity.microsoft.com/t5/internet-of-things/smart-cities-ontology-for-digital-twins/ba-p/2166585. Het is niet volledig leveranciersonafhankelijk.     |
 
 #### Dataobjectmodellen
 
 #### naamConstructieprincipe1
-
+canonieke data-objecten om digital twins met elkaar te kunnen verbinden
 ###### Referentie:
-tekst [link](url)
+tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven 
 
 ###### Rationale:
-tekst
+* We gebruiken afgesproken canonieke data object: Rijksdriehoekscoördinaten “RD- coördinaten” https://www.nsgi.nl/geodetische-infrastructuur/referentiestelsels/rdinfo      
+* We gebruiken afgesproken canonieke data object: “NAP” https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil#:~:text=Om%20binnen%20Nederland%20hoogtes%20te,6%2C78%20m%20onder%20NAP.    
+* We gebruiken afgesproken canonieke data object:  “Nederlandse tijd” https://24timezones.com/Nederland/tijd    
+* We gebruiken afgesproken canonieke data object:  “geografisch middelpunt van Nederland”   https://nl.wikipedia.org/wiki/Geografisch_middelpunt_van_Nederland                                  
+* We datamodelleren conform de MIM standaard  https://www.forumstandaardisatie.nl/open-standaarden/mim                                             
+* We ontwikkelen datamodellen die uitwisselbaar zijn in een open standaard formaat UML eXchange Format (UXF) https://en.wikipedia.org/wiki/UXF
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
-
-| Principe 09 | Verbinden digital twins in ecosysteem - We maken gebruik canonieke data-objecten om digital twins met elkaar te kunnen verbinden en gemeenschappelijke smart city-ontologieen.              |
-|-------------|------------------------------------------------------|
-| referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                 |
-| rationale   | We gebruiken afgesproken canonieke data objecten. Dit betekent dat elk 3D visualisatie, simulatiemodel etc. uniforme data objecten heeft. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         |
-| implicatie  | * We gebruiken afgesproken canonieke data object: Rijksdriehoekscoördinaten “RD- coördinaten” https://www.nsgi.nl/geodetische-infrastructuur/referentiestelsels/rdinfo      |
-| | * We gebruiken afgesproken canonieke data object: “NAP” https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil#:~:text=Om%20binnen%20Nederland%20hoogtes%20te,6%2C78%20m%20onder%20NAP.    |
-| | * We gebruiken afgesproken canonieke data object:  “Nederlandse tijd” https://24timezones.com/Nederland/tijd    |
-| | * We gebruiken afgesproken canonieke data object:  “geografisch middelpunt van Nederland”   https://nl.wikipedia.org/wiki/Geografisch_middelpunt_van_Nederland                                  |
-| | * We datamodelleren conform de MIM standaard  https://www.forumstandaardisatie.nl/open-standaarden/mim                                             |
-| | * We ontwikkelen datamodellen die uitwisselbaar zijn in een open standaard formaat UML eXchange Format (UXF) https://en.wikipedia.org/wiki/UXF
-| |                                                                                       |
 
 #### Metadata
 
 #### naamConstructieprincipe1
+Vindbaarheid data
 
 ###### Referentie:
 tekst [link](url)
 
 ###### Rationale:
-tekst
+* Er is een federatief stelsel van landelijke datacatalogi met daarin geregistreerd alle binnen het digital twin ecosysteem gebruikte databronnen, databestanden, informatie producten en digital twins met de relevante metadata conform DCAT standaard en MDTO Duurzaam Toegankelijke Overheidsinformatie voor archivering en vernietiging in de Datacatalogus. De W3C Data Catalog Vocabulary (DCAT) is een metadata-standaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi te vereenvoudigen  
+* We passen DCAT toe: https://www.w3.org/TR/vocab-dcat-2/ 
+* We passen MDTO toe: https://www.informatiehuishouding.nl/actueel/nieuws/2021/10/13/definitieve-versie-mdto-nu-online-beschikbaar 
+* We hergebruiken landelijke datacatalogi                              
+* Geografische metadata wordt vastgelegd conform ISO 19115 metadata standaard https://docs.geostandaarden.nl/md/mdprofiel-iso19115/              
+* Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-| Principe 0x | Alle databronnen, informatie producten en digital twins in digital twin ecosysteem zijn vindbaar en zijn voorzien van metadata.            |
-|-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
-| rationale   | Alle binnen digital twin ecosysteem aanwezige databronnen, informatie producten en digital twins zijn vindbaar. |
-| implicatie  | * Er is een federatief stelsel van landelijke datacatalogi met daarin geregistreerd alle binnen het digital twin ecosysteem gebruikte databronnen, databestanden, informatie producten en digital twins met de relevante metadata conform DCAT standaard en MDTO Duurzaam Toegankelijke Overheidsinformatie voor archivering en vernietiging in de Datacatalogus. De W3C Data Catalog Vocabulary (DCAT) is een metadata-standaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi te vereenvoudigen  |
-| | * We passen DCAT toe: https://www.w3.org/TR/vocab-dcat-2/ |
-| | * We passen MDTO toe: https://www.informatiehuishouding.nl/actueel/nieuws/2021/10/13/definitieve-versie-mdto-nu-online-beschikbaar |
-| | * We hergebruiken landelijke datacatalogi                              |
-| | * Geografische metadata wordt vastgelegd conform ISO 19115 metadata standaard https://docs.geostandaarden.nl/md/mdprofiel-iso19115/ .               |
-| | * Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.               |
 
 #### Attribuutbeveiliging
 tekst
@@ -460,27 +409,21 @@ tekst
 #### Masterdata / begrippen & definities
 
 #### naamConstructieprincipe1
+uniforme begrippen & definities
 
 ###### Referentie:
-tekst [link](url)
+tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven
 
 ###### Rationale:
-tekst
+* We maken gebruik van de landelijk vastgestelde bedrijfsobjecten, informatiemodellen en standaarden. Zoals het landelijk bedrijfsobjectenmodel GEMMAhttps://www.gemmaonline.nl/index.php/GEMMA2/0.9/id-85853310-d375-4c9d-ae7a-46dcd0906996 en standaard informatiemodellen zoals RSGB https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_%28RSGB%29, IMRO https://www.geonovum.nl/geo-standaarden/ro-standaarden-ruimtelijke-ordening/informatiemodel-ruimtelijke-ordening-imro2012, IMWA, IMKICH.                                                                
+* Voor maximale interoperabiliteit is het van belang dat structuur en syntax gestandaardiseerd zijn 
+* We standaardiseren de semantiek van gegevens conform de werkelijkheid                             
+* Bij uitwisseling van gegevens maken we ook de context van het gebruik van gegevens inzichtelijk   
+* We gebruiken gegevens met een eenduidige landelijke taxonomie, classificatie van begrippen. We maken gebruik van Samenhangende Objecten Registratie SOR begrippenkader                                 
+* We publiceren in de landelijke repository/ datacatalogus 
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
-
-| Principe 0x | We hanteren uniforme begrippen & definities voor gegevens.                   |
-|-------------|------------------------------------------------------|
-| referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                  |
-| rationale   | Voor de interoperabiliteit van gegevensuitwisseling en hergebruik worden voor zowel gestructureerde- als ongestructureerde gegevens uniforme definities gebruikt. Iedere bedrijfsobject en onderliggend data object heeft een definitie die eenduidig is beschreven en vastgelegd. Door eenduidige definities van bedrijfs- en data objecten in datamodellen wordt het mogelijk om de informatie correct uit te wisselen op zowel syntactisch als semantisch niveau, zonder interpretatie verschillen. We passen typering van gegevens toe volgens uniforme landelijke bedrijfs- en data objecten met een eenduidige in de dataobjectmodellen.                                                                            |
-| implicatie  | * We maken gebruik van de landelijk vastgestelde bedrijfsobjecten, informatiemodellen en standaarden. Zoals het landelijk bedrijfsobjectenmodel GEMMAhttps://www.gemmaonline.nl/index.php/GEMMA2/0.9/id-85853310-d375-4c9d-ae7a-46dcd0906996 en standaard informatiemodellen zoals RSGB https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_%28RSGB%29, IMRO https://www.geonovum.nl/geo-standaarden/ro-standaarden-ruimtelijke-ordening/informatiemodel-ruimtelijke-ordening-imro2012, IMWA, IMKICH.                                                                |
-| | * Voor maximale interoperabiliteit is het van belang dat structuur en syntax gestandaardiseerd zijn |
-| | * We standaardiseren de semantiek van gegevens conform de werkelijkheid                             |
-| | * Bij uitwisseling van gegevens maken we ook de context van het gebruik van gegevens inzichtelijk   |
-| | * We gebruiken gegevens met een eenduidige landelijke taxonomie, classificatie van begrippen. We maken gebruik van Samenhangende Objecten Registratie SOR begrippenkader                                 |
-| | * We publiceren in de landelijke repository/ datacatalogus                                           |
-| |                                                                                                     |
 
 <aside class='note'>
     JvG: Data Uitwisseling? 
@@ -611,7 +554,7 @@ duurzame toegankelijkheid van gegevens
 tekst [link](url)
 
 ###### Rationale:
-* We voldoen aan wet- en regelgeving zoals de Archiefwet 
+* We voldoen aan de Archiefwet 
 * Verantwoording kunnen afleggen over uitgevoerde acties en transparantie    
 * We zorgen er voor dat de opslag van gegevens duurzaam is   
 * We bewaren gegevens niet langer dan nodig is       
@@ -621,26 +564,22 @@ tekst [link](url)
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### naamConstructieprincipe1
+continue verbetering van de kwaliteit van gegevens
 
 ###### Referentie:
-tekst [link](url)
+tekst [link]AP31 https://www.noraonline.nl/wiki/PDCA-cyclus_in_besturing_kwaliteit  AP32  https://www.noraonline.nl/wiki/Sturing_kwaliteit_op_het_hoogste_niveau  AP33  https://www.noraonline.nl/wiki/Baseline_kwaliteit_diensten  AP34 https://www.noraonline.nl/wiki/Verantwoording_besturing_kwaliteit
 
 ###### Rationale:
-tekst
+* Processen die het kwaliteitsbeheer en continu verbeteren borgen zijn ingericht                           
+* De kwaliteit van gegevens zijn van alke databron vastgelegd als metadata                                             
+* Buiten de syntactische correctheid van gegevens bewaakt men ook de integriteit over gegevens- verzamelingen heen     
+* Afnemers dienen aan te geven wat hun eisen zijn ten aanzien van de kwaliteit en actualiteit van gegevens. Datakwaliteit wordt afgesproken en vastgelegd de GLO gegevens levering overeenkomst                                                            
+* Datakwaliteit wordt geoptimaliseerd voor het proces waarbinnen het gebruikt wordt. De broneigenaar (en proceseigenaar) is verantwoordelijk voor de optimalisatie.                                                                                    
+* Proceseigenaren zien erop toe dat de data, de data die binnen een proces worden ingewonnen of geactualiseerd. Datakwaliteit wordt door proceseigenaren voortdurend gerapporteerd en datakwaliteit inzichtelijk aangeboden in datacatalogus, aangeduid met een kwaliteitslabel op een duidelijke schaal conform de handreiking gegevenskwaliteit.                                         
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-| Principe x | We beheren de kwaliteit van gegevens actief middels continue verbetering en communiceren de kwaliteit.     |
-|-------------|------------------------------------------------------|
-| referentie  |  AP31 https://www.noraonline.nl/wiki/PDCA-cyclus_in_besturing_kwaliteit  AP32  https://www.noraonline.nl/wiki/Sturing_kwaliteit_op_het_hoogste_niveau  AP33  https://www.noraonline.nl/wiki/Baseline_kwaliteit_diensten  AP34 https://www.noraonline.nl/wiki/Verantwoording_besturing_kwaliteit                                               |
-| rationale   | De kwaliteit van de gegevens die worden verwerkt binnen de gemeente wordt actief gemonitord en continu verbeterd en op een niveau gehouden wat in overeenstemming is met de eisen die daar vanuit de wetgeving en de afnemers aan gesteld worden. Datakwaliteit sluit aan op het proces waarbinnen het gebruik gegenereerd wordt. De kwaliteit wordt gepubliceerd.           |
-| implicatie  | * Processen die het kwaliteitsbeheer en continu verbeteren borgen zijn ingericht                           |
-| | * De kwaliteit van gegevens zijn van alke databron vastgelegd als metadata                                             |
-| | * Buiten de syntactische correctheid van gegevens bewaakt men ook de integriteit over gegevens- verzamelingen heen     |
-| | * Afnemers dienen aan te geven wat hun eisen zijn ten aanzien van de kwaliteit en actualiteit van gegevens. Datakwaliteit wordt afgesproken en vastgelegd de GLO gegevens levering overeenkomst                                                            |
-| | * Datakwaliteit wordt geoptimaliseerd voor het proces waarbinnen het gebruikt wordt. De broneigenaar (en proceseigenaar) is verantwoordelijk voor de optimalisatie.                                                                                    |
-| | * Proceseigenaren zien erop toe dat de data, de data die binnen een proces worden ingewonnen of geactualiseerd. Datakwaliteit wordt door proceseigenaren voortdurend gerapporteerd en datakwaliteit inzichtelijk aangeboden in datacatalogus, aangeduid met een kwaliteitslabel op een duidelijke schaal conform de handreiking gegevenskwaliteit.                                         |
 
 #### Toegang
 tekst
