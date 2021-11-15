@@ -92,7 +92,7 @@ tekst
 ### Presentatie
 
 ##### naamConstructieprincipe1
-<<Digitale toegankelijkheid van de digitale informatie>>
+Digitale toegankelijkheid van de digitale informatie
 
 ###### Referentie:
 tekst [link]https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa    
@@ -129,7 +129,7 @@ tekst
 </aside> 
 
 ##### naamConstructieprincipe1
-<<FAIR algoritmen>>
+FAIR algoritmen
 
 ###### Referentie:
 tekst [link] AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening ; AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)
@@ -178,7 +178,7 @@ Integriteit van algoritme
 tekst [link]https://www.noraonline.nl/wiki/Integriteit
 
 ###### Rationale:
-De gebruiker van een gegeven moet erop kunnen vertrouwen dat de werking van het algoritme correcte, complete en actuele resultaten levert. 
+De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het algoritme correcte, complete en actuele resultaten levert. 
 * De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling. 
 * Uitvoeren van auditing op nieuwe en bestaande werking en data verwerkingen van het algoritme en vastlegging van resultaten audit.
 * De criteria voor juistheid, en tijdigheid en volledigheid van algoritme zijn vastgesteld en worden regulier gecontroleerd. 
@@ -193,6 +193,7 @@ De gebruiker van een gegeven moet erop kunnen vertrouwen dat de werking van het 
 
 #### naamConstructieprincipe1
 vertrouwelijkheid algoritme 
+
 ###### Referentie:
 tekst [link]AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe) 
 
@@ -232,6 +233,7 @@ tekst
 
 #### naamConstructieprincipe1
 Gebruike open standaarden
+
 ###### Referentie:
 tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
 
@@ -245,10 +247,24 @@ tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  htt
 * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  
 * We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles 
 
-
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
+#### naamConstructieprincipe1
+Open Source functionaliteit ontwikkelen in visualisatie tooling
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+* We ontwikkelen functionaliteit op basis van open source in visualisatie tooling. Dit bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast.
+* we maken gebruik van programmacode onafhankelijke visualisatie software  
+* We publiceren ontwikkelde functionaliteit/ programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid. 
+* We documenteren functionaliteit/ programmacode volgens de voorgeschreven standaarden 
+* We beheren de functionaliteit/  programmacode in een community, samenwerkingsverbanden 
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### 2D afbeeldingen (data statisch)
 
@@ -270,7 +286,7 @@ tekst [link](url)
 * We passen open standaarden voor BIM in het digital ecosysteem toe om de interoperabiliteit te bevorderen en voor een optimale werking gegevensuitwisseling.                        
 * We gebruiken open bestands formaat: IFC 2.0 https://www.forumstandaardisatie.nl/open-standaarden/ifc . IFC is een neutraal en open bestandsformaat voor het uitwisselen van BIM-specifieke informatie (modelobjecten en hun eigenschappen). 
 * We gebruiken Nederlandse open standaard CAD: NLCS https://www.forumstandaardisatie.nl/open-standaarden/nlcs 
-* We gebruiken internationale open standaard: BIm Collaboration Format BCFhttps://www.buildingsmart.org/standards/bsi-standards/bim-collaboration-format-bcf/  
+* We gebruiken internationale open standaard: BIM Collaboration Format BCFhttps://www.buildingsmart.org/standards/bsi-standards/bim-collaboration-format-bcf/  
 * We gebruiken open standaard: 3D vector tiles https://www.ogc.org/standards/3DTiles  
 * We gebruiken de Nederlandse Revit open standaard: NLRS https://www.bimloket.nl/p/225/NLRS 
 * We gebruiken open standaard: NL/Sfb https://www.bimloket.nl/p/107/NL-SfB. NL/SfB is een classificatie van bouwdelen en installaties (‘elementen’ genoemd). In de bouw- en installatiebranche wordt deze standaard veel toegepast bij het ontwerpen, realiseren en beheren van gebouwen. 
@@ -279,12 +295,6 @@ tekst [link](url)
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
-
-| Principe 0x | Standaard - We  in digital twin ecosysteem.|
-|-------------|------------------------------------------------------|
-| referentie  |                                                 |
-| rationale   | H                                 |
-| | 
 
 #### Dashboards
 tekst
@@ -354,7 +364,7 @@ gebruik gemeenschappelijkelandelijke- en smart city-ontologieen om digital twins
 tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven  
 
 ###### Rationale:
-* We maken gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         
+* We gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         
 * We gebruiken de smart city-ontologie ETSI CIM NGSI-LD Saref4City:  https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf                               
 * We gebruiken ontologie IMBOR Informatie Model Openbare Ruimte https://github.com/Stichting-CROW/imbor                                 
 * We gebruiken ontologie Gegevenswoordenboek Stedelijk Water (GWSW) https://data.gwsw.nl/
@@ -369,6 +379,7 @@ tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch
 
 #### naamConstructieprincipe1
 canonieke data-objecten om digital twins met elkaar te kunnen verbinden
+
 ###### Referentie:
 tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven 
 
@@ -448,6 +459,7 @@ tekst
 
 #### naamConstructieprincipe1
 Gebruik open standaarden
+
 ###### Referentie:
 tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
 
@@ -469,25 +481,13 @@ tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  htt
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### naamConstructieprincipe1
-Open source
-
-###### Referentie:
-tekst [link](url)
-
-###### Rationale:
-* We gebruiken open source API Management producten
-
-###### ontwerpprincipe(s):
- * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
-
-#### naamConstructieprincipe1
 Open Source API Management
 
 ###### Referentie:
 tekst [link](url)
 
 ###### Rationale:
-Het toepassen vanopen source API Management bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang
+Het toepassen van open source API Management bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
