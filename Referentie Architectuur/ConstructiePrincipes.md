@@ -340,7 +340,7 @@ tekst [link](url)
 </aside>
 
 #### naamConstructieprincipe1
-tandaardiseren in open source API Gateway oplossingen
+standaardiseren in open source API Gateway oplossingen
 ###### Referentie:
 tekst [link](url)
 
