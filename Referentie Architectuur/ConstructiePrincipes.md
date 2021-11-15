@@ -51,7 +51,7 @@ De constructie principes zijn gebaseerd op:
 De constructie principes zijn van toepassing op het digital twins ecosysteem, het fundament. Een toepassing in het digital twin ecosysteem zoals bijvoorbeeld een landelijke geluidsmodelsimulatie, kan aanvullende specifieke domein constructie principes hebben, bijvoorbeeld gebaseerd op de wet Geluidhinder (binnenkort Omgevingswet). Of te wel een toepassing moet minimaal voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
 
 <aside class='note'>
-    <p> * GB: De onderstaande figuur gaatr over capabilities. Dat 'past' hier niet lekker. Laten we eerst maar eens de ontwerp- en constructieprincipes en standaarden tot een consistent geheel te vormen. Dan kunnen we later wellicht nog iets gaan doen met de toepassing ervan via de capability-insteek. </p>
+    <p> * GB: De onderstaande figuur gaat over capabilities. Dat 'past' hier niet lekker. Laten we eerst maar eens de ontwerp- en constructieprincipes en standaarden tot een consistent geheel te vormen. Dan kunnen we later wellicht nog iets gaan doen met de toepassing ervan via de capability-insteek. </p>
 </aside> 
 
 Onderstaand figuur een overzicht van de capabilities
@@ -89,21 +89,52 @@ tekst
 ###### Ontwerpprincipe(s):
    * [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
 
+#### naamConstructieprincipe1
+Gebruike open standaarden
+
+###### Referentie:
+tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
+
+###### Rationale:
+* we maken visualisatie zónder kennisregels en transformaties zodat we visualisatie tool onafhankelijk blijven 
+* Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden 
+* We gebruiken open standaard: SLD voor visualisatie geografische informatie https://forumstandaardisatie.nl/open-standaarden/sld 
+* We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms 
+* We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service WFS https://www.ogc.org/standards/wfs 
+* We gebruiken open standaard: Open Geospatial Consortium OGC CityGML https://www.ogc.org/standards/citygml 
+* We gebruiken open standaard: Open Geospatial Consortium OGC CityJSON https://docs.ogc.org/cs/20-072r2/20-072r2.html 
+* We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  
+* We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles 
+* We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)       
+* We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving  https://wetten.overheid.nl/BWBR0026158/2009-09-01                    
+* We gebruiken de NEN 3610 Basismodel Geoinformatie https://www.nen.nl/nen-3610-2011-nl-156811
+* ISO 19136: Geography Markup Language  GML https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19136-1.                   
+* We gebruiken de Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur 
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
 ### Presentatie
 
-| Principe 0x | Digitale toegankelijkheid - De presentatie van data- & informatie voldoet aan digitale toegankelijkheid.|
-|-------------|------------------------------------------------------|
-| referentie  | https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa                                                   |
-| rationale   | We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- & informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. Overheidsinstanties zijn bij wet verplicht om alle websites van de organisatie, websites, (mobiele) apps en digitale documenten waar de organisatie aan meebetaalt of medeopdrachtgever voor is, toegankelijk(er) te maken.   
+##### naamConstructieprincipe1
+Digitale toegankelijkheid van de digitale informatie.
 
+###### Referentie:
+tekst [link]https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa    
+
+###### Rationale:
+We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- en informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. 
+* We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM.
+* We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker.
+* We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht 
+* Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet we als overheidsinstantie ‘in control’ zijn. Dat betekent dat we maatregelen benoemen met een planning om de digitale toegankelijkheid te vergroten en grip te krijgen.
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1) Digitale toegankelijkheid
+  
 <aside class='note'>
     <p> * GB: De vraag is of dit een eis is die we aan het stelsel stellen of dat dit een eis is die we aan websites / portalen stellen. In het eerste geval moeten we ons afvragen hoe diep deze eis ingrijpt in de aard en het modelleren van gegevens, in de modellen en wellicht ook in de uitwissleingsstandaarden. In het tweede geval is het 'slechts' een eis die we stellen aan de presentatielaag. </p>
 </aside> 
-                      |
-| implicatie  | * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM          | 
-| | * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker                                           |
-| | * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht                        |
-| | * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet men als overheidsinstantie ‘in control’ zijn. Dat betekent dat men weet, ook als bestuurder, voor welke digitale communicatie de overheidsinstantie verantwoordelijk is, dat men de status weet en maatregelen benoemt met een planning om de toegankelijkheid te vergroten en grip te krijgen          |
 
 #### User interface
 tekst
@@ -122,64 +153,88 @@ tekst
     <p> FdW: To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie? </p> 
 </aside> 
 
-| Principe 0x | We ontwikkelen algoritmen die voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). |
-|-------------|------------------------------------------------------|
-| referentie  | AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening  AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)                                                 |
-| rationale   | We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness). Bij het ontwerpen en bij het gebruik van algoritmen nemen we gepaste waarborgen en maatregelen: dataprotection by design. |
-| implicatie  | * We toetsen de algoritme op rechtmatigheid, transparantie en behoorlijkheid middels ethisch assesment https://dataschool.nl/deda/ en wetmatigheid https://ec.europa.eu/futurium/en/ai-alliance-consultation.1.html |
-| | * We hebben transparantie en verklaarbaarheid geborgd, we hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register |
-| | * We hebben de menselijke controle en toezicht geborgd. Dit houdt in dat AI-systemen menselijke autonomie en beslissingen moeten ondersteunen, en niet zonder toezicht mogen opereren of grondrechten negeren |
-| | * We ontwikkelen het algoritme zodanig dat er gelijkwaardige uitkomsten gerealiseerd worden |
-| | * We hebben diversiteit, non-discriminatie en rechtvaardigheid geborgd. Bij ontwerp en inzet van algoritme wordt rekening gehouden met inclusie en diversiteit, inclusief gelijke toegang via inclusieve ontwerpprocessen, alsook voor gelijke behandeling. Dit betekent er worden maatregelen genomen tegen bias (vooringenomenheid) die kan leiden tot directe of indirecte discriminatie en uitsluiting. We weten met welke data het algoritme getraind en ontwikkeld is, wat de data kwaliteit is en de eventueel gebreken in de trainingsdata en de bias. |
-| | * We voeren bij aansluiting een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd  |
-| |                                                                   |
+##### naamConstructieprincipe1
+FAIR algoritmen
+
+###### Referentie:
+tekst [link] AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening ; AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)
+
+###### Rationale:
+* We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness) middels ethisch assesment https://dataschool.nl/deda/ en wetmatigheid https://ec.europa.eu/futurium/en/ai-alliance-consultation.1.html.
+* We ontwerpen algoritmen met gepaste waarborgen en maatregelen: dataprotection by design.
+* We hebben transparantie en verklaarbaarheid geborgd, we hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register 
+* We hebben de menselijke controle en toezicht geborgd. Dit houdt in dat AI-systemen menselijke autonomie en beslissingen moeten ondersteunen, en niet zonder toezicht mogen opereren of grondrechten negeren 
+* We ontwikkelen het algoritme zodanig dat er gelijkwaardige uitkomsten gerealiseerd worden 
+* We hebben diversiteit, non-discriminatie en rechtvaardigheid geborgd. Bij ontwerp en inzet van algoritme wordt rekening gehouden met inclusie en diversiteit, inclusief gelijke toegang via inclusieve ontwerpprocessen, alsook voor gelijke behandeling. Dit betekent er worden maatregelen genomen tegen bias (vooringenomenheid) die kan leiden tot directe of indirecte discriminatie en uitsluiting. We weten met welke data het algoritme getraind en ontwikkeld is, wat de data kwaliteit is en de eventueel gebreken in de trainingsdata en de bias en hebben dit vastgelegd. 
+* We voeren bij aansluiting een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd.  
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1) algoritmen voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR)
 
 <aside class='note'>
     <p> * GB: Het onderstaande principe is een variant van de 'open source' gedachte. Naar de letter toegepast zou dit principe betekenen dat alle deelnemers in het DT-stelsel hun volledige code moeten publiceren. Dat zal de meeste private partijen doen afhaken. Ik ben er niet zeker van dat we dit principe in deze vorm moeten handhaven. Het omgekeerde kan wel: Partijen die dat wensen, kunnen via een gemeenschappelijke repository code aan anderen beschikbaar stellen. Dit zou een federatieve voorziening kunnen zijn. </p>
 </aside> 
 
-| Principe 0x | Hergebruik van algoritmen in digital twin ecosysteem.                                |
-|-------------|------------------------------------------------------|
-| referentie  | NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden                                             |
-| rationale   | Voor een nieuwe toepassing hergebruiken we algoritmen, de programmacode, die al binnen het ecosysteem beschikbaar is. We publiceren de ontwikkelde programmacode incl. documentatie zodat andere ontwikkelaars daarop verder kunnen ontwikkelen. Een voorbeeld is het hergebruik van het rekenmodel Groene Baten planner. Indien van toepassingen spreken we organisatorische samenwerkingsverbanden af in ontwikkeltrajecten. |
-| implicatie  | * we maken gebruik van algoritme programmacode onafhankelijke software   |
-| | * We herbruiken beschikbare algoritme programmacode die software- en platform agnostic ontwikkeld is                  |
-| | * We publiceren ontwikkelde algoritme programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid.                                                              |
-| | * We documenteren algoritme programmacode volgens de voorgeschreven standaarden      |
-| | * We beheren de algoritme programmacode in een community, samenwerkingsverbanden     |
-| | * We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn voor hergebruik |
-| |                                                                   |
+##### naamConstructieprincipe1
+Hergebruik van algoritmen
+
+###### Referentie:
+tekst [link]NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden
+
+###### Rationale:
+* we maken gebruik van algoritme programmacode onafhankelijke software  
+* We herbruiken beschikbare algoritme programmacode die software- en platform agnostic ontwikkeld is
+* We publiceren ontwikkelde algoritme programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid. 
+* We documenteren algoritme programmacode volgens de voorgeschreven standaarden 
+* We beheren de algoritme programmacode in een community, samenwerkingsverbanden 
+* We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn voor hergebruik
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 <aside class='note'>
     <p> * GB: De uitwerking van dit integriteitsprincipe omvat feitelijk een breed doorgevoerd stelsel van kwaliteitsborging. Er staan dan ook vooral activiteiten in die onder auspicien van een gezaghebbend lichaam in dit kader zouden moeten worden uitgevoerd. Als we dit willen, hoort dit onderwerp meer in het hoofdstuk over stelselafspraken. Denk ook aan certificering en code-inspectie. </p>
 </aside> 
 
-| Principe 0x | Integriteit van algoritme is gewaarborgt in het digital twin ecosysteem.                                                      |
-|-------------|------------------------------------------------------|
-| referentie  | https://www.noraonline.nl/wiki/Integriteit      |
-| rationale   | De gebruiker van een gegeven moet erop kunnen vertrouwen dat de werking van het algoritme correcte, complete en actuele resultaten levert. |
-| implicatie  | * De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling |
-| | * Uitvoeren van auditing op nieuwe en bestaande werking en data verwerkingen van het algoritme|
-| | * De criteria voor juistheid, en tijdigheid en volledigheid van algoritme zijn vastgesteld en worden regulier gecontroleerd |
-| | * controleren vanuit nieuwe ontwikkelde algoritme of veranderende gegevensverwerking van algoritme op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt |
-| |                                                                   |
+#### naamConstructieprincipe1
+Integriteit van algoritme
+
+###### Referentie:
+tekst [link]https://www.noraonline.nl/wiki/Integriteit
+
+###### Rationale:
+De gebruiker van een gegeven moet erop kunnen vertrouwen dat de werking van het algoritme correcte, complete en actuele resultaten levert. 
+* De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling. 
+* Uitvoeren van auditing op nieuwe en bestaande werking en data verwerkingen van het algoritme en vastlegging van resultaten audit.
+* De criteria voor juistheid, en tijdigheid en volledigheid van algoritme zijn vastgesteld en worden regulier gecontroleerd. 
+* controleren vanuit nieuwe ontwikkelde algoritme of veranderende gegevensverwerking van algoritme op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt.
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
 <aside class='note'>
     <p> * GB: In het onderstaande principe worden veel, belangrijke beveiligingseisen 'opgehangen' aan het onderwerp algoritme. Het lijkt me beter om dit principe meer algemeen te formuleren en dan verder de concretisering ervan op te nemen onder hetr kopje informatiebeveiliging en privacyborging. </p>
 </aside> 
 
-| Principe 04 | vertrouwelijkheid - Algoritme is open tenzij alleen voor geautoriseerde afnemers toegankelijk in het digital twin ecosysteem.                                                      |
-|-------------|------------------------------------------------------|
-| referentie  | AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)   |
-| rationale   | De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbruikt. |
-| implicatie  | * De vertrouwelijkheid van algoritme wordt gegarandeerd door scheiding van systeemfuncties, door controle en validatie op toegang tot algoritme  |
-| | * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen door algoritme |
-| | * Voor het algoritme zijn de mate van vertrouwelijkheid en de bijbehorende identificatie-eisen vastgesteld |
-| | * In geval van vertrouwelijkheid van het algoritme wordt de gebruiker voor toegangsverlening geauthenticeerd.  |
-| | * Bij authenticatie dwingt het systeem toepassing van sterke wachtwoordconventies af. |
-| | * De instellingen van het aanmeldproces voorkomen dat een gebruiker werkt onder een andere dan de eigen identiteit. |
-| | * Om de mogelijkheden van misbruik te beperken, hebben gebruikers van algoritmen niet méér rechten dan zij voor hun werk nodig hebben (autorisatie). Daarbij zijn maatregelen getroffen om een onbedoeld gebruik van autorisaties te voorkomen|
-| | * Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               |
-| | * De identificatie-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie-eis |
+#### naamConstructieprincipe1
+vertrouwelijkheid algoritme 
+###### Referentie:
+tekst [link]AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe) 
+
+###### Rationale:
+De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbruikt. 
+* De vertrouwelijkheid van algoritme wordt gegarandeerd door scheiding van systeemfuncties, door controle en validatie op toegang tot algoritme 
+* Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen door algoritme 
+* Voor het algoritme zijn de mate van vertrouwelijkheid en de bijbehorende identificatie-eisen vastgesteld 
+* In geval van vertrouwelijkheid van het algoritme wordt de gebruiker voor toegangsverlening geauthenticeerd.  
+* Bij authenticatie dwingt het systeem toepassing van sterke wachtwoordconventies af. 
+* De instellingen van het aanmeldproces voorkomen dat een gebruiker werkt onder een andere dan de eigen identiteit. 
+* Om de mogelijkheden van misbruik te beperken, hebben gebruikers van algoritmen niet méér rechten dan zij voor hun werk nodig hebben (autorisatie). Daarbij zijn maatregelen getroffen om een onbedoeld gebruik van autorisaties te voorkomen|
+* Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               
+* De identificatie-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie-eis 
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### (Big data) analyse tools
 tekst
@@ -200,25 +255,25 @@ tekst
     GB: Zie mijn eerdere comment over open source. We kunnen zeker in hoofdstuk 4 een paragraaf opnemen over onze voorkeur voor open source. Maar niet dwingend voorschrijven, zou ik zeggen.</p>  
 </aside>
 
-| Principe 0x | Standaard - We standaardiseren maximaal in digital twin ecosysteem.|
-|-------------|------------------------------------------------------|
-| referentie  | AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht                                                |
-| rationale   | Het gebruik van open standaarden bevordert de interoperabiliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang. We maken gebruik van software voor visualisatie, simulatie, dashboards, monitors op basis van open standaard webservices, data formaten, datamodellen en ontologiën.                         |
-| implicatie  | * Met ontwikkelaars aan het digital twin ecosysteem zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. |
-| | * we maken visualisatie zónder kennisregels en transformaties zodat we visualisatie tool onafhankelijk blijven |
-| | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
-| | * We gebruiken open standaard: SLD voor visualisatie geografische informatie https://forumstandaardisatie.nl/open-standaarden/sld |
-| | * We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms |
-| | * We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service WFS https://www.ogc.org/standards/wfs |
-| | * We gebruiken open standaard: Open Geospatial Consortium OGC CityGML https://www.ogc.org/standards/citygml |
-| | * We gebruiken open standaard: Open Geospatial Consortium OGC CityJSON https://docs.ogc.org/cs/20-072r2/20-072r2.html |
-| | * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  |
-| | * We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles |
-| | * We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)         |
-| | * We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving  https://wetten.overheid.nl/BWBR0026158/2009-09-01                      |
-| | * We gebruiken de NEN 3610 Basismodel Geoinformatie https://www.nen.nl/nen-3610-2011-nl-156811     | 
-| | * ISO 19136: Geography Markup Language  GML https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19136-1.                    |
-| | * We gebruiken de Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur                                                                     |
+#### naamConstructieprincipe1
+Gebruike open standaarden
+###### Referentie:
+tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
+
+###### Rationale:
+* we maken visualisatie zónder kennisregels en transformaties zodat we visualisatie tool onafhankelijk blijven 
+* We gebruiken open standaard: SLD voor visualisatie geografische informatie https://forumstandaardisatie.nl/open-standaarden/sld 
+* We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms 
+* We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service WFS https://www.ogc.org/standards/wfs 
+* We gebruiken open standaard: Open Geospatial Consortium OGC CityGML https://www.ogc.org/standards/citygml 
+* We gebruiken open standaard: Open Geospatial Consortium OGC CityJSON https://docs.ogc.org/cs/20-072r2/20-072r2.html 
+* We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  
+* We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles 
+
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
 
 #### 2D afbeeldingen (data statisch)
 
@@ -227,7 +282,19 @@ tekst
 </aside> 
 
 #### 1.3.2 3D afbeeldingen (data statisch)
+
 #### 3D afbeeldingen (data statisch)
+
+#### naamConstructieprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 | Principe 0x | Standaard - We standaardiseren maximaal voor Bouw Informatie Modellen (BIM) in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
@@ -265,6 +332,17 @@ tekst
 
 ### Business logic
 
+#### naamConstructieprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
 | Principe 0x | Hergebruik businesslogica en business logica visualisatie tooling onafhankelijk ontwikkelen in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
 | referentie  |                                                 |
@@ -281,6 +359,17 @@ tekst
     <p> FdW: er zijn meerdere API gateway toepassingen voor voor API REST en geo-webservices maar ook API gateway voor streaming data. </p>   
 </aside>
 
+#### naamConstructieprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
 | Principe 0x | Standaard - We standaardiseren maximaal in open source API Gateway oplossingen in digital twin ecosysteem.|
 |-------------|------------------------------------------------------|
 | referentie  |                                                 |
@@ -293,6 +382,17 @@ tekst
 tekst
 
 #### Semantiek / ontologie
+
+#### naamConstructieprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 | Principe 09 | Verbinden digital twins in ecosysteem - We maken gebruik gemeenschappelijkelandelijke- en smart city-ontologieen.              |
 |-------------|------------------------------------------------------|
@@ -307,6 +407,17 @@ tekst
 
 #### Dataobjectmodellen
 
+#### naamConstructieprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
 | Principe 09 | Verbinden digital twins in ecosysteem - We maken gebruik canonieke data-objecten om digital twins met elkaar te kunnen verbinden en gemeenschappelijke smart city-ontologieen.              |
 |-------------|------------------------------------------------------|
 | referentie  | AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven                                                 |
@@ -320,6 +431,17 @@ tekst
 | |                                                                                       |
 
 #### Metadata
+
+#### naamConstructieprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 | Principe 0x | Alle databronnen, informatie producten en digital twins in digital twin ecosysteem zijn vindbaar en zijn voorzien van metadata.            |
 |-------------|------------------------------------------------------|
@@ -336,6 +458,17 @@ tekst
 tekst
 
 #### Masterdata / begrippen & definities
+
+#### naamConstructieprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 | Principe 0x | We hanteren uniforme begrippen & definities voor gegevens.                   |
 |-------------|------------------------------------------------------|
@@ -370,23 +503,51 @@ tekst
 
 #### Service/ API
 
-| Principe 0x | We hanteren wij een service-georiënteerde architectuur.      |
-|-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
-| rationale   | We hanteren wij een service-georiënteerde architectuur. Interactie tussen de registraties waarin de data opgeslagen is en de proceslogica- en gebruikersinterface componenten vindt plaats op basis van gestandaardiseerde services om flexibiliteit en koppelbaarheid te vergroten. Deze services kunnen andere services aanroepen waardoor een gelaagde service-architectuur ontstaat.                                                                            |
-| implicatie  | * Data in authentieke registers wordt via gestandaardiseerde- en beschreven services ontsloten.        |
-| | * Service georiënteerd werken heeft altijd de voorkeur boven andere manieren van koppelen. Dit is enerzijds door het ontmoedigen van "silo-applicaties" en leverancier specifieke integraties                                                           |
-| | * Servicegerichte architectuur betekent gebruik maken van standaard webservices, de design rules[NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)                                                                        |
-| | * De ontwikkelde services/API's zijn vindbaar (Github) en herbruikbaar |
-| | * We documenteren t.b.v. herbrukbaarheid programmeertaal onfahnakelijk volgens de OpenAPI Specification (OAS) standaard.  https://swagger.io/specification/          |
+#### naamConstructieprincipe1
+Gebruik open standaarden
+###### Referentie:
+tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
 
-| Principe 0x | Standaard - We standaardiseren maximaal in open source API Management oplossingen in digital twin ecosysteem.|
-|-------------|------------------------------------------------------|
-| referentie  |                                                 |
-| rationale   | Het toepassen van open standaarden en open source API Management bevordert de interoperabiliteit en hergebruik van functionaliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang.                         |
-| implicatie  | * Met afnemers zijn afspraken gemaakt over de te gebruiken open standaarden. Hierbij wordt tijdig geanticipeerd op de ontwikkeling van de open standaarden. 
-| | * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden |
-| | * We gebruiken open source API Management producten WSO2 https://wso2.com/api-manager/ en Tyke:  https://tyk.io/price-comparison/?utm_term=api%20management&utm_campaign=Price+Comparison+-+Best+2020+-+High+GDP+-+Search&utm_source=adwords&utm_medium=ppc&hsa_acc=4132762899&hsa_cam=14671572690&hsa_grp=134153488304&hsa_ad=546341718447&hsa_src=g&hsa_tgt=kwd-300455415258&hsa_kw=api%20management&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw8p2MBhCiARIsADDUFVF1YNJlQhNFs4cC4XU23KeWej2cStH7PD0xFurB9j4PhOo16RB4p-gaAlDsEALw_wcB en               |
+###### Rationale:
+* We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms 
+* We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service WFS https://www.ogc.org/standards/wfs 
+* We gebruiken open standaard: Open Geospatial Consortium OGC CityGML https://www.ogc.org/standards/citygml 
+* We gebruiken open standaard: Open Geospatial Consortium OGC CityJSON https://docs.ogc.org/cs/20-072r2/20-072r2.html 
+* We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  
+* We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles 
+* We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)  
+* De ontwikkelde services/API's zijn vindbaar (Github) en herbruikbaar 
+* We documenteren t.b.v. herbrukbaarheid programmeertaal onfahnakelijk volgens de OpenAPI Specification (OAS) standaard.  https://swagger.io/specification/     
+* We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving  https://wetten.overheid.nl/BWBR0026158/2009-09-01                    
+* ISO 19136: Geography Markup Language  GML https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19136-1.                   
+* We gebruiken de Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur 
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+#### naamConstructieprincipe1
+Open source
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+* We gebruiken open source API Management producten
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+#### naamConstructieprincipe1
+Open Source API Management
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+Het toepassen vanopen source API Management bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 
 #### Verwijsindex
@@ -409,38 +570,66 @@ tekst
 
 ### Data verwerving
 
-| Principe 0x | Eenmalige vastlegging - Gegevens worden eenmalig vastgelegd, rechtstreeks bij de bron bevraagd en meervoudig gebruikt.                                                            |
-|-------------|------------------------------------------------------|
-| referentie  | AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend  CG: Eenmalige vastlegging We leggen gegevens eenmalig vast en vragen op bij de bron                                               |
-| rationale   | We voorkomen duplicatie (kopieën) van gegevens in de cloud omgeving van de aanbieder van visualisatie- dashboard-, simulatie tooling. Dit ten behoeve van leveranciersonafhankelijkheid en ter voorkoming van verouderde kopiegegevens die gebruikt worden. Het bronsysteem is een administratie, (basis)registratie, een documentregistratie, sensor en kan ook een digital twin of BIM zijn.                                                                |
-| implicatie  | * Gegevens worden gescheiden van visualisatie- dashboard-, simulatie tooling bewaard, zodat opslag van gegevens onafhankelijk is van de gebruikte applicaties & softwareleveranciers en gegevens te (her)gebruiken zijn in verschillende applicaties voor verschillende doeleinden.                                       |
-| | * Ieder gegeven wordt op precies één plek bijgehouden, zodat altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dubbele opslag betekent synchroniseren, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.                                                        |
-| | * Gegevens zijn alleen te registreren, wijzigen en raadplegen via dataservices, zodat de registratieservices kunnen garanderen dat de gegevens en metagegevens altijd voldoen aan de eisen en dat logging altijd plaatsvindt.                                       |
-| | * Gegevens worden op betrouwbare en veilige wijze beheerd, zodat aangetoond kan worden dat gegevens niet bedoeld of onbedoeld gemanipuleerd zijn.                                                  |
-| | * Samenhangend gebruik van gegevens is makkelijk mogelijk, zodat gegevens uit verschillende gegevensverzamelingen te combineren zijn.                                                                |
-| |                                                                  |
+#### naamConstructieprincipe1
+Eenmalige vastlegging meervoudig gebruik
 
-| Principe x | We borgen de beschikbaarheid, vertrouwelijkheid en integriteit van registratie van gegevens (BIV).      |
-|-------------|------------------------------------------------------|
-| referentie  | AP44  https://www.noraonline.nl/wiki/Controleerbaarheid  AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe)  AP41  https://www.noraonline.nl/wiki/Beschikbaarheid  AP42 https://www.noraonline.nl/wiki/Integriteit  AP43 https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)                                               |
-| rationale   | Gegevens die binnen digital twin ecosysteem en organisaties worden gegevens verwerkt worden, worden conform de overeengekomen kaders beschikbaar gesteld en beveiligd tegen ongeautoriseerde toegang, frauduleus gebruik of mutatie en gegevensverlies. De eigenaar van digital twin, informatiesysteem dan wel registratie zorgt ervoor dat afnemers van vertrouwelijke gegevens enkel de gegevens verstrekt krijgen waar ze conform hun doelbinding recht op hebben.           |
-| implicatie  | * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen in  het beschikbaar stellen van data, bewerkingen en transformaties.                                            |
-| | * We voeren Data Protection Impact Assessment (DPIA)3 uit op bestaande & nieuwe dataverwerkingen    |
-| | * We voldoen aan de Baseline informatiebeveiliging Overheid (BIO) in data services, transformaties  |
-| | * Toegang tot privacygevoelige gegevens wordt alleen geboden aan afnemers met doelbinding. Een gebruiker heeft toegang tot de data waarvoor hij/ zij geautoriseerd is. Dit wordt vastgelegd in de gegevens-leveringsovereenkomsten (GLO)   |
-| | * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.                                                                                                    |
-| | * Auditing vindt plaats op het gebruik van persoonsgegevens conform vastgestelde protocollen en gegevensbeveiliging |
+###### Referentie:
+tekst [link]AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend  
 
+###### Rationale:
+* We voorkomen duplicatie (kopieën) van gegevens in de cloud omgeving van de aanbieder van visualisatie- dashboard-, simulatie tooling. 
+* Gegevens worden gescheiden van visualisatie- dashboard-, simulatie tooling bewaard. Opslag van gegevens is onafhankelijk van de Visualisatie software, gebruikte app's.  
+* Ieder gegeven wordt op precies één plek bijgehouden, zodat altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dubbele opslag betekent synchroniseren, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.                                                        
+* Gegevens zijn alleen te registreren, wijzigen en raadplegen via dataservices, zodat de registratieservices kunnen garanderen dat de gegevens en metagegevens altijd voldoen aan de eisen en dat logging altijd plaatsvindt.      
+* Gegevens worden op betrouwbare en veilige wijze beheerd, zodat aangetoond kan worden dat gegevens niet bedoeld of onbedoeld gemanipuleerd zijn.    
+* Samenhangend gebruik van gegevens is makkelijk mogelijk, zodat gegevens uit verschillende gegevensverzamelingen te combineren zijn.     
 
-| Principe x | We borgen de duurzame toegankelijkheid van gegevens daar waar het vereist is.            |
-|-------------|------------------------------------------------------|
-| referentie  | NTB                                                  |
-| rationale   | Gegevens worden conform de geldende bewaar- en vernietigingstermijnen uit de vigerende wet- en regelgeving behandeld (Archief Wet). Zowel gestructureerde als ongestructureerde gegevens worden duurzaam toegankelijk gehouden. |
-| implicatie  | * We voldoen aan wet- en regelgeving zoals de Archiefwet                                   |
-| | * Verantwoording kunnen afleggen over uitgevoerde acties en transparantie                              |
-| | * We zorgen er voor dat de opslag van gegevens duurzaam is                                             |
-| | * We bewaren gegevens niet langer dan nodig is                                                         |
-| | * We nemen maatregelen voor tijdige en volledige archivering van gegevens.                             |
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+#### naamConstructieprincipe1
+beschikbaarheid, vertrouwelijkheid en integriteit van registratie van gegevens (BIV)
+
+###### Referentie:
+tekst [link]AP44  https://www.noraonline.nl/wiki/Controleerbaarheid  AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe)  AP41  https://www.noraonline.nl/wiki/Beschikbaarheid  AP42 https://www.noraonline.nl/wiki/Integriteit  AP43 https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)
+
+###### Rationale:
+* We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen in  het beschikbaar stellen van data, bewerkingen en transformaties.                                           
+* We voeren Data Protection Impact Assessment (DPIA)3 uit op bestaande & nieuwe dataverwerkingen   
+* We voldoen aan de Baseline informatiebeveiliging Overheid (BIO) in data services, transformaties 
+* Toegang tot privacygevoelige gegevens wordt alleen geboden aan afnemers met doelbinding. Een gebruiker heeft toegang tot de data waarvoor hij/ zij geautoriseerd is. Dit wordt vastgelegd in de gegevens-leveringsovereenkomsten (GLO)  
+* Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.                                                                                                    
+* Auditing vindt plaats op het gebruik van persoonsgegevens conform vastgestelde protocollen en gegevensbeveiliging 
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+#### naamConstructieprincipe1
+duurzame toegankelijkheid van gegevens
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+* We voldoen aan wet- en regelgeving zoals de Archiefwet 
+* Verantwoording kunnen afleggen over uitgevoerde acties en transparantie    
+* We zorgen er voor dat de opslag van gegevens duurzaam is   
+* We bewaren gegevens niet langer dan nodig is       
+* We nemen maatregelen voor tijdige en volledige archivering van gegevens. 
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+#### naamConstructieprincipe1
+
+###### Referentie:
+tekst [link](url)
+
+###### Rationale:
+tekst
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 | Principe x | We beheren de kwaliteit van gegevens actief middels continue verbetering en communiceren de kwaliteit.     |
 |-------------|------------------------------------------------------|
