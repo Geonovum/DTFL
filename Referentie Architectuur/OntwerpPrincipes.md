@@ -5,7 +5,7 @@
 In dit hoofdstuk worden de ontwerpprincipes beschreven. Ook wordt de link gelegd met de principes uit NORA, DisGeo en Common Ground.
 
 De ontwerpprincipes zijn te plotten op 3 lagen:
-* **Laag 1** - Toepassingen laag van Digital twins waarin functionaliteit aanwezig is zoals bijvoorbeeld: 3D visualisatie, simulatie, what-if scenario, tijdreizen, gamification, BIM gerelateerd werken.
+* **Laag 1** – Toepassingen laag van Digital twins waarin functionaliteit aanwezig is zoals bijvoorbeeld: 3D visualisatie, simulatie, what-if scenario, tijdreizen, gamification, BIM gerelateerd werken.
 * **Laag 2** – Transformatie laag waarin functionaliteit aanwezig is om allerlei soorten data (bijvoorbeeld procesdata uit taakapplicatie, sensor data , streaming data) uit bronsystemen beschikbaar wordt gesteld aan de toepassingen middels open standaard services, datatransformatie functionaliteit en datamodel mapping, etc.
 * **Laag 3** – Registraties laag waarin bijvoorbeeld taakapplicaties, (basis)administraties, sensoren, complex event processing, maar ook digital twins als een bronsysteem, etc. aanwezig zijn.
 
@@ -20,8 +20,15 @@ De ontwerpprincipes zijn afgeleid van:
 ### Principes
 
 <aside class='note'>
-    JvG: Hoofdstuk over "by design", zoals security by design.
-    TZ:  En onderstaande principes telkens ook meeformuleren in andere functionele blokken
+   JvG: Hoofdstuk over "by design", zoals security by design.
+</aside>
+
+<aside class='note'>
+   TZ:  En onderstaande principes telkens ook meeformuleren in andere functionele blokken
+</aside>
+
+<aside class='note'>
+   GT:  Onderstaande principes in template ontwerpprincipe opnemen en linken aan gerelateerde constructieprincipes
 </aside>
 
 * Overzicht en verantwoording herkomst, door datahouder toegestane gebruikscondities, en gebruiksnut gebruikte datasets
