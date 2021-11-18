@@ -20,15 +20,15 @@ De ontwerpprincipes zijn afgeleid van:
 ### Principes
 
 <aside class='note'>
-   JvG: Hoofdstuk over "by design", zoals security by design.
+   JvG:  Hoofdstuk over "by design", zoals security by design.
 </aside>
 
 <aside class='note'>
-   TZ:  En onderstaande principes telkens ook meeformuleren in andere functionele blokken.
+   TZ:   En onderstaande principes telkens ook meeformuleren in andere functionele blokken.
 </aside>
 
 <aside class='note'>
-   GT:  Onderstaande principes in template ontwerpprincipe opnemen en linken aan gerelateerde constructieprincipes
+   GT:   Onderstaande principes in template ontwerpprincipe opnemen en linken aan gerelateerde constructieprincipes
 </aside>
 
 Overzicht eerste aanzet ontwerpprincipes:
@@ -61,8 +61,8 @@ tekst [link](url)
 tekst
 
 **Constructieprincipe(s)**
-* [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
-* [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+* [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#cp-naamconstructieprincipe1)
+* [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#cp-naamconstructieprincipe2)
 
 ##### OP - naamOntwerpprincipe2
 
@@ -75,5 +75,5 @@ tekst [link](url)
 tekst
 
 **Constructieprincipe(s)**
-* [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
-* [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+* [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#cp-naamconstructieprincipe1)
+* [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#cp-naamconstructieprincipe2)
