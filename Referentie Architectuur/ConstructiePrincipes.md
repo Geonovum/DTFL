@@ -97,13 +97,17 @@ tekst
 
 ### Presentatie
 
-##### naamConstructieprincipe1
-Digitale toegankelijkheid van de digitale informatie
 
-###### Referentie:
+#### User interface
+
+##### Digitale toegankelijkheid van de digitale informatie
+
+**Referentie**
+
 tekst [link]https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa    
 
-###### Rationale:
+**Rationale**
+
 We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- en informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. 
 * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM.
 * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker.
@@ -114,15 +118,13 @@ We toetsen of de digitale informatie en diensten in het digital twin ecosysteem 
     GT: URL opnemen naar genoemde standaarden
 </aside>
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
+
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1) Digitale toegankelijkheid
   
 <aside class='note'>
     <p> * GB: De vraag is of dit een eis is die we aan het stelsel stellen of dat dit een eis is die we aan websites / portalen stellen. In het eerste geval moeten we ons afvragen hoe diep deze eis ingrijpt in de aard en het modelleren van gegevens, in de modellen en wellicht ook in de uitwissleingsstandaarden. In het tweede geval is het 'slechts' een eis die we stellen aan de presentatielaag. </p>
 </aside> 
-
-#### User interface
-tekst
 
 #### Customer Experience
 tekst
