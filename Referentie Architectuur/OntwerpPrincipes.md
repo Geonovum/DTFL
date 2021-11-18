@@ -77,3 +77,10 @@ tekst
 **Constructieprincipe(s)**
 * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
 * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+
+##### naamOntwerpprincipe3
+
+| Referentie  | [URL]   | 
+| Rationale   | tekst   |
+| Constructieprincipe(s)  | * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
+* [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2) |
