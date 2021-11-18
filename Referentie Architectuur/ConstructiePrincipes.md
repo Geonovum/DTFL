@@ -104,12 +104,12 @@ tekst
 
 **Referentie**
 
-[Wetgeving Europa en Nederland m.b.t. digitale toegankelijkheid] (https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa)    
+[Wetgeving Europa en Nederland m.b.t. digitale toegankelijkheid](https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa)    
 
 **Rationale**
 
 We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- en informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. 
-* We passen bij het maken van digitale informatie de standaarden toe: ==EN 301 549==; ==WCAG 2.1== en ==WCAG-EM==.
+* We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM.
 * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker.
 * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht 
 * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet we als overheidsinstantie ‘in control’ zijn. Dat betekent dat we maatregelen benoemen met een planning om de digitale toegankelijkheid te vergroten en grip te krijgen.
