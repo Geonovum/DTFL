@@ -67,7 +67,7 @@ Onderstaand figuur een overzicht van de capabilities
 
 #### Template Constructieprincipe
 
-##### naamConstructieprincipe1
+##### CP - naamConstructieprincipe1
 
 **Referentie**
 
@@ -81,7 +81,7 @@ tekst
 
 [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-##### naamConstructieprincipe2
+##### CP - naamConstructieprincipe2
 
 **Referentie**
 
@@ -115,7 +115,7 @@ We toetsen of de digitale informatie en diensten in het digital twin ecosysteem 
 * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet we als overheidsinstantie ‘in control’ zijn. Dat betekent dat we maatregelen benoemen met een planning om de digitale toegankelijkheid te vergroten en grip te krijgen.
 
 <aside class='note'>
-    GT: URL opnemen naar genoemde standaarden
+    <p> GT: URL opnemen naar genoemde standaarden </p>
 </aside>
 
 **Ontwerpprincipe(s)**
@@ -129,8 +129,8 @@ We toetsen of de digitale informatie en diensten in het digital twin ecosysteem 
 #### Customer Experience
 tekst
 
-##### [Welk gebruiksdoel (= user story) wordt door de software geleverd?]
-tekst
+##### User Story
+Welk gebruiksdoel (user story) wordt door de software geleverd?
 
 ### Analytics
 tekst
@@ -140,13 +140,14 @@ tekst
     <p> FdW: To do: aanvullen met de nieuwe richtlijnen van de Europese Unie (EU) voor de inzet van kunstmatige intelligentie? </p> 
 </aside> 
 
-##### naamConstructieprincipe1
-FAIR algoritmen
+##### CP - FAIR algoritmen
 
-###### Referentie:
+**Referentie**
+
 tekst [link] AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening ; AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)
 
-###### Rationale:
+**Rationale**
+
 * We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness) middels ethisch assesment https://dataschool.nl/deda/ en wetmatigheid https://ec.europa.eu/futurium/en/ai-alliance-consultation.1.html.
 * We ontwerpen algoritmen met gepaste waarborgen en maatregelen: dataprotection by design.
 * We hebben transparantie en verklaarbaarheid geborgd, we hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register 
@@ -165,10 +166,12 @@ tekst [link] AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening ; 
 ##### naamConstructieprincipe1
 Hergebruik van algoritmen
 
-###### Referentie:
+**Referentie**
+
 tekst [link]NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden
 
-###### Rationale:
+**Rationale**
+
 * we maken gebruik van algoritme programmacode onafhankelijke software  
 * We herbruiken beschikbare algoritme programmacode die software- en platform agnostic ontwikkeld is
 * We publiceren ontwikkelde algoritme programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid. 
@@ -186,10 +189,12 @@ tekst [link]NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouws
 #### naamConstructieprincipe1
 Integriteit van algoritme
 
-###### Referentie:
+**Referentie**
+
 tekst [link]https://www.noraonline.nl/wiki/Integriteit
 
-###### Rationale:
+**Rationale**
+
 De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het algoritme correcte, complete en actuele resultaten levert. 
 * De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling. 
 * Uitvoeren van auditing op nieuwe en bestaande werking en data verwerkingen van het algoritme en vastlegging van resultaten audit.
@@ -206,10 +211,12 @@ De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het
 #### naamConstructieprincipe1
 vertrouwelijkheid algoritme 
 
-###### Referentie:
+**Referentie**
+
 tekst [link]AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe) 
 
-###### Rationale:
+**Rationale**
+
 De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbruikt. 
 * De vertrouwelijkheid van algoritme wordt gegarandeerd door scheiding van systeemfuncties, door controle en validatie op toegang tot algoritme 
 * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen door algoritme 
@@ -246,10 +253,12 @@ tekst
 #### naamConstructieprincipe1
 Gebruike open standaarden
 
-###### Referentie:
+**Referentie**
+
 tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
 
-###### Rationale:
+**Rationale**
+
 * we maken visualisatie zónder kennisregels en transformaties zodat we visualisatie tool onafhankelijk blijven 
 * We gebruiken open standaard: SLD voor visualisatie geografische informatie https://forumstandaardisatie.nl/open-standaarden/sld 
 * We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms 
@@ -265,10 +274,12 @@ tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  htt
 #### naamConstructieprincipe1
 Open Source functionaliteit ontwikkelen in visualisatie tooling
 
-###### Referentie:
+**Referentie**
+
 tekst [link](url)
 
-###### Rationale:
+**Rationale**
+
 * We ontwikkelen functionaliteit op basis van open source in visualisatie tooling. Dit bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast.
 * we maken gebruik van programmacode onafhankelijke visualisatie software  
 * We publiceren ontwikkelde functionaliteit/ programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid. 
@@ -291,10 +302,12 @@ tekst [link](url)
 #### naamConstructieprincipe1
 Open standaarden voor Bouw Informatie Modellen (BIM)
 
-###### Referentie:
+**Referentie**
+
 tekst [link](url)
 
-###### Rationale:
+**Rationale**
+
 * We passen open standaarden voor BIM in het digital ecosysteem toe om de interoperabiliteit te bevorderen en voor een optimale werking gegevensuitwisseling.                        
 * We gebruiken open bestands formaat: IFC 2.0 https://www.forumstandaardisatie.nl/open-standaarden/ifc . IFC is een neutraal en open bestandsformaat voor het uitwisselen van BIM-specifieke informatie (modelobjecten en hun eigenschappen). 
 * We gebruiken Nederlandse open standaard CAD: NLCS https://www.forumstandaardisatie.nl/open-standaarden/nlcs 
@@ -330,10 +343,12 @@ tekst
 
 #### naamConstructieprincipe1
 business logica is onafhankelijk visualisatie tooling 
-###### Referentie:
+**Referentie**
+
 tekst [link](url)
 
-###### Rationale:
+**Rationale**
+
 * Er wordt geen business logica los in de visualisatie tooling. Dit geldt ook voor de informatie- en datamodellen en ontologiën.                         |
 * We maken gebruik van open source software voor BPMN workflow en DMN decision automation zoals bijvoorbeeld Camunda. 
 * We ontwikkelen businesslogica in een taal die software onafhankelijk is zoals bijvoorbeeld BPMN, Python, Django en Go 
@@ -353,10 +368,12 @@ tekst [link](url)
 
 #### naamConstructieprincipe1
 standaardiseren in open source API Gateway oplossingen
-###### Referentie:
+**Referentie**
+
 tekst [link](url)
 
-###### Rationale:
+**Rationale**
+
 * Het toepassen van open standaarden en open source API gateway referentie model bevordert de interoperabiliteit en hergebruik van kennis en moet door alle partijen worden toegepast.  
 * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden 
 * We gebruiken open source NLX als referentie model voor API gateway API REST en geo-webservices https://nlx.io/. 
@@ -372,10 +389,12 @@ tekst
 #### naamConstructieprincipe1
 gebruik gemeenschappelijkelandelijke- en smart city-ontologieen om digital twins met elkaar te kunnen verbinden
 
-###### Referentie:
+**Referentie**
+
 tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven  
 
-###### Rationale:
+**Rationale**
+
 * We gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         
 * We gebruiken de smart city-ontologie ETSI CIM NGSI-LD Saref4City:  https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf                               
 * We gebruiken ontologie IMBOR Informatie Model Openbare Ruimte https://github.com/Stichting-CROW/imbor                                 
@@ -392,10 +411,12 @@ tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch
 #### naamConstructieprincipe1
 canonieke data-objecten om digital twins met elkaar te kunnen verbinden
 
-###### Referentie:
+**Referentie**
+
 tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven 
 
-###### Rationale:
+**Rationale**
+
 * We gebruiken afgesproken canonieke data object: Rijksdriehoekscoördinaten “RD- coördinaten” https://www.nsgi.nl/geodetische-infrastructuur/referentiestelsels/rdinfo      
 * We gebruiken afgesproken canonieke data object: “NAP” https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil#:~:text=Om%20binnen%20Nederland%20hoogtes%20te,6%2C78%20m%20onder%20NAP.    
 * We gebruiken afgesproken canonieke data object:  “Nederlandse tijd” https://24timezones.com/Nederland/tijd    
@@ -411,10 +432,12 @@ tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch
 #### naamConstructieprincipe1
 Vindbaarheid data
 
-###### Referentie:
+**Referentie**
+
 tekst [link](url)
 
-###### Rationale:
+**Rationale**
+
 * Er is een federatief stelsel van landelijke datacatalogi met daarin geregistreerd alle binnen het digital twin ecosysteem gebruikte databronnen, databestanden, informatie producten en digital twins met de relevante metadata conform DCAT standaard en MDTO Duurzaam Toegankelijke Overheidsinformatie voor archivering en vernietiging in de Datacatalogus. De W3C Data Catalog Vocabulary (DCAT) is een metadata-standaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi te vereenvoudigen  
 * We passen DCAT toe: https://www.w3.org/TR/vocab-dcat-2/ 
 * We passen MDTO toe: https://www.informatiehuishouding.nl/actueel/nieuws/2021/10/13/definitieve-versie-mdto-nu-online-beschikbaar 
@@ -434,10 +457,12 @@ tekst
 #### naamConstructieprincipe1
 uniforme begrippen & definities
 
-###### Referentie:
+**Referentie**
+
 tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven
 
-###### Rationale:
+**Rationale**
+
 * We maken gebruik van de landelijk vastgestelde bedrijfsobjecten, informatiemodellen en standaarden. Zoals het landelijk bedrijfsobjectenmodel GEMMAhttps://www.gemmaonline.nl/index.php/GEMMA2/0.9/id-85853310-d375-4c9d-ae7a-46dcd0906996 en standaard informatiemodellen zoals RSGB https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_%28RSGB%29, IMRO https://www.geonovum.nl/geo-standaarden/ro-standaarden-ruimtelijke-ordening/informatiemodel-ruimtelijke-ordening-imro2012, IMWA, IMKICH.                                                                
 * Voor maximale interoperabiliteit is het van belang dat structuur en syntax gestandaardiseerd zijn 
 * We standaardiseren de semantiek van gegevens conform de werkelijkheid                             
@@ -472,10 +497,12 @@ tekst
 #### naamConstructieprincipe1
 Gebruik open standaarden
 
-###### Referentie:
+**Referentie**
+
 tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
 
-###### Rationale:
+**Rationale**
+
 * We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms 
 * We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service WFS https://www.ogc.org/standards/wfs 
 * We gebruiken open standaard: Open Geospatial Consortium OGC CityGML https://www.ogc.org/standards/citygml 
@@ -495,10 +522,12 @@ tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  htt
 #### naamConstructieprincipe1
 Open Source API Management
 
-###### Referentie:
+**Referentie**
+
 tekst [link](url)
 
-###### Rationale:
+**Rationale**
+
 Het toepassen van open source API Management bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang
 
 ###### ontwerpprincipe(s):
@@ -528,10 +557,12 @@ tekst
 #### naamConstructieprincipe1
 Eenmalige vastlegging meervoudig gebruik
 
-###### Referentie:
+**Referentie**
+
 tekst [link]AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend  
 
-###### Rationale:
+**Rationale**
+
 * We voorkomen duplicatie (kopieën) van gegevens in de cloud omgeving van de aanbieder van visualisatie- dashboard-, simulatie tooling. 
 * Gegevens worden gescheiden van visualisatie- dashboard-, simulatie tooling bewaard. Opslag van gegevens is onafhankelijk van de Visualisatie software, gebruikte app's.  
 * Ieder gegeven wordt op precies één plek bijgehouden, zodat altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dubbele opslag betekent synchroniseren, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.                                                        
@@ -545,10 +576,12 @@ tekst [link]AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend
 #### naamConstructieprincipe1
 beschikbaarheid, vertrouwelijkheid en integriteit van registratie van gegevens (BIV)
 
-###### Referentie:
+**Referentie**
+
 tekst [link]AP44  https://www.noraonline.nl/wiki/Controleerbaarheid  AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe)  AP41  https://www.noraonline.nl/wiki/Beschikbaarheid  AP42 https://www.noraonline.nl/wiki/Integriteit  AP43 https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)
 
-###### Rationale:
+**Rationale**
+
 * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen in  het beschikbaar stellen van data, bewerkingen en transformaties.                                           
 * We voeren Data Protection Impact Assessment (DPIA)3 uit op bestaande & nieuwe dataverwerkingen   
 * We voldoen aan de Baseline informatiebeveiliging Overheid (BIO) in data services, transformaties 
@@ -562,10 +595,12 @@ tekst [link]AP44  https://www.noraonline.nl/wiki/Controleerbaarheid  AP40 https:
 #### naamConstructieprincipe1
 duurzame toegankelijkheid van gegevens
 
-###### Referentie:
+**Referentie**
+
 tekst [link](url)
 
-###### Rationale:
+**Rationale**
+
 * We voldoen aan de Archiefwet 
 * Verantwoording kunnen afleggen over uitgevoerde acties en transparantie    
 * We zorgen er voor dat de opslag van gegevens duurzaam is   
@@ -578,10 +613,12 @@ tekst [link](url)
 #### naamConstructieprincipe1
 continue verbetering van de kwaliteit van gegevens
 
-###### Referentie:
+**Referentie**
+
 tekst [link]AP31 https://www.noraonline.nl/wiki/PDCA-cyclus_in_besturing_kwaliteit  AP32  https://www.noraonline.nl/wiki/Sturing_kwaliteit_op_het_hoogste_niveau  AP33  https://www.noraonline.nl/wiki/Baseline_kwaliteit_diensten  AP34 https://www.noraonline.nl/wiki/Verantwoording_besturing_kwaliteit
 
-###### Rationale:
+**Rationale**
+
 * Processen die het kwaliteitsbeheer en continu verbeteren borgen zijn ingericht                           
 * De kwaliteit van gegevens zijn van alke databron vastgelegd als metadata                                             
 * Buiten de syntactische correctheid van gegevens bewaakt men ook de integriteit over gegevens- verzamelingen heen     
