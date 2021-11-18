@@ -79,7 +79,7 @@ tekst
 
 **Ontwerpprincipe(s)**
 
-[naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+[naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#op-naamontwerpprincipe1)
 
 ##### CP - naamConstructieprincipe2
 
@@ -93,7 +93,7 @@ tekst
 
 **Ontwerpprincipe(s)**
 
-[naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
+[naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#op-naamontwerpprincipe2)
 
 ### Presentatie
 

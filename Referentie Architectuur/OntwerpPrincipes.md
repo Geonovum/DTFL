@@ -61,8 +61,8 @@ tekst [link](url)
 tekst
 
 **Constructieprincipe(s)**
-* [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
-* [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+* [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#cp-naamconstructieprincipe1)
+* [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#cp-naamconstructieprincipe2)
 
 ##### OP - naamOntwerpprincipe2
 
@@ -75,5 +75,5 @@ tekst [link](url)
 tekst
 
 **Constructieprincipe(s)**
-* [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
-* [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+* [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#cp-naamconstructieprincipe1)
+* [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#cp-naamconstructieprincipe2)
