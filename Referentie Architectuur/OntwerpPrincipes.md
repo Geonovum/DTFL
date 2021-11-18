@@ -24,13 +24,14 @@ De ontwerpprincipes zijn afgeleid van:
 </aside>
 
 <aside class='note'>
-   TZ:  En onderstaande principes telkens ook meeformuleren in andere functionele blokken
+   TZ:  En onderstaande principes telkens ook meeformuleren in andere functionele blokken.
 </aside>
 
 <aside class='note'>
    GT:  Onderstaande principes in template ontwerpprincipe opnemen en linken aan gerelateerde constructieprincipes
 </aside>
 
+Overzicht eerste aanzet ontwerpprincipes:
 * Overzicht en verantwoording herkomst, door datahouder toegestane gebruikscondities, en gebruiksnut gebruikte datasets
 (**Ton, obv EU digital rights/principles**)
 * Aansluiting op dataspaces tbv het ophalen van data (**Ton, obv EU dataspaces**)
