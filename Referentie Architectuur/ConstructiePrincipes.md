@@ -4,10 +4,10 @@
 Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van **Ontwerpprincipes Uit Het**vorige hoofdstuk worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.
 
 #### Wat is het doel van constructie principes?
-Constructieprincipes zijn te beschouwen als richtlijnen voor het ontwikkelen van bijdragen aan het Nederlandse digital twinstelsel. Veel gespecialiseerde architecten, ontwerpers, ontwikkelaars en beheerders spelen hierbij een rol, zoals user interface experts, solution architects, softwareontwikkelaars, informatie-analisten, data-specialisten, IT-architecten, informatiebeveilingsdeskundigen, etc. etc. In dit hoofdstuk vinden zij toe te **Ontwerpprincipes En Daarbij**behorende standaarden.
+Constructieprincipes zijn te beschouwen als richtlijnen voor het ontwikkelen van bijdragen aan het Nederlandse digital twinstelsel. Veel gespecialiseerde architecten, ontwerpers, ontwikkelaars en beheerders spelen hierbij een rol, zoals user interface experts, solution architects, softwareontwikkelaars, informatie-analisten, data-specialisten, IT-architecten, informatiebeveilingsdeskundigen, etc. etc. In dit hoofdstuk vinden zij toe te ontwerpprincipes en daarbij behorende standaarden.
 
 #### Hoe worden constructie principes toegepast?
-De constructie principes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc. etc. Digital twinning kent immers veel componenten, die met elkaar het stelsel vormen. Elk van de hierbinnen toegepaste componenten, worden bij voorkeur in lijn met de constructieprincipes uit dit hoofdstuk ontworpen en gerealiseerd, waardoor zij inpasbaar zijn in het totale stelsel. Toepsassing van **Ontwerpprincipes Kan Dus**ook gezien worden als het zorgen voor een hoge mate van interoperabiliteit binnen het stelsel.
+De constructie principes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc. etc. Digital twinning kent immers veel componenten, die met elkaar het stelsel vormen. Elk van de hierbinnen toegepaste componenten, worden bij voorkeur in lijn met de constructieprincipes uit dit hoofdstuk ontworpen en gerealiseerd, waardoor zij inpasbaar zijn in het totale stelsel. Toepsassing van ontwerpprincipes kan dus ook gezien worden als het zorgen voor een hoge mate van interoperabiliteit binnen het stelsel.
 
 #### Constructieprincipes in relatie tot andere architectuurproducten
 De constructie principes zijn een onderdeel van deze NL-DFTL referentiearchitectuur en de andere architectuurproducten die gerealiseerd worden. 
@@ -24,11 +24,11 @@ In onderstaand figuur is de samenhang weergegeven met de pilots en de architectu
 
 #### Waarop zijn de constructie principes gebaseerd?
 <aside class='note'>
-    <p> * GB: Binnen deze paragraaf moeten we ons beperken tot het noemen van de belangrijkste bronnen die we gerbuikt hebben voor standaarden en richtlijnen, zoals W3C, de PTOLU-lijst van het Standaardisatieforum, etc. De hieronder genoemde wetten zouden we in hoofdstuk 4 moeten plaatsen, als verantwoording van **Ontwerpprincipes Die We**hebben opgesteld. </p>
+    <p> * GB: Binnen deze paragraaf moeten we ons beperken tot het noemen van de belangrijkste bronnen die we gerbuikt hebben voor standaarden en richtlijnen, zoals W3C, de PTOLU-lijst van het Standaardisatieforum, etc. De hieronder genoemde wetten zouden we in hoofdstuk 4 moeten plaatsen, als verantwoording van ontwerpprincipes die we hebben opgesteld. </p>
 </aside> 
 
 De constructie principes zijn gebaseerd op:
-* **Ontwerpprincipes Van Het**programma NL-DFTL
+* Ontwerpprincipes van het programma NL-DFTL
 * Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE) https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving en Minimal Interoperability Mechanisms https://oascities.org/minimal-interoperability-mechanisms/
 * Nederlandse Wetgeving: 
     * Wet Open Overheid
@@ -96,7 +96,6 @@ tekst
 [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
 
 ### Presentatie
-
 
 #### User interface
 
@@ -185,7 +184,7 @@ tekst [link]NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouws
     <p> * GB: De uitwerking van dit integriteitsprincipe omvat feitelijk een breed doorgevoerd stelsel van kwaliteitsborging. Er staan dan ook vooral activiteiten in die onder auspicien van een gezaghebbend lichaam in dit kader zouden moeten worden uitgevoerd. Als we dit willen, hoort dit onderwerp meer in het hoofdstuk over stelselafspraken. Denk ook aan certificering en code-inspectie. </p>
 </aside> 
 
-#### CP - Integriteit van algoritme
+##### CP - Integriteit van algoritme
 
 **Referentie**
 
@@ -206,7 +205,7 @@ De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het
     <p> * GB: In het onderstaande principe worden veel, belangrijke beveiligingseisen 'opgehangen' aan het onderwerp algoritme. Het lijkt me beter om dit principe meer algemeen te formuleren en dan verder de concretisering ervan op te nemen onder hetr kopje informatiebeveiliging en privacyborging. </p>
 </aside> 
 
-#### CP - Vertrouwelijkheid algoritme 
+##### CP - Vertrouwelijkheid algoritme 
 
 **Referentie**
 
@@ -247,7 +246,9 @@ tekst
     GB: Zie mijn eerdere comment over open source. We kunnen zeker in hoofdstuk 4 een paragraaf opnemen over onze voorkeur voor open source. Maar niet dwingend voorschrijven, zou ik zeggen.</p>  
 </aside>
 
-#### CP - Gebruike open standaarden
+#### <KOP INVOEGEN>
+
+##### CP - Gebruike open standaarden
 
 **Referentie**
 
@@ -267,7 +268,7 @@ tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  htt
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### CP - Open Source functionaliteit ontwikkelen in visualisatie tooling
+##### CP - Open Source functionaliteit ontwikkelen in visualisatie tooling
 
 **Referentie**
 
@@ -290,11 +291,11 @@ tekst [link](url)
     <p> * GB: Waarom deze VIP-behandeling voor BIM-modellen? ER zijn nog tal van andere modellen van belang binnen het DT-stelsel. Ook voor die modellen geldt dat we streven naar standaardisatie. Als 'zelfstandig' principe, kan deze er m.i. uit. </p>
 </aside> 
 
-#### 1.3.2 3D afbeeldingen (data statisch)
+#### 3D afbeeldingen (data statisch)
 
 #### 3D afbeeldingen (data statisch en dynamisch)
 
-#### CP - Open standaarden voor Bouw Informatie Modellen (BIM)
+##### CP - Open standaarden voor Bouw Informatie Modellen (BIM)
 
 **Referentie**
 
@@ -335,7 +336,9 @@ tekst
 
 ### Business logic
 
-#### CP - Business logica is onafhankelijk visualisatie tooling 
+#### <KOP INVOEGEN>
+
+##### CP - Business logica is onafhankelijk visualisatie tooling 
 
 **Referentie**
 
@@ -360,7 +363,7 @@ tekst [link](url)
     <p> FdW: er zijn meerdere API gateway toepassingen voor voor API REST en geo-webservices maar ook API gateway voor streaming data. </p>   
 </aside>
 
-#### CP - Standaardiseren in open source API Gateway oplossingen
+##### CP - Standaardiseren in open source API Gateway oplossingen
 
 **Referentie**
 
@@ -380,7 +383,7 @@ tekst
 
 #### Semantiek / ontologie
 
-#### CP - Gebruik gemeenschappelijkelandelijke- en smart city-ontologieen om digital twins met elkaar te kunnen verbinden
+##### CP - Gebruik gemeenschappelijkelandelijke- en smart city-ontologieen om digital twins met elkaar te kunnen verbinden
 
 **Referentie**
 
@@ -401,7 +404,7 @@ tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch
 
 #### Dataobjectmodellen
 
-#### CP - Canonieke data-objecten om digital twins met elkaar te kunnen verbinden
+##### CP - Canonieke data-objecten om digital twins met elkaar te kunnen verbinden
 
 **Referentie**
 
@@ -421,7 +424,7 @@ tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch
 
 #### Metadata
 
-#### CP - Vindbaarheid data
+##### CP - Vindbaarheid data
 
 **Referentie**
 
@@ -445,7 +448,7 @@ tekst
 
 #### Masterdata / begrippen & definities
 
-#### CP - Uniforme begrippen & definities
+##### CP - Uniforme begrippen & definities
 
 **Referentie**
 
@@ -484,7 +487,7 @@ tekst
 
 #### Service/ API
 
-#### CP - Gebruik open standaarden
+##### CP - Gebruik open standaarden
 
 **Referentie**
 
@@ -508,7 +511,7 @@ tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  htt
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### CP - Open Source API Management
+##### CP - Open Source API Management
 
 **Referentie**
 
@@ -542,7 +545,9 @@ tekst
 
 ### Data verwerving
 
-#### CP - Eenmalige vastlegging meervoudig gebruik
+#### <KOP INVOEGEN>
+
+##### CP - Eenmalige vastlegging meervoudig gebruik
 
 **Referentie**
 
@@ -560,8 +565,7 @@ tekst [link]AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### naamConstructieprincipe1
-beschikbaarheid, vertrouwelijkheid en integriteit van registratie van gegevens (BIV)
+##### CP - Beschikbaarheid, vertrouwelijkheid en integriteit van registratie van gegevens (BIV)
 
 **Referentie**
 
@@ -579,7 +583,7 @@ tekst [link]AP44  https://www.noraonline.nl/wiki/Controleerbaarheid  AP40 https:
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### CP - Duurzame toegankelijkheid van gegevens
+##### CP - Duurzame toegankelijkheid van gegevens
 
 **Referentie**
 
@@ -596,7 +600,7 @@ tekst [link](url)
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### CP - Continue verbetering van de kwaliteit van gegevens
+##### CP - Continue verbetering van de kwaliteit van gegevens
 
 **Referentie**
 
