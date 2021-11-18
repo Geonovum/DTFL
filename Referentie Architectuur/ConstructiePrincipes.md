@@ -341,6 +341,7 @@ tekst [link](url)
 
 #### naamConstructieprincipe1
 standaardiseren in open source API Gateway oplossingen
+
 ###### Referentie:
 tekst [link](url)
 
@@ -412,7 +413,6 @@ tekst [link](url)
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
-
 
 #### Attribuutbeveiliging
 tekst
@@ -620,8 +620,88 @@ Bij voorkeur communiceren dingen via een beveiligd communicatiekanaal.
 
 Apparaten zijn zich 'bewust' van hun fysieke locatie op aarde alsook de locatie van wat geobserveerd wordt, dit is de basis van de Observations en Measurement standaard (ISO 19156)
 
+Onderstaand figuur een overzicht van IoT architectuur
+<figure id="IoT architectuur">
+    <img src="media/IoT architectuur.jpg" alt="IoT architectuur">
+    <figcaption>Overzicht capabilities</figcaption>
+</figure>
+
 #### Sensoren
 Sensoren verzamelen data over hun omgeving (bv temperatuur, luchtdruk, beelden van een kruispunt, ...), en sturen ze door of houden ze vast tot ze doorgestuurd kunnen worden.
+
+#### naamConstructieprincipe1
+sensoren
+
+###### Referentie:
+tekst [link]
+
+###### Rationale:
+Standaarden IoT-apparaten/ sensoren:
+• Arduino met Arduino Ethernet-verbinding
+• Arduino Yun met een Wi-Fi-verbinding
+• Raspberry Pi aangesloten via Ethernet of Wi-Fi
+• Intel Galileo aangesloten via Ethernet of Wi-Fi
+
+Voorbeelden van indirect aangesloten apparaat zijn 
+• ZigBee-apparaten aangesloten via een ZigBee-gateway
+• Bluetooth of Bluetooth Low Energy-apparaten die via een mobiele telefoon verbinden
+• Apparaten die via een low power radio signaal communiceren naar Raspberry Pi
+
+Elk apparaat/sensor heeft een identiteit en kan een van de volgende zijn:
+• Een uniek identificator (UUID) dat in het apparaat is gebrand (meestal onderdeel van de System-on-Chip, of voorzien van een secundaire chip)
+• Een UUID door radiosubsysteem wordt geleverd (bijvoorbeeld Bluetooth-identificatie, Wi-Fi MAC-adres)
+• Een OAuth2 Refresh / Bearer Token (open standaard)
+• Een identificator opgeslagen in een geheugen, zoals EEPROM
+
+Het is de aanbeveling dat elk apparaat een UUID heeft (bij voorkeur een onveranderlijk ID dat met de hardware wordt geleverd), zoals een OAuth2 Refresh and Bearer Token en opgeslagen wordt in een sensor registratie ( EEPROM).
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+Sensor netwerk: De belangrijkste taak is het aansluiten van sensoren en actuatoren op een IoT gateway. De netwerken zijn  lokaal en zijn vaak beperkt in het bereik. Er wordtn gebruik gemaakt van gespecialiseerde protocollen, vanwege IoT apparaat beperkingen.
+
+#### naamConstructieprincipe1
+sensornetwerk
+
+###### Referentie:
+tekst [link]
+
+###### Rationale:
+Standaarden voor sensor netwerk zijn:
+* API’s met REST-based protocols 
+* OGC SensorThings API (http://ogc-iot.github.io/ogc-iot-api)
+* UL 2.0 (Unified Language) over HTTP of MQTT (ISO gecertificeerd) 
+* JSON format over HTTP of MQTT
+* LW M2M (LightWight format machine-to-machine) over IETF CoAP protocol of XMPP).
+* NarrowBand IoT (NB-IoT) in gelicentieerd spectrum is de dominante technologie.
+* Andere non-IP transports Technologieën in een niet-gecertificeerde spectrum  zogenaamde ‘vergunningsvrije’ frequentiebanden WiFi, LoRa, Bluetooth, Sigfox.
+
+De netwerk karakteristieken in de sensoren laag zijn:
+* Real-time information verzamelen en versturen
+* Sensoren gebruiken veelal ‘low power’  
+* Actuatoren gebruiken, afhankelijk van de functie power
+* Sensoren en actuatoren zijn bedraad of draadloos verbonden in een netwerk
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+#### naamConstructieprincipe1
+Context broker
+
+###### Referentie:
+tekst [link]
+
+###### Rationale:
+De API van context broker is vastgelegd in de standard NGSI9 en NGSI10 (versie 1 en 2). Dit zijn API REST-gebaseerde interfaces.
+Open standaarden:
+* Token methodiek gebaseerd op Security Assertion Markup Language (SAML) en eXtensible Access Control Markup Language (XACML) standaarden
+* OpenIoT support role-based authentication and authorization
+* OAuth2.0 
+* OpenID
+
+###### ontwerpprincipe(s):
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
 
 #### Actuatoren
 Via een actuator beïnvloeden de apparaten de fysieke wereld. Een actuator zet data om in een actie, bijvoorbeeld een beweging, aan of uit zetten van een licht of het nemen van een foto.
