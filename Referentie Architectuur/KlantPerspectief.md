@@ -2,6 +2,10 @@
 
 Nederland staat voor grote maatschappelijke opgaven die ingrijpende gevolgen hebben voor de inrichting van onze leefomgeving. Deze opgaven zijn gerelateerd. Zo willen we ons energiesysteem verduurzamen, wat aanpassingen in de energie-infrastructuur vergt (1). Het mobiliteitssysteem van snelwegen en vaarwegen loopt tegen capaciteitsgrenzen aan (2). Deze infrastructuur is voor een belangrijk deel aan vervanging toe, met effecten op ruimte, luchtkwaliteit, klimaat, verkeersveiligheid en de leefbaarheid in steden. Er is behoefte aan de bouw van een miljoen woningen, waarvoor locaties bepaald moeten worden (3). De landbouw en mobiliteit vraagt om een transitie onder andere vanwege de stikstofuitstoot (4), en tenslotte verandert het klimaat, waardoor rekening gehouden moet worden met periodes van extreme- droogte en neerslag, stijging van de zeespiegel en verzilting van het land (5).
 
+<aside class='note'>
+	GT: opsommingslijst maken van bovenstaande alinea voor leesbaarheid?
+</aside>
+
 Naast hun onderlinge verwevenheid kenmerken deze opgaven zich door urgentie en tijdsdruk. Ze zijn bovendien complex en doen een beroep op datgene wat in Nederland schaars is: de fysieke ruimte. Om deze in onderlinge samenhang en complexiteit aan te pakken zijn vele partijen aan zet: overheden, burgers, kennisinstellingen en het bedrijfsleven.
 
 Voor ieder individueel maatschappelijk vraagstuk is het nodig om de samenwerking tussen de genoemde partijen te faciliteren met een instrument dat gebaseerd is op een gemeenschappelijke betrouwbare informatiebasis: de digitale tweeling van de fysieke leefomgeving (DTFL).
@@ -22,7 +26,7 @@ Met de digitale tweeling van de fysieke leefomgeving (DTFL) bedoelen we een digi
 5.	Ondersteunt beheerders bij een efficiënt beheer en onderhoud van fysieke objecten door effectieve monitoring. 
 
 
-### de nationale digitale tweeling
+### De nationale digitale tweeling
 
 Onze stip op de horizon is een Nationale DTFL - dat een landsdekkend beeld geeft van de leefomgeving in Nederland. Deze Nationale DTFL wordt gebruikt als publiek instrumentarium door overheden, burgers, bedrijven en kennisinstellingen, voor het verkennen van maatschappelijke uitdagingen in de fysieke leefomgeving en het ontwerpen en ontwikkelen van oplossingsscenario’s. 
 
@@ -32,7 +36,7 @@ De Nationale DTFL is niet één systeem, maar bestaat uit een federatief geheel 
 2.	De DTFL-infrastructuur  maakt het delen van brondata, modellen en visualisaties mogelijk. De DTFL-infrastructuur biedt toegangswegen naar allerhande bronnen en applicatieve services en koppelvlakken en zorgt zo voor een betrouwbare Nationale ontsluiting van de ingrediënten voor een DTFL.
 3.	De praktijk van Digital Twinning wordt samengebracht in het DTFL-ecosysteem. Het DTFL-ecosysteem biedt de componenten rondom de ontwikkeling en het gebruik van een DTFL zoals een set voorwaardelijke standaarden, keurmerken en instrumenten om betekenisvol, voorspelbaar en transparant gebruik te borgen binnen een context van spelregels voor publieke waarden. Zo wordt Digital Twinning op Nationale schaal een feit.  
 
-### participatie van burgers en betrokkenen
+### Participatie van burgers en betrokkenen
 
 De maatschappelijke opgaven zijn zo ingrijpend dat elke burger hier mee te maken krijgt. Dat dit ook mis kan gaan weten we door de discussie over stikstof met boeren en bouwbedrijven, maar ook in Culemborg, waar bewoners niet zaten te wachten op windmolens. Er is daarom een groot belang voor het creëren van draagvlak. De realisatie van deze ruimtelijke opgaven vraagt daarom om participatie en co-creatie met burgers en bedrijven. 
 
@@ -48,13 +52,3 @@ Met de Nationale DTFL voorzien we in een infrastructuur en een stelsel van afspr
 ### Het proces
 
 *Beschrijf het proces waarmee dit document is ontwikkeld*
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, 
-ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
-Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
-Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. 
-Curabitur ullamcorper ultricies nisi. Nam eget dui.
