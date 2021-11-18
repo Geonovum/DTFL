@@ -52,24 +52,24 @@ gerichte context/vraag (**Ton, obv personal dataspaces, data-altruisme, AVG**)
 
 ##### naamOntwerpprincipe1
 
-###### Referentie:
-tekst [link](url)
+Referentie:
+: tekst [link](url)
 
-###### Rationale:
-tekst
+Rationale:
+: tekst
 
-###### Constructieprincipe(s):
- * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
- * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+Constructieprincipe(s):
+: [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
+: [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
 
 ##### naamOntwerpprincipe2
 
-###### Referentie:
-tekst [link](url)
+Referentie:
+: tekst [link](url)
 
-###### Rationale:
-tekst
+Rationale:
+: tekst
 
-###### Constructieprincipe(s):
-   * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
-   * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
+Constructieprincipe(s):
+: [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
+: [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)

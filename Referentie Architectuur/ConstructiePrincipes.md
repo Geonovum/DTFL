@@ -69,25 +69,25 @@ Onderstaand figuur een overzicht van de capabilities
 
 ##### naamConstructieprincipe1
 
-###### Referentie:
-tekst [link](url)
+Referentie:
+: tekst [link](url)
 
-###### Rationale:
-tekst
+Rationale:
+: tekst
 
-###### ontwerpprincipe(s):
- * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+Ontwerpprincipe(s):
+: [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 ##### naamConstructieprincipe2
 
-###### Referentie:
-tekst [link](url)
+Referentie:
+: tekst [link](url)
 
-###### Rationale:
-tekst
+Rationale:
+: tekst
 
-###### Ontwerpprincipe(s):
-   * [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
+Ontwerpprincipe(s):
+: [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
 
 ### Presentatie
 
@@ -103,6 +103,10 @@ We toetsen of de digitale informatie en diensten in het digital twin ecosysteem 
 * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker.
 * We publiceren de actuele toegankelijkheidsverklaring(en) online. Dit is verplicht 
 * Het is niet zo zwart-wit dat men op elk moment 100% aan de standaard voor digitale toegankelijkheid moet voldoen. Wel moet we als overheidsinstantie ‘in control’ zijn. Dat betekent dat we maatregelen benoemen met een planning om de digitale toegankelijkheid te vergroten en grip te krijgen.
+
+<aside class='note'>
+    GT: URL opnemen naar genoemde standaarden
+</aside>
 
 ###### ontwerpprincipe(s):
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1) Digitale toegankelijkheid
