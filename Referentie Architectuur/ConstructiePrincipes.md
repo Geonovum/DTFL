@@ -143,7 +143,8 @@ tekst
 
 **Referentie**
 
-tekst [link] AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening ; AP15 https://www.noraonline.nl/wiki/Doelbinding_(AP)
+* NORA: [AP25](https://www.noraonline.nl/wiki/Transparante_dienstverlening)
+* NORA: [AP15](https://www.noraonline.nl/wiki/Doelbinding_(AP))
 
 **Rationale**
 
@@ -166,11 +167,12 @@ tekst [link] AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening ; 
 
 **Referentie**
 
-tekst [link]NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen NORA AP08 https://www.noraonline.nl/wiki/Gebruik_open_standaarden
+* NORA: [AP07](https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen)
+* NORA: [AP08](https://www.noraonline.nl/wiki/Gebruik_open_standaarden)
 
 **Rationale**
 
-* we maken gebruik van algoritme programmacode onafhankelijke software  
+* We maken gebruik van algoritme programmacode onafhankelijke software  
 * We herbruiken beschikbare algoritme programmacode die software- en platform agnostic ontwikkeld is
 * We publiceren ontwikkelde algoritme programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid. 
 * We documenteren algoritme programmacode volgens de voorgeschreven standaarden 
@@ -188,7 +190,11 @@ tekst [link]NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouws
 
 **Referentie**
 
-tekst [link]https://www.noraonline.nl/wiki/Integriteit
+* NORA [AP??](https://www.noraonline.nl/wiki/Integriteit)
+
+<aside class='note'>
+    <p> GT: AP-nummer toevoegen</p>
+</aside>
 
 **Rationale**
 
@@ -209,7 +215,7 @@ De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het
 
 **Referentie**
 
-tekst [link]AP43  https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe) 
+* NORA: [AP43](https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe))
 
 **Rationale**
 
@@ -248,11 +254,12 @@ tekst
 
 #### <KOP INVOEGEN>
 
-##### CP - Gebruike open standaarden
+##### CP - Gebruik open standaarden
 
 **Referentie**
 
-tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
+* NORA: [AP08](https://www.noraonline.nl/wiki/Gebruik_open_standaarden)
+* Forum Standaardisatie: [Verplicht gebruik open standaarden](https://www.forumstandaardisatie.nl/open-standaarden/verplicht)
 
 **Rationale**
 
@@ -363,6 +370,8 @@ tekst [link](url)
     <p> FdW: er zijn meerdere API gateway toepassingen voor voor API REST en geo-webservices maar ook API gateway voor streaming data. </p>   
 </aside>
 
+#### <KOP INVOEGEN>
+
 ##### CP - Standaardiseren in open source API Gateway oplossingen
 
 **Referentie**
@@ -387,7 +396,7 @@ tekst
 
 **Referentie**
 
-tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven  
+* NORA: [AP17](https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven)
 
 **Rationale**
 
@@ -408,7 +417,7 @@ tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch
 
 **Referentie**
 
-tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven 
+* NORA: [AP17](https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven)
 
 **Rationale**
 
@@ -452,7 +461,7 @@ tekst
 
 **Referentie**
 
-tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven
+* NORA: [AP17](https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven)
 
 **Rationale**
 
@@ -491,7 +500,8 @@ tekst
 
 **Referentie**
 
-tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  https://www.forumstandaardisatie.nl/open-standaarden/verplicht
+* NORA: [AP08](https://www.noraonline.nl/wiki/Gebruik_open_standaarden)
+Forum Standaardisatie [Verplicht gebruik open standaarden](https://www.forumstandaardisatie.nl/open-standaarden/verplicht)
 
 **Rationale**
 
@@ -551,7 +561,7 @@ tekst
 
 **Referentie**
 
-tekst [link]AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend  
+* NORA [AP13](https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend)
 
 **Rationale**
 
@@ -569,7 +579,11 @@ tekst [link]AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend
 
 **Referentie**
 
-tekst [link]AP44  https://www.noraonline.nl/wiki/Controleerbaarheid  AP40 https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe)  AP41  https://www.noraonline.nl/wiki/Beschikbaarheid  AP42 https://www.noraonline.nl/wiki/Integriteit  AP43 https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe)
+* NORA [AP44](https://www.noraonline.nl/wiki/Controleerbaarheid)
+* NORA [AP40](https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe))
+* NORA [AP41](https://www.noraonline.nl/wiki/Beschikbaarheid)
+* NORA [AP42](https://www.noraonline.nl/wiki/Integriteit)
+* NORA [AP43](https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe))
 
 **Rationale**
 
@@ -604,7 +618,10 @@ tekst [link](url)
 
 **Referentie**
 
-tekst [link]AP31 https://www.noraonline.nl/wiki/PDCA-cyclus_in_besturing_kwaliteit  AP32  https://www.noraonline.nl/wiki/Sturing_kwaliteit_op_het_hoogste_niveau  AP33  https://www.noraonline.nl/wiki/Baseline_kwaliteit_diensten  AP34 https://www.noraonline.nl/wiki/Verantwoording_besturing_kwaliteit
+* NORA [AP31](https://www.noraonline.nl/wiki/PDCA-cyclus_in_besturing_kwaliteit)
+* NORA [AP32](https://www.noraonline.nl/wiki/Sturing_kwaliteit_op_het_hoogste_niveau)
+* NORA [AP33](https://www.noraonline.nl/wiki/Baseline_kwaliteit_diensten)
+* NORA [AP34](https://www.noraonline.nl/wiki/Verantwoording_besturing_kwaliteit)
 
 **Rationale**
 
