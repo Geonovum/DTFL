@@ -53,9 +53,11 @@ gerichte context/vraag (**Ton, obv personal dataspaces, data-altruisme, AVG**)
 ##### naamOntwerpprincipe1
 
 **Referentie**
+
 tekst [link](url)
 
 **Rationale**
+
 tekst
 
 **Constructieprincipe(s)**
@@ -65,9 +67,11 @@ tekst
 ##### naamOntwerpprincipe2
 
 **Referentie**
+
 tekst [link](url)
 
 **Rationale**
+
 tekst
 
 **Constructieprincipe(s)**
