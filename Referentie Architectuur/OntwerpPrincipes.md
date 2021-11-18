@@ -50,7 +50,7 @@ gerichte context/vraag (**Ton, obv personal dataspaces, data-altruisme, AVG**)
 
 #### Template Ontwerpprincipe
 
-##### naamOntwerpprincipe1
+##### OP - naamOntwerpprincipe1
 
 **Referentie**
 
@@ -64,7 +64,7 @@ tekst
 * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
 * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
 
-##### naamOntwerpprincipe2
+##### OP - naamOntwerpprincipe2
 
 **Referentie**
 
@@ -77,12 +77,3 @@ tekst
 **Constructieprincipe(s)**
 * [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1)
 * [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2)
-
-##### OP - naamOntwerpprincipe3
-
-|**Ontwerpprincipe**       |         |
-|-------------             |---------|
-| Referentie               | [URL]   | 
-| Rationale                | tekst   |
-| Constructieprincipe(s)   | [naamConstructieprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe1) |
-|                          | [naamConstructieprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamconstructieprincipe2) |

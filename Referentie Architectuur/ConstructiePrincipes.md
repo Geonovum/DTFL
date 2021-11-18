@@ -69,25 +69,31 @@ Onderstaand figuur een overzicht van de capabilities
 
 ##### naamConstructieprincipe1
 
-Referentie:
-: tekst [link](url)
+**Referentie**
 
-Rationale:
-: tekst
+tekst [link](url)
 
-Ontwerpprincipe(s):
-: [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+**Rationale**
+
+tekst
+
+**Ontwerpprincipe(s)**
+
+[naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 ##### naamConstructieprincipe2
 
-Referentie:
-: tekst [link](url)
+**Referentie**
 
-Rationale:
-: tekst
+tekst [link](url)
 
-Ontwerpprincipe(s):
-: [naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
+**Rationale**
+
+tekst
+
+**Ontwerpprincipe(s)**
+
+[naamOntwerpprincipe2](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe2)
 
 ### Presentatie
 
