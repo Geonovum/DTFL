@@ -100,7 +100,7 @@ tekst
 
 #### User interface
 
-##### Digitale toegankelijkheid van de digitale informatie
+##### CP - Digitale toegankelijkheid van de digitale informatie
 
 **Referentie**
 
