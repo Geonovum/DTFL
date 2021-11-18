@@ -402,8 +402,8 @@ tekst
 
 * We gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         
 * We gebruiken de smart city-ontologie [ETSI CIM NGSI-LD Saref4City](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf)                               
-* We gebruiken ontologie [Informatie Model Openbare Ruimte](https://github.com/Stichting-CROW/imbor)(IMBOR) 
-* We gebruiken ontologie [Gegevenswoordenboek Stedelijk Water](https://data.gwsw.nl/)(GWSW)
+* We gebruiken ontologie [Informatie Model Openbare Ruimte](https://github.com/Stichting-CROW/imbor) (IMBOR) 
+* We gebruiken ontologie [Gegevenswoordenboek Stedelijk Water](https://data.gwsw.nl/) (GWSW)
 * We gebruiken [W3C/OGC GeoSparql ontologie](https://www.ogc.org/projects/groups/geosparqlswg) 
 * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie
 * Note: Microsoft maakt gebruik van smart city-ontologie ETSI CIM NGSI-LD en en heeft het geïmplementeerd op Micrsoft Azure Digital twin software middels een specifieke Microsoft taal: open source [DTDL-based Smart Cities ontology](https://techcommunity.microsoft.com/t5/internet-of-things/smart-cities-ontology-for-digital-twins/ba-p/2166585). Het is niet volledig leveranciersonafhankelijk
@@ -425,8 +425,8 @@ tekst
 * We gebruiken afgesproken canonieke data object: [NAP](https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil#:~:text=Om%20binnen%20Nederland%20hoogtes%20te,6%2C78%20m%20onder%20NAP)    
 * We gebruiken afgesproken canonieke data object: [Nederlandse tijd](https://24timezones.com/Nederland/tijd)    
 * We gebruiken afgesproken canonieke data object:  [Geografisch middelpunt van Nederland](  https://nl.wikipedia.org/wiki/Geografisch_middelpunt_van_Nederland)                                  
-* We datamodelleren conform het [metamodel informatiemodelleren](https://www.forumstandaardisatie.nl/open-standaarden/mim)                                             
-* We ontwikkelen datamodellen die uitwisselbaar zijn in een [open standaard formaat UML eXchange Format](https://en.wikipedia.org/wiki/UXF)(UXF) 
+* We datamodelleren conform het [metamodel informatiemodelleren](https://www.forumstandaardisatie.nl/open-standaarden/mim) (MIM)                                             
+* We ontwikkelen datamodellen die uitwisselbaar zijn in een [open standaard formaat UML eXchange Format](https://en.wikipedia.org/wiki/UXF) (UXF) 
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
