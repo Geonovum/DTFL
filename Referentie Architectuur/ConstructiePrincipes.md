@@ -1,13 +1,13 @@
 ## Constructie Principes en standaarden
 
 ### Inleiding
-Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van de ontwerpprincipes uit het vorige hoofdstuk worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.
+Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van **Ontwerpprincipes Uit Het**vorige hoofdstuk worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.
 
 #### Wat is het doel van constructie principes?
-Constructieprincipes zijn te beschouwen als richtlijnen voor het ontwikkelen van bijdragen aan het Nederlandse digital twinstelsel. Veel gespecialiseerde architecten, ontwerpers, ontwikkelaars en beheerders spelen hierbij een rol, zoals user interface experts, solution architects, softwareontwikkelaars, informatie-analisten, data-specialisten, IT-architecten, informatiebeveilingsdeskundigen, etc. etc. In dit hoofdstuk vinden zij toe te passen ontwerpprincipes en daarbij behorende standaarden.
+Constructieprincipes zijn te beschouwen als richtlijnen voor het ontwikkelen van bijdragen aan het Nederlandse digital twinstelsel. Veel gespecialiseerde architecten, ontwerpers, ontwikkelaars en beheerders spelen hierbij een rol, zoals user interface experts, solution architects, softwareontwikkelaars, informatie-analisten, data-specialisten, IT-architecten, informatiebeveilingsdeskundigen, etc. etc. In dit hoofdstuk vinden zij toe te **Ontwerpprincipes En Daarbij**behorende standaarden.
 
 #### Hoe worden constructie principes toegepast?
-De constructie principes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc. etc. Digital twinning kent immers veel componenten, die met elkaar het stelsel vormen. Elk van de hierbinnen toegepaste componenten, worden bij voorkeur in lijn met de constructieprincipes uit dit hoofdstuk ontworpen en gerealiseerd, waardoor zij inpasbaar zijn in het totale stelsel. Toepsassing van deze ontwerpprincipes kan dus ook gezien worden als het zorgen voor een hoge mate van interoperabiliteit binnen het stelsel.
+De constructie principes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc. etc. Digital twinning kent immers veel componenten, die met elkaar het stelsel vormen. Elk van de hierbinnen toegepaste componenten, worden bij voorkeur in lijn met de constructieprincipes uit dit hoofdstuk ontworpen en gerealiseerd, waardoor zij inpasbaar zijn in het totale stelsel. Toepsassing van **Ontwerpprincipes Kan Dus**ook gezien worden als het zorgen voor een hoge mate van interoperabiliteit binnen het stelsel.
 
 #### Constructieprincipes in relatie tot andere architectuurproducten
 De constructie principes zijn een onderdeel van deze NL-DFTL referentiearchitectuur en de andere architectuurproducten die gerealiseerd worden. 
@@ -24,11 +24,11 @@ In onderstaand figuur is de samenhang weergegeven met de pilots en de architectu
 
 #### Waarop zijn de constructie principes gebaseerd?
 <aside class='note'>
-    <p> * GB: Binnen deze paragraaf moeten we ons beperken tot het noemen van de belangrijkste bronnen die we gerbuikt hebben voor standaarden en richtlijnen, zoals W3C, de PTOLU-lijst van het Standaardisatieforum, etc. De hieronder genoemde wetten zouden we in hoofdstuk 4 moeten plaatsen, als verantwoording van de ontwerpprincipes die we hebben opgesteld. </p>
+    <p> * GB: Binnen deze paragraaf moeten we ons beperken tot het noemen van de belangrijkste bronnen die we gerbuikt hebben voor standaarden en richtlijnen, zoals W3C, de PTOLU-lijst van het Standaardisatieforum, etc. De hieronder genoemde wetten zouden we in hoofdstuk 4 moeten plaatsen, als verantwoording van **Ontwerpprincipes Die We**hebben opgesteld. </p>
 </aside> 
 
 De constructie principes zijn gebaseerd op:
-* De ontwerpprincipes van het programma NL-DFTL
+* **Ontwerpprincipes Van Het**programma NL-DFTL
 * Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE) https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving en Minimal Interoperability Mechanisms https://oascities.org/minimal-interoperability-mechanisms/
 * Nederlandse Wetgeving: 
     * Wet Open Overheid
@@ -156,15 +156,14 @@ tekst [link] AP25 https://www.noraonline.nl/wiki/Transparante_dienstverlening ; 
 * We hebben diversiteit, non-discriminatie en rechtvaardigheid geborgd. Bij ontwerp en inzet van algoritme wordt rekening gehouden met inclusie en diversiteit, inclusief gelijke toegang via inclusieve ontwerpprocessen, alsook voor gelijke behandeling. Dit betekent er worden maatregelen genomen tegen bias (vooringenomenheid) die kan leiden tot directe of indirecte discriminatie en uitsluiting. We weten met welke data het algoritme getraind en ontwikkeld is, wat de data kwaliteit is en de eventueel gebreken in de trainingsdata en de bias en hebben dit vastgelegd. 
 * We voeren bij aansluiting een assessment van de fairness van het machine-learning algoritme en testen op basis van de maatstaven die belangrijk worden geacht. Deze maatstaven dienen gemonitord te worden zolang het algoritme wordt ingezet. Alle intenties, motivatie en potentiële gevaren van algoritme is gedocumenteerd.  
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1) algoritmen voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR)
 
 <aside class='note'>
     <p> * GB: Het onderstaande principe is een variant van de 'open source' gedachte. Naar de letter toegepast zou dit principe betekenen dat alle deelnemers in het DT-stelsel hun volledige code moeten publiceren. Dat zal de meeste private partijen doen afhaken. Ik ben er niet zeker van dat we dit principe in deze vorm moeten handhaven. Het omgekeerde kan wel: Partijen die dat wensen, kunnen via een gemeenschappelijke repository code aan anderen beschikbaar stellen. Dit zou een federatieve voorziening kunnen zijn. </p>
 </aside> 
 
-##### naamConstructieprincipe1
-Hergebruik van algoritmen
+##### CP - Hergebruik van algoritmen
 
 **Referentie**
 
@@ -179,15 +178,14 @@ tekst [link]NORA AP07 https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouws
 * We beheren de algoritme programmacode in een community, samenwerkingsverbanden 
 * We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn voor hergebruik
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 <aside class='note'>
     <p> * GB: De uitwerking van dit integriteitsprincipe omvat feitelijk een breed doorgevoerd stelsel van kwaliteitsborging. Er staan dan ook vooral activiteiten in die onder auspicien van een gezaghebbend lichaam in dit kader zouden moeten worden uitgevoerd. Als we dit willen, hoort dit onderwerp meer in het hoofdstuk over stelselafspraken. Denk ook aan certificering en code-inspectie. </p>
 </aside> 
 
-#### naamConstructieprincipe1
-Integriteit van algoritme
+#### CP - Integriteit van algoritme
 
 **Referentie**
 
@@ -201,15 +199,14 @@ De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het
 * De criteria voor juistheid, en tijdigheid en volledigheid van algoritme zijn vastgesteld en worden regulier gecontroleerd. 
 * controleren vanuit nieuwe ontwikkelde algoritme of veranderende gegevensverwerking van algoritme op juistheid, tijdigheid en volledigheid, voordat verdere verwerking plaatsvindt.
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 <aside class='note'>
     <p> * GB: In het onderstaande principe worden veel, belangrijke beveiligingseisen 'opgehangen' aan het onderwerp algoritme. Het lijkt me beter om dit principe meer algemeen te formuleren en dan verder de concretisering ervan op te nemen onder hetr kopje informatiebeveiliging en privacyborging. </p>
 </aside> 
 
-#### naamConstructieprincipe1
-vertrouwelijkheid algoritme 
+#### CP - Vertrouwelijkheid algoritme 
 
 **Referentie**
 
@@ -228,7 +225,7 @@ De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbrui
 * Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               
 * De identificatie-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie-eis 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### (Big data) analyse tools
@@ -250,8 +247,7 @@ tekst
     GB: Zie mijn eerdere comment over open source. We kunnen zeker in hoofdstuk 4 een paragraaf opnemen over onze voorkeur voor open source. Maar niet dwingend voorschrijven, zou ik zeggen.</p>  
 </aside>
 
-#### naamConstructieprincipe1
-Gebruike open standaarden
+#### CP - Gebruike open standaarden
 
 **Referentie**
 
@@ -268,11 +264,10 @@ tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  htt
 * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  
 * We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### naamConstructieprincipe1
-Open Source functionaliteit ontwikkelen in visualisatie tooling
+#### CP - Open Source functionaliteit ontwikkelen in visualisatie tooling
 
 **Referentie**
 
@@ -286,7 +281,7 @@ tekst [link](url)
 * We documenteren functionaliteit/ programmacode volgens de voorgeschreven standaarden 
 * We beheren de functionaliteit/  programmacode in een community, samenwerkingsverbanden 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### 2D afbeeldingen (data statisch)
@@ -299,8 +294,7 @@ tekst [link](url)
 
 #### 3D afbeeldingen (data statisch en dynamisch)
 
-#### naamConstructieprincipe1
-Open standaarden voor Bouw Informatie Modellen (BIM)
+#### CP - Open standaarden voor Bouw Informatie Modellen (BIM)
 
 **Referentie**
 
@@ -318,7 +312,7 @@ tekst [link](url)
 * We gebruiken open standaard: COINS2 https://www.bimloket.nl/p/100/COINS. Met COINS (Constructieve Objecten en de Integratie van Processen en Systemen) kunnen partijen die betrokken zijn bij bouwprojecten digitale informatie uitwisselen. 
 * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### Dashboards
@@ -341,8 +335,8 @@ tekst
 
 ### Business logic
 
-#### naamConstructieprincipe1
-business logica is onafhankelijk visualisatie tooling 
+#### CP - Business logica is onafhankelijk visualisatie tooling 
+
 **Referentie**
 
 tekst [link](url)
@@ -357,7 +351,7 @@ tekst [link](url)
 * We borgen dat business rules voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). 
 * We gebruiken Common Data Environment CDE conform ISO 19650  https://www.bimloket.nl/p/269/NEN-EN-ISO-19650 en NEN2660 https://www.nen.nl/nen-2660-1-2020-ontw-nl-278048 . NEN 2660-1 biedt een raamwerk voor het ontwikkelen van samenhangende conceptuele modellen en -views, die betrekking hebben op het gebruik van, en de gehele levenscyclus van de gebouwde omgeving, en elementen uit deze omgeving.                 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 
@@ -366,8 +360,8 @@ tekst [link](url)
     <p> FdW: er zijn meerdere API gateway toepassingen voor voor API REST en geo-webservices maar ook API gateway voor streaming data. </p>   
 </aside>
 
-#### naamConstructieprincipe1
-standaardiseren in open source API Gateway oplossingen
+#### CP - Standaardiseren in open source API Gateway oplossingen
+
 **Referentie**
 
 tekst [link](url)
@@ -378,7 +372,7 @@ tekst [link](url)
 * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden 
 * We gebruiken open source NLX als referentie model voor API gateway API REST en geo-webservices https://nlx.io/. 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 ### Datacommunicatie
@@ -386,8 +380,7 @@ tekst
 
 #### Semantiek / ontologie
 
-#### naamConstructieprincipe1
-gebruik gemeenschappelijkelandelijke- en smart city-ontologieen om digital twins met elkaar te kunnen verbinden
+#### CP - Gebruik gemeenschappelijkelandelijke- en smart city-ontologieen om digital twins met elkaar te kunnen verbinden
 
 **Referentie**
 
@@ -403,13 +396,12 @@ tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch
 * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie
 * Note: Microsoft maakt gebruik van smart city-ontologie ETSI CIM NGSI-LD en en heeft het geïmplementeerd op Micrsoft Azure Digital twin software middels een specifieke Microsoft taal: open source DTDL-based Smart Cities ontology  https://techcommunity.microsoft.com/t5/internet-of-things/smart-cities-ontology-for-digital-twins/ba-p/2166585. Het is niet volledig leveranciersonafhankelijk
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### Dataobjectmodellen
 
-#### naamConstructieprincipe1
-canonieke data-objecten om digital twins met elkaar te kunnen verbinden
+#### CP - Canonieke data-objecten om digital twins met elkaar te kunnen verbinden
 
 **Referentie**
 
@@ -424,13 +416,12 @@ tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch
 * We datamodelleren conform de MIM standaard  https://www.forumstandaardisatie.nl/open-standaarden/mim                                             
 * We ontwikkelen datamodellen die uitwisselbaar zijn in een open standaard formaat UML eXchange Format (UXF) https://en.wikipedia.org/wiki/UXF
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### Metadata
 
-#### naamConstructieprincipe1
-Vindbaarheid data
+#### CP - Vindbaarheid data
 
 **Referentie**
 
@@ -445,7 +436,7 @@ tekst [link](url)
 * Geografische metadata wordt vastgelegd conform ISO 19115 metadata standaard https://docs.geostandaarden.nl/md/mdprofiel-iso19115/              
 * Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 
@@ -454,8 +445,7 @@ tekst
 
 #### Masterdata / begrippen & definities
 
-#### naamConstructieprincipe1
-uniforme begrippen & definities
+#### CP - Uniforme begrippen & definities
 
 **Referentie**
 
@@ -470,7 +460,7 @@ tekst [link]AP17 https://www.noraonline.nl/wiki/Informatie-objecten_systematisch
 * We gebruiken gegevens met een eenduidige landelijke taxonomie, classificatie van begrippen. We maken gebruik van Samenhangende Objecten Registratie SOR begrippenkader                                 
 * We publiceren in de landelijke repository/ datacatalogus 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 <aside class='note'>
@@ -494,8 +484,7 @@ tekst
 
 #### Service/ API
 
-#### naamConstructieprincipe1
-Gebruik open standaarden
+#### CP - Gebruik open standaarden
 
 **Referentie**
 
@@ -516,11 +505,10 @@ tekst [link]AP08  https://www.noraonline.nl/wiki/Gebruik_open_standaarden ;  htt
 * ISO 19136: Geography Markup Language  GML https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19136-1.                   
 * We gebruiken de Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### naamConstructieprincipe1
-Open Source API Management
+#### CP - Open Source API Management
 
 **Referentie**
 
@@ -530,7 +518,7 @@ tekst [link](url)
 
 Het toepassen van open source API Management bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 
@@ -554,8 +542,7 @@ tekst
 
 ### Data verwerving
 
-#### naamConstructieprincipe1
-Eenmalige vastlegging meervoudig gebruik
+#### CP - Eenmalige vastlegging meervoudig gebruik
 
 **Referentie**
 
@@ -570,7 +557,7 @@ tekst [link]AP13 https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend
 * Gegevens worden op betrouwbare en veilige wijze beheerd, zodat aangetoond kan worden dat gegevens niet bedoeld of onbedoeld gemanipuleerd zijn.    
 * Samenhangend gebruik van gegevens is makkelijk mogelijk, zodat gegevens uit verschillende gegevensverzamelingen te combineren zijn.     
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### naamConstructieprincipe1
@@ -589,11 +576,10 @@ tekst [link]AP44  https://www.noraonline.nl/wiki/Controleerbaarheid  AP40 https:
 * Alle bedrijfsobjecten en onderliggende dataobjecten, hebben een eigenaar die verantwoordelijk is voor de integriteit, vertrouwelijkheid, kwaliteit en beschikbaarheid van de data.                                                                                                    
 * Auditing vindt plaats op het gebruik van persoonsgegevens conform vastgestelde protocollen en gegevensbeveiliging 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### naamConstructieprincipe1
-duurzame toegankelijkheid van gegevens
+#### CP - Duurzame toegankelijkheid van gegevens
 
 **Referentie**
 
@@ -607,11 +593,10 @@ tekst [link](url)
 * We bewaren gegevens niet langer dan nodig is       
 * We nemen maatregelen voor tijdige en volledige archivering van gegevens. 
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-#### naamConstructieprincipe1
-continue verbetering van de kwaliteit van gegevens
+#### CP - Continue verbetering van de kwaliteit van gegevens
 
 **Referentie**
 
@@ -626,7 +611,7 @@ tekst [link]AP31 https://www.noraonline.nl/wiki/PDCA-cyclus_in_besturing_kwalite
 * Datakwaliteit wordt geoptimaliseerd voor het proces waarbinnen het gebruikt wordt. De broneigenaar (en proceseigenaar) is verantwoordelijk voor de optimalisatie.                                                                                    
 * Proceseigenaren zien erop toe dat de data, de data die binnen een proces worden ingewonnen of geactualiseerd. Datakwaliteit wordt door proceseigenaren voortdurend gerapporteerd en datakwaliteit inzichtelijk aangeboden in datacatalogus, aangeduid met een kwaliteitslabel op een duidelijke schaal conform de handreiking gegevenskwaliteit.                                         
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 
