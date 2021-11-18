@@ -401,12 +401,12 @@ tekst
 **Rationale**
 
 * We gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         
-* We gebruiken de smart city-ontologie ETSI CIM NGSI-LD Saref4City:  https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf                               
-* We gebruiken ontologie IMBOR Informatie Model Openbare Ruimte https://github.com/Stichting-CROW/imbor                                 
-* We gebruiken ontologie Gegevenswoordenboek Stedelijk Water (GWSW) https://data.gwsw.nl/
-* We gebruiken W3C/OGC GeoSparql ontologie https://www.ogc.org/projects/groups/geosparqlswg 
+* We gebruiken de smart city-ontologie [ETSI CIM NGSI-LD Saref4City](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf)                               
+* We gebruiken ontologie [Informatie Model Openbare Ruimte](https://github.com/Stichting-CROW/imbor)(IMBOR) 
+* We gebruiken ontologie [Gegevenswoordenboek Stedelijk Water](https://data.gwsw.nl/)(GWSW)
+* We gebruiken [W3C/OGC GeoSparql ontologie](https://www.ogc.org/projects/groups/geosparqlswg) 
 * We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie
-* Note: Microsoft maakt gebruik van smart city-ontologie ETSI CIM NGSI-LD en en heeft het geïmplementeerd op Micrsoft Azure Digital twin software middels een specifieke Microsoft taal: open source DTDL-based Smart Cities ontology  https://techcommunity.microsoft.com/t5/internet-of-things/smart-cities-ontology-for-digital-twins/ba-p/2166585. Het is niet volledig leveranciersonafhankelijk
+* Note: Microsoft maakt gebruik van smart city-ontologie ETSI CIM NGSI-LD en en heeft het geïmplementeerd op Micrsoft Azure Digital twin software middels een specifieke Microsoft taal: open source [DTDL-based Smart Cities ontology](https://techcommunity.microsoft.com/t5/internet-of-things/smart-cities-ontology-for-digital-twins/ba-p/2166585). Het is niet volledig leveranciersonafhankelijk
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
@@ -421,12 +421,12 @@ tekst
 
 **Rationale**
 
-* We gebruiken afgesproken canonieke data object: Rijksdriehoekscoördinaten “RD- coördinaten” https://www.nsgi.nl/geodetische-infrastructuur/referentiestelsels/rdinfo      
-* We gebruiken afgesproken canonieke data object: “NAP” https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil#:~:text=Om%20binnen%20Nederland%20hoogtes%20te,6%2C78%20m%20onder%20NAP.    
-* We gebruiken afgesproken canonieke data object:  “Nederlandse tijd” https://24timezones.com/Nederland/tijd    
-* We gebruiken afgesproken canonieke data object:  “geografisch middelpunt van Nederland”   https://nl.wikipedia.org/wiki/Geografisch_middelpunt_van_Nederland                                  
-* We datamodelleren conform de MIM standaard  https://www.forumstandaardisatie.nl/open-standaarden/mim                                             
-* We ontwikkelen datamodellen die uitwisselbaar zijn in een open standaard formaat UML eXchange Format (UXF) https://en.wikipedia.org/wiki/UXF
+* We gebruiken afgesproken canonieke data object [Rijksdriehoekscoördinaten “RD- coördinaten”](https://www.nsgi.nl/geodetische-infrastructuur/referentiestelsels/rdinfo)       
+* We gebruiken afgesproken canonieke data object: [NAP](https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil#:~:text=Om%20binnen%20Nederland%20hoogtes%20te,6%2C78%20m%20onder%20NAP)    
+* We gebruiken afgesproken canonieke data object: [Nederlandse tijd](https://24timezones.com/Nederland/tijd)    
+* We gebruiken afgesproken canonieke data object:  [Geografisch middelpunt van Nederland](  https://nl.wikipedia.org/wiki/Geografisch_middelpunt_van_Nederland)                                  
+* We datamodelleren conform het [metamodel informatiemodelleren](https://www.forumstandaardisatie.nl/open-standaarden/mim)                                             
+* We ontwikkelen datamodellen die uitwisselbaar zijn in een [open standaard formaat UML eXchange Format](https://en.wikipedia.org/wiki/UXF)(UXF) 
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
@@ -442,10 +442,10 @@ tekst [link](url)
 **Rationale**
 
 * Er is een federatief stelsel van landelijke datacatalogi met daarin geregistreerd alle binnen het digital twin ecosysteem gebruikte databronnen, databestanden, informatie producten en digital twins met de relevante metadata conform DCAT standaard en MDTO Duurzaam Toegankelijke Overheidsinformatie voor archivering en vernietiging in de Datacatalogus. De W3C Data Catalog Vocabulary (DCAT) is een metadata-standaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi te vereenvoudigen  
-* We passen DCAT toe: https://www.w3.org/TR/vocab-dcat-2/ 
-* We passen MDTO toe: https://www.informatiehuishouding.nl/actueel/nieuws/2021/10/13/definitieve-versie-mdto-nu-online-beschikbaar 
+* We passen [DCAT](https://www.w3.org/TR/vocab-dcat-2/) toe: 
+* We passen [MDTO](https://www.informatiehuishouding.nl/actueel/nieuws/2021/10/13/definitieve-versie-mdto-nu-online-beschikbaar) toe:  
 * We hergebruiken landelijke datacatalogi                              
-* Geografische metadata wordt vastgelegd conform ISO 19115 metadata standaard https://docs.geostandaarden.nl/md/mdprofiel-iso19115/              
+* Geografische metadata wordt vastgelegd conform [ISO 19115](https://docs.geostandaarden.nl/md/mdprofiel-iso19115/) metadata-standaard               
 * Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.
 
 **Ontwerpprincipe(s)**
@@ -465,7 +465,7 @@ tekst
 
 **Rationale**
 
-* We maken gebruik van de landelijk vastgestelde bedrijfsobjecten, informatiemodellen en standaarden. Zoals het landelijk bedrijfsobjectenmodel GEMMAhttps://www.gemmaonline.nl/index.php/GEMMA2/0.9/id-85853310-d375-4c9d-ae7a-46dcd0906996 en standaard informatiemodellen zoals RSGB https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_%28RSGB%29, IMRO https://www.geonovum.nl/geo-standaarden/ro-standaarden-ruimtelijke-ordening/informatiemodel-ruimtelijke-ordening-imro2012, IMWA, IMKICH.                                                                
+* We maken gebruik van de landelijk vastgestelde bedrijfsobjecten, informatiemodellen en standaarden. Zoals het landelijk bedrijfsobjectenmodel [GEMMA](https://www.gemmaonline.nl/index.php/GEMMA2/0.9/id-85853310-d375-4c9d-ae7a-46dcd0906996) en standaard informatiemodellen zoals [RSGB](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_%28RSGB%29), [IMRO](https://www.geonovum.nl/geo-standaarden/ro-standaarden-ruimtelijke-ordening/)informatiemodel-ruimtelijke-ordening-imro2012, IMWA, IMKICH.                                                                
 * Voor maximale interoperabiliteit is het van belang dat structuur en syntax gestandaardiseerd zijn 
 * We standaardiseren de semantiek van gegevens conform de werkelijkheid                             
 * Bij uitwisseling van gegevens maken we ook de context van het gebruik van gegevens inzichtelijk   
@@ -505,17 +505,17 @@ Forum Standaardisatie [Verplicht gebruik open standaarden](https://www.forumstan
 
 **Rationale**
 
-* We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms 
-* We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service WFS https://www.ogc.org/standards/wfs 
-* We gebruiken open standaard: Open Geospatial Consortium OGC CityGML https://www.ogc.org/standards/citygml 
-* We gebruiken open standaard: Open Geospatial Consortium OGC CityJSON https://docs.ogc.org/cs/20-072r2/20-072r2.html 
-* We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc                                  
-* We gebruiken open standaard: Open Geospatial Consortium OGC 3D Tiles https://www.ogc.org/standards/3DTiles 
-* We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)  
+* We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service [(WMS)](https://www.ogc.org/standards/wms) 
+* We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service [(WFS)]( https://www.ogc.org/standards/wfs) 
+* We gebruiken open standaard: Open Geospatial Consortium OGC [(CityGML)](https://www.ogc.org/standards/citygml) 
+* We gebruiken open standaard: Open Geospatial Consortium OGC [(CityJSON)](https://docs.ogc.org/cs/20-072r2/20-072r2.html) 
+* We gebruiken open standaard data uitwissel formaten: `.usd`; `.dwg`; `.fbx`; `.nwd`; `.nwc`                                  
+* We gebruiken open standaard: Open Geospatial Consortium OGC [3D Tiles](https://www.ogc.org/standards/3DTiles) 
+* We maken gebruik van API strategie en design rules: API design rules en [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
 * De ontwikkelde services/API's zijn vindbaar (Github) en herbruikbaar 
-* We documenteren t.b.v. herbrukbaarheid programmeertaal onfahnakelijk volgens de OpenAPI Specification (OAS) standaard.  https://swagger.io/specification/     
-* We gebruiken de INSPIRE Europese richtlijnen: INSPIRE - Europese leefomgeving  https://wetten.overheid.nl/BWBR0026158/2009-09-01                    
-* ISO 19136: Geography Markup Language  GML https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19136-1.                   
+* We documenteren t.b.v. herbrukbaarheid programmeertaal onfahnakelijk volgens de OpenAPI Specification standaard [(OAS)](https://swagger.io/specification/)     
+* We gebruiken de [INSPIRE Europese richtlijnen](https://wetten.overheid.nl/BWBR0026158/2009-09-01): INSPIRE - Europese leefomgeving
+* ISO 19136: Geography Markup Language [(GML)](https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19136-1)                   
 * We gebruiken de Europese richtlijnen Minimal Interoperability Mechanisms en Synchronicity architectuur 
 
 **Ontwerpprincipe(s)**
