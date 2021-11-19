@@ -109,7 +109,7 @@ var respecConfig =
     }, 
     {
       name:       "Frans de Waal",
-      company:    "Gemeente Utrect",
+      company:    "Gemeente Utrecht",
       companyURL: "https://www.utrecht.nl"
     }, 
     {

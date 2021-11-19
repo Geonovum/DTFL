@@ -31,14 +31,16 @@ GB: Lijkt me niet nodig. ER is een overzichtelijke inhouidsopgave en in de vorig
 
 Dit document is eind 2021 tot stand gekomen door samenwerking van architecten van onder meer Geonovum, TNO, Kadaster, Gemeente Utrecht en Gemeente Rotterdam. Er is gebruik gemaakt van een grote hoeveelheid recente literatuur over dit onderwerp. Daarnaast is gebruik gemaakt van voorbeelden uit de praktijk, aangevuld met de vaak jarenlange betrokkenheid van de leden van de werkgroep op het gebied van digital twinning, geo-informatie, modelleringstechnieken, data-analyse, referentie architecturen, etc. Via personele unies, gezamenlijke besprekingen en reviewwerkzaamheden hebben deskundigen uit andere werkgroepen binnen het programma Digital Twin van de Fysieke Leefomgeving invloed uitgeoefend op het eindresultaat. Dit geldt ook voor leden van de werkgroep met vertegenwoordigers uit het bedrijfsleven (nader te specificeren).
 
-<figure id="voorbeeld plaatje">
+<!--figure id="voorbeeld plaatje">
     <img src="media/voorbeeldplaatje.jpg" alt="voorbeeldplaatje">
     <figcaption>Dit is een voobeeld van een plaatje</figcaption>
-</figure>
+</figure -->
 
 ### Architectuur producten
 
-*Deze paragraaf strookt niet helemaal met de inhoudsopgave van ons document. Een deel van de informatie staat (nu) in de voorgaande paragrafen.Daarnaast wordt veel gesproken over de bouwblokken, maar we hebben deze voorlopig even voor ons uitgeschoven. De informatie over de pilots zal snel leiden tot veroudering van het document. Ik stel voor deze paragraaf niet op te nemen. - GB*
+<aside class='note'>
+GB: Deze paragraaf strookt niet helemaal met de inhoudsopgave van ons document. Een deel van de informatie staat (nu) in de voorgaande paragrafen.Daarnaast wordt veel gesproken over de bouwblokken, maar we hebben deze voorlopig even voor ons uitgeschoven. De informatie over de pilots zal snel leiden tot veroudering van het document. Ik stel voor deze paragraaf niet op te nemen.
+</aside> 
 
 Het team architectuur ontwikkeld de volgende architectuur producten:
 * NL-DFTL Referentie architectuur bestaande uit:
