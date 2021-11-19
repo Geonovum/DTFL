@@ -32,3 +32,6 @@ Wie schrijft waaraan
 | Constructie Principes   | Beheer            | ??                                             |
 | Stelsel Afspraken       |                   | ??                                             |
                            
+<aside class='note'>
+	GT: Kan dit overzicht weg? Werken nu vanuit takenlijst Teams
+</aside>
