@@ -94,8 +94,8 @@ var respecConfig =
     }, 
     {
       name:       "Marcel Reuvers",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
+      company:    "Kadaster",
+      companyURL: "https://www.kadaster.nl"
     }, 
     {
       name:       "Michel Grothe",
@@ -109,18 +109,18 @@ var respecConfig =
     }, 
     {
       name:       "Frans de Waal",
+      company:    "Gemeente Utrecht",
+      companyURL: "https://www.utrecht.nl"
+    }, 
+    {
+      name:       "Jan Bruijn",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
     {
-      name:       "Jan Bruin",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    }, 
-    {
-      name:       "Walther Lohman",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
+      name:       "Walter Lohman",
+      company:    "TNO",
+      companyURL: "https://www.tno.nl"
     }, 
     {
       name:       "Jan van Gelder",
