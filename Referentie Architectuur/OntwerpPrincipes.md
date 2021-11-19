@@ -2,6 +2,10 @@
 
 ### Inleiding
 
+<div class='example'>
+Guido gaat inleidend stukje over ontwerpprincipes schrijvevn
+</div>
+
 In dit hoofdstuk worden de ontwerpprincipes beschreven. Ook wordt de link gelegd met de principes uit NORA, DisGeo en Common Ground.
 
 De ontwerpprincipes zijn te plotten op 3 lagen:
