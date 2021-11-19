@@ -73,9 +73,8 @@ var respecConfig =
       companyURL: "https://www.geonovum.nl"
     }, 
     {
-      name:       "Guido Baaijens",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
+      name:       "Guido Bayens",
+      company:    "Cohaerens",
     }, 
   ],
   //-- de namen van de Author(s) ------------------------------------------------------
@@ -83,9 +82,8 @@ var respecConfig =
   authors: 
   [
     {
-      name:       "Guido Baijens",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
+      name:       "Guido Bayens",
+      company:    "Cohaerens",
     }, 
     {
       name:       "Bart De Lathouwer",
