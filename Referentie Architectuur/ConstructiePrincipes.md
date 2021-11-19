@@ -691,21 +691,21 @@ tekst [link]
 
 ###### Rationale:
 Standaarden IoT-apparaten/ sensoren:
-• Arduino met Arduino Ethernet-verbinding
-• Arduino Yun met een Wi-Fi-verbinding
-• Raspberry Pi aangesloten via Ethernet of Wi-Fi
-• Intel Galileo aangesloten via Ethernet of Wi-Fi
+* Arduino met Arduino Ethernet-verbinding
+* Arduino Yun met een Wi-Fi-verbinding
+* Raspberry Pi aangesloten via Ethernet of Wi-Fi
+* Intel Galileo aangesloten via Ethernet of Wi-Fi
 
 Voorbeelden van indirect aangesloten apparaat zijn 
-• ZigBee-apparaten aangesloten via een ZigBee-gateway
-• Bluetooth of Bluetooth Low Energy-apparaten die via een mobiele telefoon verbinden
-• Apparaten die via een low power radio signaal communiceren naar Raspberry Pi
+* ZigBee-apparaten aangesloten via een ZigBee-gateway
+* Bluetooth of Bluetooth Low Energy-apparaten die via een mobiele telefoon verbinden
+* Apparaten die via een low power radio signaal communiceren naar Raspberry Pi
 
 Elk apparaat/sensor heeft een identiteit en kan een van de volgende zijn:
-• Een uniek identificator (UUID) dat in het apparaat is gebrand (meestal onderdeel van de System-on-Chip, of voorzien van een secundaire chip)
-• Een UUID door radiosubsysteem wordt geleverd (bijvoorbeeld Bluetooth-identificatie, Wi-Fi MAC-adres)
-• Een OAuth2 Refresh / Bearer Token (open standaard)
-• Een identificator opgeslagen in een geheugen, zoals EEPROM
+* Een uniek identificator (UUID) dat in het apparaat is gebrand (meestal onderdeel van de System-on-Chip, of voorzien van een secundaire chip)
+* Een UUID door radiosubsysteem wordt geleverd (bijvoorbeeld Bluetooth-identificatie, Wi-Fi MAC-adres)
+* Een OAuth2 Refresh / Bearer Token (open standaard)
+* Een identificator opgeslagen in een geheugen, zoals EEPROM
 
 Het is de aanbeveling dat elk apparaat een UUID heeft (bij voorkeur een onveranderlijk ID dat met de hardware wordt geleverd), zoals een OAuth2 Refresh and Bearer Token en opgeslagen wordt in een sensor registratie ( EEPROM).
 
