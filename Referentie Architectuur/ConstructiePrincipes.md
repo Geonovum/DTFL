@@ -213,6 +213,11 @@ De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het
 
 ##### CP - Vertrouwelijkheid algoritme 
 
+**Referentie**
+
+* NORA: [AP43](https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe))
+
+**Rationale**
 
 De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbruikt. 
 * De vertrouwelijkheid van algoritme wordt gegarandeerd door scheiding van systeemfuncties, door controle en validatie op toegang tot algoritme 
@@ -225,6 +230,7 @@ De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbrui
 * Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               
 * De identificatie-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie-eis 
 
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### (Big data) analyse tools
@@ -246,8 +252,7 @@ tekst
     GB: Zie mijn eerdere comment over open source. We kunnen zeker in hoofdstuk 4 een paragraaf opnemen over onze voorkeur voor open source. Maar niet dwingend voorschrijven, zou ik zeggen.</p>  
 </aside>
 
-#### naamConstructieprincipe1
-Gebruike open standaarden
+#### <KOP INVOEGEN>
 
 ##### CP - Gebruik open standaarden
 
