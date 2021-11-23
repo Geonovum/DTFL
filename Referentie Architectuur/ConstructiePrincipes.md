@@ -479,9 +479,6 @@ tekst
     JvG: én Data Uitwisselingsstandaarden. 
 </aside> 
 
-<aside class='note'>
-    JvG: Authenticatie noemen? zie ook [NL-GOV API Strategie](https://docs.geostandaarden.nl/api/API-Strategie-ext/#authentication)
-</aside> 
 
 <aside class='note'>
     JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
@@ -782,7 +779,27 @@ tekst
 tekst
 
 ### Beveiliging / Authenticatie
-tekst
+
+hernoemen naar Authenticatie en Autorisatie
+
+
+Authenticatie: wie ben je?
+Autorisatie: wat mag je?
+
+<aside class='note'>
+    <p> JvG: we kunnen hier simpelweg verwijzen naar de PTOLU daarin staat waar je aan moet voldoen </p>
+</aside> 
+
+
+
+<!-- JvG is hiermee bezig !!!!-->
+
+#### Referenties
+
+[NL GOV Assurance profile for OAuth 2.0](https://www.forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20)
+
+[REST-API Design Rules](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules)
+
 
 #### Identity catalogus
 tekst
@@ -791,7 +808,8 @@ tekst
 tekst
 
 #### Identity check
-tekst
+[Client Authenticatie](https://publicatie.centrumvoorstandaarden.nl/api/oauth/#client-authentication)
+
 
 #### Identity federation (bijv. SAML2 of OpenID Connect)
 tekst.
@@ -818,7 +836,7 @@ tekst.
 tekst.
 
 #### Testing
-tekst.
+Zie ook [testmanagement](#testmanagement) bij 
 
 #### Test procedures
 tekst
@@ -827,7 +845,12 @@ tekst
 tekst.
 
 ### Beheer
-tekst.
+
+Beheer zorgt ervoor dat het systeem beschikbaar is en blijft voor de gebruikers ervan. Zowel nu als in de toekomst. Afspaken over Beschikbaarheid en Wijzigingsbeleid worden vastgelegd in een SLA (Service Level Overeenkomst). Het systeem is het geheel van hardware, software en infrastructuur. 
+
+Beheer van het "nu" van het beheerde systeem bestaat uit Correctief en Preventief beheer, simpelweg zorgen dat de beheerde omgeving beschikbaar is en blijft voor de gebruikers. Beheer richting de toekomst betreft aanpassingen en uitbreidingen van het systeemlandschap. Dit wordt ook wel Additief, Adaptief en Perfectief beheer genoemd.
+
+Beheer zal ervoor zorgen dat het systeem beschikbaar is en blijft voor de gebruikers. Alle procedures van de beheerders zijn daarop gericht.
 
 #### ASL
 tekst.
@@ -836,7 +859,15 @@ tekst.
 tekst.
 
 #### ITIL
-tekst.
+
+#### Configuration management
+#### Incidentmanagement
+#### Changemanagement
+#### Testmanagement
+#### Releasemanagement
+
+#### (Problemmanagement)
+
 
 ## BIJLAGEN
 
