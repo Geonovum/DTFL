@@ -12,7 +12,7 @@ De gemaakte afspraken borgen als het goed is de belangen van elke betrokken part
 ### Ontwerpprincipes digitale tweelingen
 
 <aside class='note'>
-    <p> GT: In dit hoofdstuk dezelfde structuur en manier van wederzijds verwijzen toepassen als de ontwerpprincipes in H5 en de constructieprincipes in H5. </p>
+    <p> GT: In dit hoofdstuk dezelfde structuur en manier van wederzijds verwijzen toepassen als de ontwerpprincipes (H4) en de constructieprincipes (H5). </p>
 </aside> 
 
 #### Doel
