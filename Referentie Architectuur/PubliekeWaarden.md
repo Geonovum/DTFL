@@ -9,10 +9,11 @@ Het is daarom van belang dat de afspraken die we maken in diverse sectoren over 
 
 De gemaakte afspraken borgen als het goed is de belangen van elke betrokken partij en worden vervolgens omgezet in technologie die de uitwisseling van data werkend maakt. Vaak is deze technologie een ijsberg, waar we alleen het topje van zien, het zogenaamde burgerperspectief. WAAG laat dit zien in hun visie op technologie uitgewerkt in hun routekaart digitale toekomst https://waag.org/sites/waag/files/2020-05/routekaart-digitale-toekomst-v0.3.pdf. Wat onder water is, zien we niet. Maar uiteindelijk is alle technologie gemaakt door mensen. Zij zijn het die deze ontwerpen, ontwikkelen, uitrollen en stap voor stap onze maatschappij veranderen. Technologie is niet neutraal, maar het product van talloze beslissingen, die gebaseerd zijn op de waarden die de ontwerper hanteert. Daar ligt ook de sleutel tot het verkrijgen van meer grip op deze ontwikkelingen: we moeten niet alleen kijken naar het topje, maar met elkaar de hele ijsberg zien en ontwerpen. Voor het toepassen van digitale tweelingen, waarin data en modellen worden gedeeld, doen we dat dus op basis van publieke waarden, die we concreet hebben gemaakt in de hierna uitgewerke ontwerpprincipes.
 
-### ontwerp principes digitale tweelingen
+### Ontwerpprincipes digitale tweelingen
 
-#### doel
-Rechtvaardig doelgericht
+#### Doel
+
+##### Rechtvaardig doelgericht
 
 Uitspraak: een digital twin is nooit het doel, het is een middel om het doel mee te bereiken. Werk vanuit een helder, enkelvoudig en bovenal gerechtvaardigd doel. Vanuit een aantoonbare vraag en specifieke behoefte. Vanuit nut en noodzaak. Onderbouwd.   
 
@@ -20,9 +21,7 @@ Verklaring: een rechtvaardig doel is de noodzakelijke eerste stap om alle andere
 
 Implicaties: het opstellen van een rechtvaardig doel vereist voornamelijk begrip. Begrijp en doorleef de herkomst, de context, de dynamiek en het perspectief van het doel, de vraag, het probleem. Samen met eindgebruikers en andere relevante stakeholders. Definieer en specificeer eerst welke data exact en minimaal noodzakelijk zijn voor het doel, de vraag, het probleem. Indien van toepassing, specificeer ook hoe deze data gebruikt worden in de digital twin en hoe de digital twin aantoonbaar aansluit op de situatie en behoefte van de eindgebruiker. Verzamel en gebruik vervolgens alleen de minimaal noodzakelijke data die voldoen aan deze specificatie. (Her)gebruik data niet als deze onvoldoende of ‘net niet’ tegemoetkomen aan de vraag. Anders gaan de data met het doel aan de haal. Verken of data en/of de digital twin de beste weg is om het doel te bereiken. Zijn er nog andere manieren, alternatieve oplossingsrichtingen (onderzocht) waarlangs de vraag beantwoord kan worden?  
 
- 
-
-Algemeen welzijn 
+##### Algemeen welzijn 
 
 Uitspraak: digital twins voor de fysieke leefomgeving dienen het algemeen welzijn, onder meer door open toegang tot niet-gevoelige data in de hele Nederlandse economie en maatschappij om de gedeelde toegang tot data voor haar gebruikers te vergemakkelijken.  
 
@@ -30,9 +29,7 @@ Verklaring: digital twins zijn een belangrijke hulpbron voor de economie e
 
 Implicaties: digital twins en een ecosysteem van digital twins moet worden gestructureerd en gedeeld om samenwerking en innovatie in de economie en maatschappij te bevorderen, in overeenstemming met het beginsel van het algemeen welzijn. Daarbij staan de behoeften en wensen van de gebruikers van digital twins centraal. Algemeen welzijn betekent niet dat digital twins alleen gefinancierd worden met publieke middelen vanuit de overheid, maar ook investeringen vragen van het bedrijfsleven voor economische ‘waarde creatie’.  Digital twins en het ecosysteem van digital twins stimuleert samenwerking en innovatie in de hele economie en maatschappij ten behoeve van het algemeen welzijn.    
 
- 
-
-Waardecreatie 
+##### Waardecreatie 
 
 Uitspraak: Digital twins creëren waarde voor de Nederlandse maatschappij en economie door het gebruik van digital twins door bedrijven, overheden, onderwijs en onderzoek, maatschappelijke organisaties en burgers voor een beter begrip en beheer van de fysieke leefomgeving.   
 
@@ -41,14 +38,16 @@ Verklaring: Met (geografische) data kunnen digital twins inzichten geven aan
 Implicaties: Digital twins leveren in het bijzonder waarde in planning, management en gebruik van infrastructuur en ondersteunt de infrastructuur prestaties als systeem en als dienst. De waarde van digital twins en het ecosysteem van digital twins wordt geoptimaliseerd door de integratie van (dynamische) data, rekenmodellen en visualisatie(tools). De gecreëerde waarde eerlijk verdeeld onder alle betrokkenen in het ecosysteem van digital twins.  
 
 #### Vertrouwen
-Actief open en transparant
+
+##### Actief open en transparant
+
 Uitspraak: Digital twins en een ecosysteem van digital twins moeten zo open mogelijk beschikbaar zijn, dat wil zeggen open of gedeelde data bevatten, die toegankelijk zijn via open standaarden om ervoor te zorgen dat ze de meeste waarde creëren in de hele economie en maatschappij.   
 
 Verklaring: Een ecosysteem van digital twins zal profiteren van netwerkeffecten: hoe meer mensen of organisaties het ecosysteem gebruiken, eraan bijdragen en het onderhouden, hoe waardevoller en bruikbaarder het wordt.  
 
 Implicaties: Openheid is een cruciaal element om digital twins en een ecosysteem van digital twins voor Nederland te realiseren en de waarde voor economie en maatschappij te maximaliseren. Een open, op samenwerking gerichte aanpak zal nodig zijn te zorgen dat het ecosysteem voor digital twins actueel en relevant blijft voor een breed scala aan gebruikers, waardoor de kans op silo’s en inefficiëntie wordt verkleind. Openheid vereist ook dat digital twins vindbaar en toegankelijk zijn, zodat gebruikers relevante data, rekenmodellen en visualisatietools kunnen vinden en gebruiken. Openheid is van cruciaal belang om de waarde van een digital twin en het ecosysteem te maximaliseren met in acht nemen van vereisten van beveiliging en besturing. Een digital twin ecosysteem moet het juiste evenwicht weerspiegelen tussen openheid en (op rollen gebaseerde) toegangsbeperkingen, dat gebaseerd is op afgesproken beheersmechanismen.  
 
- Privacy geborgd 
+##### Privacy geborgd 
 
 Uitspraak: een digital twin mag alleen gevoelige informatie (oftewel persoonlijke data) vrijgeven indien daar toestemming voor is verkregen van de betrokkenen.  
 
@@ -56,8 +55,9 @@ Verklaring: het recht op privacy staat verankerd in artikel 10 van de Nederlan
 
 Implicaties: bij het ontwikkelen en gebruiken van digital twins, dienen betrokkenen expliciet en heel bewust toestemming te geven voor het (tijdelijk) verzamelen, koppelen, gebruiken en delen van hun data. Daarbij is ook van belang dat heel duidelijk wordt gemaakt voor welk specifiek doel zij hun gegevens beschikbaar stellen. Waarom en hoe juist deze data en de toepassing ervan de voorliggende vraag beantwoorden. Verken daarbij ook ‘no go areas’ voor de digital twin, ter bescherming van kwetsbare locaties en gemeenschappen.
 
-#F### Eerlijk kwalitatief en inclusief
-Eerlijk inclusief
+#### Eerlijk kwalitatief en inclusief
+
+##### Eerlijk inclusief
 
 Uitspraak: het is belangrijk dat de digital twin op een eerlijke manier, ten aanzien van het doel dat de digital twin dient, de werkelijkheid vertegenwoordigd. Dit betekent dat niet alleen de technologie, maar ook de onderliggende data en de betrokkenen voldoende inclusief en integer zijn.  
 
@@ -65,7 +65,7 @@ Verklaring: een digital twin kan nooit een exacte kopie zijn van de 
 
 Implicaties: bij de verzameling, analyse, interpretatie, visualisatie en geautomatiseerde besluiten van data moet gelet/beoordeeld worden op vooringenomenheid om eventuele onbedoelde effecten te voorkomen, waaronder het ontstaan van onbedoelde discriminatie. Deze vooringenomenheid geldt niet alleen voor de betrokkenen die de digital twin ontwikkelen/gebruiken, maar ook voor de technologie zelf. Technologie is nooit neutraal.  
 
- Eerlijk kwalitatief 
+##### Eerlijk kwalitatief 
 
 Uitspraak: Gebruikers kunnen de betrouwbaarheid en kwaliteit van data beoordelen, inclusief aspecten als de relevantie, tijdigheid, nauwkeurigheid, samenhang en consistentie, interpreteerbaarheid en toegankelijkheid, in relatie tot het beoogde gebruik.  
 
@@ -73,7 +73,7 @@ Verklaring: Het verstrekken van voldoende metadata, inclusief de herkomst van�
 
 Implicaties: Digital twins zouden minimum kwaliteitsnormen voor data en rekenmodellen moeten afspreken. Dit is vooral belangrijk voor gevallen, waarin de juiste kwaliteitsnorm moeilijk te bepalen zijn. Kwaliteitsniveaus moeten transparant, gedefinieerd, meetbaar en beheerd worden binnen het ecosysteem van digital twins.
 
-Robuust en veilig 
+##### Robuust en veilig 
 
 Uitspraak: Een digital twin en het ecosysteem van digital twins dient robuust en veilig te zijn. Dat betekent, dat data en rekenmodellen en de technische infrastructuur waarop digital twins draaien een hoge beschikbaarheid hebben en goed beveiligd zijn (met evt. toegangsbeperkingen) tegen ongewenst gebruik.  
 
@@ -82,7 +82,8 @@ Verklaring: Data beveiliging en cyber security zijn essentieel om de int
 Implicaties: Beveiliging in digital twins kan op meerdere manieren technisch ingevuld worden en is een balanceer act tussen gebruiksgemak en geboden zekerheden. Maatregelen zijn mogelijk in de infrastructuur van de data uitwisseling, de gebruikte systemen, proces afspraken rondom digital twins en in de gebruikte data en rekenmodellen. Met behulp van het kader van de Baseline voor Informatiebeveiliging Rijksdienst kan hier concreet invulling aan gegeven worden. De BIR geeft handvaten die er voor zorg dragen dat data niet-gemanipuleerd (door kwaadwillenden of fouten) van de provider en bron naar de gebruiker komen. Dat ze alleen komen bij degene die er recht op heeft maar vooral ook dat die eindgebruiker kan vaststellen dat de data, rekenmodellen en visualisatietools robuust beschikbaar, betrouwbaar en beveiligd zijn.   
 
 #### Mensen
-Onder controle en toezicht van mensen 
+
+##### Onder controle en toezicht van mensen 
 
 Uitspraak: Een onafhankelijke vertrouwde derde partij moet als toezichthouder de naleving van ethische en andere relevante afspraken controleren, opdat er verantwoord wordt omgegaan met de digital twin en de onderliggende data. De digital twin moet onder controle en toezicht zijn van mensen.  
 
@@ -90,7 +91,7 @@ Verklaring: De verantwoordelijkheid voor ethiek moet niet bij één persoon, s
 
 Implicaties: Controle en toezicht moet komen vanuit de mensen: het team. Spreek elkaar aan op de morele verantwoordelijkheid en naleving van de ethische waarden en afspraken. Vraag uitleg van externe partijen over hoe zij aan de ethische afspraken gaan voldoen. Een organisatie kan ook verantwoording afleggen over het gebruik van data en naleving van ethische standaarden in het jaarverslag.  
 
-Solidair betrokken 
+##### Solidair betrokken 
 
 Uitspraak: Veruit de belangrijkste betrokkenen zijn de mensen die hun persoonlijke data delen én ieder ander die beïnvloed wordt door toepassing van de data en de digital twin. Het is belangrijk om burgers en andere primaire belanghebbenden al in de ontwerpfase van de digital twin te betrekken. En ook invloed, zeggenschap te geven als ‘mede-eigenaar’. Laat de bijdragen van primaire belanghebbenden zwaar wegen vóór, tijdens en na het project.  
 
@@ -100,7 +101,7 @@ Implicaties: Stel bij aanvang van het project de vraag: Wie zijn de primaire b
 
 #### Effectief
 
-Governance 
+##### Governance 
 
 Uitspraak: Alle onderdelen van een digital twin en het ecosysteem van digital twins hebben een duidelijk en transparant eigendom, een heldere besturing, belegde verantwoordelijkheden en evt. vastgelegde regelgeving om het creëren, onderhouden en verantwoord gebruik van relevante data, rekenmodellen en visualisatie(tools) te ondersteunen.  
 
@@ -108,7 +109,7 @@ Verklaring: duidelijk eigenaarschap en belegde verantwoordelijkheden maken e
 
 Implicaties: Eigendom van data is een centraal element van dit principe en biedt verantwoordelijkheid voor het samenstellen van geschikte kwaliteitsdata voor integratie in digital twins en het ecosysteem van digital twins. Data eigenaren en providers moeten samenwerken met belanghebbenden om hoogwaardige datasets te identificeren voor digital twins. Data eigenaren en providers moeten ook beschikken over de juiste vaardigheden en competenties, die nodig zijn om digital twins mogelijk te maken. Digital twins kunnen worden bestuurd door het bedrijfsleven, de overheid, onderwijs en onderzoek, maatschappelijke organisaties en/of burgers. Besturing moet ook voorzien in mechanismen voor het algehele beheer van het ecosysteem van digital twins, waarbij eerlijke waarde en consistente naleving van standaarden worden gegarandeerd.  
 
-Federatief 
+##### Federatief 
 
 Uitspraak: Eigenaren van (onderdelen van) digital twins moeten een gefedereerd model ondersteunen waar data, modellen, tools en gerelateerde, ondersteunende diensten op een flexibele en responsieve manier kunnen worden verbonden en gedeeld.  
 
@@ -116,15 +117,12 @@ Verklaring: Met een federatief model zullen het bedrijfsleven en alle niveaus va
 
 Implicaties: Het federatieve model vereist en stimuleert het bedrijfsleven en de overheid om de onderdelen van de digital twin op consistente, interoperabele, platformonafhankelijke en platformonafhankelijke manieren te ontwikkelen en te beheren. Met het federatieve model wordt schaalvergroting gestimuleerd en kunnen gebruikers in de gehele economie en maatschappij gebruik maken van digital twins binnen en tussen toepassingsgebieden, sectoren en rechtsgebieden. Governance is een essentieel onderdeel van dit principe. Het voorgestelde gefedereerde model vereist een niveau van consistent bestuur over verschillende sectoren heen, maar ook tussen het bedrijfsleven en de overheid. Governance van het federatieve model moet met name ervoor zorgen, dat digital twins voor de fysieke leefomgeving kunnen  werken met verschillende soorten data(bronnen) binnen en tussen:  
 
-verschillende infrastructuur- en toepassingssectoren (bijv. mobiliteit, landbouw, energie, klimaat);  
+ - verschillende infrastructuur- en toepassingssectoren (bijv. mobiliteit, landbouw, energie, klimaat);  
+ - zowel de gebouwde als de natuurlijke omgeving;  
+ - verschillende ruimtelijke en temporele schalen;  
+ - verschillende modelleringsbenaderingen.  
 
-zowel de gebouwde als de natuurlijke omgeving;  
-
-verschillende ruimtelijke en temporele schalen;  
-
-verschillende modelleringsbenaderingen.  
-
-Standaarden 
+##### Standaarden 
 
 Uitspraak: We adopteren overeengekomen open standaarden voor data en digital twins, met cross-platform en platform-onafhankelijke architectuur modellen om overall interoperabiliteit, compatibiliteit en functionaliteit te bieden.   
 
@@ -132,7 +130,7 @@ Verklaring: Open standaarden voor data en digital twins waarborgen vertrouwe
 
 Implicaties: Gebruik van open standaarden zorgt ervoor dat digital twins en het digital twin ecosysteem leverancier-onafhankelijk zijn. Het gebruik van open standaarden, zoals semantische data modellen en Application Programming Interfaces (APIs),  waarborgt brede toegankelijkheid en uniform gebruik van data en digital twins in economie en maatschappij. Dit principe sluit nauw aan bij de gemeenschappelijke benadering van de Nederlandse overheid voor het toepassen van open standaarden, die nodig zijn een digital twin ecosysteem te realiseren.  Voor deze (semi-)publieke organisaties is het gebruik van open standaarden de norm. Het College Standaardisatie wijst open standaarden aan waarvoor een 'comply-or-explain'-regime geldt, de Lijst Open Standaarden voor Pas Toe of Leg Uit.  
 
-Adaptief 
+##### Adaptief 
 
 Uitspraak: Digital twins voor de fysieke leefomgeving moeten zich continue kunnen aanpassen en ontwikkelen naarmate de fysieke leefomgeving verandert en de wereld om ons heen evolueert als gevolg van veranderingen in de samenleving, de technologie, functionele vereisten, het informatiebeheer, de data science, cyberveiligheid).  
 
