@@ -75,6 +75,11 @@ var respecConfig =
     {
       name:       "Guido Bayens",
       company:    "Cohaerens",
+    },
+    {
+      name:       "Gerard Trouborst",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
     }, 
   ],
   //-- de namen van de Author(s) ------------------------------------------------------
