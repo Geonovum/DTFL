@@ -447,6 +447,7 @@ Datamodelleringstalen zijn onder meer:
 * Digital Twin Definition Language (DTDL): een taal voor het modelleren van property-graphs met ondersteuning voor integratie met IoT via 'telemetrie'-eigenschappen. DTDL is gemaakt door Microsoft en open source.
 * GraphQL-schema: een taal voor het modelleren van property-graphs die met GraphQL wordt gebruikt om de federatie van gegevens uit meerdere bronnen en doelspecifieke weergaven van gegevens te ondersteunen. GraphQL is gemaakt door Facebook en open source.
 * Web Ontology Language (OWL): Een triple-graph datamodelleringstaal die deel uitmaakt van de Semantic Web Stack.
+* RDFS (Resource Description Framework Schema): Een triple-graph datamodelleringstaal die deel uitmaakt van de Semantic Web Stack.
 * EXPRESS: Een entiteit-relatie datamodelleringstaal die door STEP STandard for the Exchange of Product data wordt gebruikt voor het modelleren van geometrie en IFC voor het modelleren van gebouwde activa.
 
 #### Metadata
@@ -462,7 +463,9 @@ tekst [link](url)
 * Er is een federatief stelsel van landelijke datacatalogi met daarin geregistreerd alle binnen het digital twin ecosysteem gebruikte databronnen, databestanden, informatie producten en digital twins met de relevante metadata conform DCAT standaard en MDTO Duurzaam Toegankelijke Overheidsinformatie voor archivering en vernietiging in de Datacatalogus. De W3C Data Catalog Vocabulary (DCAT) is een metadata-standaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi te vereenvoudigen  
 * We passen [DCAT](https://www.w3.org/TR/vocab-dcat-2/) toe: 
 * We passen [MDTO](https://www.informatiehuishouding.nl/actueel/nieuws/2021/10/13/definitieve-versie-mdto-nu-online-beschikbaar) toe:  
-* We hergebruiken landelijke datacatalogi                              
+* We hergebruiken landelijke datacatalogi: 
+* begrippen en definities worden geharmoniseerd en vastgelegd in stelsel catalogus Omgevingsloket https://iplo.nl/digitaal-stelsel/stelselcatalogus-omgevingswet/introductie/ 
+* registratie van sensoren vindt plaats in het landelijk sensor register   https://github.com/kadaster-labs/sensrnet-home                          
 * Geografische metadata wordt vastgelegd conform [ISO 19115](https://docs.geostandaarden.nl/md/mdprofiel-iso19115/) metadata-standaard               
 * Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.
 
