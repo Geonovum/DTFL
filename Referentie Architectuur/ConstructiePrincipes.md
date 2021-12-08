@@ -463,8 +463,7 @@ tekst [link](url)
 * Er is een federatief stelsel van landelijke datacatalogi met daarin geregistreerd alle binnen het digital twin ecosysteem gebruikte databronnen, databestanden, informatie producten en digital twins met de relevante metadata conform DCAT standaard en MDTO Duurzaam Toegankelijke Overheidsinformatie voor archivering en vernietiging in de Datacatalogus. De W3C Data Catalog Vocabulary (DCAT) is een metadata-standaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi te vereenvoudigen  
 * We passen [DCAT](https://www.w3.org/TR/vocab-dcat-2/) toe: 
 * We passen [MDTO](https://www.informatiehuishouding.nl/actueel/nieuws/2021/10/13/definitieve-versie-mdto-nu-online-beschikbaar) toe:  
-* We hergebruiken landelijke datacatalogi: 
-* begrippen en definities worden geharmoniseerd en vastgelegd in stelsel catalogus Omgevingsloket https://iplo.nl/digitaal-stelsel/stelselcatalogus-omgevingswet/introductie/ 
+* We hergebruiken landelijke datacatalogi
 * registratie van sensoren vindt plaats in het landelijk sensor register   https://github.com/kadaster-labs/sensrnet-home                          
 * Geografische metadata wordt vastgelegd conform [ISO 19115](https://docs.geostandaarden.nl/md/mdprofiel-iso19115/) metadata-standaard               
 * Er is een integrale zoekmachine voor het vinden van gegevens in het federatief stelsel van catalogi.
@@ -490,7 +489,7 @@ tekst
 * We standaardiseren de semantiek van gegevens conform de werkelijkheid                             
 * Bij uitwisseling van gegevens maken we ook de context van het gebruik van gegevens inzichtelijk   
 * We gebruiken gegevens met een eenduidige landelijke taxonomie, classificatie van begrippen. We maken gebruik van Samenhangende Objecten Registratie SOR begrippenkader                                 
-* We publiceren in de landelijke repository/ datacatalogus 
+* Begrippen en definities worden geharmoniseerd en vastgelegd in stelsel catalogus Omgevingsloket https://iplo.nl/digitaal-stelsel/stelselcatalogus-omgevingswet/introductie/ 
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
