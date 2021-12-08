@@ -148,7 +148,7 @@ tekst
 
 **Rationale**
 
-* We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness) middels ethisch assesment https://dataschool.nl/deda/ en wetmatigheid https://ec.europa.eu/futurium/en/ai-alliance-consultation.1.html.
+* We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness) middels ethisch assesment, bijvoorbeeld: https://dataschool.nl/deda/ en wetmatigheid https://ec.europa.eu/futurium/en/ai-alliance-consultation.1.html.
 * We ontwerpen algoritmen met gepaste waarborgen en maatregelen: dataprotection by design.
 * We hebben transparantie en verklaarbaarheid geborgd, we hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register 
 * We hebben de menselijke controle en toezicht geborgd. Dit houdt in dat AI-systemen menselijke autonomie en beslissingen moeten ondersteunen, en niet zonder toezicht mogen opereren of grondrechten negeren 
@@ -172,9 +172,9 @@ tekst
 
 **Rationale**
 
-* We maken gebruik van algoritme programmacode onafhankelijke software  
+* We maken gebruik van algoritme programmacode die software- en platform agnostic is  
 * We herbruiken beschikbare algoritme programmacode die software- en platform agnostic ontwikkeld is
-* We publiceren ontwikkelde algoritme programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid. 
+* We publiceren ontwikkelde algoritme programmacode op Gitlab (of Github?) public tenzij private incl. documentatie voor herbruikbaarheid. 
 * We documenteren algoritme programmacode volgens de voorgeschreven standaarden 
 * We beheren de algoritme programmacode in een community, samenwerkingsverbanden 
 * We publiceren algoritmen incl. metadata in een landelijk register zodat ze eenvoudig vindbaar zijn voor hergebruik
@@ -319,6 +319,7 @@ tekst [link](url)
 * We gebruiken open standaard: NL/Sfb https://www.bimloket.nl/p/107/NL-SfB. NL/SfB is een classificatie van bouwdelen en installaties (‘elementen’ genoemd). In de bouw- en installatiebranche wordt deze standaard veel toegepast bij het ontwerpen, realiseren en beheren van gebouwen. 
 * We gebruiken open standaard: COINS2 https://www.bimloket.nl/p/100/COINS. Met COINS (Constructieve Objecten en de Integratie van Processen en Systemen) kunnen partijen die betrokken zijn bij bouwprojecten digitale informatie uitwisselen. 
 * We gebruiken open standaard data uitwissel formaten: usd; .dwg; .fbx; .nwd; .nwc 
+* We gebruiken Common Data Environment CDE conform ISO 19650  https://www.bimloket.nl/p/269/NEN-EN-ISO-19650 en NEN2660 https://www.nen.nl/nen-2660-1-2020-ontw-nl-278048 . NEN 2660-1 biedt een raamwerk voor het ontwikkelen van samenhangende conceptuele modellen en -views, die betrekking hebben op het gebruik van, en de gehele levenscyclus van de gebouwde omgeving, en elementen uit deze omgeving. 
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
@@ -359,7 +360,7 @@ tekst [link](url)
 * Businesslogica ondersteunt API REST OPEN APIspecification https://swagger.io/specification/ 
 * We publiceren ontwikkelde business logica op GitHub (public tenzij private) incl. documentatie.                                
 * We borgen dat business rules voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR). 
-* We gebruiken Common Data Environment CDE conform ISO 19650  https://www.bimloket.nl/p/269/NEN-EN-ISO-19650 en NEN2660 https://www.nen.nl/nen-2660-1-2020-ontw-nl-278048 . NEN 2660-1 biedt een raamwerk voor het ontwikkelen van samenhangende conceptuele modellen en -views, die betrekking hebben op het gebruik van, en de gehele levenscyclus van de gebouwde omgeving, en elementen uit deze omgeving.                 
+                
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
@@ -405,7 +406,7 @@ tekst
 * We gebruiken ontologie [Informatie Model Openbare Ruimte](https://github.com/Stichting-CROW/imbor) (IMBOR) 
 * We gebruiken ontologie [Gegevenswoordenboek Stedelijk Water](https://data.gwsw.nl/) (GWSW)
 * We gebruiken [W3C/OGC GeoSparql ontologie](https://www.ogc.org/projects/groups/geosparqlswg) 
-* We maken gebruik van Linked data open standaarden: JSON-LD, SparQL en RDF of OWL voor ontwikkelen ontologie
+* We maken gebruik van Linked data open standaarden: JSON-LD, Graph-QL, SparQL en RDF of OWL voor ontwikkelen ontologie
 * Note: Microsoft maakt gebruik van smart city-ontologie ETSI CIM NGSI-LD en en heeft het geïmplementeerd op Micrsoft Azure Digital twin software middels een specifieke Microsoft taal: open source [DTDL-based Smart Cities ontology](https://techcommunity.microsoft.com/t5/internet-of-things/smart-cities-ontology-for-digital-twins/ba-p/2166585). Het is niet volledig leveranciersonafhankelijk
 
 **Ontwerpprincipe(s)**
@@ -430,6 +431,23 @@ tekst
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+#### Datamodel ontwikkeltalen
+**Referentie**
+
+* NTB
+
+**Rationale**
+We gebruiken open standaard datamodelleringstaal om de datastructuren en datatypen van een datamodel te definiëren.
+* UML (Unified Modeling Language): een modelleertaal die kan worden gebruikt voor gegevensmodellering.
+* ERD (Entity Relationship Diagrams): een datamodelleringstaal die zeer geschikt is voor relationele databases.
+
+Datamodelleringstalen zijn onder meer:
+* SQL Data Definition Language (DDL): standaardtaal voor relationele databaseschema's.
+* Digital Twin Definition Language (DTDL): een taal voor het modelleren van property-graphs met ondersteuning voor integratie met IoT via 'telemetrie'-eigenschappen. DTDL is gemaakt door Microsoft en open source.
+* GraphQL-schema: een taal voor het modelleren van property-graphs die met GraphQL wordt gebruikt om de federatie van gegevens uit meerdere bronnen en doelspecifieke weergaven van gegevens te ondersteunen. GraphQL is gemaakt door Facebook en open source.
+* Web Ontology Language (OWL): Een triple-graph datamodelleringstaal die deel uitmaakt van de Semantic Web Stack.
+* EXPRESS: Een entiteit-relatie datamodelleringstaal die door STEP STandard for the Exchange of Product data wordt gebruikt voor het modelleren van geometrie en IFC voor het modelleren van gebouwde activa.
 
 #### Metadata
 
