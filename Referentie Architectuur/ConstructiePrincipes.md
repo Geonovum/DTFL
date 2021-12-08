@@ -703,10 +703,10 @@ Sensoren verzamelen data over hun omgeving (bv temperatuur, luchtdruk, beelden v
 #### naamConstructieprincipe1
 sensoren
 
-###### Referentie:
+**Referentie**
 tekst [link]
 
-###### Rationale:
+**Rationale**
 Standaarden IoT-apparaten/ sensoren:
 * Arduino met Arduino Ethernet-verbinding
 * Arduino Yun met een Wi-Fi-verbinding
@@ -726,7 +726,7 @@ Elk apparaat/sensor heeft een identiteit en kan een van de volgende zijn:
 
 Het is de aanbeveling dat elk apparaat een UUID heeft (bij voorkeur een onveranderlijk ID dat met de hardware wordt geleverd), zoals een OAuth2 Refresh and Bearer Token en opgeslagen wordt in een sensor registratie ( EEPROM).
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 Sensor netwerk: De belangrijkste taak is het aansluiten van sensoren en actuatoren op een IoT gateway. De netwerken zijn  lokaal en zijn vaak beperkt in het bereik. Er wordtn gebruik gemaakt van gespecialiseerde protocollen, vanwege IoT apparaat beperkingen.
@@ -734,10 +734,10 @@ Sensor netwerk: De belangrijkste taak is het aansluiten van sensoren en actuator
 #### naamConstructieprincipe1
 sensornetwerk
 
-###### Referentie:
+**Referentie**
 tekst [link]
 
-###### Rationale:
+**Rationale**
 Standaarden voor sensor netwerk zijn:
 * API’s met REST-based protocols 
 * OGC SensorThings API (http://ogc-iot.github.io/ogc-iot-api)
@@ -753,16 +753,16 @@ De netwerk karakteristieken in de sensoren laag zijn:
 * Actuatoren gebruiken, afhankelijk van de functie power
 * Sensoren en actuatoren zijn bedraad of draadloos verbonden in een netwerk
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### naamConstructieprincipe1
 Context broker
 
-###### Referentie:
+**Referentie**
 tekst [link]
 
-###### Rationale:
+**Rationale**
 De API van context broker is vastgelegd in de standard NGSI9 en NGSI10 (versie 1 en 2). Dit zijn API REST-gebaseerde interfaces.
 Open standaarden:
 * Token methodiek gebaseerd op Security Assertion Markup Language (SAML) en eXtensible Access Control Markup Language (XACML) standaarden
@@ -770,7 +770,7 @@ Open standaarden:
 * OAuth2.0 
 * OpenID
 
-###### ontwerpprincipe(s):
+**Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 
