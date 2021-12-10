@@ -27,7 +27,7 @@ In onderstaand figuur is de samenhang weergegeven met de pilots en de architectu
     <p> * GB: Binnen deze paragraaf moeten we ons beperken tot het noemen van de belangrijkste bronnen die we gerbuikt hebben voor standaarden en richtlijnen, zoals W3C, de PTOLU-lijst van het Standaardisatieforum, etc. De hieronder genoemde wetten zouden we in hoofdstuk 4 moeten plaatsen, als verantwoording van ontwerpprincipes die we hebben opgesteld. </p>
 </aside> 
 
-De constructie principes zijn gebaseerd op:
+De constructie principes zijn in lijn en consistent met:
 * Ontwerpprincipes van het programma NL-DFTL
 * Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE) https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving en Minimal Interoperability Mechanisms https://oascities.org/minimal-interoperability-mechanisms/
 * Nederlandse Wetgeving: 
