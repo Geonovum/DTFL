@@ -789,7 +789,7 @@ tekst
 Edge computing is een gedistribueerd computerparadigma dat berekeningen en gegevensopslag dichter bij de gegevensbronnen brengt. Dit zal naar verwachting de reactietijden verbeteren en bandbreedte besparen
 
 #### Fog computing (moet dit hier staan?)
-Fog computing of fog-netwerken, ook wel fogging genoemd, is een architectuur die edge-apparaten gebruikt om een ​​aanzienlijke hoeveelheid berekeningen, opslag en communicatie lokaal uit te voeren en over de internetbackbone te leiden
+Fog computing of fog-netwerken, ook wel fogging genoemd, is een architectuur die edge-apparaten gebruikt om een aanzienlijke hoeveelheid berekeningen, opslag en communicatie lokaal uit te voeren en over de internetbackbone te leiden
 
 ### Dataopslag
 tekst
@@ -800,26 +800,23 @@ tekst
 #### In memory
 tekst
 
-### Beveiliging / Authenticatie
+### Authenticatie en Autorisatie
 
-hernoemen naar Authenticatie en Autorisatie
+<g>Deze paragraaf beschrijft Authenticatie (wie ben je) en Autorisatie (wat mag je)</g> 
 
+In de [PTOLU](https://www.forumstandaardisatie.nl/open-standaarden) staat in de lijst van verplichte standaarden het [NL GOV Assurance profile for OAuth 2.0](https://forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20).  
 
-Authenticatie: wie ben je?
-Autorisatie: wat mag je?
+<g>Het NL GOV Assurance Profile for OAuth 2.0 moet worden toegepast bij applicaties waarbij gebruikers of ‘resource owners’ impliciet of expliciet toestemming geven aan een dienst van een derde om namens deze toegang te krijgen tot gegevens via een REST API waarvoor ze recht van toegang hebben.  
 
-<aside class='note'>
-    <p> JvG: we kunnen hier simpelweg verwijzen naar de PTOLU daarin staat waar je aan moet voldoen </p>
-</aside> 
+OAuth 2.0 is een open standaard voor de beveiliging van applicaties die gegevens uitwisselen met behulp van REST APIs. Met OAuth 2.0 kunnen gebruikers een website of webapplicatie autoriseren om hun persoonlijke gegevens via een REST API op te halen bij een ander systeem, zonder daarbij hun gebruikersnaam en wachtwoord uit handen te geven. OAuth 2.0 maakt hiervoor gebruik van ‘tokens’ die toegang geven tot specifieke gegevens van één gebruikersaccount voor een bepaalde duur.
 
+OAuth 2.0 is een generieke standaard die meestal nog aanvullende afspraken vereist voor de toepassing in specifieke domeinen. NL GOV Assurance profile for OAuth 2.0 legt nadere afspraken vast over het gebruik van OAuth 2.0 bij de Nederlandse overheid. Zo bepaalt NL GOV Assurance profile for OAuth 2.0 hoe applicaties zich bij elkaar moeten registreren en hoe autorisatiecodes veilig uitgewisseld moeten worden. OAuth 2.0 laat daarin namelijk nog te veel implementatieopties vrij.
+</g>
 
-
-<!-- JvG is hiermee bezig !!!!-->
 
 #### Referenties
 
 [NL GOV Assurance profile for OAuth 2.0](https://www.forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20)
-
 [REST-API Design Rules](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules)
 
 
@@ -858,7 +855,7 @@ tekst.
 tekst.
 
 #### Testing
-Zie ook [testmanagement](#testmanagement) bij 
+Zie ook [testmanagement](#testmanagement) 
 
 #### Test procedures
 tekst
@@ -868,28 +865,30 @@ tekst.
 
 ### Beheer
 
-Beheer zorgt ervoor dat het systeem beschikbaar is en blijft voor de gebruikers ervan. Zowel nu als in de toekomst. Afspaken over Beschikbaarheid en Wijzigingsbeleid worden vastgelegd in een SLA (Service Level Overeenkomst). Het systeem is het geheel van hardware, software en infrastructuur. 
+<g>Beheer zorgt ervoor dat het systeem beschikbaar is en blijft voor de gebruikers ervan. Zowel nu als in de toekomst. Afspaken over Beschikbaarheid en Wijzigingsbeleid worden vastgelegd in een SLA (Service Level Overeenkomst). Het systeem is het geheel van hardware, software en infrastructuur.  
+Beheer van het "nu" van het beheerde systeem bestaat uit Correctief en Preventief beheer, simpelweg zorgen dat de beheerde omgeving beschikbaar is en blijft voor de gebruikers. Beheer richting de toekomst betreft aanpassingen en uitbreidingen van het systeemlandschap. Dit wordt ook wel Additief, Adaptief en Perfectief beheer genoemd.  
+Beheer zal ervoor zorgen dat het systeem beschikbaar is en blijft voor de gebruikers. Alle procedures van de beheerders zijn daarop gericht.  
+</g>
 
-Beheer van het "nu" van het beheerde systeem bestaat uit Correctief en Preventief beheer, simpelweg zorgen dat de beheerde omgeving beschikbaar is en blijft voor de gebruikers. Beheer richting de toekomst betreft aanpassingen en uitbreidingen van het systeemlandschap. Dit wordt ook wel Additief, Adaptief en Perfectief beheer genoemd.
 
-Beheer zal ervoor zorgen dat het systeem beschikbaar is en blijft voor de gebruikers. Alle procedures van de beheerders zijn daarop gericht.
+<m>Een Digital Twin, of een stelsel van Digital Twins zal ook beheerd moeten worden. Juist omdat een Digital Twin data nodig heeft om te kunnen werken, data bewerkt, en de uitkomsten van die bewerkingen weer presenteert of anderszins beschikbaar stelt, moeten er duidelijke en heldere afspraken komen over de beschikbaarheid van bronnen, modellen, services, en de resutlaten van de Digital Twin. Een niet beheerde Digital Twin is geen Digital Twin!
+
+In de volgende paragrafen wordt een aantal beheer frameworks genoemd. De referentie architectuur stelt dat beheer moet zijn ingericht. Welk framework wordt gekozen is niet zo belangrijk, zo lang het beheer maar goed is ingericht.</m> 
 
 #### ASL
-tekst.
+
+<g>ASL beschrijft de processen op uitvoerend (operationeel), sturend (tactisch) en richtinggevend (strategisch) niveau. De uitvoerende en sturende processen bewaken stabiliteit, continuïteit en de aansluiting bij het bedrijfsproces van de klant en de afspraken met de klant.</g>
+
+<g>ASL is het enige framework dat een beschrijving geeft van werkzaamheden die op het gebied van applicatiemanagement moeten worden uitgevoerd. Op de </g>[site va de ASL Foundation](https://aslfoundation.nl/) <g>is een (korte) beschrijving van de processen, de activiteiten en de termen binnen ASL te vinden. Een uitgebreide beschrijving hiervan is te vinden in meerdere </g> [boeken](https://aslfoundation.nl/boeken/)
 
 #### Console
 tekst.
 
 #### ITIL
 
-#### Configuration management
-#### Incidentmanagement
-#### Changemanagement
-#### Testmanagement
-#### Releasemanagement
+<g>ITIL is een afkorting van Information Technology Infrastructure Library is een referentiekader, ontwikkeld in 1989 door de Central Computer and Telecommunications Agency (CCTA) om de inrichting van ICT-organisaties te standaardiseren. Momenteel is ITIL V3, voor het eerst uitgegeven in 2007, de meest recente versie van de framework. Vele service gerelateerde posities in de ICT-sector hebben als eis dat sollicitanten een ITIL-certificaat bemachtigd hebben. ITIL V3 is opgedeeld in vijf fases, namelijk Service Strategy, Service Design, Service Transition, Service Operation en Continual Service Improvement. Elk van deze fases is onderverdeeld in verschillende processen, die samen een optimale inrichting van een ICT-organisatie teweegbrengen.
+bron: https://www.brunel.nl/nl-nl/faq/it/wat-is-itil
+</g>
 
-#### (Problemmanagement)
-
-
-## BIJLAGEN
-
+<g>ITIL IT Service Management wordt doorgaans verdeeld in service desk, service support en service delivery. De service desk moet worden gezien als hét contactpunt tussen de gebruikers en de IT service organisatie op operationeel niveau. Service support richt zich op een optimale gebruikersondersteuning. En dat betekent zo min mogelijk verstoringen van de bedrijfsprocessen. In service support wordt daarom beschreven hoe de support organisatie zou kunnen worden ingericht. Hierbij komen de processen incident management, problem management, configuration management, change management en release management aan de orde. Service delivery richt zich op het waarborgen van de dienstverleningen. Hier komen de processen service level management, capacity management, availability management, IT service continuity management, financial services for IT services en security management aan de orde.</g>
+bron:https://tiag.nl/een-overzicht-van-de-itil-processen
