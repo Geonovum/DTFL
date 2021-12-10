@@ -29,7 +29,7 @@ In onderstaand figuur is de samenhang weergegeven met de pilots en de architectu
 
 De constructie principes zijn in lijn en consistent met:
 * Ontwerpprincipes van het programma NL-DFTL
-* De Europese digitale en datastrategie die in de periode 2020-2023 in wet wordt omgezet realiseert een _nieuwe markt_ voor datagebruik en datagebruikende toepassingen (zoals digital twinning en AI). Die nieuwe markt is de de facto omgeving waarin digital twinning voortaan plaatsvindt, waarin Digital Twins data en modellen uit putten, en resultaten weer beschikbaar kunnen maken, en waarin het federeren van Digital Twins plaatsvindt. De constructieprincipes nemen die nieuwe omgeving als een gegeven.
+* De Europese digitale en datastrategie die in de periode 2020-2023 in wet wordt omgezet realiseert een _nieuwe markt_ voor datagebruik en datagebruikende toepassingen (zoals digital twinning en AI). Die nieuwe markt (data spaces genaamd) is de de facto omgeving waarin digital twinning voortaan plaatsvindt, waarin Digital Twins data en modellen uit putten, en resultaten weer beschikbaar kunnen maken, en waarin het federeren van Digital Twins plaatsvindt. De constructieprincipes nemen die nieuwe omgeving als een gegeven.
 * Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE) https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving en Minimal Interoperability Mechanisms https://oascities.org/minimal-interoperability-mechanisms/
 
 * Nederlandse Wetgeving: 
