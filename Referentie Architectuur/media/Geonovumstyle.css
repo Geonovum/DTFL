@@ -83,18 +83,22 @@ td
   min-width: 100px;     /* lege kolommen hebben deze minimale breedte */
 }
 
-/*-- Definite van rode tekst -------------------------------------------------------*/
+/*-- Definitie van afwijkende tekst-kleuren ----------------------------------------*/
 r
 {
-  color: red;
+  color: darkred;
 }
 
-/*-- Definite van rose tekstblok ---------------------------------------------------*/
-div#remark
+g
 {
-  border-color: darkblue;
-  border-style: solid;
-  background-color:  rosybrown;
+  color: darkgreen;
+}
+
+m
+{
+  /* border-color: red; */
+  /* border-style: solid; */
+  background-color: yellow;
   color: darkblue;
 }
 
