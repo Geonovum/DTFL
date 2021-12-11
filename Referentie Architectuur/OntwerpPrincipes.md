@@ -315,6 +315,13 @@ Het dataproduct moet inherente waarde voor de datagebruikers en klanten toevoege
 En ergens opnemen dat de data op verschillende technische manieren te benaderen is op ‘API’ manieren. Data en techniek zijn 1. 
 Datakwaliteit toevoegen inzichtelijk volgens een generiek (landelijk) datakwaliteit framework.
 
+Van een dataproduct kunnen constructieprincipes afgeleid worden. Deze zijn beschreven in hoofdstuk 5. In onderstaand figuur zijn van de onderdelen in de gele kaders constructieprincipes beschreven.
+
+<figure id="Dataproduct totaalview">
+    <img src="media/Dataproduct totaalview.jpg" alt="Dataproduct totaalview">
+    <figcaption>Dataproduct totaal view</figcaption>
+</figure>
+
 #### Basisinfrastructuur
 Om het stelsel goed te laten werken zijn enkele basiscomponenten van belang. Een datacommunicatie-infrastructuur is uiteraard essentieel voor het transporteren van data. Deze basisinfrastructuur bestaat op zijn beurt weer uit verschillende componenten en werkt op basis van veelal mondiale afspraken over toe te passen standaarden. Delen van deze infrastructuur vallen onder verantwoordelijkheid van private partijen, delen onder samenwerkingsverbanden en weer andere delen vallen onder de overheid. Digitale tweelingen maken gebruik van deze infrastructuur. 
 
@@ -327,7 +334,6 @@ De data catalog werkt met federatieve indexen of anderszins omdat de relevante i
 De ontstaansgeschiedenis (pipelines), kwaliteit, SLO’s, wat wel of niet mag met de data, privacy, etc. is informatie van het data-product dat in de data catalog of in aparte catalogi wordt geëtaleerd maar wel als eenheid functioneert.  
 Dataproducten kunnen zoals eerder aangegeven operationale data, modellen, informatiemodellen, etc. zijn.  
 Het model kan een reken-, machine learning, deep learning of ander model zijn. De aard van het model bepaalt ook welke informatie nodig is om de transparantie te kunnen bieden zodat de uitkomsten herleidbaar zijn. Dit is niet altijd een eenvoudige opgave omdat bij bv deep learning neurale technieken gebruikt worden. 
-
 
 1.4.2 Standaarden 
 
