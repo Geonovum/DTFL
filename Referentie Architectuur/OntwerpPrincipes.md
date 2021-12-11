@@ -49,7 +49,7 @@ Het stelsel kan niet gerealiseerd worden door barrières op te werken waarbij he
 In onderstaand figuur is een globale schets van de architectuur van de Nationale digitale tweeling infrastructuur weergegeven. 
 
 <figure id="Overall architectuur">
-    <img src="media/" alt="Overall architectuur">
+    <img src="media/Overall architectuur.jpg" alt="Overall architectuur">
     <figcaption>Overall architectuur</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ De infrastructuur ondersteunt een federatieve aanpak met een verdeling van veran
 Met data als een product stellen we het dataproduct centraal. Het dataproduct is een ‘atomaire’ eenheid en heeft de metadata, ontstaansgeschiedenis, kwaliteit, e.d. allemaal bij het product zelf staan en heeft mechanismen om afnemers te informeren en consulteren. 
 
 <figure id="dataproduct">
-    <img src="media/" alt="dataproduct">
+    <img src="media/Dataproduct.jpg" alt="dataproduct">
     <figcaption>dataproduct</figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ Afsprakenstelsels zijn nodig om het geheel te kunnen laten werken. Dit betreft n
 Met het datamesh concept passen we een mesh topologie5 toe. Dit is een vermaast netwerk waarin de dataproducten de nodes zijn van waaruit de data wordt doorgestuurd naar gebruikers, afnemende applicaties of andere dataproducten. 
 
 <figure id="datamesh">
-    <img src="media/" alt="datamesh">
+    <img src="media/Datamesh.jpg" alt="datamesh">
     <figcaption>datamesh</figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ Om een dataproduct te maken gebruiken we de data uit de bron waarbij op basis va
 De eigenaar van dataproduct heeft de zorgplicht dat de output data continu geleverd wordt conform de afspraken (SLO) zodat deze door andere dataproducten gebruikt kan worden. Dit vraagt een continue dialoog tussen de data product-eigenaar en afnemers cq. afnemende dataproducten.  
 
 <figure id="dataproduct eigenaar">
-    <img src="media/" alt="dataproduct eigenaar">
+    <img src="media/Dataproduct eigenaar.jpg" alt="dataproduct eigenaar">
     <figcaption>dataproduct eigenaar</figcaption>
 </figure>
 
@@ -161,7 +161,7 @@ Een dataproduct kan bestaan uit:
 Dataproducten bieden output data aan gebruikers of afnemende applicaties zoals bijvoorbeeld een viewer of een dashboard tool en is softwareproduct (tool) onafhankelijk.
 
 <figure id="dataproduct">
-    <img src="media/" alt="dataproduct">
+    <img src="media/Dataproduct.jpg" alt="dataproduct">
     <figcaption>dataproduct</figcaption>
 </figure>
 
@@ -181,49 +181,49 @@ Dataproduct ontwikkeling:  
 Op basis van de input wordt output data ontwikkeld op basis van diverse (moderne) technieken zoals pipelines voor data transformatie, algoritmen voor data transformatie, streaming data-analyse, etc.; Op basis van de technieken worden dataproduct ontwikkelt en beheerd.
 
 <figure id="dataproduct ontwikkeling">
-    <img src="media/" alt="dataproduct ontwikkeling">
+    <img src="media/Dataproduct ontwikkeling.jpg" alt="dataproduct ontwikkeling">
     <figcaption>dataproduct ontwikkeling</figcaption>
 </figure>
 
 De dataproducten bestaan uit verschillende typen informatie. Operationele data of een model, het informatiemodel, begrippen of andere typen zoals ontstaansgeschiedenis, tijdslijnen, kwaliteit, etc. De typen variëren op basis van de aard van het dataproduct. 
 
 <figure id="dataproducten">
-    <img src="media/" alt="dataproducten">
-    <figcaption>dataproducten</figcaption>
+    <img src="media/Dataproduct typen.jpg" alt="dataproducten">
+    <figcaption>dataproduct typen</figcaption>
 </figure>
 
 Van een of meerdere dataproducten kan ook een nieuw dataproduct gemaakt worden. Dit kan een samenstelling zijn of het resultaat van een algoritme zoals een tijdelijke analyse, voorspelmodel, e.d. Dit nieuwe product kan ook weer een dataproduct worden dat door andere stakeholders gebruikt kan worden in hun ecosysteem. De dataproducten zijn permanent verbonden (vanuit de bron). Voor dataproducten geldt dat ze moeten voldoen aan constructieprincipes van het ecosysteem. 
 
 <figure id="dataproduct samenstelling">
-    <img src="media/" alt="dataproduct samenstelling">
+    <img src="media/Dataproduct samenstelling.jpg" alt="dataproduct samenstelling">
     <figcaption>dataproduct samenstelling</figcaption>
 </figure>
 
 Een dataproduct wordt ontwikkeld in een domein en heeft één product eigenaar. Een domein heeft een of meerdere dataproducten en eigenaren.
 
 <figure id="dataproduct eigenaar">
-    <img src="media/" alt="dataproduct eigenaar">
+    <img src="media/Dataproduct eigenaar.jpg" alt="dataproduct eigenaar">
     <figcaption>dataproduct eigenaar</figcaption>
 </figure>
 
 Informatie vraagstukken kunnen betrekkingen hebben om meerdere dataproducten van verschillende domeinen (afdelingen, organisatieonderdelen cq. organisaties). Ter illustratie een voorbeeld voor verkeersregel installaties. Hierin worden dataproducten in een keten gebruikt waarin een dataproduct een algoritme als transformatie technologie inzet.    
 
 <figure id="dataproducten keten">
-    <img src="media/" alt="dataproducten keten">
+    <img src="media/Dataproduct keten.jpg" alt="dataproducten keten">
     <figcaption>dataproducten keten</figcaption>
 </figure>
 
 Dit kunnen we ook toepassen op een overkoepelend vraagstuk waarbij verschillende dataproducten zijn gebruikt. Bijvoorbeeld het vraagstuk of Nederland voldoende beschermd is tegen het water in geval van enorme regenval en smeltwater in de grote rivieren zoals de Maas en de Rijn. De dataproducten worden dan gebruikt in het domein water risico’s.
 
 <figure id="domein">
-    <img src="media/" alt="domein">
+    <img src="media/Domein water.jpg" alt="domein">
     <figcaption>domein water risico's</figcaption>
 </figure>
 
 Dataproducten hebben kenmerken of te wel constructie principes die toegepast moeten worden in de ontwikkeling van het dataproduct om te kunnen (mogen) aansluiten op het landelijke digitale tweeling eco-systeem nDFTL. 
 
 <figure id="ontwerp principes dataproduct">
-    <img src="media/" alt="ontwerp principes dataproduct">
+    <img src="media/Dataproduct constructieprincipes.jpg" alt="ontwerp principes dataproduct">
     <figcaption>ontwerp principes dataproduct</figcaption>
 </figure>
 
@@ -372,19 +372,7 @@ Digitale tweelingen bieden echter meer. Steeds vaker wordt gebruik gemaakt van d
 
 We zien een organisatie XYZ die deelneemt aan het stelsel. XYZ verkrijgt meetgegevens uit sensoren en data over het functioneren van systemen waarvoor XYZ verantwoordelijk is. Een deel van deze systemen valt in het type “internet of things”. Voorbeelden van sensoren zijn de bekende detectielussen in onze wegen die het gebruik ervan meten of satellietwaarnemingen van stofdeeltjes. Systemen kennen veelal een eigen ‘besturingssysteem’ (scada) waardoor het mogelijk is permanent of periodiek statusinformatie over de werking van een systeem naar een centrale database door te geven. Denk bijvoorbeeld aan gemalen die data over actuele stroomgegevens (debiet) of meldingen van (te verwachten) storingen doorgeven. Een voorbeeld uit de wereld van verkeersmanagement: sensoren die verkeersgegevens doorgeven, die direct gebruikt worden om verkeerslichten binnen een stad aan te sturen. Voorbeelden van Internet of Things zijn afvalcontainers die via internet doorgeven dat het tijd wordt om geleegd te worden of sensoren die het aantal passanten in een winkelstraat doorgeven.  
 
- 
-
- 
-
-  
-
- 
-
-  
-
- 
-
-De verkregen data wordt opgeslagen in eigen databases. Via meerdere applicaties of gegevensverwerkende systemen wordt data gebruikt om overzichten te creëren in de vorm van lijsten en modellen.  
+ De verkregen data wordt opgeslagen in eigen databases. Via meerdere applicaties of gegevensverwerkende systemen wordt data gebruikt om overzichten te creëren in de vorm van lijsten en modellen.  
 
 De gegevens worden bewerkt met behulp van algoritmen, aangevuld met kunstmatige intelligentie. Hierdoor is het mogelijk complexe modellen en visualisaties samen te stellen. Denk hierbij aan het samenstellen van dynamische modellen die het gedrag van verkeersdeelnemers voorspellen in geval van een wegafsluiting of de gevolgen voor fijnstof en geluid bij de verbreding van een weg.  
 
