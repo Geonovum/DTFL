@@ -100,7 +100,34 @@ We toetsen of de digitale informatie en diensten in het digital twin ecosysteem 
 </aside> 
 
 #### Customer Experience
-tekst
+Er zijn diverse klantreizen van stakeholders van nDFTL ecosysteem digital twins.
+* klantreis gebruiker van digital twins die beslissingen neemt op basis van het verworven inzicht
+* klantreis dataproduct datascientist
+* klantreis dataproduct ontwikkelaar
+
+Klanreis gebruikers <<tekst toevoegen>>
+
+klantreis dataproduct datascientist
+De datascientist ontwikkelt het dataproduct op basis van algoritmen of artificial intelligence en gebruikt capabilities van de basisinfrastructuur zoals de zoek-functionaliteit, data lineage, monitoring: data kwaliteit en discovery.
+Vervolgens gebruikt de datascientist infrastructuur die het CRISP-DM proces ondersteunt waarop het dataproduct op basis van algoritme en AI ontwikkeld moet worden, dit is een organisatie specifieke infrastructuur.
+Nadat het meest optimale algoritme en AI getrained en ontwikkeld is voor het dataproduct wordt deze beschikbaar gesteld op de (beheer)infrastructuur waarop het dataproduct beheerd wordt, dit is een organisatie specifieke infrastructuur.
+
+In onderstaand figuur is weergegeve dat elk data product infrastructuur heeft 
+<figure id="klantreis datascientist">
+    <img src="media/klantreis datascientists.jpg" alt="klanreis datascientistst">
+    <figcaption>figuur x. klantreis datascientist dataproduct infrastructuur </figcaption>
+</figure>
+
+klantreis dataproduct ontwikkelaar
+De dataproduct ontwikkelaar gebruikt capabilities van de basisinfrastructuur zoals de zoek-functionaliteit.
+Vervolgens gebruikt de dataproduct ontwikkelaar van de (ontwikkel)infrastructuur waarop het dataproduct ontwikkeld moet worden, dit is een organisatie specifieke infrastructuur.
+Nadat het dataproduct ontwikkelt is wordt deze beschikbaar gesteld op de (beheer)infrastructuur waarop het dataproduct beheerd wordt, dit is een organisatie specifieke infrastructuur.
+
+In onderstaand figuur is weergegeve dat elk data product infrastructuur heeft 
+<figure id="klantreis dataproduct ontwikkelaar">
+    <img src="media/klantreis dataproduct ontwikkelaar.jpg" alt="klantreis dataproduct ontwikkelaar">
+    <figcaption>figuur x. dataproduct infrastructuur </figcaption>
+</figure>
 
 ##### User Story
 Welk gebruiksdoel (user story) wordt door de software geleverd?
@@ -220,7 +247,8 @@ tekst
 ### Visualisatie componenten
 <aside class='note'>
     <p> FdW: is het gebruik van open source software ook een constructie principe? 
-    GB: Zie mijn eerdere comment over open source. We kunnen zeker in hoofdstuk 4 een paragraaf opnemen over onze voorkeur voor open source. Maar niet dwingend voorschrijven, zou ik zeggen.</p>  
+    GB: Zie mijn eerdere comment over open source. We kunnen zeker in hoofdstuk 4 een paragraaf opnemen over onze voorkeur voor open source. Maar niet dwingend voorschrijven, zou ik zeggen.
+    FDW: ok, mee eens</p>  
 </aside>
 
 #### <KOP INVOEGEN>
@@ -264,7 +292,6 @@ tekst [link](url)
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 #### 2D afbeeldingen (data statisch)
-
 
 #### 3D afbeeldingen (data statisch)
 
@@ -340,6 +367,14 @@ tekst [link](url)
 </aside>
 
 #### <KOP INVOEGEN>
+We hebben infrastructuur die de data uitwisseling tussen dataproducten ondersteunt
+
+In onderstaand figuur is weergegeve dat elk data product infrastructuur heeft 
+<figure id="solutions infrastructuur">
+    <img src="media/solutions.jpg" alt="solutions infrastructuur">
+    <figcaption>figuur x. solutions infrastructuur data uitwisseling dataproducten </figcaption>
+</figure>
+
 
 ##### CP - Standaardiseren in open source API Gateway oplossingen
 
@@ -360,9 +395,12 @@ tekst [link](url)
 tekst
 
 #### Semantiek / ontologie
-FDW: tekstvoorstel: dit kopje vervangen door knowledge graph
+<aside class='note'>
+    <p> FDW: tekstvoorstel: dit kopje vervangen door knowledge graph. </p>   
+</aside>
 
-##### CP - Gebruik gemeenschappelijkelandelijke- en smart city-ontologieen om digital twins met elkaar te kunnen verbinden
+
+##### CP - Gebruik gemeenschappelijke landelijke- en smart city-ontologieen om digital twins met elkaar te kunnen verbinden
 
 **Referentie**
 
@@ -421,7 +459,7 @@ Datamodelleringstalen zijn onder meer:
 
 #### Metadata
 
-##### CP - Vindbaarheid data
+##### CP - Vindbaarheid data(product)
 
 **Referentie**
 
