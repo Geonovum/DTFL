@@ -180,7 +180,7 @@ Polyglot input- en output data: 
 * De input en output is op basis van open standaard mechanisme zoals: batch; streaming data; SQL; API; geo-webservices; Query  
 * De input en output is transactionele- en/of analytische data  
 
-De polyglot input- en output data als ontwerp principe is uitgewerkt in hoofdstuk 5 constructie principes
+Van het ontwerp principe polyglot input- en output data azijn in hoofdstuk 5 constructie principes opgenomen.
 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
@@ -196,11 +196,12 @@ Op basis van de input wordt output data ontwikkeld op basis van diverse (moderne
     <figcaption>figuur x. dataproduct ontwikkeling</figcaption>
 </figure>
 
+In hoofdstuk 5 zijn de constructie principes van dit ontwerp principe uitgewerkt.
+
 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
 | dataproduct ontwikkeling    | NTB                                           |
-
 
 
 De dataproducten bestaan uit verschillende typen informatie. Operationele data of een model, het informatiemodel, begrippen of andere typen zoals ontstaansgeschiedenis, tijdslijnen, kwaliteit, etc. De typen variëren op basis van de aard van het dataproduct. 
@@ -225,6 +226,12 @@ Een dataproduct wordt ontwikkeld in een domein en heeft één product ei
     <img src="media/Dataproduct eigenaar.jpg" alt="dataproduct eigenaar">
     <figcaption>figuur x. dataproduct eigenaar</figcaption>
 </figure>
+
+In hoofdstuk 5 zijn de constructie principes van dit ontwerp principe uitgewerkt.
+
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| dataproduct eigenaar    | NTB                                           |
 
 
 Informatie vraagstukken kunnen betrekkingen hebben om meerdere dataproducten van verschillende domeinen (afdelingen, organisatieonderdelen cq. organisaties). Ter illustratie een voorbeeld voor verkeersregel installaties. Hierin worden dataproducten in een keten gebruikt waarin een dataproduct een algoritme als transformatie technologie inzet.    
