@@ -265,7 +265,7 @@ Ten slotte is begrijpbaarheid een sociaal proces. Wij leren van elkaar. Het moet
 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
-| vindbaar         | NTB                                           |
+| begrijelijk      | NTB                                           |
 
 
 1.3.3 	Betrouwbaar en waarheidsgetrouw 
@@ -286,7 +286,7 @@ Hoe beter de data-eigenaar deze gegevens bij zijn dataproduct vastlegt, bijhoudt
 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
-| vindbaar         | NTB                                           |
+| betrouwbaar      | NTB                                           |
 
 
 1.3.4 	Adresseerbaar 
@@ -304,7 +304,7 @@ Een uniek adresseringssysteem moet een wereldwijde conventie volgen zodat de dat
 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
-| vindbaar         | NTB                                           |
+| adresseerbaar    | NTB                                           |
 
 
 1.3.5	Semantische interoperabiliteit 
@@ -324,7 +324,7 @@ Volgen van Metamodel informatiemodellering (MIM) voor informatiemodellen11, 12
 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
-| vindbaar         | NTB                                           |
+| semantische interoperabiliteit         | NTB                                           |
 
 
 1.3.6	Toegankelijk en veilig 
@@ -347,7 +347,7 @@ Veilige toegang is een must of de architectuur nu gecentraliseerd of gedistribue
 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
-| vindbaar         | NTB                                           |
+| Toegankelijk en veilig         | NTB                                           |
 
 
 1.3.7	Waardevol 
@@ -358,7 +358,7 @@ Datakwaliteit toevoegen inzichtelijk volgens een generiek (landelijk) datakwalit
 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
-| vindbaar         | NTB                                           |
+| waardevol         | NTB                                           |
 
 
 Van een dataproduct kunnen constructieprincipes afgeleid worden. Deze zijn beschreven in hoofdstuk 5. In onderstaand figuur zijn van de onderdelen in de gele kaders constructieprincipes beschreven.
