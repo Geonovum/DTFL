@@ -197,6 +197,12 @@ Op basis van de input wordt output data ontwikkeld op basis van diverse (moderne
 </figure>
 
 
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| dataproduct ontwikkeling    | NTB                                           |
+
+
+
 De dataproducten bestaan uit verschillende typen informatie. Operationele data of een model, het informatiemodel, begrippen of andere typen zoals ontstaansgeschiedenis, tijdslijnen, kwaliteit, etc. De typen variëren op basis van de aard van het dataproduct. 
 
 <figure id="dataproducten">
