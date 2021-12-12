@@ -173,16 +173,23 @@ Een dataproduct bestaat uit:
 
 Code  
 * API’s, notificaties of andere wijzen waarop je de data kunt benaderen of verkrijgen  
-* Code om van de input data nieuwe output data te maken, data transformatie. Dit kan een ETL zijn, maar ook een algoritme, streaming data-analyse  
+* Code om van de input data nieuwe output data te maken, data transformatie. Dit kan middels een pipeline transformatie zijn, API-led, maar ook een algoritme, streaming data-analyse  
 
 Polyglot input- en output data:  
 * De input én output is in verschillende open standaard dataformaten (graph’s, JSON, XML, etc.) waarbij de semantiek hetzelfde is uitgedrukt  
 * De input en output is op basis van open standaard mechanisme zoals: batch; streaming data; SQL; API; geo-webservices; Query  
 * De input en output is transactionele- en/of analytische data  
 
+De polyglot input- en output data als ontwerp principe is uitgewerkt in hoofdstuk 5 constructie principes
+
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| polyglot input   | NTB                                           |
+| polyglot output  | NTB                                           |
+
 Dataproduct ontwikkeling:   
 
-Op basis van de input wordt output data ontwikkeld op basis van diverse (moderne) technieken zoals pipelines voor data transformatie, algoritmen voor data transformatie, streaming data-analyse, etc.; Op basis van de technieken worden dataproduct ontwikkelt en beheerd.
+Op basis van de input wordt output data ontwikkeld op basis van diverse (moderne) technieken zoals pipelines voor datatransformatie, algoritmen, streaming data-analyse, etc.; Op basis van de technieken worden dataproduct ontwikkelt en beheerd.
 
 <figure id="dataproduct ontwikkeling">
     <img src="media/Dataproduct ontwikkeling.jpg" alt="dataproduct ontwikkeling">
@@ -265,7 +272,7 @@ Ten slotte is begrijpbaarheid een sociaal proces. Wij leren van elkaar. Het moet
 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
-| begrijelijk      | NTB                                           |
+| begrijpelijk      | NTB                                           |
 
 
 1.3.3 	Betrouwbaar en waarheidsgetrouw 
