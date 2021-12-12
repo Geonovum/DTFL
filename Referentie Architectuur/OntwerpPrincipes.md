@@ -251,7 +251,6 @@ Via een centrale mogelijkheid worden deze federatieve indexen bevraagt voor een 
 | ontwerp principe | constructie principe                          |
 |------------------|-----------------------------------------------|
 | vindbaar         | NTB                                           |
-|                  | NTB                                           |
 
 
 1.3.2	Begrijpelijk 
@@ -263,6 +262,11 @@ Uit welke begrippen, definities, relaties, waardelijsten, e.d. – de semantiek 
 Dataschema’s helpen om de datagebruiker te ondersteunen. Dit geldt ook voor computational notebooks10 die het verhaal van een dataproduct helpen vertellen. Computational notebooks bevatten documentatie van de data, evenals code om het te gebruiken en het visueel demonstreren van de code in actie. 
 
 Ten slotte is begrijpbaarheid een sociaal proces. Wij leren van elkaar. Het moet eenvoudig zijn om als datagebruiker ervaringen te delen die weer zorgen voor betere ondersteuning op bruikbaarheid. 
+
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| vindbaar         | NTB                                           |
+
 
 1.3.3 	Betrouwbaar en waarheidsgetrouw 
 
@@ -280,6 +284,11 @@ Operationele kwaliteiten
 
 Hoe beter de data-eigenaar deze gegevens bij zijn dataproduct vastlegt, bijhoudt en beheert, hoe meer vertrouwen de datagebruikers zullen hebben in het dataproduct zelf. 
 
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| vindbaar         | NTB                                           |
+
+
 1.3.4 	Adresseerbaar 
 
 Een dataproduct moet een vast en uniek adres hebben voor de datagebruiker om het handmatig of vanuit software te kunnen openen. 
@@ -292,6 +301,11 @@ Een uniek adresseringssysteem moet de dynamische aard van de data en de mesh-top
 Continu veranderende runtime gedragsinformatie: b.v. SLO's (als code) 
 
 Een uniek adresseringssysteem moet een wereldwijde conventie volgen zodat de data-producten een consistente toegang hebben voor mensen en machines. Dit is ook nodig om gevonden te kunnen worden door de discover-oplossing (1.2.1 Vindbaar). 
+
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| vindbaar         | NTB                                           |
+
 
 1.3.5	Semantische interoperabiliteit 
 
@@ -307,6 +321,11 @@ Volgen van Metamodel informatiemodellering (MIM) voor informatiemodellen11, 12
 * (knowledge) graphs 
 * Mogelijkheid tot hergebruik en koppeling aan begrippen, informatiemodellen, graphs, etc. 
 * naar schema's - typen - gedefinieerd door andere dataproducten. 
+
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| vindbaar         | NTB                                           |
+
 
 1.3.6	Toegankelijk en veilig 
 
@@ -326,11 +345,21 @@ Veilige toegang is een must of de architectuur nu gecentraliseerd of gedistribue
 * Doelbinding 
   Voor welke doelen mag het dataproduct worden gebruikt. 
 
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| vindbaar         | NTB                                           |
+
+
 1.3.7	Waardevol 
 
 Het dataproduct moet inherente waarde voor de datagebruikers en klanten toevoegen (anders hoeft het niet te bestaan). Publieke waarden en business waarden. 
 En ergens opnemen dat de data op verschillende technische manieren te benaderen is op ‘API’ manieren. Data en techniek zijn 1. 
 Datakwaliteit toevoegen inzichtelijk volgens een generiek (landelijk) datakwaliteit framework.
+
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| vindbaar         | NTB                                           |
+
 
 Van een dataproduct kunnen constructieprincipes afgeleid worden. Deze zijn beschreven in hoofdstuk 5. In onderstaand figuur zijn van de onderdelen in de gele kaders constructieprincipes beschreven.
 
