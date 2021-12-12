@@ -248,10 +248,10 @@ Vindbaarheid van dataproducten binnen het DTFL-stelsel gebeurt aan de bron. Het 
 
 Via een centrale mogelijkheid worden deze federatieve indexen bevraagt voor een totaaloverzicht. 
 
-| Principe | constructie principe                                  |
-|----------|-------------------------------------------------------|
-| vindbaar | NTB |
-|          | NTB |
+| ontwerp principe | constructie principe                          |
+|------------------|-----------------------------------------------|
+| vindbaar         | NTB                                           |
+|                  | NTB                                           |
 
 
 1.3.2	Begrijpelijk 
