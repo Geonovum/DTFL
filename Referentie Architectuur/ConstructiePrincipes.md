@@ -47,7 +47,7 @@ Het is ook mogelijk dat er domein specifieke constructie principes zijn die op e
 
 tekst [link](url)
 
-**Rationale**
+**Implicatie**
 
 tekst
 
@@ -61,7 +61,7 @@ tekst
 
 tekst [link](url)
 
-**Rationale**
+**Implicatie**
 
 tekst
 
@@ -79,7 +79,7 @@ tekst
 
 [Wetgeving Europa en Nederland m.b.t. digitale toegankelijkheid](https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa)    
 
-**Rationale**
+**Implicatie**
 
 We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- en informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. 
 * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM.
@@ -147,7 +147,7 @@ tekst
 * NORA: [AP25](https://www.noraonline.nl/wiki/Transparante_dienstverlening)
 * NORA: [AP15](https://www.noraonline.nl/wiki/Doelbinding_(AP))
 
-**Rationale**
+**Implicatie**
 
 * We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness) middels ethisch assesment, bijvoorbeeld: https://dataschool.nl/deda/ en wetmatigheid https://ec.europa.eu/futurium/en/ai-alliance-consultation.1.html.
 * We ontwerpen algoritmen met gepaste waarborgen en maatregelen: dataprotection by design.
@@ -168,7 +168,7 @@ tekst
 * NORA: [AP07](https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen)
 * NORA: [AP08](https://www.noraonline.nl/wiki/Gebruik_open_standaarden)
 
-**Rationale**
+**Implicatie**
 
 * We maken gebruik van algoritme programmacode die software- en platform agnostic is  
 * We herbruiken beschikbare algoritme programmacode die software- en platform agnostic ontwikkeld is
@@ -194,7 +194,7 @@ tekst
     <p> GT: AP-nummer toevoegen</p>
 </aside>
 
-**Rationale**
+**Implicatie**
 
 De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het algoritme correcte, complete en actuele resultaten levert. 
 * De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling. 
@@ -215,7 +215,7 @@ De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het
 
 * NORA: [AP43](https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe))
 
-**Rationale**
+**Implicatie**
 
 De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbruikt. 
 * De vertrouwelijkheid van algoritme wordt gegarandeerd door scheiding van systeemfuncties, door controle en validatie op toegang tot algoritme 
@@ -227,6 +227,27 @@ De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbrui
 * Om de mogelijkheden van misbruik te beperken, hebben gebruikers van algoritmen niet méér rechten dan zij voor hun werk nodig hebben (autorisatie). Daarbij zijn maatregelen getroffen om een onbedoeld gebruik van autorisaties te voorkomen|
 * Verleende toegangsrechten zijn inzichtelijk en beheersbaar.               
 * De identificatie-eis voor een samengestelde dienst wordt bepaald door de dienst met de hoogste identificatie-eis 
+
+**Ontwerpprincipe(s)**
+ * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
+
+##### CP - privacy gevoelige data & algoritme
+
+**Referentie**
+
+* NORA [AP??]
+
+**Implicatie**
+
+Er zijn situatie waarin algoritmen ontwikkeld worden door uitsluitend datascientists die vanwege doelbinding toegang hebben tot het algoritme waarbij de data niet onthult mag worden. Zowel het algoritme als de databronnen moet goed afgeschermd worden. Hiervoor kunnen software encryptietechnieken in gezet worden: 
+* homomorphic encryption
+* secret sharing
+Een recentelijke ontwikkeling is zowel software als hardware encryptietechniek:
+* confidential computing
+
+<aside class='note'>
+    <p> * FDW: gemeente Utrecht voert momenteel een experiment uit met confidential computing waarbij de data uit de bronsystemen niet onthuld wordt en het algoritme afgeschermd is en uitsluitend toegankelijk is voor datascientists met doelbinding. </p>
+</aside>
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
@@ -260,7 +281,7 @@ tekst
 * NORA: [AP08](https://www.noraonline.nl/wiki/Gebruik_open_standaarden)
 * Forum Standaardisatie: [Verplicht gebruik open standaarden](https://www.forumstandaardisatie.nl/open-standaarden/verplicht)
 
-**Rationale**
+**Implicatie**
 
 * we maken visualisatie zónder kennisregels en transformaties zodat we visualisatie tool onafhankelijk blijven 
 * We gebruiken open standaard: SLD voor visualisatie geografische informatie https://forumstandaardisatie.nl/open-standaarden/sld 
@@ -280,7 +301,7 @@ tekst
 
 tekst [link](url)
 
-**Rationale**
+**Implicatie**
 
 * We ontwikkelen functionaliteit op basis van open source in visualisatie tooling. Dit bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast.
 * we maken gebruik van programmacode onafhankelijke visualisatie software  
@@ -303,7 +324,7 @@ tekst [link](url)
 
 tekst [link](url)
 
-**Rationale**
+**Implicatie**
 
 * We passen open standaarden voor BIM in het digital ecosysteem toe om de interoperabiliteit te bevorderen en voor een optimale werking gegevensuitwisseling.                        
 * We gebruiken open bestands formaat: IFC 2.0 https://www.forumstandaardisatie.nl/open-standaarden/ifc . IFC is een neutraal en open bestandsformaat voor het uitwisselen van BIM-specifieke informatie (modelobjecten en hun eigenschappen). 
@@ -347,7 +368,7 @@ tekst
 
 tekst [link](url)
 
-**Rationale**
+**Implicatie**
 
 * Er wordt geen business logica los in de visualisatie tooling. Dit geldt ook voor de informatie- en datamodellen en ontologiën.                         |
 * We maken gebruik van open source software voor BPMN workflow en DMN decision automation zoals bijvoorbeeld Camunda. 
@@ -382,7 +403,7 @@ In onderstaand figuur is weergegeve dat elk data product infrastructuur heeft
 
 tekst [link](url)
 
-**Rationale**
+**Implicatie**
 
 * Het toepassen van open standaarden en open source API gateway referentie model bevordert de interoperabiliteit en hergebruik van kennis en moet door alle partijen worden toegepast.  
 * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden 
@@ -406,7 +427,7 @@ tekst
 
 * NORA: [AP17](https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven)
 
-**Rationale**
+**Implicatie**
 
 * We gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         
 * We gebruiken de smart city-ontologie [ETSI CIM NGSI-LD Saref4City](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf)                               
@@ -427,7 +448,7 @@ tekst
 
 * NORA: [AP17](https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven)
 
-**Rationale**
+**Implicatie**
 
 * We gebruiken afgesproken canonieke data object [Rijksdriehoekscoördinaten “RD- coördinaten”](https://www.nsgi.nl/geodetische-infrastructuur/referentiestelsels/rdinfo)       
 * We gebruiken afgesproken canonieke data object: [NAP](https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil#:~:text=Om%20binnen%20Nederland%20hoogtes%20te,6%2C78%20m%20onder%20NAP)    
@@ -444,7 +465,7 @@ tekst
 
 * NTB
 
-**Rationale**
+**Implicatie**
 We gebruiken open standaard datamodelleringstaal om de datastructuren en datatypen van een datamodel te definiëren.
 * UML (Unified Modeling Language): een modelleertaal die kan worden gebruikt voor gegevensmodellering.
 * ERD (Entity Relationship Diagrams): een datamodelleringstaal die zeer geschikt is voor relationele databases.
@@ -465,7 +486,7 @@ Datamodelleringstalen zijn onder meer:
 
 tekst [link](url)
 
-**Rationale**
+**Implicatie**
 
 * Er is een federatief stelsel van landelijke datacatalogi met daarin geregistreerd alle binnen het digital twin ecosysteem gebruikte databronnen, databestanden, informatie producten en digital twins met de relevante metadata conform DCAT standaard en MDTO Duurzaam Toegankelijke Overheidsinformatie voor archivering en vernietiging in de Datacatalogus. De W3C Data Catalog Vocabulary (DCAT) is een metadata-standaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi te vereenvoudigen  
 * We passen [DCAT](https://www.w3.org/TR/vocab-dcat-2/) toe: 
@@ -489,7 +510,7 @@ tekst
 
 * NORA: [AP17](https://www.noraonline.nl/wiki/Informatie-objecten_systematisch_beschreven)
 
-**Rationale**
+**Implicatie**
 
 * We maken gebruik van de landelijk vastgestelde bedrijfsobjecten, informatiemodellen en standaarden. Zoals het landelijk bedrijfsobjectenmodel [GEMMA](https://www.gemmaonline.nl/index.php/GEMMA2/0.9/id-85853310-d375-4c9d-ae7a-46dcd0906996) en standaard informatiemodellen zoals [RSGB](https://www.gemmaonline.nl/index.php/Informatiemodel_Basis-_en_Kerngegevens_%28RSGB%29), [IMRO](https://www.geonovum.nl/geo-standaarden/ro-standaarden-ruimtelijke-ordening/)informatiemodel-ruimtelijke-ordening-imro2012, IMWA, IMKICH.                                                                
 * Voor maximale interoperabiliteit is het van belang dat structuur en syntax gestandaardiseerd zijn 
@@ -526,7 +547,7 @@ tekst
 * NORA: [AP08](https://www.noraonline.nl/wiki/Gebruik_open_standaarden)
 Forum Standaardisatie [Verplicht gebruik open standaarden](https://www.forumstandaardisatie.nl/open-standaarden/verplicht)
 
-**Rationale**
+**Implicatie**
 
 * We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service [(WMS)](https://www.ogc.org/standards/wms) 
 * We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service [(WFS)]( https://www.ogc.org/standards/wfs) 
@@ -550,7 +571,7 @@ Forum Standaardisatie [Verplicht gebruik open standaarden](https://www.forumstan
 
 tekst [link](url)
 
-**Rationale**
+**Implicatie**
 API Managent is onderdeel van de dataproduct infrastructuur en keuze van de producteigenaar. Wij leggen geen constructieprincipes op.
 Het toepassen van API Management bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang
 
@@ -586,7 +607,7 @@ tekst
 
 * NORA [AP13](https://www.noraonline.nl/wiki/Bronregistraties_zijn_leidend)
 
-**Rationale**
+**Implicatie**
 
 * We voorkomen duplicatie (kopieën) van gegevens in de cloud omgeving van de aanbieder van visualisatie- dashboard-, simulatie tooling. 
 * Gegevens worden gescheiden van visualisatie- dashboard-, simulatie tooling bewaard. Opslag van gegevens is onafhankelijk van de Visualisatie software, gebruikte app's.  
@@ -608,7 +629,7 @@ tekst
 * NORA [AP42](https://www.noraonline.nl/wiki/Integriteit)
 * NORA [AP43](https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe))
 
-**Rationale**
+**Implicatie**
 
 * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen in  het beschikbaar stellen van data, bewerkingen en transformaties.                                           
 * We voeren Data Protection Impact Assessment (DPIA)3 uit op bestaande & nieuwe dataverwerkingen   
@@ -626,7 +647,7 @@ tekst
 
 tekst [link](url)
 
-**Rationale**
+**Implicatie**
 
 * We voldoen aan de Archiefwet en passen metadatering toe volgens de standaard MDTO
 * Verantwoording kunnen afleggen over uitgevoerde acties en transparantie    
@@ -646,7 +667,7 @@ tekst [link](url)
 * NORA [AP33](https://www.noraonline.nl/wiki/Baseline_kwaliteit_diensten)
 * NORA [AP34](https://www.noraonline.nl/wiki/Verantwoording_besturing_kwaliteit)
 
-**Rationale**
+**Implicatie**
 
 * Processen die het kwaliteitsbeheer en continu verbeteren borgen zijn ingericht                           
 * De kwaliteit van gegevens zijn van alke databron vastgelegd als metadata                                             
@@ -713,7 +734,7 @@ sensoren
 **Referentie**
 tekst [link]
 
-**Rationale**
+**Implicatie**
 Standaarden IoT-apparaten/ sensoren:
 * Arduino met Arduino Ethernet-verbinding
 * Arduino Yun met een Wi-Fi-verbinding
@@ -744,7 +765,7 @@ sensornetwerk
 **Referentie**
 tekst [link]
 
-**Rationale**
+**Implicatie**
 Standaarden voor sensor netwerk zijn:
 * API’s met REST-based protocols 
 * OGC SensorThings API (http://ogc-iot.github.io/ogc-iot-api)
@@ -769,7 +790,7 @@ Context broker
 **Referentie**
 tekst [link]
 
-**Rationale**
+**Implicatie**
 De API van context broker is vastgelegd in de standard NGSI9 en NGSI10 (versie 1 en 2). Dit zijn API REST-gebaseerde interfaces.
 Open standaarden:
 * Token methodiek gebaseerd op Security Assertion Markup Language (SAML) en eXtensible Access Control Markup Language (XACML) standaarden
