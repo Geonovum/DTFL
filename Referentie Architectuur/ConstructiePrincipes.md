@@ -15,10 +15,10 @@ De constructie principes zijn een onderdeel van deze NL-DFTL referentiearchitect
     <p> * GB: Ik zou de plaat niet opnemen. De structuur ervan loopt niet meer helemaal parallel met onze inhoudsopgave. De relatie met pilots maakt deze R.A. erg tijdgebonden en legt het onderhoud ervan al te zeer vast. De suggestie dat er ook al documenten zijn met beschrijvingen vsan bouwblokken, de IST en SOLL architectuur roept verwachtingen op die we met de huidige versie van de R.A. nog zeker niet kunnen waarmaken. Sterker nog: Ik denk niet dat we ooit een IST of een Doelarchitectuur zullen beschrijven. De vele partijen die deze R.A. hopelijk gaan gebruiken, zorgen immers voor een voortdurende beweging binnen het stelsel, waardoor we hiervna nooit een afgeronde doelarchitectuurbeschrijving kunnen maken. . </p>
 </aside> 
 
-In onderstaand figuur is de samenhang weergegeven met de pilots en de architectuurproducten. 
+In onderstaand figuur is de samenhang weergegeven met architectuur nDFTL en de constructie principes. 
 
 <figure id="duiding constructieprincipes">
-    <img src="media/duiding constructie principes.jpg" alt="duiding constructieprincipes">
+    <img src="media/Dataproduct totaalview.jpg" alt="duiding constructieprincipes">
     <figcaption>De constructie principes in samenhang met de referentie architectuur en de pilots</figcaption>
 </figure>
 
@@ -31,41 +31,16 @@ De constructie principes zijn in lijn en consistent met:
 * Ontwerpprincipes van het programma NL-DFTL
 * De Europese digitale en datastrategie die in de periode 2020-2023 in wet wordt omgezet realiseert een _nieuwe markt_ voor datagebruik en datagebruikende toepassingen (zoals digital twinning en AI). Die nieuwe markt (data spaces genaamd) is de de facto omgeving waarin digital twinning voortaan plaatsvindt, waarin Digital Twins data en modellen uit putten, en resultaten weer beschikbaar kunnen maken, en waarin het federeren van Digital Twins plaatsvindt. De constructieprincipes nemen die nieuwe omgeving als een gegeven.
 * Europese wetgeving: Implementatiewet EG-richtlijn infrastructuur ruimtelijke informatie (INSPIRE) https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving en Minimal Interoperability Mechanisms https://oascities.org/minimal-interoperability-mechanisms/
+* Nederlandse Wetgeving, landelijke richtlijnen voor architectuur: NORA, voor gegevensbescherming: AVG & GDPR en voor software ontwikkeling: Common Ground <>...
 
-* Nederlandse Wetgeving: 
-    * Wet Open Overheid
-    * Wet Hergebruik Overheidsinformatie
-    * Archiefwet
-    * Wet digitale toegankelijkheid
-    * Wet Basisadministraties zoals bijvoorbeeld BAG; BGT; BRO
-    * Omgevingswet
-    * Wet Ruimtelijke Ordening
-* Landelijke richtlijnen voor architectuur: NORA
-* Landelijke richtlijnen voor gegevensbescherming: AVG & GDPR
-* Landelijke richtlijnen voor software ontwikkeling: Common Ground
-* overig <>...
-
-#### Constructie principes hebben als scope het NL-DFTL fundament
+#### Constructie principes op dataproducten in het NL-DFTL digital twin ecosysteem
 <aside class='note'>
     <p> * GB: Het zal de lezer duidelijk zijn wat de scope van de nDTFL is. We maken een open architectuur. Dat impliceert dat er ruimte is voor verdere 'vertakkingen' binnen extra domeinen of thema's. Dit moeten we goed in de gaten houden bij de verdere ontwikkeling van deze R.A. Als er vnauit de DTFL-community nieuwe zaken naar boven komen, kunnen we die toevoegen aan de volgende versie van deze R.A. Concreet: Geluidsmodelsimulatie kunnen we misschien nu al opnemen. Zo niet, dan in een volgende versie van deze R.A. M.i. kan de onderstaande alinea dus vervallen. </p>
 </aside> 
 
-De constructie principes zijn van toepassing op het digital twins ecosysteem, het fundament. Een toepassing in het digital twin ecosysteem zoals bijvoorbeeld een landelijke geluidsmodelsimulatie, kan aanvullende specifieke domein constructie principes hebben, bijvoorbeeld gebaseerd op de wet Geluidhinder (binnenkort Omgevingswet). Of te wel een toepassing moet minimaal voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
+De constructie principes zijn van toepassing op de dataproducten in het digital twins ecosysteem en de componenten van de basisinfrastructuur. 
+Het is ook mogelijk dat er domein specifieke constructie principes zijn die op een dataproduct in het digital twin ecosysteem van toepassing zijn, zoals bijvoorbeeld een landelijke geluidsmodelsimulatie, kan aanvullende specifieke domein constructie principes hebben, bijvoorbeeld gebaseerd op de wet Geluidhinder (binnenkort Omgevingswet). Of te wel een dataproduct moet minimaal voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
 
-<aside class='note'>
-    <p> * GB: De onderstaande figuur gaat over capabilities. Dat 'past' hier niet lekker. Laten we eerst maar eens de ontwerp- en constructieprincipes en standaarden tot een consistent geheel te vormen. Dan kunnen we later wellicht nog iets gaan doen met de toepassing ervan via de capability-insteek. </p>
-</aside> 
-
-Onderstaand figuur een overzicht van de capabilities
-<figure id="overzicht capabilities">
-    <img src="media/infographic capabilities NLDFTL 3.jpg" alt="overzicht capabilities">
-    <figcaption>Overzicht capabilities</figcaption>
-</figure>
-
-<aside class='note'>
-    <p> * FdW: functies toevoegen zoals ; Data markt plaats; enterprise search; data bevragingen/query; visualisatie/model/informatie abonnement; catalogi? 
-    * FdW: én BIM gerelateerd werken functionaliteit? </p>
-</aside> 
 
 #### Template Constructieprincipe
 
