@@ -375,38 +375,118 @@ Van een dataproduct kunnen constructieprincipes afgeleid worden. Deze zijn besch
     <figcaption>figuur x. dataproduct totaal view</figcaption>
 </figure>
 
+#### Dataproduct infrastructuur
+Elk dataproduct heeft infrastructuur waarop het product continue beschikbaar is. De infrastructuur borgt dat het dataproduct voldoet aan de afgesproken SLO. Vanuit het programma nDFTL worden géén architectuur ontwerp- en constructie principes opgelegd hierin is elke producteigenaar vrij om keuzes te maken.
+We kunnen wel een advies dataproduct infrastructuur verstrekken.
+
+In onderstaand figuur is weergegeve dat elk data product infrastructuur heeft 
+<figure id="dataplatform view">
+    <img src="media/dataplatform view.jpg" alt="dataplatform view">
+    <figcaption>figuur x. dataproduct infrastructuur </figcaption>
+</figure>
+
+
 #### Basisinfrastructuur
 Om het stelsel goed te laten werken zijn enkele basiscomponenten van belang. Een datacommunicatie-infrastructuur is uiteraard essentieel voor het transporteren van data. Deze basisinfrastructuur bestaat op zijn beurt weer uit verschillende componenten en werkt op basis van veelal mondiale afspraken over toe te passen standaarden. Delen van deze infrastructuur vallen onder verantwoordelijkheid van private partijen, delen onder samenwerkingsverbanden en weer andere delen vallen onder de overheid. Digitale tweelingen maken gebruik van deze infrastructuur. 
 
-Toelichting van de basiscomponenten: 
+De basisinfrastructuur componenten zijn:
+* zoeken & vinden
+* knowledge graph
+* monitoring
+* beleid
+In onderstaand figuur weergegeven:
 
-1.4.1	Dataproduct catalog (service) 
+<figure id="basisinfrastructuur view">
+    <img src="media/basisinfrastructuur.jpg" alt="basisinfrastructuur view">
+    <figcaption>figuur x. basisinfrastructuur totaal view</figcaption>
+</figure>
 
-De data-producten moeten vindbaar zijn en exploratief verkend kunnen worden. 
-De data catalog werkt met federatieve indexen of anderszins omdat de relevante informatie bij het data-product zelf staat.  
+In onderstaand figuur zijn de capabilities van de vier basisinfrastructuur componenten weergegeven.
+
+<figure id="basisinfrastructuur capabilities">
+    <img src="media/basisinfrastructuur capabilities.jpg" alt="basisinfrastructuur capabilities">
+    <figcaption>figuur x. basisinfrastructuur capabilities</figcaption>
+</figure>
+
+Toelichting op de capabilities van de basiscomponenten: 
+
+1.4.1	zoeken & vinden
+
+De data-producten moeten vindbaar zijn en exploratief verkend kunnen worden. Om het zoeken & vinden mogelijk te maken zijn in de basisinfrastructuur diverse services aanwezig:
+* federatieve dataproductcatalogus (augumented) 
+De dataproductcatalogus werkt met federatieve indexen of anderszins omdat de relevante informatie bij het data-product zelf staat.  
 De ontstaansgeschiedenis (pipelines), kwaliteit, SLO’s, wat wel of niet mag met de data, privacy, etc. is informatie van het data-product dat in de data catalog of in aparte catalogi wordt geëtaleerd maar wel als eenheid functioneert.  
 Dataproducten kunnen zoals eerder aangegeven operationale data, modellen, informatiemodellen, etc. zijn.  
-Het model kan een reken-, machine learning, deep learning of ander model zijn. De aard van het model bepaalt ook welke informatie nodig is om de transparantie te kunnen bieden zodat de uitkomsten herleidbaar zijn. Dit is niet altijd een eenvoudige opgave omdat bij bv deep learning neurale technieken gebruikt worden. 
+Het model kan een reken-, machine learning, deep learning of ander model zijn. De aard van het model bepaalt ook welke informatie nodig is om de transparantie te kunnen bieden zodat de uitkomsten herleidbaar zijn. Dit is niet altijd een eenvoudige opgave omdat bij bv deep learning neurale technieken gebruikt worden.
 
-1.4.2 Standaarden 
+* overall zoeken(service)
+Enterprise intelligent search waarmee men naar dataproducten kan zoeken, dataproducteigenaren, data output, etc. op basis van knwoledge graph en ondersteund door AI.
+* datamarkt plaats  
+Biedt functionaliteit voor dataproduct producers om voorwaarden voor dataproductgebruik toe te voegen, billing, abonnement op dataproduct 
+* recommendation
+Aanbevelingen zoals bijvoorbeeld andere gebruikers kozen ook "dataproduct" of een dagelijkse aanbieding van nieuwe dataproducten die binnen het profiel van de gebruiker passen, etc. op basis van AI.
+* Data lineage en Data sovereignity
 
-Inhoudelijke en technische standaarden om het stelsel van domeinen te laten werken. 
+De capabilities moeten ontwikkeld worden, in hoofdstuk 5 zijn de constructies principes uitgewerkt.
+
+| ontwerp principe | constructie principe voor capability          |
+|------------------|-----------------------------------------------|
+| zoeken & vinden  | NTB                                           |
+
+1.4.2 Knowledge Graphs 
+
+Semantische samenhang over de domeinen heen drukken we uit in knowledge graphs voor het borgen van de onderlinge samenhang en hergebruik. 
+* crossdomain knowledge graphs
+* knowledge graphs programming language
+
+De capabilities moeten ontwikkeld worden, in hoofdstuk 5 zijn de constructies principes uitgewerkt.
+
+| ontwerp principe | constructie principe voor capability          |
+|------------------|-----------------------------------------------|
+| Knowledge Graphs | NTB                                           |
+
+1.4.5 Monitoring 
+
+Met monitoring monitoren we de runtime van data-producten, modellen en andere essentiële onderdelen van het digital twin ecosysteem.
+* auditing
+* observability
+* identity & acces management
+* Quality & SLO dashboard
+* Policy scanning
+
+De capabilities moeten ontwikkeld worden, in hoofdstuk 5 zijn de constructies principes uitgewerkt.
+
+| ontwerp principe | constructie principe voor capability          |
+|------------------|-----------------------------------------------|
+| Monitoring       | NTB                                           |
+
+
+1.4.2 Beleid 
+
+Het beleid heeft de volgende onderdelen:
+* beleid templates
+* dataproduct kwaliteit standaarden
+* kwaliteitframework
+* SLO as a code
+* Knowledge Graphs standaarden
+
+Het beleid is gebaseerd op de ontwerp principes - beschreven in dit hoofdstuk en heeft een relatie met:
+* constructie principes - zie hoofdstuk 5
+* stelsel afspraken - zie hoofdstuk 6
+
+In de constructie principes zijn de inhoudelijke en technische standaarden om het stelsel van domeinen te laten werken. 
 Inhoudelijk: Hoe beschrijven we modellen? Hoe beschrijven we data-kwaliteit? Etc. 
-Technisch: Hoe notificeren we ons op wijzigingen aan dataproducten? Hoe notificeren we ons op wijzigingen van modellen? Hoe bouwen we de federatieve indexen op? Aan welke voorwaarden moeten API’s voldoen13? frameworks, etc. 
+Technisch: Hoe notificeren we ons op wijzigingen aan dataproducten? Hoe notificeren we ons op wijzigingen van modellen? Hoe bouwen we de federatieve indexen op? Aan welke voorwaarden moeten API’s voldoen? frameworks, etc. 
+
+| ontwerp principe | constructie principe voor capability          |
+|------------------|-----------------------------------------------|
+| beleid           | NTB                                           |
 
 1.4.3 Communities 
 
 We faciliteren communities voor het delen van kennis, gebruikservaringen, tooling, code, e.d. 
 
-1.4.4 Knowledge Graphs 
 
-Semantische samenhang over de domeinen heen drukken we uit in knowledge graphs voor het borgen van de onderlinge samenhang en hergebruik. 
-
-1.4.5 Monitoring 
-
-Met monitoring monitoren we de runtime van data-producten, modellen en andere essentiële onderdelen van de DT’s. 
-
-1.4.6 IAM 
 
 ## Federatieve governance  
 <<deze tekst dient als input voor hoofdstuk 6>> 
