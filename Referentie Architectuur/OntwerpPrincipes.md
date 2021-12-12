@@ -398,6 +398,18 @@ In onderstaand figuur is weergegeve dat elk data product infrastructuur heeft
     <figcaption>figuur x. dataproduct infrastructuur </figcaption>
 </figure>
 
+Data producten wisselen data niet point-to-point uit maar altijd via self service platform. Er zijn veel manieren om een data mesh te implementeren en een organisatie kan meerdere manieren toestaan om toegang te krijgen tot hetzelfde dataproduct. 
+
+Er zijn 3 architectuur patronen voor uitwisseling van data tussen dataproducten die de basis infrastructuur ondersteunt volgens polyglot constructie principes:
+* Event-driven Data Mesh: dataconsumenten ontvangen automatisch een update van de data zodra er iets verandert binnen een dataproduct. Pub/Sub
+* Query-Driven Data Mesh: dataconsumenten kunnen periodiek de database van het dataproduct doorzoeken met behulp van SQL of een andere querytaal. Of verkrijgen data uit meerdere bronnen gecombineerd – API query based, snapshot on demand
+* File-Based Data Mesh: het dataproduct wordt geaggregeerd en ofwel in een bestand of in een cloud gebaseerd file bucket geplaatst voor dataconsument om te gebruiken. 
+
+In onderstaand figuur zijn 3 architectuur patronen infrastructuur heeft 
+<figure id="data mesh implementations">
+    <img src="media/Data mesh implementations.jpg" alt="data mesh implementations">
+    <figcaption>figuur x. data mesh infrastructuur implementatie</figcaption>
+</figure>
 
 #### Basisinfrastructuur
 Om het stelsel goed te laten werken zijn enkele basiscomponenten van belang. Een datacommunicatie-infrastructuur is uiteraard essentieel voor het transporteren van data. Deze basisinfrastructuur bestaat op zijn beurt weer uit verschillende componenten en werkt op basis van veelal mondiale afspraken over toe te passen standaarden. Delen van deze infrastructuur vallen onder verantwoordelijkheid van private partijen, delen onder samenwerkingsverbanden en weer andere delen vallen onder de overheid. Digitale tweelingen maken gebruik van deze infrastructuur. 
