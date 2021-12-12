@@ -38,21 +38,17 @@ De constructie principes zijn in lijn en consistent met:
 De constructie principes zijn van toepassing op de dataproducten in het digital twins ecosysteem en de componenten van de basisinfrastructuur. 
 Het is ook mogelijk dat er domein specifieke constructie principes zijn die op een dataproduct in het digital twin ecosysteem van toepassing zijn, zoals bijvoorbeeld een landelijke geluidsmodelsimulatie, kan aanvullende specifieke domein constructie principes hebben, bijvoorbeeld gebaseerd op de wet Geluidhinder (binnenkort Omgevingswet). Of te wel een dataproduct moet minimaal voldoen aan de constructie principes maar kan aanvullende domein specifieke constructies principes hebben waaraan moet worden voldaan.
 
-
 #### Template Constructieprincipe
 
 ##### CP - naamConstructieprincipe1
 
 **Referentie**
-
 tekst [link](url)
 
 **Ontwerpprincipe(s)**
-
 [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#op-naamontwerpprincipe1)
 
 **Implicatie**
-
 tekst
 
 
@@ -63,15 +59,12 @@ tekst
 ##### CP - Digitale toegankelijkheid van de digitale informatie
 
 **Referentie**
-
 [Wetgeving Europa en Nederland m.b.t. digitale toegankelijkheid](https://www.digitoegankelijk.nl/wetgeving/beleid-nederland-en-europa)
 
 **Ontwerpprincipe(s)**
-
  * [Digitale toegankelijkheid](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)    
 
 **Implicatie**
-
 We toetsen of de digitale informatie en diensten in het digital twin ecosysteem voldoet aan de digitale toegankelijkheid zodat de data- en informatie zowel bruikbaar is voor mensen met een functiebeperking als voor mensen zonder functiebeperking. 
 * We passen bij het maken van digitale informatie de standaarden toe: EN 301 549; WCAG 2.1 en WCAG-EM.
 * We toetsen publicatie van digitale informatie op digitale toegankelijkheid en zorgen voor een toegankelijkheidsverklaring. Deze verklaring moet gemaakt zijn volgens het officiële model en geaccordeerd zijn door een bestuurder of tekenbevoegde medewerker.
@@ -130,7 +123,6 @@ tekst
 ##### CP - FAIR algoritmen
 
 **Referentie**
-
 * NORA: [AP25](https://www.noraonline.nl/wiki/Transparante_dienstverlening)
 * NORA: [AP15](https://www.noraonline.nl/wiki/Doelbinding_(AP))
 
@@ -138,7 +130,6 @@ tekst
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1) algoritmen voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR)
 
 **Implicatie**
-
 * We toetsen de ontwikkeling en het gebruik van algoritmen op het risico van oneerlijke, bevoordeelde of discriminatoire uitkomsten. We houden toezicht op algoritmes wat betreft de beginselen van ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (fairness) middels ethisch assesment, bijvoorbeeld: https://dataschool.nl/deda/ en wetmatigheid https://ec.europa.eu/futurium/en/ai-alliance-consultation.1.html.
 * We ontwerpen algoritmen met gepaste waarborgen en maatregelen: dataprotection by design.
 * We hebben transparantie en verklaarbaarheid geborgd, we hebben de werking van het algoritme in begrijpelijke taal uitgelegd en gecommuniceerd met medewerkers en de burgers in een algoritme register 
@@ -150,7 +141,6 @@ tekst
 ##### CP - Hergebruik van algoritmen
 
 **Referentie**
-
 * NORA: [AP07](https://www.noraonline.nl/wiki/Gebruik_de_landelijke_bouwstenen)
 * NORA: [AP08](https://www.noraonline.nl/wiki/Gebruik_open_standaarden)
 
@@ -158,7 +148,6 @@ tekst
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * We maken gebruik van algoritme programmacode die software- en platform agnostic is  
 * We herbruiken beschikbare algoritme programmacode die software- en platform agnostic ontwikkeld is
 * We publiceren ontwikkelde algoritme programmacode op Gitlab (of Github?) public tenzij private incl. documentatie voor herbruikbaarheid. 
@@ -173,7 +162,6 @@ tekst
 ##### CP - Integriteit van algoritme
 
 **Referentie**
-
 * NORA [AP??](https://www.noraonline.nl/wiki/Integriteit)
 
 <aside class='note'>
@@ -184,7 +172,6 @@ tekst
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het algoritme correcte, complete en actuele resultaten levert. 
 * De integriteit van algoritme en AI functies wordt gegarandeerd door reguliere validatie en beheersing van gegevensverwerking en geautoriseerde toegang tot algoritme functies, door scheiding van functie, door controle op de werking van het algoritme en gegevensuitwisseling. 
 * Uitvoeren van auditing op nieuwe en bestaande werking en data verwerkingen van het algoritme en vastlegging van resultaten audit.
@@ -198,14 +185,12 @@ De gebruiker van een gegevens moet erop kunnen vertrouwen dat de werking van het
 ##### CP - Vertrouwelijkheid algoritme 
 
 **Referentie**
-
 * NORA: [AP43](https://www.noraonline.nl/wiki/Vertrouwelijkheid_(principe))
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbruikt. 
 * De vertrouwelijkheid van algoritme wordt gegarandeerd door scheiding van systeemfuncties, door controle en validatie op toegang tot algoritme 
 * Uitvoeren van de Data Protection Impact Assessment (DPIA) nieuwe en bestaande verwerkingen door algoritme 
@@ -220,14 +205,12 @@ De ontwikkelaar moet erop kunnen vertrouwen dat het algoritme niet wordt misbrui
 ##### CP - privacy gevoelige data & algoritme
 
 **Referentie**
-
 * NORA [AP??]
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 Er zijn situatie waarin algoritmen ontwikkeld worden door uitsluitend datascientists die vanwege doelbinding toegang hebben tot het algoritme waarbij de data niet onthult mag worden. Zowel het algoritme als de databronnen moet goed afgeschermd worden. Hiervoor kunnen software encryptietechnieken in gezet worden: 
 * homomorphic encryption
 * secret sharing
@@ -263,7 +246,6 @@ tekst
 ##### CP - Gebruik open standaarden
 
 **Referentie**
-
 * NORA: [AP08](https://www.noraonline.nl/wiki/Gebruik_open_standaarden)
 * Forum Standaardisatie: [Verplicht gebruik open standaarden](https://www.forumstandaardisatie.nl/open-standaarden/verplicht)
 
@@ -271,7 +253,6 @@ tekst
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * we maken visualisatie zónder kennisregels en transformaties zodat we visualisatie tool onafhankelijk blijven 
 * We gebruiken open standaard: SLD voor visualisatie geografische informatie https://forumstandaardisatie.nl/open-standaarden/sld 
 * We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service WMS https://www.ogc.org/standards/wms 
@@ -284,14 +265,12 @@ tekst
 ##### CP - Open Source functionaliteit ontwikkelen in visualisatie tooling
 
 **Referentie**
-
 tekst [link](url)
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * We ontwikkelen functionaliteit op basis van open source in visualisatie tooling. Dit bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast.
 * we maken gebruik van programmacode onafhankelijke visualisatie software  
 * We publiceren ontwikkelde functionaliteit/ programmacode op GitHub (public tenzij private) incl. documentatie voor herbruikbaarheid. 
@@ -307,14 +286,12 @@ tekst [link](url)
 ##### CP - Open standaarden voor Bouw Informatie Modellen (BIM)
 
 **Referentie**
-
 tekst [link](url)
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * We passen open standaarden voor BIM in het digital ecosysteem toe om de interoperabiliteit te bevorderen en voor een optimale werking gegevensuitwisseling.                        
 * We gebruiken open bestands formaat: IFC 2.0 https://www.forumstandaardisatie.nl/open-standaarden/ifc . IFC is een neutraal en open bestandsformaat voor het uitwisselen van BIM-specifieke informatie (modelobjecten en hun eigenschappen). 
 * We gebruiken Nederlandse open standaard CAD: NLCS https://www.forumstandaardisatie.nl/open-standaarden/nlcs 
@@ -351,14 +328,12 @@ tekst
 ##### CP - Business logica is onafhankelijk visualisatie tooling 
 
 **Referentie**
-
 tekst [link](url)
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * Er wordt geen business logica los in de visualisatie tooling. Dit geldt ook voor de informatie- en datamodellen en ontologiën
 * We maken gebruik van open source software voor BPMN workflow en DMN decision automation zoals bijvoorbeeld Camunda
 * We ontwikkelen businesslogica in een taal die software onafhankelijk is zoals bijvoorbeeld BPMN, Python, Django en Go 
@@ -390,7 +365,6 @@ tekst [link](url)
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * Het toepassen van open standaarden en open source API gateway referentie model bevordert de interoperabiliteit en hergebruik van kennis en moet door alle partijen worden toegepast.  
 * Deelnemers digital twin ecosysteem werken verplicht volgens open standaarden op een uniforme wijze. Een overzicht van vastgestelde open standaarden waarvoor het 'pas toe - of leg uit' - regime geldt, is te vinden op Lijst https://www.noraonline.nl/wiki/Gebruik_open_standaarden 
 * We gebruiken open source NLX als referentie model voor API gateway API REST en geo-webservices https://nlx.io/. 
@@ -413,7 +387,6 @@ tekst
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * We gebruiken van gemeenschappelijke landelijke- en smart city-ontologieen die visualisatie tool onafhankelijk zijn en platform agnostisch. De gemeenschappelijke ontologie is een kennisgraaf met samenhang tussen de ontologieën van digital twins waarmee cross-domein data analyse mogelijk is. We relateren digital twins aan elkaar daar waar nuttig voor analyse en visualisatie.         
 * We gebruiken de smart city-ontologie [ETSI CIM NGSI-LD Saref4City](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.01.01_60/gs_CIM006v010101p.pdf)                               
 * We gebruiken ontologie [Informatie Model Openbare Ruimte](https://github.com/Stichting-CROW/imbor) (IMBOR) 
@@ -434,7 +407,6 @@ tekst
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * We gebruiken afgesproken canonieke data object [Rijksdriehoekscoördinaten “RD- coördinaten”](https://www.nsgi.nl/geodetische-infrastructuur/referentiestelsels/rdinfo)       
 * We gebruiken afgesproken canonieke data object: [NAP](https://www.rijkswaterstaat.nl/zakelijk/open-data/normaal-amsterdams-peil#:~:text=Om%20binnen%20Nederland%20hoogtes%20te,6%2C78%20m%20onder%20NAP)    
 * We gebruiken afgesproken canonieke data object: [Nederlandse tijd](https://24timezones.com/Nederland/tijd)    
@@ -475,7 +447,6 @@ tekst [link](url)
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * Er is een federatief stelsel van landelijke datacatalogi met daarin geregistreerd alle binnen het digital twin ecosysteem gebruikte databronnen, databestanden, informatie producten en digital twins met de relevante metadata conform DCAT standaard en MDTO Duurzaam Toegankelijke Overheidsinformatie voor archivering en vernietiging in de Datacatalogus. De W3C Data Catalog Vocabulary (DCAT) is een metadata-standaard en is ontworpen om interoperabiliteit tussen gegevenscatalogi te vereenvoudigen  
 * We passen [DCAT](https://www.w3.org/TR/vocab-dcat-2/) toe: 
 * We passen [MDTO](https://www.informatiehuishouding.nl/actueel/nieuws/2021/10/13/definitieve-versie-mdto-nu-online-beschikbaar) toe:  
@@ -511,7 +482,6 @@ tekst
     JvG: én Data Uitwisselingsstandaarden. 
 </aside> 
 
-
 <aside class='note'>
     JvG: Vallen hier ook de informatiemodellen onder zoals de [NEN3610](https://www.geonovum.nl/geo-standaarden/nen-3610-basismodel-voor-informatiemodellen)? 
 </aside> 
@@ -534,7 +504,6 @@ Forum Standaardisatie [Verplicht gebruik open standaarden](https://www.forumstan
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * We gebruiken open standaard: Open Geospatial Consortium OGC Web Map Service [(WMS)](https://www.ogc.org/standards/wms) 
 * We gebruiken open standaard: Open Geospatial Consortium OGC Web Feauture Service [(WFS)]( https://www.ogc.org/standards/wfs) 
 * We gebruiken open standaard: Open Geospatial Consortium OGC [(CityGML)](https://www.ogc.org/standards/citygml) 
@@ -592,7 +561,6 @@ tekst
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * We voorkomen duplicatie (kopieën) van gegevens in de cloud omgeving van de aanbieder van visualisatie- dashboard-, simulatie tooling. 
 * Gegevens worden gescheiden van visualisatie- dashboard-, simulatie tooling bewaard. Opslag van gegevens is onafhankelijk van de Visualisatie software, gebruikte app's.  
 * Ieder gegeven wordt op precies één plek bijgehouden, zodat altijd duidelijk is wat het actuele brongegeven is en waar dat wordt beheerd. Dubbele opslag betekent synchroniseren, zodat partijen altijd naar dezelfde gegevens kijken. Dit geldt zowel binnen als buiten de oplossing, dus ook voor eventuele afgeleide opslag die geoptimaliseerd is ten behoeve van verstrekking.                                                        
@@ -604,7 +572,6 @@ tekst
 ##### CP - Beschikbaarheid, vertrouwelijkheid en integriteit van registratie van gegevens (BIV)
 
 **Referentie**
-
 * NORA [AP44](https://www.noraonline.nl/wiki/Controleerbaarheid)
 * NORA [AP40](https://www.noraonline.nl/wiki/Onweerlegbaarheid_(principe))
 * NORA [AP41](https://www.noraonline.nl/wiki/Beschikbaarheid)
@@ -615,7 +582,6 @@ tekst
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * We voldoen aan wet- en regelgeving nemen organisatorische-, procedurele- en technische maatregelen in  het beschikbaar stellen van data, bewerkingen en transformaties.                                           
 * We voeren Data Protection Impact Assessment (DPIA)3 uit op bestaande & nieuwe dataverwerkingen   
 * We voldoen aan de Baseline informatiebeveiliging Overheid (BIO) in data services, transformaties 
@@ -633,7 +599,6 @@ tekst [link](url)
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * We voldoen aan de Archiefwet en passen metadatering toe volgens de standaard MDTO
 * Verantwoording kunnen afleggen over uitgevoerde acties en transparantie    
 * We zorgen er voor dat de opslag van gegevens duurzaam is   
@@ -653,7 +618,6 @@ tekst [link](url)
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
-
 * Processen die het kwaliteitsbeheer en continu verbeteren borgen zijn ingericht                           
 * De kwaliteit van gegevens zijn van alke databron vastgelegd als metadata                                             
 * Buiten de syntactische correctheid van gegevens bewaakt men ook de integriteit over gegevens- verzamelingen heen     
@@ -820,12 +784,10 @@ OAuth 2.0 is een open standaard voor de beveiliging van applicaties die gegevens
 OAuth 2.0 is een generieke standaard die meestal nog aanvullende afspraken vereist voor de toepassing in specifieke domeinen. NL GOV Assurance profile for OAuth 2.0 legt nadere afspraken vast over het gebruik van OAuth 2.0 bij de Nederlandse overheid. Zo bepaalt NL GOV Assurance profile for OAuth 2.0 hoe applicaties zich bij elkaar moeten registreren en hoe autorisatiecodes veilig uitgewisseld moeten worden. OAuth 2.0 laat daarin namelijk nog te veel implementatieopties vrij.
 </g>
 
-
 #### Referenties
 
 [NL GOV Assurance profile for OAuth 2.0](https://www.forumstandaardisatie.nl/open-standaarden/nl-gov-assurance-profile-oauth-20)
 [REST-API Design Rules](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules)
-
 
 #### Identity catalogus
 tekst
@@ -835,7 +797,6 @@ tekst
 
 #### Identity check
 [Client Authenticatie](https://publicatie.centrumvoorstandaarden.nl/api/oauth/#client-authentication)
-
 
 #### Identity federation (bijv. SAML2 of OpenID Connect)
 tekst.
