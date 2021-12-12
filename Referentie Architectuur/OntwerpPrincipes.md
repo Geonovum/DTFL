@@ -50,14 +50,14 @@ In onderstaand figuur is een globale schets van de architectuur van de Nationale
 
 <figure id="Overall architectuur">
     <img src="media/Overall architectuur.jpg" alt="Overall architectuur">
-    <figcaption>Overall architectuur</figcaption>
+    <figcaption>figuur x. Overall architectuur</figcaption>
 </figure>
 
 De architectuur bestaat uit generieke componenten die FAIR3 ondersteunen, de vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid. 
 
 Om er voor te zorgen dat de Nationale digitale tweeling infrastructuur voldoet aan de FAIR richtlijnen introduceren we een nieuw concept “data mesh” waarmee we tevens ook de complexiteit ordenen. 
 
-Het concept data mesh4 heeft een architectuur die gebaseerd is op federatieve oplossingen waar de data en het ondersteunen van opschalen centraal staat. Deze architectuur is gebaseerd op grote complexe domeinen, organisaties en stakeholders.  
+Het concept data mesh heeft een architectuur die gebaseerd is op federatieve oplossingen waar de data en het ondersteunen van opschalen centraal staat. Deze architectuur is gebaseerd op grote complexe domeinen, organisaties en stakeholders.  
 
 Voor de architectuur van de Nationale digitale tweeling infrastructuur voegen we een aantal onderdelen toe aan het data mesh concept of vullen we het iets anders in maar in essentie hanteren we de data mesh architectuur als basis.  
 
@@ -73,8 +73,9 @@ Met data als een product stellen we het dataproduct centraal. Het dataproduct is
 
 <figure id="dataproduct">
     <img src="media/Dataproduct.jpg" alt="dataproduct">
-    <figcaption>dataproduct</figcaption>
+    <figcaption>figuur x. dataproduct</figcaption>
 </figure>
+
 
 3. Self-service data infrastructuur 
 
@@ -88,8 +89,9 @@ Met het datamesh concept passen we een mesh topologie5 toe. Dit is een vermaast 
 
 <figure id="datamesh">
     <img src="media/Datamesh.jpg" alt="datamesh">
-    <figcaption>datamesh</figcaption>
+    <figcaption>figuur x. datamesh</figcaption>
 </figure>
+
 
 Om onderdeel te kunnen zijn van de Nationale Digitale Tweeling infrastructuur dienen de volgende constructie principes gevolgd te worden. 
 
@@ -111,8 +113,9 @@ De eigenaar van dataproduct heeft de zorgplicht dat de output data continu gelev
 
 <figure id="dataproduct eigenaar">
     <img src="media/Dataproduct eigenaar.jpg" alt="dataproduct eigenaar">
-    <figcaption>dataproduct eigenaar</figcaption>
+    <figcaption>figuur x. dataproduct eigenaar</figcaption>
 </figure>
+
 
 Domeinen kunnen op verschillende manieren georganiseerd zijn. Dit is vrij en naar behoefte van het werkveld. Denk bv. aan verticale kennisdomeinen zoals luchtverontreiniging of horizontale domeinen als sensoren. De DTFL schrijft de inrichting niet voor dit is een sociaal maatschappelijk proces dat continue in beweging zal zijn en alleen kan bestaan als dit waarde toevoegt voor de betrokken stakeholders en daarmee verbonden is met lange termijn eigenaarschap vanuit het domein. In de praktijk bestaan de meeste domeinen al. In de DTFL brengen we deze in beeld. 
 
@@ -162,8 +165,9 @@ Dataproducten bieden output data aan gebruikers of afnemende applicaties zoals b
 
 <figure id="dataproduct">
     <img src="media/Dataproduct.jpg" alt="dataproduct">
-    <figcaption>dataproduct</figcaption>
+    <figcaption>figuur x. dataproduct</figcaption>
 </figure>
+
 
 Een dataproduct bestaat uit: 
 
@@ -182,50 +186,57 @@ Op basis van de input wordt output data ontwikkeld op basis van diverse (moderne
 
 <figure id="dataproduct ontwikkeling">
     <img src="media/Dataproduct ontwikkeling.jpg" alt="dataproduct ontwikkeling">
-    <figcaption>dataproduct ontwikkeling</figcaption>
+    <figcaption>figuur x. dataproduct ontwikkeling</figcaption>
 </figure>
+
 
 De dataproducten bestaan uit verschillende typen informatie. Operationele data of een model, het informatiemodel, begrippen of andere typen zoals ontstaansgeschiedenis, tijdslijnen, kwaliteit, etc. De typen variëren op basis van de aard van het dataproduct. 
 
 <figure id="dataproducten">
     <img src="media/Dataproduct typen.jpg" alt="dataproducten">
-    <figcaption>dataproduct typen</figcaption>
+    <figcaption>figuur x. dataproduct typen</figcaption>
 </figure>
+
 
 Van een of meerdere dataproducten kan ook een nieuw dataproduct gemaakt worden. Dit kan een samenstelling zijn of het resultaat van een algoritme zoals een tijdelijke analyse, voorspelmodel, e.d. Dit nieuwe product kan ook weer een dataproduct worden dat door andere stakeholders gebruikt kan worden in hun ecosysteem. De dataproducten zijn permanent verbonden (vanuit de bron). Voor dataproducten geldt dat ze moeten voldoen aan constructieprincipes van het ecosysteem. 
 
 <figure id="dataproduct samenstelling">
     <img src="media/Dataproduct samenstelling.jpg" alt="dataproduct samenstelling">
-    <figcaption>dataproduct samenstelling</figcaption>
+    <figcaption>figuur x. dataproduct samenstelling</figcaption>
 </figure>
+
 
 Een dataproduct wordt ontwikkeld in een domein en heeft één product eigenaar. Een domein heeft een of meerdere dataproducten en eigenaren.
 
 <figure id="dataproduct eigenaar">
     <img src="media/Dataproduct eigenaar.jpg" alt="dataproduct eigenaar">
-    <figcaption>dataproduct eigenaar</figcaption>
+    <figcaption>figuur x. dataproduct eigenaar</figcaption>
 </figure>
+
 
 Informatie vraagstukken kunnen betrekkingen hebben om meerdere dataproducten van verschillende domeinen (afdelingen, organisatieonderdelen cq. organisaties). Ter illustratie een voorbeeld voor verkeersregel installaties. Hierin worden dataproducten in een keten gebruikt waarin een dataproduct een algoritme als transformatie technologie inzet.    
 
 <figure id="dataproducten keten">
     <img src="media/Dataproduct keten.jpg" alt="dataproducten keten">
-    <figcaption>dataproducten keten</figcaption>
+    <figcaption>figuur x. dataproducten keten</figcaption>
 </figure>
+
 
 Dit kunnen we ook toepassen op een overkoepelend vraagstuk waarbij verschillende dataproducten zijn gebruikt. Bijvoorbeeld het vraagstuk of Nederland voldoende beschermd is tegen het water in geval van enorme regenval en smeltwater in de grote rivieren zoals de Maas en de Rijn. De dataproducten worden dan gebruikt in het domein water risico’s.
 
 <figure id="domein">
     <img src="media/Domein water.jpg" alt="domein">
-    <figcaption>domein water risico's</figcaption>
+    <figcaption>figuur x. domein water risico's</figcaption>
 </figure>
+
 
 Dataproducten hebben kenmerken of te wel constructie principes die toegepast moeten worden in de ontwikkeling van het dataproduct om te kunnen (mogen) aansluiten op het landelijke digitale tweeling eco-systeem nDFTL. 
 
 <figure id="ontwerp principes dataproduct">
     <img src="media/Dataproduct constructieprincipes.jpg" alt="ontwerp principes dataproduct">
-    <figcaption>ontwerp principes dataproduct</figcaption>
+    <figcaption>figuur x. ontwerp principes dataproduct</figcaption>
 </figure>
+
 
 Ontwerpprincipes dataproduct: 
 
@@ -236,6 +247,12 @@ Vindbaarheidsinformatie wordt verstrekt door het dataproduct zelf.
 Vindbaarheid van dataproducten binnen het DTFL-stelsel gebeurt aan de bron. Het is aan de individuele dataproducten om hun vindbaarheidsinformatie op een standaard manier te delen. Elk dataproduct deelt continue zijn oorsprong, eigenaren, runtime-informatie zoals tijdigheid, kwaliteitsstatistieken, voorbeeldgegevenssets en vooral informatie die is bijgedragen door hun consumenten, zoals de belangrijkste gebruiksscenario's en toepassingen die door hun gegevens mogelijk worden gemaakt.  
 
 Via een centrale mogelijkheid worden deze federatieve indexen bevraagt voor een totaaloverzicht. 
+
+| Principe | constructie principe                                  |
+|----------|-------------------------------------------------------|
+| vindbaar | NTB |
+|          | NTB |
+
 
 1.3.2	Begrijpelijk 
 
@@ -319,7 +336,7 @@ Van een dataproduct kunnen constructieprincipes afgeleid worden. Deze zijn besch
 
 <figure id="Dataproduct totaalview">
     <img src="media/Dataproduct totaalview.jpg" alt="Dataproduct totaalview">
-    <figcaption>Dataproduct totaal view</figcaption>
+    <figcaption>figuur x. dataproduct totaal view</figcaption>
 </figure>
 
 #### Basisinfrastructuur
