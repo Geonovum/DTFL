@@ -11,9 +11,6 @@ De constructie principes worden toegepast in meerdere typen ontwerpdocumenten, z
 
 #### Constructieprincipes in relatie tot andere architectuurproducten
 De constructie principes zijn een onderdeel van deze NL-DFTL referentiearchitectuur en de andere architectuurproducten die gerealiseerd worden. 
-<aside class='note'>
-    <p> * GB: Ik zou de plaat niet opnemen. De structuur ervan loopt niet meer helemaal parallel met onze inhoudsopgave. De relatie met pilots maakt deze R.A. erg tijdgebonden en legt het onderhoud ervan al te zeer vast. De suggestie dat er ook al documenten zijn met beschrijvingen vsan bouwblokken, de IST en SOLL architectuur roept verwachtingen op die we met de huidige versie van de R.A. nog zeker niet kunnen waarmaken. Sterker nog: Ik denk niet dat we ooit een IST of een Doelarchitectuur zullen beschrijven. De vele partijen die deze R.A. hopelijk gaan gebruiken, zorgen immers voor een voortdurende beweging binnen het stelsel, waardoor we hiervna nooit een afgeronde doelarchitectuurbeschrijving kunnen maken. . </p>
-</aside> 
 
 In onderstaand figuur is de samenhang weergegeven met architectuur nDFTL en de constructie principes. 
 
