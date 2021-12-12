@@ -133,9 +133,6 @@ tekst
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1) algoritmen voldoen aan ‘rechtmatigheid’, ‘transparantie’ en ‘behoorlijkheid’ (FAIR)
 
-<aside class='note'>
-    <p> * GB: Het onderstaande principe is een variant van de 'open source' gedachte. Naar de letter toegepast zou dit principe betekenen dat alle deelnemers in het DT-stelsel hun volledige code moeten publiceren. Dat zal de meeste private partijen doen afhaken. Ik ben er niet zeker van dat we dit principe in deze vorm moeten handhaven. Het omgekeerde kan wel: Partijen die dat wensen, kunnen via een gemeenschappelijke repository code aan anderen beschikbaar stellen. Dit zou een federatieve voorziening kunnen zijn. </p>
-</aside> 
 
 ##### CP - Hergebruik van algoritmen
 
@@ -268,9 +265,6 @@ tekst [link](url)
 
 #### 2D afbeeldingen (data statisch)
 
-<aside class='note'>
-    <p> * GB: Waarom deze VIP-behandeling voor BIM-modellen? ER zijn nog tal van andere modellen van belang binnen het DT-stelsel. Ook voor die modellen geldt dat we streven naar standaardisatie. Als 'zelfstandig' principe, kan deze er m.i. uit. </p>
-</aside> 
 
 #### 3D afbeeldingen (data statisch)
 
@@ -366,6 +360,7 @@ tekst [link](url)
 tekst
 
 #### Semantiek / ontologie
+FDW: tekstvoorstel: dit kopje vervangen door knowledge graph
 
 ##### CP - Gebruik gemeenschappelijkelandelijke- en smart city-ontologieen om digital twins met elkaar te kunnen verbinden
 
@@ -418,7 +413,7 @@ We gebruiken open standaard datamodelleringstaal om de datastructuren en datatyp
 
 Datamodelleringstalen zijn onder meer:
 * SQL Data Definition Language (DDL): standaardtaal voor relationele databaseschema's.
-* Digital Twin Definition Language (DTDL): een taal voor het modelleren van property-graphs met ondersteuning voor integratie met IoT via 'telemetrie'-eigenschappen. DTDL is gemaakt door Microsoft en open source.
+* Digital Twin Definition Language (DTDL): een taal voor het modelleren van property-graphs met ondersteuning voor integratie met IoT via 'telemetrie'-eigenschappen. Digital twin Consortium heeft de keuze gemaakt voor "DTDL als programmeertaal is (opensource) ontwikkeld door Microsoft. Is dit ook onze keuze?
 * GraphQL-schema: een taal voor het modelleren van property-graphs die met GraphQL wordt gebruikt om de federatie van gegevens uit meerdere bronnen en doelspecifieke weergaven van gegevens te ondersteunen. GraphQL is gemaakt door Facebook en open source.
 * Web Ontology Language (OWL): Een triple-graph datamodelleringstaal die deel uitmaakt van de Semantic Web Stack.
 * RDFS (Resource Description Framework Schema): Een triple-graph datamodelleringstaal die deel uitmaakt van de Semantic Web Stack.
@@ -511,15 +506,15 @@ Forum Standaardisatie [Verplicht gebruik open standaarden](https://www.forumstan
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
-##### CP - Open Source API Management
+##### CP - API Management
 
 **Referentie**
 
 tekst [link](url)
 
 **Rationale**
-
-Het toepassen van open source API Management bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang
+API Managent is onderdeel van de dataproduct infrastructuur en keuze van de producteigenaar. Wij leggen geen constructieprincipes op.
+Het toepassen van API Management bevordert hergebruik van functionaliteit en moet door alle partijen worden toegepast. Er zijn geen door private partijen afgedwongen beperking aan het gebruik. Voor een optimale werking van het digital twin ecosysteem is een uniforme gegevensuitwisseling van belang
 
 **Ontwerpprincipe(s)**
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
@@ -595,7 +590,7 @@ tekst [link](url)
 
 **Rationale**
 
-* We voldoen aan de Archiefwet 
+* We voldoen aan de Archiefwet en passen metadatering toe volgens de standaard MDTO
 * Verantwoording kunnen afleggen over uitgevoerde acties en transparantie    
 * We zorgen er voor dat de opslag van gegevens duurzaam is   
 * We bewaren gegevens niet langer dan nodig is       
