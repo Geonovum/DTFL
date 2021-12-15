@@ -1,5 +1,5 @@
 ## Constructieprincipes
-In hoofdstuk XXX [Inleiding] staat een schets van het digitale tweeling  stelsel. We zagen al eerder dat dit opgebouwd is op basis van een combinatie van federatieve opslag van gegevens, modellen en bewerkingsfunctionaliteit, aangevuld met een aantal essentiële centrale, federatieve componenten, waardoor gegevens, modellen en bewerkingsfunctionaliteit over en weer gebruikt kunnen worden.
+In hoofdstuk XXX [Inleiding] staat een schets van het [digitale tweeling stelsel](https://www.digitaltwinconsortium.org/glossary/glossary.html#digital-twin). We zagen al eerder dat dit opgebouwd is op basis van een combinatie van federatieve opslag van gegevens, modellen en bewerkingsfunctionaliteit, aangevuld met een aantal essentiële centrale, federatieve componenten, waardoor gegevens, modellen en bewerkingsfunctionaliteit over en weer gebruikt kunnen worden.
 
 In het vorige hoofdstuk staan algemene uitgangspunten of principes waaraan het stelsel moet voldoen. In dit hoofdstuk gaan we weer een laagje dieper. We gaan kijken naar de wijze waarop digitale tweeling mogelijk wordt voor deelnemende organisaties. Dit verwoorden we in constructie principes. De constructie principes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc.
 
@@ -14,17 +14,19 @@ Op allerlei plaatsen zijn er initiatieven rond digitale tweelingen, waarin naast
 
 De architectuur van de Nationale digitale tweeling infrastructuur kenmerkt zich door een enorme hoeveelheid stakeholders die werken in verschillende domeinen. Er is niet een digitale tweeling maar een zeer grote diversiteit aan digital tweelingen in de verschillende domeinen voor zeer veel toepassingen in Nederland (en daarbuiten). De digitale tweelingen zijn verbonden met elkaar daar waar nuttig. De verbonden digitale tweelingen noemen we het digitale tweeling eco-systeem of digitale tweeling stelsel. De architectuur van Nationale digitale tweeling infrastructuur die we ontwerpen is geen ontwerp van één digitale tweeling maar van een stelsel aan digitale tweelingen.
 
-Het stelsel kan niet gerealiseerd worden door barrières op te werken waarbij het tempo van de stakeholders wordt bepaald door de randvoorwaarden van de architectuur. De architectuur moet faciliteren dat de stakeholders duizend bloemen kunnen laten bloeien. Dit vraagt gedecentraliseerde oplossingen als basis voor democratisering van iedere stakeholder. Alleen in een federatieve  architectuur met federatieve governance kan de complexiteit van Nationale digitale tweeling infrastructuur worden gerealiseerd.
+Het stelsel kan niet gerealiseerd worden door barrières op te werken waarbij het tempo van de stakeholders wordt bepaald door de randvoorwaarden van de architectuur. De architectuur moet faciliteren dat de stakeholders duizend bloemen kunnen laten bloeien. Dit vraagt gedecentraliseerde oplossingen als basis voor democratisering van iedere stakeholder. Alleen in een [federatieve architectuur](https://www.digitaltwinconsortium.org/glossary/glossary.html#federation) met federatieve governance kan de complexiteit van Nationale digitale tweeling infrastructuur worden gerealiseerd.
 
 In onderstaand figuur is een globale schets van de architectuur van de Nationale digitale tweeling infrastructuur weergegeven.
 
 <m>AFBEELDING 1</m>
 
-De architectuur bestaat uit generieke componenten die FAIR  ondersteunen, de vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid.
+De architectuur bestaat uit generieke componenten die [FAIR](https://www.go-fair.org/fair-principles/) ondersteunen, de vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid.
 
 Om er voor te zorgen dat de Nationale digitale tweeling infrastructuur voldoet aan de FAIR richtlijnen introduceren we een nieuw concept “data mesh” waarmee we tevens ook de complexiteit ordenen.
 
-Het concept data mesh  heeft een architectuur die gebaseerd is op federatieve oplossingen  waar de data en het ondersteunen van opschalen centraal staat. Deze architectuur is gebaseerd op grote complexe domeinen, organisaties en stakeholders.
+Het concept [data mesh](https://martinfowler.com/articles/data-mesh-principles.html) heeft een architectuur die gebaseerd is op [federatieve oplossingen](https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2021/10/31/nl-digitaal-interbestuurlijke-datastrategie-nederland/nl-digitaal-interbestuurlijke-datastrategie-nederland.pdf)[^1] waar de data en het ondersteunen van opschalen centraal staat. Deze architectuur is gebaseerd op grote complexe domeinen, organisaties en stakeholders.
+
+[^1] We zien de federatieve aanpak ook terug in de interbestuurlijke datastrategie van de overheid
 
 Voor de architectuur van de Nationale digitale tweeling infrastructuur voegen we een aantal onderdelen toe aan het data mesh concept of vullen we het iets anders in maar in essentie hanteren we de data mesh architectuur als basis.
 
@@ -32,21 +34,23 @@ De data mesh architectuur gaat uit van een viertal primaire uitgangspunten, dit 
 
 <m>AFBEELDING 2</m>
 
-1.	Domein eigenaarschap
+1. **Domein eigenaarschap**
 De infrastructuur ondersteunt een federatieve aanpak met een verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan. We hebben al zoveel werkende domeinen met een eigen dynamiek en governance die we nog beter en in samenhang waar relevant willen laten werken.
 
-2.	Data als een product
+2. **Data als een product**
 Met data als een product stellen we het dataproduct centraal. Het dataproduct is een ‘atomaire’ eenheid en heeft de metadata, ontstaansgeschiedenis, kwaliteit, e.d. allemaal bij het product zelf staan en heeft mechanismen om afnemers te informeren en consulteren.
 
 <m>AFBEELDING 3</m>
 
-3.	Basis data infrastructuur
+3. **Basis data infrastructuur**
 Ook een federatieve structuur heeft basisvoorzieningen nodig om dataproducten, modellen, e.d. te kunnen vinden. De inrichtingswijze wordt wel een andere omdat de metadata bij de data staat. Basisvoorzieningen voor mensen en machines maken gebruik van federatieve indexen en dit kan niet zonder afsprakenstelsels.
 
-4.	Federatieve governance
+4. **Federatieve governance**
 Afsprakenstelsels zijn nodig om het geheel te kunnen laten werken. Dit betreft niet alleen standaarden voor het delen van data, data-producten, modellen maar ook ethiek, privacy, transparantie, e.d. Governance vraagstukken liggen op de gedeelde voorzieningen, in een federatief stelsel zijn de overige governance vraagstukken voor de domeinen. 
 
-Met het datamesh concept passen we een mesh topologie  toe. Dit is een vermaast netwerk waarin de dataproducten de nodes zijn van waaruit de data wordt doorgestuurd naar gebruikers, afnemende applicaties of andere dataproducten.
+Met het datamesh concept passen we een mesh topologie[^2]  toe. Dit is een vermaast netwerk waarin de dataproducten de nodes zijn van waaruit de data wordt doorgestuurd naar gebruikers, afnemende applicaties of andere dataproducten.
+
+[^2] Mesh topologie zegt niets voor de onderliggende netwerk topologie dat gebruikt wordt.
 
 <m>AFBEELDING 4</m>
 
@@ -54,7 +58,9 @@ Om onderdeel te kunnen zijn van de Nationale Digitale Tweeling infrastructuur di
 
 ### Domein eigenaarschap
 
-Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan om continue verandering en schaalbaarheid te ondersteunen. Een domein  heeft de verantwoordelijkheid voor data-producten. Degene die de verantwoordelijkheid over de data-producten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.
+Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan om continue verandering en schaalbaarheid te ondersteunen. Een domein[^3] heeft de verantwoordelijkheid voor data-producten. Degene die de verantwoordelijkheid over de data-producten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.
+
+[^3] Binnen de Europese Commissie noemen ze dit dataspaces
 
 #### Duidelijk eigenaarschap data
 
@@ -77,15 +83,15 @@ Domeinen kunnen op verschillende manieren georganiseerd zijn. Dit is vrij en naa
 De inrichting van de domeinen is een sociaal maatschappelijk proces gebaseerd op de behoeften van stakeholders.
 In de domeinen bestaat enorm veel data. Hoe houden we dit bij elkaar in een wereld van decentralisatie en domeinen die hun eigen context(en) van de gegevens nodig hebben? De data mesh hanteert hiervoor de volgende aanpak:
 
-1.	Objecten hanteren een globaal uniek extern gericht identifier systeem
-2.	De mogelijkheid om modelmatig dezelfde data (begrippenkader) aan elkaar te verbinden
-3.	De mogelijkheid om data aan elkaar te verbinden
+1. Objecten hanteren een globaal uniek extern gericht identifier systeem
+2. De mogelijkheid om modelmatig dezelfde data (begrippenkader) aan elkaar te verbinden
+3. De mogelijkheid om data aan elkaar te verbinden
 
 #### Verbinden in plaats van verzamelen
 
 Tussen of binnen een domein wordt brondata niet met elkaar verbonden in een datawarehouse, datalake of andere omgeving. De data wordt op bovenstaande wijze (1. t/m 3.) verbonden zodat een verbonden stelsel van data ontstaat gericht op herbruikbaarheid (in plaats van specifieke oplossingen).
 
-Data Mesh onderkent Domain driven design (DDD)  als een manier om domeinen te modelleren. Business-vertegenwoordigers en software-ontwikkelaars spreken dezelfde eenduidige taal (‘ubiquitous language’) die de kernbegrippen binnen het domein bevat. DDD onderkent het feit dat standaardisatie van modellen en taal slechts tot op zeker hoogte mogelijk én wenselijk is binnen een divers systeem, zeker wanneer daarbij meerdere organisaties betrokken zijn.
+Data Mesh onderkent Domain driven design ([DDD](https://en.wikipedia.org/wiki/Domain-driven_design)) als een manier om domeinen te modelleren. Business-vertegenwoordigers en software-ontwikkelaars spreken dezelfde eenduidige taal (‘ubiquitous language’) die de kernbegrippen binnen het domein bevat. DDD onderkent het feit dat standaardisatie van modellen en taal slechts tot op zeker hoogte mogelijk én wenselijk is binnen een divers systeem, zeker wanneer daarbij meerdere organisaties betrokken zijn.
 
 Domeinen gebruiken, vanwege het taak-specifieke karakter vaak om goede redenen, verschillende begrippen in een andere betekenis of dezelfde begrippen met een verschillende betekenis. Zo kan een ‘klant’ in het ene domein vergelijkbaar zijn met wat in een ander domein ‘cliënt’ wordt genoemd. Andersom kan het begrip ‘klant’ in meerdere domeinen worden gebruikt maar een, ietwat of sterk, verschillend betekenis hebben. DDD hecht daarom veel belang aan het zorgvuldig afbakenen van wat wel en niet tot een domein behoort (‘bounded context’) en benadrukt dat begrippen een domein gebonden betekenis hebben.
 
@@ -95,15 +101,21 @@ De data heeft binnen het domein waarin ze zijn ontstaan een specifieke betekenis
 
 #### De domeinen hanteren de basisregistraties en relaties tussen de basisregistraties als fundament
 
-De (basis)registraties bestaan uit de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Topografie (BRT), Basisregistratie Adressen en Gebouwen (BAG), Basisregistratie Ondergrond (BRO), Basisregistratie Kadaster (BRK), Landelijke Voorziening Beeldmateriaal, 3D Basisvoorziening
+De (basis)registraties bestaan uit de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Topografie (BRT), Basisregistratie Adressen en Gebouwen (BAG), Basisregistratie Ondergrond (BRO), Basisregistratie Kadaster (BRK), Landelijke Voorziening Beeldmateriaal, 3D Basisvoorziening[^4]
+
+[^4] Tijdens de uitvoering zullen de referentieregistraties aangepast worden op behoeften
 
 Het onderscheid dat we van oudsher hebben tussen operationele (veelal transactie-gebaseerde) en analytische data zal steeds meer vervallen. Analytische data maakt direct gebruik van de operationele data en levert vaak ook weer feedback op de operationele data. Analytische data kan weer operationele data zijn voor een ander DTFL proces. We brengen data naar de modellen en modellen naar de data. Dit organisch stromen van data faciliteren we door de domein-structuur. We hanteren hier het concept van data als een product, zie volgende paragraaf.
 
 ### Data als een product
 
-Data als een product lijkt vanzelfsprekend omdat we dit naar ons gevoel al doen. Echter in de huidige infrastructuren beschouwen we data en techniek als 2 aparte dingen terwijl bij data als een product dit een is. Data als een product heeft daarnaast nog een subtiel maar essentieel verschil. Nu leveren we data, denk aan grote bestanden waar de gegevensgebruiker, gegevensanalist, etc. zelf zijn relevante gegevens maar moet uithalen en vaak zelf moet omzetten naar werkbare formaten. Met data als een product voegen we product denken (product thinking) toe. De gebruikers moeten als klant worden behandeld en wel op zo’n manier dat de klant gelukkig wordt van de wijze waarop de data geconsumeerd kan worden. Succesvolle producten  zijn waardevol, eenvoudig bruikbaar en haalbaar om te maken. Het concept van succesvolle producten is ook toegepast op data als een product.
+Data als een product lijkt vanzelfsprekend omdat we dit naar ons gevoel al doen. Echter in de huidige infrastructuren beschouwen we data en techniek als 2 aparte dingen terwijl bij data als een product dit een is. Data als een product heeft daarnaast nog een subtiel maar essentieel verschil. Nu leveren we data, denk aan grote bestanden waar de gegevensgebruiker, gegevensanalist, etc. zelf zijn relevante gegevens maar moet uithalen en vaak zelf moet omzetten naar werkbare formaten. Met data als een product voegen we product denken (product thinking) toe. De gebruikers moeten als klant worden behandeld en wel op zo’n manier dat de klant gelukkig wordt van de wijze waarop de data geconsumeerd kan worden. [Succesvolle producten](https://www.mindtheproduct.com/product-is-hard-by-marty-cagan/) zijn waardevol, eenvoudig bruikbaar en haalbaar om te maken. Het concept van succesvolle producten is ook toegepast op data als een product.
 
-De data als een product is een atomaire eenheid. Het is niet zo dat op andere plekken ‘metadata’ wordt opgeslagen van het dataproduct maar bij data mesh is al deze informatie aanwezig bij het dataproduct zelf. Dit past bij de federatieve aanpak. Een dataproduct  kan bestaan uit:
+De data als een product is een atomaire eenheid. Het is niet zo dat op andere plekken ‘metadata’ wordt opgeslagen van het dataproduct maar bij data mesh is al deze informatie aanwezig bij het dataproduct zelf. Dit past bij de federatieve aanpak.
+
+Een [dataproduct](https://www.digitaltwinconsortium.org/glossary/glossary.html#computational-representation)[^5] kan bestaan uit:
+
+[^5] Komt overeen met (echter we hanteren hier de termen uit data mesh)
 
  * Transactie data – data in transactionele werkprocessen zoals bijvoorbeeld financiële transacties, maar ook sensor data of events
  * Analytische data – dit is transactionele data dat gecombineerd, bewerkt, verrijkt en/of geaggregeerd is uit verschillende bronsystemen. Analytische data biedt nieuwe kennis en inzichten.
@@ -168,7 +180,7 @@ Het dataproduct is zelfbeschrijvend.
 
 Uit welke begrippen, definities, relaties, waardelijsten, e.d. – de semantiek - bestaat het dataproduct? Naast begrip van de semantiek, moeten datagebruikers begrijpen hoe de gegevens aan hen worden gepresenteerd. Hoe hebben ze toegang? Hoe kunnen ze de data syntactisch opvragen? Wat voor soort SQL-query's kunnen ze uitvoeren? Hoe lees je de data-objecten? Dit gaat idealiter vergezeld van voorbeelddatasets en voorbeeldcodes.
 
-Dataschema’s helpen om de datagebruiker te ondersteunen. Dit geldt ook voor computational notebooks  die het verhaal van een dataproduct helpen vertellen. Computational notebooks bevatten documentatie van de data, evenals code om het te gebruiken en het visueel demonstreren van de code in actie.
+Dataschema’s helpen om de datagebruiker te ondersteunen. Dit geldt ook voor [computational notebooks](https://martinfowler.com/bliki/ComputationalNotebook.html) die het verhaal van een dataproduct helpen vertellen. Computational notebooks bevatten documentatie van de data, evenals code om het te gebruiken en het visueel demonstreren van de code in actie.
 
 Ten slotte is begrijpbaarheid een sociaal proces. Wij leren van elkaar. Het moet eenvoudig zijn om als datagebruiker ervaringen te delen die weer zorgen voor betere ondersteuning op bruikbaarheid.
 
@@ -207,7 +219,8 @@ De dataproducten moeten zoveel als mogelijk met elkaar inhoudelijk combineerbaar
 Een van de belangrijkste zorgen in een gedistribueerde data-architectuur is de mogelijkheid om data te correleren/in samenhang over domeinen heen te gebruiken.
 De sleutel voor semantische interoperabiliteit van data tussen domeinen is het volgen van standaarden en harmonisatieregels, die het mogelijk maken om gegevens over domeinen heen zinvol in samenhang te bevragen. Hiervoor zullen we een aantal zaken moeten standaardiseren die de interoperabiliteit van de dataproducten vergemakkelijken:
 
- * Volgen van Metamodel informatiemodellering (MIM) voor informatiemodellen ,  
+ * Volgen van [Metamodel informatiemodellering](https://www.geonovum.nl/geo-standaarden/metamodel-informatiemodellering-mim
+) (MIM) voor [informatiemodellen](https://www.digitaltwinconsortium.org/glossary/glossary.html#data-model) ,  
  * Gestandaardiseerde metadata
  * Geharmoniseerde begrippen en definities
  * (knowledge) graphs
@@ -258,7 +271,7 @@ Het model kan een reken-, machine learning, deep learning of ander model zijn. D
 
 Inhoudelijke en technische standaarden om het stelsel van domeinen te laten werken.
 Inhoudelijk: Hoe beschrijven we modellen? Hoe beschrijven we data-kwaliteit? Etc.
-Technisch: Hoe notificeren we ons op wijzigingen aan dataproducten? Hoe notificeren we ons op wijzigingen van modellen? Hoe bouwen we de federatieve indexen op? Aan welke voorwaarden moeten API’s voldoen ? frameworks, etc.
+Technisch: Hoe notificeren we ons op wijzigingen aan dataproducten? Hoe notificeren we ons op wijzigingen van modellen? Hoe bouwen we de federatieve indexen op? Aan welke [voorwaarden](https://www.geonovum.nl/themas/kennisplatform-apis) moeten API’s voldoen? frameworks, etc.
 
 #### Communities
 
@@ -291,7 +304,9 @@ De prioriteiten van de governance in data mesh zijn anders dan de traditionele g
 
 De nationale Digitale Tweeling bestaat niet 1 digitale tweeling maar uit een stelsel van digitale tweelingen. Deze digitale tweelingen zijn georganiseerd per domein. In een domein vinden stakeholders van bedrijfsleven, wetenschap, kenniscentra, overheid en burgers elkaar rondom bepaalde vraagstukken zoals luchtverontreiniging of leefbaarheid van de omgeving. De meeste domeinen bestaan al, nieuwe domeinen zullen ontstaan terwijl huidige domeinen veranderen of in een ander opgaan of verdwijnen. Dit is een sociaal maatschappelijk proces gebaseerd op waarde. Ieder domein is federatief van opzet en heeft zijn eigen afspraken, governance en financiering.
 
-We hebben een bijzonder domein. Dit is het domein van de geo(basis)registraties. Dit domein biedt de referentiegrondslag. Door gebruik te maken van de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Adressen en Gebouwen (BAG), 3D bestand van Nederland gebaseerd op de BGT en puntenwolken en andere referentieregistraties  hanteren de domeinen dezelfde referentiegrondslag waardoor de resultaten uit de domeinen met elkaar te vergelijken zijn. 
+We hebben een bijzonder domein. Dit is het domein van de geo(basis)registraties. Dit domein biedt de referentiegrondslag. Door gebruik te maken van de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Adressen en Gebouwen (BAG), 3D bestand van Nederland gebaseerd op de BGT en puntenwolken en andere referentieregistraties[^6]  hanteren de domeinen dezelfde referentiegrondslag waardoor de resultaten uit de domeinen met elkaar te vergelijken zijn.
+
+[^6] Deze zullen gedurende de uitvoering nader worden ingevuld.
 
 <m>AFBEELDING 14</m>
 
