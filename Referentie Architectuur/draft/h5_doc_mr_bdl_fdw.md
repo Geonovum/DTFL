@@ -402,9 +402,9 @@ De organisatie kan dit zelf gebruiken en is vrij om het dataproduct weer beschik
 
 **Voetnoten (tijdelijk)**
 
-[^1] We zien de federatieve aanpak ook terug in de interbestuurlijke datastrategie van de overheid
-[^2] Mesh topologie zegt niets voor de onderliggende netwerk topologie dat gebruikt wordt.
-[^3] Binnen de Europese Commissie noemen ze dit dataspaces
-[^4] Tijdens de uitvoering zullen de referentieregistraties aangepast worden op behoeften
-[^5] Komt overeen met (echter we hanteren hier de termen uit data mesh)
-[^6] Deze zullen gedurende de uitvoering nader worden ingevuld.
+ * [^1] We zien de federatieve aanpak ook terug in de interbestuurlijke datastrategie van de overheid
+ * [^2] Mesh topologie zegt niets voor de onderliggende netwerk topologie dat gebruikt wordt.
+ * [^3] Binnen de Europese Commissie noemen ze dit dataspaces
+ * [^4] Tijdens de uitvoering zullen de referentieregistraties aangepast worden op behoeften
+ * [^5] Komt overeen met (echter we hanteren hier de termen uit data mesh)
+ * [^6] Deze zullen gedurende de uitvoering nader worden ingevuld.
