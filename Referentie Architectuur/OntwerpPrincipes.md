@@ -111,7 +111,7 @@ Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoor
 
 De dataproducten hebben een eigenaar en deze is hierop aanspreekbaar. Een dataproduct zonder duidelijk eigenaarschap is geen onderdeel van de nDTFL. Eigenaarschap kan zowel bij organisaties liggen als bij individuen.
 
-1.2.1b	Elk dataproduct heeft gebruiksovereenkomst 
+1.2.1b	Elk dataproduct heeft een gebruiksovereenkomst 
 
 Elk dataproduct heeft minimaal 1 gebruiksovereenkomst (licentie). Een dataproduct zonder gebruiksovereenkomst is geen onderdeel van de nDTFL.
 
