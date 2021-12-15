@@ -39,50 +39,50 @@ We spreken over een stelsel, omdat het geheel bestaat uit zeer veel partijen en 
 #### Aansluitvoorwaarden
 
 1. Deelname staat open voor in Nederland gevestigde bedrijven, instellingen en overheidsorganisaties.
-1. Deelnemers conformeren zich aan de architectuur en standaarden, zoals vastgelegd in de Referentie Architectuur Digital Twinning in de Fysieke Leefomgeving.
+2. Deelnemers conformeren zich aan de architectuur en standaarden, zoals vastgelegd in de Referentie Architectuur Digital Twinning in de Fysieke Leefomgeving.
 
 #### Kwaliteitsborging
 
-1. Deelnemers voorzien hun dataproduct van herkomst- en kwaliteitsinformatie, welke doorloopt tot aan de bron van elk informatie-element (ketenkwaliteit).
-1. Deelnemers tonen via jaarlijkse auditverklaring aan dat de door hen geleverde dataproducten in overeenstemming zijn met de daarbij aangegeven kwaliteitsaspecten (incl. actuele herkomstinformatie).
+3. Deelnemers voorzien hun dataproduct van herkomst- en kwaliteitsinformatie, welke doorloopt tot aan de bron van elk informatie-element (ketenkwaliteit).
+4. Deelnemers tonen via jaarlijkse auditverklaring aan dat de door hen geleverde dataproducten in overeenstemming zijn met de daarbij aangegeven kwaliteitsaspecten (incl. actuele herkomstinformatie).
 
 #### Privacyborging
 
-1. Deelnemers zorgen ervoor dat het gebruik van hun data door derden in overeenstemming is met de algemene verordening gegevensbescherming (AVG). Zij maken daartoe bindende en controleerbare afspraken met afnemers van privacygevoelige data.
-1. Deelnemers houden een register actueel met de door hen geleverde dataproducten, die privacygevoelige data bevatten. In dit register (of via een gekoppeld bestand) wordt tevens bijgehouden welke van deze dataproducten aan welke afnemer zijn verstrekt. Op vergelijkbare wijze wordt bijgehouden welke contractuele afspraken met de afnemers van deze privacygevoelige dataproducten zijn gemaakt, zodat het gebruik van deze data binnen de AVG-richtlijn blijft. Zie ook onder aansprakelijkheid.
-1. Deelnemers die privacygevoelige data ter bewerking aanbieden aan derden (lees: uitbesteding van analysewerkzaamheden), zorgen via contractuele en controleerbare afspraken voor het verwijderen van deze data door de databewerker na afronding van de bewerkingsactiviteiten.
+5. Deelnemers zorgen ervoor dat het gebruik van hun data door derden in overeenstemming is met de algemene verordening gegevensbescherming (AVG). Zij maken daartoe bindende en controleerbare afspraken met afnemers van privacygevoelige data.
+6. Deelnemers houden een register actueel met de door hen geleverde dataproducten, die privacygevoelige data bevatten. In dit register (of via een gekoppeld bestand) wordt tevens bijgehouden welke van deze dataproducten aan welke afnemer zijn verstrekt. Op vergelijkbare wijze wordt bijgehouden welke contractuele afspraken met de afnemers van deze privacygevoelige dataproducten zijn gemaakt, zodat het gebruik van deze data binnen de AVG-richtlijn blijft. Zie ook onder aansprakelijkheid.
+7. Deelnemers die privacygevoelige data ter bewerking aanbieden aan derden (lees: uitbesteding van analysewerkzaamheden), zorgen via contractuele en controleerbare afspraken voor het verwijderen van deze data door de databewerker na afronding van de bewerkingsactiviteiten.
 
 #### Informatiebeveiliging
 
-1. Deelnemers die dataproducten leveren die de informatiepositie van criminele organisaties of landen buiten de EU zodanig kan versterken, dat risico’s ontstaan met betrekking tot maatschappelijke ontwrichting (terrorisme, cyber crime, fysieke bedreiging of afpersing), zorgen door middel van controleerbare en handhaafbare contractuele afspraken met hun afnemers, dat deze gegevens slechts op grond van een strikte doelbinding kunnen worden ingezet.
-1. [Deze bepaling verder uitwerken conform de privacy en aansprakelijkheidseisen – GB].
+8. Deelnemers die dataproducten leveren die de informatiepositie van criminele organisaties of landen buiten de EU zodanig kan versterken, dat risico’s ontstaan met betrekking tot maatschappelijke ontwrichting (terrorisme, cyber crime, fysieke bedreiging of afpersing), zorgen door middel van controleerbare en handhaafbare contractuele afspraken met hun afnemers, dat deze gegevens slechts op grond van een strikte doelbinding kunnen worden ingezet.
+9. [Deze bepaling verder uitwerken conform de privacy en aansprakelijkheidseisen – GB].
 
 #### Autorisatie
 
-1. Deelnemers aan het stelsel dienen zich via E-Herkenning bij de leverende deelnemer te identificeren.
+10. Deelnemers aan het stelsel dienen zich via E-Herkenning bij de leverende deelnemer te identificeren.
 [Aantekening: Als leveranciers van dataproducten zorgdragen voor privacyborging en informatiebeveiliging, dan lijkt autorisatie overbodig. Immers: afnemers krijgen geen directe toegang tot systemen van aanbieders van informatie. Zij bieden hun informatie namelijk aan in de vorm van dataproducten. Als privacy en veiligheid afdoende geregeld zijn, lijkt er verder sprake te zijn van ‘open data’. – GB]
 
 #### Doorleverregulering
 
-1. Deelnemers zorgen via “algemene leveringsvoorwaarden” voor sluitende, transparante en handhaafbare afspraken over de afname van dataproducten. Onderdeel hiervan zijn afspraken over het doorleveren van data aan afnemers en afnemers van afnemers in het stelsel (ketenverantwoordelijkheid).
+11. Deelnemers zorgen via “algemene leveringsvoorwaarden” voor sluitende, transparante en handhaafbare afspraken over de afname van dataproducten. Onderdeel hiervan zijn afspraken over het doorleveren van data aan afnemers en afnemers van afnemers in het stelsel (ketenverantwoordelijkheid).
 
 #### Aansprakelijkheid
 
-1. Deelnemers zijn aansprakelijk voor overtredingen van de AVG door directe en indirecte afnemers van privacygevoelige dataproducten (ketenaansprakelijkheid).
-1. Deelnemers zijn aansprakelijk voor het gebruik van hun geleverde data door afnemers en afnemers van afnemers (ketenaansprakelijkheid). Via contractering (incl. algemene leveringsvoorwaarden) kan deze verantwoordelijkheid deels bij afnemers gelegd worden. 
+12. Deelnemers zijn aansprakelijk voor overtredingen van de AVG door directe en indirecte afnemers van privacygevoelige dataproducten (ketenaansprakelijkheid).
+13. Deelnemers zijn aansprakelijk voor het gebruik van hun geleverde data door afnemers en afnemers van afnemers (ketenaansprakelijkheid). Via contractering (incl. algemene leveringsvoorwaarden) kan deze verantwoordelijkheid deels bij afnemers gelegd worden. 
 
 #### Contractering
 
-1. Deelnemers sluiten (raam)contracten af met de afnemers van hun dataproducten, waarbij zaken als privacyborging, informatiebeveiliging en doorlevering aan derden conform de stelselafspraken en ter zake doende wetgeving worden geregeld.
+14. Deelnemers sluiten (raam)contracten af met de afnemers van hun dataproducten, waarbij zaken als privacyborging, informatiebeveiliging en doorlevering aan derden conform de stelselafspraken en ter zake doende wetgeving worden geregeld.
 
 #### Correctieplicht
 
-1. Deelnemers informeren leveranciers van dataproducten over (vermeende) onjuistheden in de kwaliteit van de geleverde data. Normstellend hiervoor zijn de door de leverancier van een dataproduct meegeleverde kwaliteitskenmerken. 
+15. Deelnemers informeren leveranciers van dataproducten over (vermeende) onjuistheden in de kwaliteit van de geleverde data. Normstellend hiervoor zijn de door de leverancier van een dataproduct meegeleverde kwaliteitskenmerken. 
 
 #### Eigenaarschap van data
 
-1. Data die om niet is verkregen en niet wordt beperkt door eisen met betrekking tot privacyborging en informatiebeveiliging, geldt als openbaar en kan niet door een derde als eigendom worden beschouwd.
+16. Data die om niet is verkregen en niet wordt beperkt door eisen met betrekking tot privacyborging en informatiebeveiliging, geldt als openbaar en kan niet door een derde als eigendom worden beschouwd.
 
 #### Financiële aspecten
 
-1. Deelnemers zijn vrij in het beprijzen van hun informatieproducten.
+17. Deelnemers zijn vrij in het beprijzen van hun informatieproducten.
