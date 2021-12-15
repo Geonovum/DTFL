@@ -85,7 +85,7 @@ Er zijn diverse klantreizen van stakeholders van nDFTL ecosysteem digital twins.
 * klantreis dataproduct datascientist
 * klantreis dataproduct ontwikkelaar
 
-Klanreis gebruikers <<tekst toevoegen>>
+Klantreis gebruikers <<tekst toevoegen>>
 
 klantreis dataproduct datascientist
 De datascientist ontwikkelt het dataproduct op basis van algoritmen of artificial intelligence en gebruikt capabilities van de basisinfrastructuur zoals de zoek-functionaliteit, data lineage, monitoring: data kwaliteit en discovery.
@@ -729,7 +729,7 @@ Standaarden voor sensor netwerk zijn:
 
 De netwerk karakteristieken in de sensoren laag zijn:
 * Real-time information verzamelen en versturen
-* Sensoren gebruiken veelal ‘low power’  
+* Sensoren gebruiken veelal ‘low power’ en 'low memory'
 * Actuatoren gebruiken, afhankelijk van de functie power
 * Sensoren en actuatoren zijn bedraad of draadloos verbonden in een netwerk
 
@@ -774,6 +774,19 @@ Fog computing of fog-netwerken, ook wel fogging genoemd, is een architectuur die
 <aside class="note">
     BdL: Moet dit hier staan?
 </aside>
+
+#### Lambda driven architectuur
+
+Lambda-architectuur is een gegevensverwerkingsarchitectuur die is ontworpen om enorme hoeveelheden gegevens te verwerken door gebruik te maken van zowel batch- als stream-verwerkingsmethoden. Deze benadering van de architectuur tracht latentie, doorvoer en fouttolerantie in evenwicht te brengen door batchverwerking te gebruiken om uitgebreide en nauwkeurige weergaven van batchgegevens te leveren, terwijl tegelijkertijd real-time stroomverwerking wordt gebruikt om weergaven van onlinegegevens te leveren. De opkomst van lambda-architectuur is gecorreleerd met de groei van big data systemen en de behoefte aan real-time analytics.
+
+#### Event driven architectuur
+
+Een event driven architecture is een mechanisme waarbij dat de client door de server wordt op de hoogte gebracht van nieuwe data of veranderingen (ipv dat de client moet pollen voor nieuwe data of veranderingen). Event driven architectures zijn efficienter in resource gebruik (niet nodeloos pollen) en responsiever (UI kan bijvoorbeeld onmiddellijk reageren op een verandering en niet wachten op de volgende poll cycle). 
+
+##### Query architectuur
+tekst 
+##### Download
+tekst
 
 ### Dataopslag
 tekst
