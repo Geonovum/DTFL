@@ -761,11 +761,19 @@ tekst
 #### Remote sensing 
 tekst
 
-#### Edge computing (moet dit hier staan?)
+#### Edge computing
 Edge computing is een gedistribueerd computerparadigma dat berekeningen en gegevensopslag dichter bij de gegevensbronnen brengt. Dit zal naar verwachting de reactietijden verbeteren en bandbreedte besparen
 
-#### Fog computing (moet dit hier staan?)
+<aside class="note">
+    BdL: Moet dit hier staan?
+</aside>
+
+#### Fog computing
 Fog computing of fog-netwerken, ook wel fogging genoemd, is een architectuur die edge-apparaten gebruikt om een aanzienlijke hoeveelheid berekeningen, opslag en communicatie lokaal uit te voeren en over de internetbackbone te leiden
+
+<aside class="note">
+    BdL: Moet dit hier staan?
+</aside>
 
 ### Dataopslag
 tekst
