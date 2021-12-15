@@ -61,7 +61,7 @@ In onderstaand figuur is een globale schets van de architectuur van de Nationale
     <figcaption>figuur x. Overall architectuur</figcaption>
 </figure>
 
-De architectuur bestaat uit generieke componenten die FAIR3 ondersteunen, de vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid. 
+De architectuur bestaat uit generieke componenten die FAIR ondersteunen, de vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid. 
 
 Om er voor te zorgen dat de Nationale digitale tweeling infrastructuur voldoet aan de FAIR richtlijnen introduceren we een nieuw concept “data mesh” waarmee we tevens ook de complexiteit ordenen. 
 
