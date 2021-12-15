@@ -673,16 +673,18 @@ Onderstaand figuur een overzicht van IoT architectuur
 #### Sensoren
 Sensoren verzamelen data over hun omgeving (bv temperatuur, luchtdruk, beelden van een kruispunt, ...), en sturen ze door of houden ze vast tot ze doorgestuurd kunnen worden.
 
-#### naamConstructieprincipe1
-sensoren
+#### Sensoren
 
 **Referentie**
+
 tekst [link]
 
 **Ontwerpprincipe(s)**
+
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
+
 Standaarden IoT-apparaten/ sensoren:
 * Arduino met Arduino Ethernet-verbinding
 * Arduino Yun met een Wi-Fi-verbinding
@@ -704,16 +706,18 @@ Het is de aanbeveling dat elk apparaat een UUID heeft (bij voorkeur een onverand
 
 Sensor netwerk: De belangrijkste taak is het aansluiten van sensoren en actuatoren op een IoT gateway. De netwerken zijn  lokaal en zijn vaak beperkt in het bereik. Er wordtn gebruik gemaakt van gespecialiseerde protocollen, vanwege IoT apparaat beperkingen.
 
-#### naamConstructieprincipe1
-sensornetwerk
+#### Sensornetwerk
 
 **Referentie**
+
 tekst [link]
 
 **Ontwerpprincipe(s)**
+
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
+
 Standaarden voor sensor netwerk zijn:
 * API’s met REST-based protocols 
 * OGC SensorThings API (http://ogc-iot.github.io/ogc-iot-api)
@@ -729,17 +733,18 @@ De netwerk karakteristieken in de sensoren laag zijn:
 * Actuatoren gebruiken, afhankelijk van de functie power
 * Sensoren en actuatoren zijn bedraad of draadloos verbonden in een netwerk
 
-
-#### naamConstructieprincipe1
-Context broker
+#### Context broker
 
 **Referentie**
+
 tekst [link]
 
 **Ontwerpprincipe(s)**
+
  * [naamOntwerpprincipe1](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#naamontwerpprincipe1)
 
 **Implicatie**
+
 De API van context broker is vastgelegd in de standard NGSI9 en NGSI10 (versie 1 en 2). Dit zijn API REST-gebaseerde interfaces.
 Open standaarden:
 * Token methodiek gebaseerd op Security Assertion Markup Language (SAML) en eXtensible Access Control Markup Language (XACML) standaarden
