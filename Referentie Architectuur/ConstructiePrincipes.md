@@ -673,7 +673,7 @@ Onderstaand figuur een overzicht van IoT architectuur
 #### Sensoren
 Sensoren verzamelen data over hun omgeving (bv temperatuur, luchtdruk, beelden van een kruispunt, ...), en sturen ze door of houden ze vast tot ze doorgestuurd kunnen worden.
 
-#### CP - Sensoren
+##### CP - Sensoren
 
 **Referentie**
 
@@ -706,7 +706,7 @@ Het is de aanbeveling dat elk apparaat een UUID heeft (bij voorkeur een onverand
 
 Sensor netwerk: De belangrijkste taak is het aansluiten van sensoren en actuatoren op een IoT gateway. De netwerken zijn  lokaal en zijn vaak beperkt in het bereik. Er wordtn gebruik gemaakt van gespecialiseerde protocollen, vanwege IoT apparaat beperkingen.
 
-#### CP - Sensornetwerk
+##### CP - Sensornetwerk
 
 **Referentie**
 
@@ -733,7 +733,7 @@ De netwerk karakteristieken in de sensoren laag zijn:
 * Actuatoren gebruiken, afhankelijk van de functie power
 * Sensoren en actuatoren zijn bedraad of draadloos verbonden in een netwerk
 
-#### CP - Context broker
+##### CP - Context broker
 
 **Referentie**
 
