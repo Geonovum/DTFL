@@ -105,11 +105,15 @@ Om onderdeel te kunnen zijn van de Nationale Digitale Tweeling infrastructuur di
 
 #### Domein eigenaarschap
 
-Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan ​​om continue verandering en schaalbaarheid te ondersteunen. Een domein6 heeft de verantwoordelijkheid voor data-producten. Degene die de verantwoordelijkheid over de data-producten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.  
+Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan ​​om continue verandering en schaalbaarheid te ondersteunen. Een domein heeft de verantwoordelijkheid voor data-producten. Degene die de verantwoordelijkheid over de data-producten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.  
 
 1.2.1	Duidelijk eigenaarschap data 
 
-De dataproducten hebben een eigenaar en deze is hierop aanspreekbaar. Een dataproduct zonder duidelijk eigenaarschap is geen onderdeel van de nDTFL. 
+De dataproducten hebben een eigenaar en deze is hierop aanspreekbaar. Een dataproduct zonder duidelijk eigenaarschap is geen onderdeel van de nDTFL. Eigenaarschap kan zowel bij organisaties liggen als bij individuen.
+
+1.2.1b	Elk dataproduct heeft gebruiksovereenkomst 
+
+Elk dataproduct heeft minimaal 1 gebruiksovereenkomst (licentie). Een dataproduct zonder gebruiksovereenkomst is geen onderdeel van de nDTFL.
 
 1.2.2	We gebruiken data vanuit de bron 
 
