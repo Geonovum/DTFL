@@ -1,4 +1,4 @@
-## Stelsel Afspraken
+## Stelselafspraken
 
 ### Inleiding 
 
