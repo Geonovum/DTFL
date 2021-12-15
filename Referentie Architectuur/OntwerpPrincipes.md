@@ -109,7 +109,11 @@ Om een dataproduct te maken gebruiken we de data uit de bron waarbij op basis va
 
 1.2.3 	De brondata past op de afnemersbehoeften  
 
-De eigenaar van dataproduct heeft de zorgplicht dat de output data continu geleverd wordt conform de afspraken (SLO) zodat deze door andere dataproducten gebruikt kan worden. Dit vraagt een continue dialoog tussen de data product-eigenaar en afnemers cq. afnemende dataproducten.  
+De eigenaar van dataproduct heeft de zorgplicht dat de output data continu geleverd wordt conform de afspraken (SLO) zodat deze door andere dataproducten gebruikt kan worden. Dit vraagt een continue dialoog tussen de data product-eigenaar en afnemers cq. afnemende dataproducten.
+
+<aside class=note>
+    <p>GT: Moet dit daadwerkelijk SLO zijn, of wordt hier SLA bedoeld?</p>
+</aside>
 
 <figure id="dataproduct eigenaar">
     <img src="media/Dataproduct eigenaar.jpg" alt="dataproduct eigenaar">
