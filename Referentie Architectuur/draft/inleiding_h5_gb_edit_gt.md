@@ -13,8 +13,13 @@ Het stelsel van digital twinning is opgebouwd uit een groot aantal componenten o
 
 <figure id="Dataproduct totaalview GB">
     <img src="../media/Dataproduct totaalview gb.jpg" alt="duiding constructieprincipes gb">
-    <figcaption><m>titel toevoegen</m></figcaption>
+    <figcaption><m>TITEL TOEVOEGEN</m></figcaption>
 </figure>
+
+<aside class=note>
+	<p>GT afbeeldingstitel toevoegen</p>
+</aside>
+
 
 De basis voor digital twinning ligt deels in het hergebruik van ontwerpdocumentatie en tal van bestaande registraties. Denk bijvoorbeeld aan geobasisregistraties, digitale bouwtekeningen (BIM-modellen) of ingemeten percelen (Kadastraal model). Deze – vaak relatief statische – gegevens vormen een robuust fundament, waaraan dynamische informatie kan worden toegevoegd. Zo is een driedimensionaal model van een nieuwe stadswijk met hoog- en laagbouw een stevige basis voor dynamische analyses van te verwachten luchtstromen op straatniveau.
 
