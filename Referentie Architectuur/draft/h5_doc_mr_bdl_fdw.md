@@ -18,12 +18,11 @@ Het stelsel kan niet gerealiseerd worden door barrières op te werken waarbij he
 
 In onderstaand figuur is een globale schets van de architectuur van de Nationale digitale tweeling infrastructuur weergegeven.
 
-<m>AFBEELDING 1</m>
-
 <figure id="Overall architectuur">
     <img src="../media/Overall architectuur.jpg" alt="Overall architectuur">
     <figcaption>Overall architectuur</figcaption>
 </figure>
+
 
 De architectuur bestaat uit generieke componenten die [FAIR](https://www.go-fair.org/fair-principles/) ondersteunen, de vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid.
 
@@ -37,12 +36,11 @@ Voor de architectuur van de Nationale digitale tweeling infrastructuur voegen we
 
 De data mesh architectuur gaat uit van een viertal primaire uitgangspunten, dit zijn:
 
-<m>AFBEELDING 2</m>
-
 <figure id="Data-infra als platform">
     <img src="../media/Data-infra als platform.jpg" alt="Data-infra als platform">
     <figcaption>Data-infra als platform</figcaption>
 </figure>
+
 
 1. **Domein eigenaarschap**
 De infrastructuur ondersteunt een federatieve aanpak met een verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan. We hebben al zoveel werkende domeinen met een eigen dynamiek en governance die we nog beter en in samenhang waar relevant willen laten werken.
@@ -50,12 +48,11 @@ De infrastructuur ondersteunt een federatieve aanpak met een verdeling van veran
 2. **Data als een product**
 Met data als een product stellen we het dataproduct centraal. Het dataproduct is een ‘atomaire’ eenheid en heeft de metadata, ontstaansgeschiedenis, kwaliteit, e.d. allemaal bij het product zelf staan en heeft mechanismen om afnemers te informeren en consulteren.
 
-<m>AFBEELDING 3</m>
-
 <figure id="Dataproduct">
     <img src="../media/Dataproduct.jpg" alt="Dataproduct">
     <figcaption>Dataproduct</figcaption>
 </figure>
+
 
 3. **Basis data infrastructuur**
 Ook een federatieve structuur heeft basisvoorzieningen nodig om dataproducten, modellen, e.d. te kunnen vinden. De inrichtingswijze wordt wel een andere omdat de metadata bij de data staat. Basisvoorzieningen voor mensen en machines maken gebruik van federatieve indexen en dit kan niet zonder afsprakenstelsels.
@@ -67,12 +64,11 @@ Met het datamesh concept passen we een mesh topologie[^2]  toe. Dit is een verma
 
 [^2] Mesh topologie zegt niets voor de onderliggende netwerk topologie dat gebruikt wordt.
 
-<m>AFBEELDING 4</m>
-
 <figure id="Datamesh">
     <img src="../media/Datamesh.jpg" alt="Datamesh">
     <figcaption>Datamesh</figcaption>
 </figure>
+
 
 Om onderdeel te kunnen zijn van de Nationale Digitale Tweeling infrastructuur dienen de volgende constructie principes gevolgd te worden.
 
@@ -94,12 +90,11 @@ Om een dataproduct te maken gebruiken we de data uit de bron waarbij op basis va
 
 De eigenaar van dataproduct heeft de zorgplicht dat de output data continu geleverd wordt conform de afspraken (SLO) zodat deze door andere dataproducten gebruikt kan worden. Dit vraagt een continue dialoog tussen de data product-eigenaar en afnemers cq. afnemende dataproducten. 
 
-<m>AFBEELDING 5</m>
-
 <figure id="Dataproduct eigenaar">
     <img src="../media/Dataproduct eigenaar.jpg" alt="Dataproduct eigenaar">
     <figcaption>Dataproduct eigenaar</figcaption>
 </figure>
+
 
 Domeinen kunnen op verschillende manieren georganiseerd zijn. Dit is vrij en naar behoefte van het werkveld. Denk bv. aan verticale kennisdomeinen zoals luchtverontreiniging of horizontale domeinen als sensoren. De DTFL schrijft de inrichting niet voor dit is een sociaal maatschappelijk proces dat continue in beweging zal zijn en alleen kan bestaan als dit waarde toevoegt voor de betrokken stakeholders en daarmee verbonden is met lange termijn eigenaarschap vanuit het domein. In de praktijk bestaan de meeste domeinen al. In de DTFL brengen we deze in beeld.
 
@@ -148,12 +143,11 @@ Een [dataproduct](https://www.digitaltwinconsortium.org/glossary/glossary.html#c
 
  Dataproducten bieden output data aan gebruikers of afnemende applicaties zoals bijvoorbeeld een viewer of een dashboard tool en is softwareproduct (tool) onafhankelijk.
 
-<m>AFBEELDING 6</m>
-
 <figure id="Dataproduct bestaat uit">
     <img src="../media/Dataproduct bestaat uit.jpg" alt="Dataproduct bestaat uit">
     <figcaption>Dataproduct bestaat uit</figcaption>
 </figure>
+
 
 Een dataproduct bestaat uit:
 
@@ -168,67 +162,60 @@ Polyglot input- en output data:
 Dataproduct ontwikkeling:  
  * Op basis van de input wordt output data ontwikkeld op basis van diverse (moderne) technieken zoals pipelines voor data transformatie, algoritmen voor data transformatie, streaming data-analyse, etc.; Op basis van de technieken worden dataproduct ontwikkelt en beheerd.  
 
-<m>AFBEELDING 7</m>
-
 <figure id="Dataproduct ontwikkeling">
     <img src="../media/Dataproduct ontwikkeling.jpg" alt="Dataproduct ontwikkeling">
     <figcaption>Dataproduct ontwikkeling</figcaption>
 </figure>
 
-De dataproducten bestaan uit verschillende typen informatie. Operationele data of een model, het informatiemodel, begrippen of andere typen zoals ontstaansgeschiedenis, tijdslijnen, kwaliteit, etc. De typen variëren op basis van de aard van het dataproduct.
 
-<m>AFBEELDING 8</m>
+De dataproducten bestaan uit verschillende typen informatie. Operationele data of een model, het informatiemodel, begrippen of andere typen zoals ontstaansgeschiedenis, tijdslijnen, kwaliteit, etc. De typen variëren op basis van de aard van het dataproduct.
 
 <figure id="Dataproduct typen">
     <img src="../media/Dataproduct typen.jpg" alt="Dataproduct typen">
     <figcaption>Dataproduct typen</figcaption>
 </figure>
 
-Van een of meerdere dataproducten kan ook een nieuw dataproduct gemaakt worden. Dit kan een samenstelling zijn of het resultaat van een algoritme zoals een tijdelijke analyse, voorspelmodel, e.d. Dit nieuwe product kan ook weer een dataproduct worden dat door andere stakeholders gebruikt kan worden in hun ecosysteem. De dataproducten zijn permanent verbonden (vanuit de bron). Voor dataproducten geldt dat ze moeten voldoen aan constructieprincipes van het ecosysteem.
 
-<m>AFBEELDING 9</m>
+Van een of meerdere dataproducten kan ook een nieuw dataproduct gemaakt worden. Dit kan een samenstelling zijn of het resultaat van een algoritme zoals een tijdelijke analyse, voorspelmodel, e.d. Dit nieuwe product kan ook weer een dataproduct worden dat door andere stakeholders gebruikt kan worden in hun ecosysteem. De dataproducten zijn permanent verbonden (vanuit de bron). Voor dataproducten geldt dat ze moeten voldoen aan constructieprincipes van het ecosysteem.
 
 <figure id="Dataproduct samenstelling">
     <img src="../media/Dataproduct samenstelling.jpg" alt="Dataproduct samenstelling">
     <figcaption>Dataproduct samenstelling</figcaption>
 </figure>
 
-Een dataproduct wordt ontwikkeld in een domein en heeft één product eigenaar. Een domein heeft een of meerdere dataproducten en eigenaren. 
 
-<m>AFBEELDING 10</m>
+Een dataproduct wordt ontwikkeld in een domein en heeft één product eigenaar. Een domein heeft een of meerdere dataproducten en eigenaren. 
 
 <figure id="Dataproducten domeinen">
     <img src="../media/Dataproducten domeinen.jpg" alt="Dataproducten domeinen">
     <figcaption>Dataproducten domeinen</figcaption>
 </figure>
 
+
 Informatie vraagstukken kunnen betrekkingen hebben om meerdere dataproducten van verschillende domeinen (afdelingen, organisatieonderdelen cq. organisaties). Ter illustratie een voorbeeld voor verkeersregel installaties.
 Hierin worden dataproducten in een keten gebruikt waarin een dataproduct een algoritme als transformatie technologie inzet.
-
-<m>AFBEELDING 11</m>
 
 <figure id="Dataproduct keten">
     <img src="../media/Dataproduct keten.jpg" alt="Dataproduct keten">
     <figcaption>Dataproduct keten</figcaption>
 </figure>
 
-Dit kunnen we ook toepassen op een overkoepelend vraagstuk waarbij verschillende dataproducten zijn gebruikt. Bijvoorbeeld het vraagstuk of Nederland voldoende beschermd is tegen het water in geval van enorme regenval en smeltwater in de grote rivieren zoals de Maas en de Rijn. De dataproducten worden dan gebruikt in het domein water risico’s.
 
-<m>AFBEELDING 12</m>
+Dit kunnen we ook toepassen op een overkoepelend vraagstuk waarbij verschillende dataproducten zijn gebruikt. Bijvoorbeeld het vraagstuk of Nederland voldoende beschermd is tegen het water in geval van enorme regenval en smeltwater in de grote rivieren zoals de Maas en de Rijn. De dataproducten worden dan gebruikt in het domein water risico’s.
 
 <figure id="Domein water">
     <img src="../media/Domein water.jpg" alt="Domein water">
     <figcaption>Domein water</figcaption>
 </figure>
 
-Dataproducten hebben kenmerken of te wel constructie principes die toegepast moeten worden in de ontwikkeling van het dataproduct om te kunnen (mogen) aansluiten op het landelijke digitale tweeling eco-systeem nDFTL.
 
-<m>AFBEELDING 13</m>
+Dataproducten hebben kenmerken of te wel constructie principes die toegepast moeten worden in de ontwikkeling van het dataproduct om te kunnen (mogen) aansluiten op het landelijke digitale tweeling eco-systeem nDFTL.
 
 <figure id="Dataproduct constructieprincipes">
     <img src="../media/Dataproduct constructieprincipes.jpg" alt="Dataproduct constructieprincipes">
     <figcaption>Dataproduct constructieprincipes</figcaption>
 </figure>
+
 
 Ontwerpprincipes dataproduct
 
@@ -373,23 +360,21 @@ We hebben een bijzonder domein. Dit is het domein van de geo(basis)registraties.
 
 [^6] Deze zullen gedurende de uitvoering nader worden ingevuld.
 
-<m>AFBEELDING 14</m>
-
 <figure id="Datamesh view">
     <img src="../media/Datamesh view.jpg" alt="Datamesh view">
     <figcaption>Datamesh view</figcaption>
 </figure>
 
+
 Deze – vaak relatief statische – gegevens vormen een robuust fundament, waaraan dynamische informatie kan worden toegevoegd. Zo is een 3D referentie van een nieuwe stadswijk met hoog- en laagbouw een stevige basis voor dynamische analyses van te verwachten luchtstromen op straatniveau.
 
 Door de federatieve opzet zal iedere organisatie zelf moeten zorgen voor het ontsluiten van de data producten die ze willen delen met anderen. Dit delen gebeurt met services vanuit de bron. Voorwaarden hierbij zijn dat het vindbaar, begrijpelijk, betrouwbaar en waarheidsgetrouw, adresseerbaar, semantisch interoperabel, toegankelijk en veilig en natuurlijk waardevol is voor de gebruikers. De voorwaarden worden bij een federatieve opzet ingevuld door de bronhouder of aanbieder namens de bronhouder. Het is hierdoor zeer decentraal van opzet. Aan de bron worden de privileges toegekend wie wat mag. Deze federatieve aanpak kan alleen werken als we ons houden aan bepaalde afspraken. Deze worden met elkaar gemaakt en beheerd. 
 
-<m>AFBEELDING 15</m>
-
-<figure id="naam">
-    <img src="../media/naam.jpg" alt="naam">
-    <figcaption>naam</figcaption>
+<figure id="Datamesh view stelsel">
+    <img src="../media/Datamesh view stelsel.jpg" alt="Datamesh view stelsel">
+    <figcaption>Datamesh view stelsel</figcaption>
 </figure>
+
 
 In bovenstaande figuur zien we dat binnen een domein organisatie A het data platform X hanteert en hetzelfde platform ook gebruikt wordt door andere organisaties. Dit kan een samenwerking zijn op basis van open source, closed software of een combinatie. Hier doen we geen uitspraken over, dit is aan het domein.
 
