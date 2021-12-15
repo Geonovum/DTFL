@@ -37,6 +37,14 @@ gerichte context/vraag (Ton, obv personal dataspaces, data-altruisme, AVG)
 
 In hoofdstuk XXX [Inleiding] staat een schets van het digitale tweeling stelsel. Dit is opgebouwd op basis van een combinatie van federatieve opslag van gegevens, modellen en bewerkingsfunctionaliteit, aangevuld met een aantal essentiële centrale, federatieve componenten, waardoor gegevens, modellen en bewerkingsfunctionaliteit over en weer gebruikt kunnen worden. In het vorige hoofdstuk staan algemene uitgangspunten of principes waaraan het stelsel moet voldoen. In dit hoofdstuk gaan we weer een laagje dieper. We gaan kijken naar de wijze waarop digitale tweeling mogelijk wordt voor deelnemende organisaties. Dit verwoorden we in ontwerp principes. De ontwerp principes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc. Digitale tweeling kent immers veel componenten, die met elkaar het stelsel vormen. Elk van de hierbinnen toegepaste componenten, worden bij voorkeur in lijn met de ontwerp principes uit dit hoofdstuk ontworpen en gerealiseerd, waardoor zij inpasbaar zijn in het totale stelsel. Toepassing van ontwerpprincipes kan dus ook gezien worden als het zorgen voor een hoge mate van interoperabiliteit binnen het stelsel. 
 
+### De sociale dimensie van de Digitale Tweeling voor de Fysieke Leefomgeving
+
+Het concept van Digitale Tweeling wordt beschreven als de virtuale representatie (of de digitale tegenhanger) van een fysiek object of process. Wanneer we echter de Digitale Tweeling van de Fysieke Leefomgeving (met de nadruk op **Leef**opgeving) met de mens als deel van de tweeling is het belangrijk ook het **sociale** element mee te nemen in de Referentie Architectuur. De mens speelt immers een belangrijke rol in de use-cases: de leefomgeven is er voor en door de mens (en dier en bij uitbreiding het leefmilieu).
+
+De leefomgeving verschuift (met de inbreng van een Digitale Tweeling) van een sociaal-fysieke samenleving, waarin digitalisering beschouwd wordt als een ‘parallelle werkelijkheid’ en/of dat het een instrument is dat naar believen kan worden ingezet, naar een sociaal-fysiek-digitale samenleving. Hierin is digitaal onlosmakelijk verbonden met alle aspecten van ons sociaal-fysieke leven. De digitale tweeling krijgt naast de fysiek-digitale dimensie er een sociaal-digitale en sociaal-fysieke dimensie bij (het wordt als het ware een Digitale **Drieling**)
+
+De inbreng van het sociaal aspect heeft zo ook een impact op de ontwerpPrincipes: de digitale identiteit (wat we mogen zien/doen, gebaseerd op onze digitale identiteit), regels voor het beschermen van onze privacy, ethiek en duurzaamheid, middelen om te communiceren naar de burger (en omgekeerd). Deze mogen elementen moeten van de start meegenomen worden in de referentie architectuur en mogen geen nakomertje/bijzaak zijn die er achteraf bijgenomen wordt.
+
 ### De constructie
 Hoe ziet de constructie eruit waar heel veel verschillende stakeholders met elkaar werken vanuit verschillende domeinen en waar de infrastructuur dient te faciliteren om met behulp van data gedreven werken allerlei maatschappelijke opgaven integraal te ondersteunen? Hoe zetten we de kracht van data, analyse en visualisatie optimaal en verbindend in? In deze paragraaf geven we hier een antwoord op. 
 
@@ -53,7 +61,7 @@ In onderstaand figuur is een globale schets van de architectuur van de Nationale
     <figcaption>figuur x. Overall architectuur</figcaption>
 </figure>
 
-De architectuur bestaat uit generieke componenten die FAIR3 ondersteunen, de vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid. 
+De architectuur bestaat uit generieke componenten die FAIR ondersteunen, de vindbaarheid, toegankelijkheid, interoperabiliteit en herbruikbaarheid. 
 
 Om er voor te zorgen dat de Nationale digitale tweeling infrastructuur voldoet aan de FAIR richtlijnen introduceren we een nieuw concept “data mesh” waarmee we tevens ook de complexiteit ordenen. 
 
@@ -97,11 +105,15 @@ Om onderdeel te kunnen zijn van de Nationale Digitale Tweeling infrastructuur di
 
 #### Domein eigenaarschap
 
-Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan ​​om continue verandering en schaalbaarheid te ondersteunen. Een domein6 heeft de verantwoordelijkheid voor data-producten. Degene die de verantwoordelijkheid over de data-producten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.  
+Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan ​​om continue verandering en schaalbaarheid te ondersteunen. Een domein heeft de verantwoordelijkheid voor data-producten. Degene die de verantwoordelijkheid over de data-producten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.  
 
 1.2.1	Duidelijk eigenaarschap data 
 
-De dataproducten hebben een eigenaar en deze is hierop aanspreekbaar. Een dataproduct zonder duidelijk eigenaarschap is geen onderdeel van de nDTFL. 
+De dataproducten hebben een eigenaar en deze is hierop aanspreekbaar. Een dataproduct zonder duidelijk eigenaarschap is geen onderdeel van de nDTFL. Eigenaarschap kan zowel bij organisaties liggen als bij individuen.
+
+1.2.1b	Elk dataproduct heeft een gebruiksovereenkomst 
+
+Elk dataproduct heeft minimaal 1 gebruiksovereenkomst (licentie). Een dataproduct zonder gebruiksovereenkomst is geen onderdeel van de nDTFL.
 
 1.2.2	We gebruiken data vanuit de bron 
 
