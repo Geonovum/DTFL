@@ -126,9 +126,21 @@ De ontwerpprincipes worden toegepast binnen de volgende thema's:
 ## 5.2 Presentatie
 
 Bestaat uit de volgende onderdelen:
- * **User interface**: Beschrijving wat we verstaan onder user interface. Dit wordt bereikt met behulp van de volgende constructieprincipes:
+ * **User interface**: Beschrijving wat we verstaan onder user interface. Dit wordt bereikt met behulp van het volgende constructieprincipe:
 
 ### 5.2.1	Constructieprincipe 1
+
+ * **Definitie** (optioneel): (...)
+ * **Uitwerking**: (...)
+ * **Referentie**: [Standaard...](URL)
+ * **Toelichting**: (...)
+ * **Verwijzing naar ontwerpprincipe(s):**
+    * [Begrijpelijk](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#422begrijpelijk)
+    * (...)
+
+ * **Customer experience**: Beschrijving wat we verstaan onder customer experience. Dit wordt bereikt met behulp van het volgende constructieprincipe:
+
+### 5.2.2 Constructieprincipe 2
 
  * **Definitie** (optioneel): (...)
  * **Uitwerking**: (...)
