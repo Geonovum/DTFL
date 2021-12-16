@@ -6,18 +6,13 @@ In dit hoofdstuk wordt de constructie, de architectuur en en de ontwerpprincipes
 
 ### Principes
 
-*Tabel hieronder is Illustratief*
-
-| Principe | Beschrijving | Referentie                                            |
-|----------|--------------|-------------------------------------------------------|
-| DTFL01   |              | NORA [BP01](https://www.noraonline.nl/wiki/Proactief) |
-| DTFL02   |              | NORA [BP02](https://www.noraonline.nl/wiki/Vindbaar)  |
-
-
+<aside class='note'>
+    JvG: Hoofdstuk over "by design", zoals security by design.
+</aside> 
 
 <aside class='note'>
-    JvG: Hoofdstuk over "by design", zoals security by design. TZ: en onderstaande principes telkens ook meeformuleren in andere functionele blokken
-</aside> 
+    <p>TZ: en onderstaande principes telkens ook meeformuleren in andere functionele blokken</p>
+</aside>
 
 •	Overzicht en verantwoording herkomst, door datahouder toegestane gebruikscondities, en gebruiksnut gebruikte datasets 
 (Ton, obv EU digital rights/principles)  
