@@ -2,7 +2,7 @@
 
 ## 3.1	Inleiding over publieke waarden
 
-Er zijn verschillende thema's:
+Vaak is technologie een ijsberg, waar we alleen het topje van zien, het zogenaamde burgerperspectief. Wat onder water is, zien we niet. Maar uiteindelijk is alle technologie gemaakt door mensen. Zij zijn het die deze ontwerpen, ontwikkelen, uitrollen en stap voor stap onze maatschappij veranderen. Technologie is niet neutraal, maar het product van talloze beslissingen, die gebaseerd zijn op de waarden die de ontwerper hanteert. Daar ligt ook de sleutel tot het verkrijgen van meer grip op deze ontwikkelingen: we moeten niet alleen kijken naar het topje, maar met elkaar de hele ijsberg zien en ontwerpen. Voor het toepassen van digitale tweelingen, waarin data en modellen worden gedeeld, doen we dat dus op basis van publieke waarden. Er zijn verschillende thema's:
 
  * Doel
  * Vertrouwen
@@ -14,7 +14,11 @@ In de volgende paragrafen volgt een uitwerken van deze thema's in specifieke pub
 
 ## 3.2	Thema - Doel
 
-Korte inleidende tekst over het thema doel. (...) Hieruit komen de volgende publieke waarden:
+Korte inleidende tekst over het thema doel. (...). Het thema 'doel' kent de volgende publieke waarden:
+
+ * [Rechtvaardig doelgericht](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#321rechtvaardig-doelgericht)
+ * [Algemeen welzijn](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#322algemeen-welzijn)
+ * [Waardecreatie](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#323waardecreatie)
 
 ### 3.2.1	Rechtvaardig doelgericht
 
@@ -34,21 +38,25 @@ Korte inleidende tekst over het thema doel. (...) Hieruit komen de volgende publ
 (...)
 
 # H4 Ontwerpprincipes
-## 4.1	Inleiding ...
-De publieke waarden vertalen zich in de volgende ontwerp(strategieën/elementen...):
- * Data Mesh
- * FAIR
+## 4.1	Inleiding
+In dit hoofdstuk gaan we weer een laagje dieper. We gaan kijken naar de wijze waarop digitale tweeling mogelijk wordt voor deelnemende organisaties. Dit verwoorden we in ontwerp principes. (...) De publieke waarden vertalen zich in de volgende ontwerp(strategieën/elementen...):
+
+ * [Data Mesh](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#42-data-mesh)
+ * [FAIR](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#43-fair-principes)
  * (...)
+
 In de volgende paragrafen volgt een uitwerking
 
 ## 4.2 Data Mesh
+
 Kent vier onderdelen en worden afzonderlijk toegelicht: 
+
 1. Domeineigenaarschap: (...)
 2. Data als product: Een dataproduct voldoet aan de volgende ontwerpprincipes:
-    * [Vindbaar](interneLinkNaarOntwerpprincipe)
-    * [Begrijpelijk](interneLinkNaarOntwerpprincipe)
-    * [Betrouwbaar](interneLinkNaarOntwerpprincipe)
-    * [Adresseerbaar](interneLinkNaarOntwerpprincipe)
+    * [Vindbaar](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#421vindbaar)
+    * [Begrijpelijk](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#422begrijpelijk)
+    * [Betrouwbaar](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#423betrouwbaar)
+    * [Adresseerbaar](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#424adresseerbaar)
     * (...)
 3. Basisdatainfrastructuur: (...)
 4. Federatieve governance: (...)
@@ -56,6 +64,7 @@ Kent vier onderdelen en worden afzonderlijk toegelicht:
 In de volgende paragrafen volgt een uitwerking per ontwerpprincipe in bovenstaande volgorde van verschijning
 
 ### 4.2.1	Vindbaar
+
  * **Ontwerpprincipe**: Vindbaarheidsinformatie wordt verstrekt door het dataproduct zelf. 
  * **Referentie**: [Discoverable Dataproduct](https://martinfowler.com/articles/data-monolith-to-mesh.html#DataAndProductThinkingConvergence)
  * **Toelichting**: Vindbaarheid van dataproducten binnen het DTFL-stelsel gebeurt aan de bron. Het is aan de individuele dataproducten om hun 
@@ -70,7 +79,7 @@ vindbaarheidsinformatie op een standaard manier te delen. De vindbaarheid van ee
     * [Eerlijk kwalitatief](URL)
     * [Onder controle en toezicht van mensen](URL)
 * **Verwijzing naar constructieprincipe(s)**: Een nadere uitwerking van die ontwerpprincipe is te vinden onder
-    * [Constructieprincipe 1](interneLinkNaarConstructieprincipe1)
+    * [Constructieprincipe 1](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#521constructieprincipe-1)
     * [Constructieprincipe 2](interneLinkNaarConstructieprincipe2)
     * [Constructieprincipe 3](interneLinkNaarConstructieprincipe3)
     * (...)
@@ -104,7 +113,7 @@ Bestaat uit de volgende onderdelen:
  * User interface
  * Beschrijving wat we verstaan onder user interface. Dit wordt bereikt met behulp van de volgende constructieprincipes:
 
-### 5.2.1	titelConstructieprincipe 1
+### 5.2.1	Constructieprincipe 1
 
  * **Definitie** (optioneel): (tekst)
 
