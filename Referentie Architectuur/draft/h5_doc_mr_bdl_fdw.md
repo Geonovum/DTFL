@@ -1,14 +1,14 @@
-## Constructieprincipes
+## Ontwerpprincipes
 In de [inleiding](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#inleiding) staat een schets van het [digitale tweeling stelsel](https://www.digitaltwinconsortium.org/glossary/glossary.html#digital-twin). We zagen al eerder dat dit opgebouwd is op basis van een combinatie van federatieve opslag van gegevens, modellen en bewerkingsfunctionaliteit, aangevuld met een aantal essentiële centrale, federatieve componenten, waardoor gegevens, modellen en bewerkingsfunctionaliteit over en weer gebruikt kunnen worden.
 
-In het vorige hoofdstuk staan algemene uitgangspunten of principes waaraan het stelsel moet voldoen. In dit hoofdstuk gaan we weer een laagje dieper. We gaan kijken naar de wijze waarop digitale tweeling mogelijk wordt voor deelnemende organisaties. Dit verwoorden we in constructie principes. De constructie principes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc.
+In het vorige hoofdstuk staan algemene uitgangspunten of principes waaraan het stelsel moet voldoen. In dit hoofdstuk gaan we weer een laagje dieper. We gaan kijken naar de wijze waarop digitale tweeling mogelijk wordt voor deelnemende organisaties. Dit verwoorden we in ontwerpprincipes. De ontwerpprincipes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc.
 
-Digitale tweeling kent immers veel componenten, die met elkaar het stelsel vormen. Elk van de hierbinnen toegepaste componenten, worden bij voorkeur in lijn met de constructieprincipes uit gdit hoofdstuk ontworpen en gerealiseerd, waardoor zij inpasbaar zijn in het totale stelsel. Toepassing van ontwerpprincipes kan dus ook gezien worden als het zorgen voor een hoge mate van interoperabiliteit binnen het stelsel. 
-Voordat we naar de constructieprincipes gaan staan we eerst stil bij het construct zelf. 
+Digitale tweeling kent immers veel componenten, die met elkaar het stelsel vormen. Elk van de hierbinnen toegepaste componenten, worden bij voorkeur in lijn met de ontwerpprincipes uit dit hoofdstuk ontworpen en gerealiseerd, waardoor zij inpasbaar zijn in het totale stelsel. Toepassing van ontwerpprincipes kan dus ook gezien worden als het zorgen voor een hoge mate van interoperabiliteit binnen het stelsel. 
+Voordat we naar de ontwerpprincipes gaan staan we eerst stil bij het concept. 
 
-### Het construct
+### Het concept
 
-Hoe ziet het construct eruit waar heel veel verschillende stakeholders met elkaar werken vanuit verschillende domeinen en waar de infrastructuur dient te faciliteren om met behulp van data gedreven werken allerlei maatschappelijke opgaven integraal te ondersteunen? Hoe zetten we de kracht van data, analyse en visualisatie optimaal en verbindend in? In deze paragraaf geven we hier een antwoord op.
+Hoe ziet het concept eruit waar heel veel verschillende stakeholders met elkaar werken vanuit verschillende domeinen en waar de infrastructuur dient te faciliteren om met behulp van data gedreven werken allerlei maatschappelijke opgaven integraal te ondersteunen? Hoe zetten we de kracht van data, analyse en visualisatie optimaal en verbindend in? In deze paragraaf geven we hier een antwoord op.
 
 Op allerlei plaatsen zijn er initiatieven rond digitale tweelingen, waarin naast meer statische data ook nadrukkelijk gebruik gemaakt wordt van rekenmodellen, dynamische data en visualisatie-services. Digitale tweelingen richten zich niet alleen op de vastlegging van de fysieke leefomgeving, maar met name op processen in die fysieke leefomgeving: denk bijvoorbeeld aan verkeersstromen, stikstofdistributie, geluidsbelasting of de drukte in de stad. Daarvoor is niet alleen statische data over de fysieke leefomgeving zelf nodig, maar juist ook dynamische data (waarnemingen uit sensoren) over hoe die processen zich afspelen in tijd, ruimte en in combinatie met sociale aspecten.
 
@@ -72,11 +72,11 @@ Met het datamesh concept passen we een mesh topologie[^2]  toe. Dit is een verma
 
 
 
-Om onderdeel te kunnen zijn van de Nationale Digitale Tweeling infrastructuur dienen de volgende constructie principes gevolgd te worden.
+Om onderdeel te kunnen zijn van de Nationale Digitale Tweeling infrastructuur dienen de volgende ontwerpprincipes gevolgd te worden.
 
 ### Domein eigenaarschap
 
-Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan om continue verandering en schaalbaarheid te ondersteunen. Een domein[^3] heeft de verantwoordelijkheid voor data-producten. Degene die de verantwoordelijkheid over de data-producten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.
+Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan om continue verandering en schaalbaarheid te ondersteunen. Een domein[^3] heeft de verantwoordelijkheid voor dataproducten. Degene die de verantwoordelijkheid over de dataproducten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.
 
 
 #### Duidelijk eigenaarschap data
@@ -85,11 +85,11 @@ De dataproducten hebben een eigenaar en deze is hierop aanspreekbaar. Een datapr
 
 #### We gebruiken data vanuit de bron
 
-Om een dataproduct te maken gebruiken we de data uit de bron waarbij op basis van services. Alleen de bron heeft de juiste, meest actuele versie van de data en bevat alle context. De eigenaar van de data wijst afnemers de juiste weg en faciliteert ze, waar nodig, bij het benaderen van de bron.
+Om een dataproduct te maken gebruiken we de data uit de bron op basis van services. Alleen de bron heeft de juiste, meest actuele versie van de data en bevat alle context. De eigenaar van de data wijst afnemers de juiste weg en faciliteert ze, waar nodig, bij het benaderen van de bron.
 
 #### 	De brondata past op de afnemersbehoeften 
 
-De eigenaar van dataproduct heeft de zorgplicht dat de output data continu geleverd wordt conform de afspraken (SLO) zodat deze door andere dataproducten gebruikt kan worden. Dit vraagt een continue dialoog tussen de data product-eigenaar en afnemers cq. afnemende dataproducten. 
+De eigenaar van dataproduct heeft de zorgplicht dat de output data continu geleverd wordt conform de afspraken (SLO) zodat deze door andere dataproducten gebruikt kan worden. Dit vraagt een continue dialoog tussen de dataproduct-eigenaar en afnemers cq. afnemende dataproducten. 
 
 <figure id="Dataproduct eigenaar">
     <img src="../media/Dataproduct eigenaar.jpg" alt="Dataproduct eigenaar">
@@ -98,7 +98,7 @@ De eigenaar van dataproduct heeft de zorgplicht dat de output data continu gelev
 
 
 
-Domeinen kunnen op verschillende manieren georganiseerd zijn. Dit is vrij en naar behoefte van het werkveld. Denk bv. aan verticale kennisdomeinen zoals luchtverontreiniging of horizontale domeinen als sensoren. De DTFL schrijft de inrichting niet voor dit is een sociaal maatschappelijk proces dat continue in beweging zal zijn en alleen kan bestaan als dit waarde toevoegt voor de betrokken stakeholders en daarmee verbonden is met lange termijn eigenaarschap vanuit het domein. In de praktijk bestaan de meeste domeinen al. In de DTFL brengen we deze in beeld.
+Domeinen kunnen op verschillende manieren georganiseerd zijn. Dit is vrij en naar behoefte van het werkveld. Denk bijvoorbeeld aan verticale kennisdomeinen zoals luchtverontreiniging of horizontale domeinen als sensoren. De DTFL schrijft de inrichting niet voor dit is een sociaal maatschappelijk proces dat continue in beweging zal zijn en alleen kan bestaan als dit waarde toevoegt voor de betrokken stakeholders en daarmee verbonden is met lange termijn eigenaarschap vanuit het domein. In de praktijk bestaan de meeste domeinen al. In de nDTFL brengen we deze in beeld.
 
 #### 	We schrijven geen domeinen voor
 
@@ -113,19 +113,19 @@ In de domeinen bestaat enorm veel data. Hoe houden we dit bij elkaar in een were
 
 Tussen of binnen een domein wordt brondata niet met elkaar verbonden in een datawarehouse, datalake of andere omgeving. De data wordt op bovenstaande wijze (1 t/m 3) verbonden zodat een verbonden stelsel van data ontstaat gericht op herbruikbaarheid (in plaats van specifieke oplossingen).
 
-Data Mesh onderkent Domain Driven Design ([DDD](https://en.wikipedia.org/wiki/Domain-driven_design)) als een manier om domeinen te modelleren. Business-vertegenwoordigers en software-ontwikkelaars spreken dezelfde eenduidige taal (‘ubiquitous language’) die de kernbegrippen binnen het domein bevat. DDD onderkent het feit dat standaardisatie van modellen en taal slechts tot op zeker hoogte mogelijk én wenselijk is binnen een divers systeem, zeker wanneer daarbij meerdere organisaties betrokken zijn.
+Data Mesh onderkent Domain Driven Design ([DDD](https://en.wikipedia.org/wiki/Domain-driven_design)) als een manier om domeinen te modelleren. Business-vertegenwoordigers en software-ontwikkelaars spreken dezelfde eenduidige taal (‘ubiquitous language’) die de kernbegrippen binnen het domein bevat. DDD onderkent het feit dat standaardisatie van modellen en taal slechts tot op zekere hoogte mogelijk én wenselijk is binnen een divers systeem, zeker wanneer daarbij meerdere organisaties betrokken zijn.
 
-Domeinen gebruiken, vanwege het taak-specifieke karakter vaak om goede redenen, verschillende begrippen in een andere betekenis of dezelfde begrippen met een verschillende betekenis. Zo kan een ‘klant’ in het ene domein vergelijkbaar zijn met wat in een ander domein ‘cliënt’ wordt genoemd. Andersom kan het begrip ‘klant’ in meerdere domeinen worden gebruikt maar een, ietwat of sterk, verschillend betekenis hebben. DDD hecht daarom veel belang aan het zorgvuldig afbakenen van wat wel en niet tot een domein behoort (‘bounded context’) en benadrukt dat begrippen een domein gebonden betekenis hebben.
+Domeinen gebruiken, vanwege het taak-specifieke karakter vaak om goede redenen, verschillende begrippen in een andere betekenis of dezelfde begrippen met een verschillende betekenis. Zo kan een ‘klant’ in het ene domein vergelijkbaar zijn met wat in een ander domein ‘cliënt’ wordt genoemd. Andersom kan het begrip ‘klant’ in meerdere domeinen worden gebruikt maar een, ietwat of sterk, verschillend betekenis hebben. DDD hecht daarom veel belang aan het zorgvuldig afbakenen van wat wel en niet tot een domein behoort (‘bounded context’) en benadrukt dat begrippen een domeingebonden betekenis hebben.
 
 #### 	Er bestaan meerdere contexten van de werkelijkheid
 
-De data heeft binnen het domein waarin ze zijn ontstaan een specifieke betekenis. Binnen de DTFL hebben we een bijzonder domein. Dit is het domein van de basisregistraties. Basisregistraties zijn context onafhankelijk en zijn het fundament onder de data uit de domeinen. Zonder fundament hanteren de domeinen verschillende referenties en kunnen we de resultaten niet meer met elkaar vergelijken. Denk aan het gebruik van topografie die op een andere plek ligt dan de Basisregistratie Grootschalige Topografie (BGT).
+De data heeft binnen het domein waarin ze zijn ontstaan een specifieke betekenis. Binnen de nDTFL hebben we een bijzonder domein. Dit is het domein van de basisregistraties. Basisregistraties zijn context onafhankelijk en zijn het fundament onder de data uit de domeinen. Zonder fundament hanteren de domeinen verschillende referenties en kunnen we de resultaten niet meer met elkaar vergelijken. Denk aan het gebruik van topografie die op een andere plek ligt dan de Basisregistratie Grootschalige Topografie (BGT).
 
 #### De domeinen hanteren de basisregistraties en relaties tussen de basisregistraties als fundament
 
 De (basis)registraties bestaan uit de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Topografie (BRT), Basisregistratie Adressen en Gebouwen (BAG), Basisregistratie Ondergrond (BRO), Basisregistratie Kadaster (BRK), Landelijke Voorziening Beeldmateriaal, 3D Basisvoorziening[^4]
 
-Het onderscheid dat we van oudsher hebben tussen operationele (veelal transactie-gebaseerde) en analytische data zal steeds meer vervallen. Analytische data maakt direct gebruik van de operationele data en levert vaak ook weer feedback op de operationele data. Analytische data kan weer operationele data zijn voor een ander DTFL proces. We brengen data naar de modellen en modellen naar de data. Dit organisch stromen van data faciliteren we door de domein-structuur. We hanteren hier het concept van data als een product, zie volgende paragraaf.
+Het onderscheid dat we van oudsher hebben tussen operationele (veelal transactie-gebaseerde) en analytische data zal steeds meer vervallen. Analytische data maakt direct gebruik van de operationele data en levert vaak ook weer feedback op de operationele data. Analytische data kan weer operationele data zijn voor een ander nDTFL proces. We brengen data naar de modellen en modellen naar de data. Dit organisch stromen van data faciliteren we door de domein-structuur. We hanteren hier het concept van data als een product, zie volgende paragraaf.
 
 ### Data als een product
 
@@ -135,7 +135,7 @@ De data als een product is een atomaire eenheid. Het is niet zo dat op andere pl
 
 Een [dataproduct](https://www.digitaltwinconsortium.org/glossary/glossary.html#computational-representation)[^5] kan bestaan uit:
 
- * Transactie data – data in transactionele werkprocessen zoals bijvoorbeeld financiële transacties, maar ook sensor data of events
+ * Transactie data – data in transactionele werkprocessen zoals bijvoorbeeld topografie transacties, maar ook sensor data of events
  * Analytische data – dit is transactionele data dat gecombineerd, bewerkt, verrijkt en/of geaggregeerd is uit verschillende bronsystemen. Analytische data biedt nieuwe kennis en inzichten.
  * Combinatie van beiden
 
@@ -156,7 +156,7 @@ Een dataproduct bestaat uit:
 
 **Polyglot input- en output data**
 
- * De input én output is in verschillende open standaard dataformaten (graph’s, JSON, XML, etc.) waarbij de semantiek hetzelfde is uitgedrukt 
+ * De input en output is in verschillende open standaard dataformaten (graph’s, JSON, XML, etc.) waarbij de semantiek hetzelfde is uitgedrukt 
  * De input en output is op basis van open standaard mechanisme zoals: batch; streaming data; SQL; API; geo-webservices; Query 
  * De input en output is transactionele- en/of analytische data 
 
@@ -211,11 +211,11 @@ Dit kunnen we ook toepassen op een overkoepelend vraagstuk waarbij verschillende
 </figure>
 
 
-Dataproducten hebben kenmerken of te wel constructie principes die toegepast moeten worden in de ontwikkeling van het dataproduct om te kunnen (mogen) aansluiten op het landelijke digitale tweeling eco-systeem nDFTL.
+Dataproducten hebben kenmerken of te wel ontwerpprincipes die toegepast moeten worden in de ontwikkeling van het dataproduct om te kunnen (mogen) aansluiten op het landelijke digitale tweeling eco-systeem nDFTL.
 
 <figure id="Dataproduct constructieprincipes">
     <img src="../media/Dataproduct constructieprincipes.jpg" alt="Dataproduct constructieprincipes">
-    <figcaption>Dataproduct constructieprincipes</figcaption>
+    <figcaption>Dataproduct ontwerpprincipes</figcaption>
 </figure>
 
 
@@ -225,7 +225,7 @@ Ontwerpprincipes dataproduct
 
 *Vindbaarheidsinformatie wordt verstrekt door het dataproduct zelf.*
 
-Vindbaarheid van dataproducten binnen het DTFL-stelsel gebeurt aan de bron. Het is aan de individuele dataproducten om hun vindbaarheidsinformatie op een standaard manier te delen. Elk dataproduct deelt continue zijn oorsprong, eigenaren, runtime-informatie zoals tijdigheid, kwaliteitsstatistieken, voorbeeldgegevenssets en vooral informatie die is bijgedragen door hun consumenten, zoals de belangrijkste gebruiksscenario's en toepassingen die door hun gegevens mogelijk worden gemaakt. 
+Vindbaarheid van dataproducten binnen het nDTFL-stelsel gebeurt aan de bron. Het is aan de individuele dataproducten om hun vindbaarheidsinformatie op een standaard manier te delen. Elk dataproduct deelt continue zijn oorsprong, eigenaren, runtime-informatie zoals tijdigheid, kwaliteitsstatistieken, voorbeeldgegevenssets en vooral informatie die is bijgedragen door hun consumenten, zoals de belangrijkste gebruiksscenario's en toepassingen die door de gegevens mogelijk worden gemaakt. 
 Via een centrale mogelijkheid worden deze federatieve indexen bevraagt voor een totaaloverzicht.
 
 #### Begrijpelijk
@@ -249,6 +249,7 @@ Een SLO omvat onder meer:
  * Volledigheid
  * Statistische vorm van gegevens
  * Ontstaansgeschiedenis – de datareis
+ * Datakwaliteit (inzichtelijk volgens een generiek (landelijk) datakwaliteit framework)
  * Precisie en nauwkeurigheid in de loop van de tijd
  * Operationele kwaliteiten
 
@@ -298,12 +299,10 @@ Veilige toegang is een must of de architectuur nu gecentraliseerd of gedistribue
 
 *Het dataproduct moet inherente waarde voor de datagebruikers en klanten toevoegen (anders hoeft het niet te bestaan): publieke waarden en business waarden.*
 
-En ergens opnemen dat de data op verschillende technische manieren te benaderen is op ‘API’ manieren. Data en techniek zijn 1.
-Datakwaliteit toevoegen inzichtelijk volgens een generiek (landelijk) datakwaliteit framework
-
 ### Basisinfrastructuur
 
 Om het stelsel goed te laten werken zijn enkele basiscomponenten van belang. Een datacommunicatie-infrastructuur is uiteraard essentieel voor het transporteren van data. Deze basisinfrastructuur bestaat op zijn beurt weer uit verschillende componenten en werkt op basis van veelal mondiale afspraken over toe te passen standaarden. Delen van deze infrastructuur vallen onder verantwoordelijkheid van private partijen, delen onder samenwerkingsverbanden en weer andere delen vallen onder de overheid. Digitale tweelingen maken gebruik van deze infrastructuur.
+
 Toelichting van de basiscomponenten:
 
 #### Dataproduct catalog (service)
@@ -311,7 +310,7 @@ Toelichting van de basiscomponenten:
 *De data-producten moeten vindbaar zijn en exploratief verkend kunnen worden.*
 
 De data catalog werkt met federatieve indexen of anderszins omdat de relevante informatie bij het data-product zelf staat. De ontstaansgeschiedenis (pipelines), kwaliteit, SLO’s, wat wel of niet mag met de data, privacy, etc. is informatie van het data-product dat in de data catalog of in aparte catalogi wordt geëtaleerd maar wel als eenheid functioneert. Dataproducten kunnen zoals eerder aangegeven operationale data, modellen, informatiemodellen, etc. zijn. 
-Het model kan een reken-, machine learning, deep learning of ander model zijn. De aard van het model bepaalt ook welke informatie nodig is om de transparantie te kunnen bieden zodat de uitkomsten herleidbaar zijn. Dit is niet altijd een eenvoudige opgave omdat bij bv deep learning neurale technieken gebruikt worden.
+Het model kan een reken-, machine learning, deep learning of ander model zijn. De aard van het model bepaalt ook welke informatie nodig is om de transparantie te kunnen bieden zodat de uitkomsten herleidbaar zijn. Dit is niet altijd een eenvoudige opgave omdat bij bijvoorbeeld deep learning neurale technieken gebruikt worden.
 
 #### Standaarden
 
@@ -340,17 +339,14 @@ Technisch: Hoe notificeren we ons op wijzigingen aan dataproducten? Hoe notifice
 
 ### Federatieve governance 
 
-Dataproducten worden autonoom ontwikkeld en beheerd en de dataproducten zijn breder in de organisatie te gebruiken (cross domain). Er is decentrale autonomie en met centrale richtlijnen, beleid en standaarden t.b.v. data uitwisseling in de organisatie.
+Dataproducten worden autonoom ontwikkeld en beheerd en de dataproducten zijn tussen de domeinen te gebruiken. Er is decentrale autonomie met centrale richtlijnen, beleid en standaarden ten behoeve van dataproducten delen.
 
 Een gefedereerde besluitvormings- en verantwoordingsstructuur, wordt geleid door de federatie van eigenaren van domein dataproducten en producteigenaren van dataplatforms, met autonomie en domein-lokale beslissingsbevoegdheid, terwijl een reeks generieke organisatie brede regels wordt gecreëerd en nageleefd - regels die worden toegepast op alle dataproducten en hun interfaces - zorgen voor een gezond en interoperabel nDFTL digital twin ecosysteem.  
-Het creëert een stimulans- en verantwoordingsstructuur die in evenwicht is de autonomie en wendbaarheid van de domeinen, en de organisatie brede conformiteit, interoperabiliteit en veiligheid van data mesh t.b.v. data uitwisseling.
+Het creëert een stimulans- en verantwoordingsstructuur die in evenwicht is met de autonomie en wendbaarheid van de domeinen, en de nDTFL brede conformiteit, interoperabiliteit en veiligheid die er moet zijn om tussen de domeinen data delen tot stand te brengen.
 
-Om het geheel mogelijk te maken, vereist een datamesh-implementatie een bestuursmodel dat decentralisatie en zelfsoevereiniteit van het domein, interoperabiliteit door organisatiebrede standaardisatie en een dynamische topologie.
+Om het geheel mogelijk te maken vereist dit een bestuursmodel dat decentralisatie en zelfsoevereiniteit van het domein met afspraken over het geheel ondersteund.Hierbij is de uitdaging het handhaven van een evenwicht tussen centralisatie en decentralisatie. Welke beslissingen moeten decentraal en welke beslissingen moeten globaal worden genomen voor alle domeinen? Uiteindelijk hebben centrale beslissingen maar één doel, namelijk het creëren van interoperabiliteit en een versterkend netwerkeffect voor het samenstellen van dataproducten.
 
-De uitdaging is het handhaven van een evenwicht tussen centralisatie en decentralisatie.  
-Welke beslissingen moeten worden gelokaliseerd voor elk domein en welke beslissingen moeten globaal worden genomen voor alle domeinen? Uiteindelijk hebben organisatie brede beslissingen maar één doel, namelijk het creëren van interoperabiliteit en een versterkend netwerkeffect met het samenstellen van dataproducten.
-
-De prioriteiten van de governance in data mesh zijn anders dan de traditionele governance. Hoewel ze allebei waarde uit data wilden halen, probeert traditioneel databeheer dat te bereiken door de besluitvorming te centraliseren en een canonieke representatie van data tot stand te brengen. De federatieve governance van Data Mesh daarentegen omarmt verandering met de federatie bestaande uit data product- en platform eigenaren.
+De prioriteiten van de governance in data mesh zijn anders dan de traditionele governance. Hoewel ze allebei waarde uit data willen halen, probeert traditioneel databeheer dit te bereiken door de besluitvorming te centraliseren en centraal kopieen van data tot stand te brengen. De federatieve governance van Data Mesh daarentegen omarmt juist de autonomie op een zo decentraal niveau mogelijk van dataproduct- en platform eigenaren.
 
 ### De werking in samenhang beschreven 
 
