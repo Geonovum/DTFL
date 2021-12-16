@@ -89,17 +89,28 @@ vindbaarheidsinformatie op een standaard manier te delen. De vindbaarheid van ee
 [Verwijzing naar gezaghebbende bron(nen) waar het data mesh principe nader wordt toegelicht](URL)
 
 ### 4.2.2	Begrijpelijk
+
 (...)
+
 ### 4.2.3 	Betrouwbaar
+
 (...)
+
 ### 4.2.4	Adresseerbaar
+
 (...)
+
 ### 4.2.5	(etc.)
 
+(...)
+
 ## 4.3 FAIR-principes
+
 (...)
 
 ## 4.4 	(etc.)
+
+(...)
 
 # H5 Constructieprincipes
 
@@ -115,15 +126,14 @@ De ontwerpprincipes worden toegepast binnen de volgende thema's:
 ## 5.2 Presentatie
 
 Bestaat uit de volgende onderdelen:
- * User interface
- * Beschrijving wat we verstaan onder user interface. Dit wordt bereikt met behulp van de volgende constructieprincipes:
+ * **User interface**: Beschrijving wat we verstaan onder user interface. Dit wordt bereikt met behulp van de volgende constructieprincipes:
 
 ### 5.2.1	Constructieprincipe 1
 
- * **Definitie** (optioneel): (tekst)
- * **Uitwerking**: (tekst)
+ * **Definitie** (optioneel): (...)
+ * **Uitwerking**: (...)
  * **Referentie**: [Standaard...](URL)
- * **Toelichting**: (tekst)
+ * **Toelichting**: (...)
  * **Verwijzing naar ontwerpprincipe(s):**
     * [Begrijpelijk](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#422begrijpelijk)
     * (...)
@@ -133,3 +143,5 @@ Bestaat uit de volgende onderdelen:
 (...)
 
 ## 5.4 (etc.)
+
+(...)
