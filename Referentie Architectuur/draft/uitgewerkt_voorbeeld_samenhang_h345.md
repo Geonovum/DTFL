@@ -4,8 +4,8 @@
 
 Vaak is technologie een ijsberg, waar we alleen het topje van zien, het zogenaamde burgerperspectief. Wat onder water is, zien we niet. Maar uiteindelijk is alle technologie gemaakt door mensen. Zij zijn het die deze ontwerpen, ontwikkelen, uitrollen en stap voor stap onze maatschappij veranderen. Technologie is niet neutraal, maar het product van talloze beslissingen, die gebaseerd zijn op de waarden die de ontwerper hanteert. Daar ligt ook de sleutel tot het verkrijgen van meer grip op deze ontwikkelingen: we moeten niet alleen kijken naar het topje, maar met elkaar de hele ijsberg zien en ontwerpen. Voor het toepassen van digitale tweelingen, waarin data en modellen worden gedeeld, doen we dat dus op basis van publieke waarden. Er zijn verschillende thema's:
 
- * Doel
- * Vertrouwen
+ * [Doel](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#32thema---doel)
+ * [Vertrouwen](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#33thema---vertrouwen)
  * Eerlijk en kwalitatief
  * Mensen
  * Effectief
