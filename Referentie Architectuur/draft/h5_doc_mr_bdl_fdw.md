@@ -287,12 +287,12 @@ De sleutel voor semantische interoperabiliteit van data tussen domeinen is het v
 
 Veilige toegang is een must of de architectuur nu gecentraliseerd of gedistribueerd is. In de wereld van gedecentraliseerde architectuur zoals Data Mesh wordt de toegangscontrole tijdens runtime gevalideerd door het dataproduct. Het toegangscontrolebeleid wordt centraal gedefinieerd (design time). Denk hierbij aan:
 
- * **Toegangscontrole**: Wie, wat en hoe hebben systemen toegang tot het dataproduct?
- * **Encryptie**: Welke soorten versleuteling ondersteunen we?
- * **Vertrouwelijkheidsniveaus**: Welke soorten vertrouwelijke informatie, denk aan persoonsinformatie, draagt het dataproduct?
- * **Dataretentie**: Hoe lang de informatie moet worden bewaard?
- * **Regelgeving en overeenkomsten**: AVG, domeinspecifieke regelgeving, contractuele overeenkomsten
- * **Doelbinding**: Voor welke doelen mag het dataproduct worden gebruikt.
+ * *Toegangscontrole*: Wie, wat en hoe hebben systemen toegang tot het dataproduct?
+ * *Encryptie*: Welke soorten versleuteling ondersteunen we?
+ * *Vertrouwelijkheidsniveaus*: Welke soorten vertrouwelijke informatie, denk aan persoonsinformatie, draagt het dataproduct?
+ * *Dataretentie*: Hoe lang de informatie moet worden bewaard?
+ * *Regelgeving en overeenkomsten*: AVG, domeinspecifieke regelgeving, contractuele overeenkomsten
+ * *Doelbinding*: Voor welke doelen mag het dataproduct worden gebruikt.
 
 #### Waardevol
 
