@@ -51,15 +51,15 @@ In de volgende paragrafen volgt een uitwerking
 
 Kent vier onderdelen en worden afzonderlijk toegelicht: 
 
-1. Domeineigenaarschap: (...)
-2. Data als product: Een dataproduct voldoet aan de volgende ontwerpprincipes:
+1. **Domeineigenaarschap**: (...)
+2. **Data als product**: Een dataproduct voldoet aan de volgende ontwerpprincipes:
     * [Vindbaar](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#421vindbaar)
     * [Begrijpelijk](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#422begrijpelijk)
     * [Betrouwbaar](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#423betrouwbaar)
     * [Adresseerbaar](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#424adresseerbaar)
     * (...)
-3. Basisdatainfrastructuur: (...)
-4. Federatieve governance: (...)
+3. **Basisdatainfrastructuur**: (...)
+4. **Federatieve governance**: (...)
 
 In de volgende paragrafen volgt een uitwerking per ontwerpprincipe in bovenstaande volgorde van verschijning
 
