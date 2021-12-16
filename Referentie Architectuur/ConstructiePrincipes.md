@@ -1,4 +1,4 @@
-## Constructie Principes en standaarden
+## Constructieprincipes en standaarden
 
 ### Inleiding
 Dit hoofdstuk gaat over het daadwerkelijk construeren van een samenhangende architectuur voor digital twinning. Op basis van de hoofdlijnen van **Ontwerpprincipes** uit het vorige hoofdstuk worden in dit hoofdstuk de constructie principes en de daarbij behorende standaarden beschreven.

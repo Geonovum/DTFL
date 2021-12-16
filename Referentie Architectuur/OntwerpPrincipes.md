@@ -1,4 +1,4 @@
-## Ontwerp Principes
+## Ontwerpprincipes
 
 ### Inleiding
 
