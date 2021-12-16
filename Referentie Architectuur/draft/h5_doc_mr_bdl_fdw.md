@@ -332,11 +332,22 @@ Technisch: Hoe notificeren we ons op wijzigingen aan dataproducten? Hoe notifice
 
 *Met monitoring monitoren we de runtime van data-producten, modellen en andere essentiële onderdelen van de DT’s.*
 
-#### IAM
+#### Identiteits- en toegangsbeheer (Identity en Access Management of IAM)
 
-<aside class="note">
-	<p>FdW: BdL wil jij dit aanvullen?</p>
-</aside>
+Identiteits- en toegangsbeheer (Identity en Access Management of IAM) is een kader van beleidslijnen en technologieën om ervoor te zorgen dat de juiste gebruikers de juiste toegang hebben tot data, processen en alle andere resources dat de DT ter beschikking stelt. Systemen voor identiteits- en toegangsbeheer identificeren, authenticeren en controleren niet alleen de toegang voor personen die gebruik zullen maken van IT-middelen, maar ook de hardware en de toepassingen waartoe de werknemers toegang moeten hebben.
+
+Elke DT heeft zijn eigen IAM, met zijn eigen gebruikers authenticatie en autorisatie. Wanneer een gebruiker toegang wil tot een resource in een andere DT, dan moet de gebruiker zijn credentials opnieuw invoeren. Niet handing, omdat de gebruiker zich reeds geidentfieerd heeft. DT moeten elkaars IAM kunnen vertrouwen. Op deze manier worden Identiteitsfederaties omgezet (zie onder Federatieve governance). Identiteitsfederaties omvatten een of meer systemen die gebruikerstoegang delen en gebruikers in staat stellen in te loggen op basis van authenticatie bij een van de systemen die aan de federatie deelnemen. 
+
+##### Authenticatie
+Met betrekking tot Identity moet de gebruiker kunnen aantonen dat hij/zij is wie hij/zij zegt dat hij/zij is. Het meest gangbare mechanisme is door het kunnen onthouden van een username en wachtwoord combinatie. Een betere vorm van authenticatie bereik je met multi-factor authenticatie: met apps op de smartphone (vb ITSME), tokens, vingerafdrukken, etc.
+
+##### Autorisatie
+Autorisatie (naast authenticatie) is het 2nd element van Identity en Access Management. Autorisatie bepaalt tot welke resources een gebruiker toegang heeft. Afhankelijk van de rol die iemand heeft variëren zijn/haar toegangsrechten.
+
+##### Single Sign-On (SSO)
+De gebruiker dient zich slechts 1 keer aan te melden in zijn home DT en heeft toegang tot andere DT's waarbij dat de authenticatie en autorisatie automatisch wordt afgehandeld.
+
+Met SSO is het systeem beter beveiligd, eenvoudiger voor de gebruiker en eenvoudiger in onderhoud.
 
 ### Federatieve governance 
 
