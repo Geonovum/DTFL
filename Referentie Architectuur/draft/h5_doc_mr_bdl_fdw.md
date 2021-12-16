@@ -149,15 +149,19 @@ Een [dataproduct](https://www.digitaltwinconsortium.org/glossary/glossary.html#c
 
 Een dataproduct bestaat uit:
 
-Code
+**Code**
 
  * API’s, notificaties of andere wijzen waarop je de data kunt benaderen of verkrijgen 
  * Code om van de input data nieuwe output data te maken, data transformatie. Dit kan een ETL zijn, maar ook een algoritme, streaming data-analyse 
-Polyglot input- en output data: 
+
+**Polyglot input- en output data**
+
  * De input én output is in verschillende open standaard dataformaten (graph’s, JSON, XML, etc.) waarbij de semantiek hetzelfde is uitgedrukt 
  * De input en output is op basis van open standaard mechanisme zoals: batch; streaming data; SQL; API; geo-webservices; Query 
  * De input en output is transactionele- en/of analytische data 
-Dataproduct ontwikkeling:  
+
+**Dataproduct ontwikkeling**
+
  * Op basis van de input wordt output data ontwikkeld op basis van diverse (moderne) technieken zoals pipelines voor data transformatie, algoritmen voor data transformatie, streaming data-analyse, etc.; Op basis van de technieken worden dataproduct ontwikkelt en beheerd.  
 
 <figure id="Dataproduct ontwikkeling">
@@ -283,18 +287,12 @@ De sleutel voor semantische interoperabiliteit van data tussen domeinen is het v
 
 Veilige toegang is een must of de architectuur nu gecentraliseerd of gedistribueerd is. In de wereld van gedecentraliseerde architectuur zoals Data Mesh wordt de toegangscontrole tijdens runtime gevalideerd door het dataproduct. Het toegangscontrolebeleid wordt centraal gedefinieerd (design time). Denk hierbij aan:
 
- * Toegangscontrole
-Wie, wat en hoe hebben systemen toegang tot het dataproduct?
- * Encryptie
-Welke soorten versleuteling ondersteunen we?
- * Vertrouwelijkheidsniveaus
-Welke soorten vertrouwelijke informatie, denk aan persoonsinformatie, draagt het dataproduct?
- * Dataretentie
-Hoe lang de informatie moet worden bewaard?
- * Regelgeving en overeenkomsten
-AVG, domeinspecifieke regelgeving, contractuele overeenkomsten
- * Doelbinding
-Voor welke doelen mag het dataproduct worden gebruikt.
+ * **Toegangscontrole**: Wie, wat en hoe hebben systemen toegang tot het dataproduct?
+ * **Encryptie**: Welke soorten versleuteling ondersteunen we?
+ * **Vertrouwelijkheidsniveaus**: Welke soorten vertrouwelijke informatie, denk aan persoonsinformatie, draagt het dataproduct?
+ * **Dataretentie**: Hoe lang de informatie moet worden bewaard?
+ * **Regelgeving en overeenkomsten**: AVG, domeinspecifieke regelgeving, contractuele overeenkomsten
+ * **Doelbinding**: Voor welke doelen mag het dataproduct worden gebruikt.
 
 #### Waardevol
 
