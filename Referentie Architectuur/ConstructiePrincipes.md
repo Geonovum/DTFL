@@ -349,13 +349,6 @@ tekst [link](url)
 #### <KOP INVOEGEN>
 We hebben infrastructuur die de data uitwisseling tussen dataproducten ondersteunt
 
-In onderstaand figuur is weergegeve dat elk data product infrastructuur heeft 
-<figure id="solutions infrastructuur">
-    <img src="media/solutions.jpg" alt="solutions infrastructuur">
-    <figcaption>figuur x. solutions infrastructuur data uitwisseling dataproducten </figcaption>
-</figure>
-
-
 ##### CP - Standaardiseren in open source API Gateway oplossingen
 
 **Referentie**
