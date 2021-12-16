@@ -105,7 +105,12 @@ vindbaarheidsinformatie op een standaard manier te delen. De vindbaarheid van ee
 
 ## 5.1 Inleiding
 
-Op basis van de ontwerpprincipes uit het vorige hoofdstuk, beschrijft dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden.
+Op basis van de ontwerpprincipes uit het vorige hoofdstuk, beschrijft dit hoofdstuk de constructieprincipes en de daarbij behorende standaarden. (...) Constructieprincipes zijn te beschouwen als richtlijnen voor het ontwikkelen van bijdragen aan het Nederlandse digital twinstelsel. Veel gespecialiseerde architecten, ontwerpers, ontwikkelaars en beheerders spelen hierbij een rol, zoals user interface experts, solution architects, softwareontwikkelaars, informatie-analisten, data-specialisten, IT-architecten, informatiebeveilingsdeskundigen, etc. etc. In dit hoofdstuk vinden zij toe te ontwerpprincipes en daarbij behorende standaarden.
+
+De ontwerpprincipes worden toegepast binnen de volgende thema's:
+ * [Presentatie](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#52-presentatie)
+ * [Analytics ](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#53-analytics)
+ * (...)
 
 ## 5.2 Presentatie
 
@@ -116,15 +121,11 @@ Bestaat uit de volgende onderdelen:
 ### 5.2.1	Constructieprincipe 1
 
  * **Definitie** (optioneel): (tekst)
-
  * **Uitwerking**: (tekst)
-
  * **Referentie**: [Standaard...](URL)
-
  * **Toelichting**: (tekst)
-
  * **Verwijzing naar ontwerpprincipe(s):**
-    * [Begrijpelijk](internelinkNaarOntwerpprincipeBegrijpelijk)
+    * [Begrijpelijk](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#422begrijpelijk)
     * (...)
 
 ## 5.3 Analytics
