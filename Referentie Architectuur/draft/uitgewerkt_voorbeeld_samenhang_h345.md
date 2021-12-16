@@ -58,7 +58,7 @@ Kent vier onderdelen en worden afzonderlijk toegelicht:
     * [Betrouwbaar](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#423betrouwbaar)
     * [Adresseerbaar](https://github.com/Geonovum/DTFL/blob/main/Referentie%20Architectuur/draft/uitgewerkt_voorbeeld_samenhang_h345.md#424adresseerbaar)
     * (...)
-3. **Basisdatainfrastructuur**: (...)
+3. **Basisdata-infrastructuur**: (...)
 4. **Federatieve governance**: (...)
 
 In de volgende paragrafen volgt een uitwerking per ontwerpprincipe in bovenstaande volgorde van verschijning
