@@ -12,6 +12,10 @@ De gemaakte afspraken borgen als het goed is de belangen van elke betrokken part
 ### Ontwerpprincipes digitale tweelingen
 
 <aside class='note'>
+    <p> GT: Verwarrende kop voor in dit hoofdstuk </p>
+</aside> 
+
+<aside class='note'>
     <p> GT: In dit hoofdstuk dezelfde structuur en manier van wederzijds verwijzen toepassen als de ontwerpprincipes (H4) en de constructieprincipes (H5). </p>
 </aside> 
 
