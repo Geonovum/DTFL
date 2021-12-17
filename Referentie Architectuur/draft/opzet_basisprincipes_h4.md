@@ -1,4 +1,3 @@
-
 ###	De architectuur van het digital twin stelsel is mede gebaseerd op architecturale kaders van de overheid en de facto kaders zoals gangbaar binnen bedrijven en organisaties.
 
 **Toelichting**
