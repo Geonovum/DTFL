@@ -292,7 +292,7 @@ Via een centrale mogelijkheid worden deze federatieve indexen bevraagt voor een 
 
 *Het dataproduct is zelfbeschrijvend.*
 
-Uit welke begrippen, definities, relaties, waardelijsten, e.d. – de semantiek - bestaat het dataproduct? Naast begrip van de semantiek, moeten datagebruikers begrijpen hoe de gegevens aan hen worden gepresenteerd. Hoe hebben ze toegang? Hoe kunnen ze de data syntactisch opvragen? Wat voor soort SQL-query's kunnen ze uitvoeren? Hoe lees je de data-objecten? Dit gaat idealiter vergezeld van voorbeelddatasets en voorbeeldcodes.
+Uit welke begrippen, definities, relaties, waardelijsten, e.d. – de semantiek - bestaat het dataproduct? Naast begrip van de semantiek, moeten datagebruikers begrijpen hoe de gegevens aan hen worden gepresenteerd. Hoe hebben ze toegang? Hoe kunnen ze de data syntactisch opvragen? Hoe lees je de data-objecten? Dit gaat idealiter vergezeld van voorbeelddatasets en voorbeeldcodes.
 
 Dataschema’s helpen om de datagebruiker te ondersteunen. Dit geldt ook voor [computational notebooks](https://martinfowler.com/bliki/ComputationalNotebook.html) die het verhaal van een dataproduct helpen vertellen. Computational notebooks bevatten documentatie van de data, evenals code om het te gebruiken en het visueel demonstreren van de code in actie.
 
@@ -325,7 +325,7 @@ Een uniek adresseringssysteem moet de dynamische aard van de data en de mesh-top
  * Continue release van nieuwe data-time slices (gekoppeld aan een bepaalde tijds(duur)
  * Nieuwe ondersteunde syntaxis van de onderliggende data: nieuwe manieren van serialiseren, het verzenden en opvragen van de gegevens
  * Continu veranderende runtime gedragsinformatie: b.v. SLO's (als code)
-Een uniek adresseringssysteem moet een wereldwijde conventie volgen zodat de data-producten een consistente toegang hebben voor mensen en machines. Dit is ook nodig om gevonden te kunnen worden door de discover-oplossing <m>(1.2.1 Vindbaar)</m>.
+Een uniek adresseringssysteem moet een wereldwijde conventie volgen zodat de data-producten een consistente toegang hebben voor mensen en machines. Dit is ook nodig om gevonden te kunnen worden door de vindbaar-oplossing <m>(1.2.1 Vindbaar)</m>.
 
 #### Semantische interoperabiliteit
 
