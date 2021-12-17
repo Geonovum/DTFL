@@ -79,7 +79,7 @@ Het stelsel kan niet gerealiseerd worden door barrières op te werken waarbij he
 In onderstaand figuur is een globale schets van de architectuur van de Nationale digitale tweeling infrastructuur weergegeven.
 
 <figure id="Overall architectuur">
-    <img src="/media/Overall architectuur.jpg" alt="Overall architectuur">
+    <img src="media/Overall architectuur.jpg" alt="Overall architectuur">
     <figcaption>Overall architectuur</figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ Voor de architectuur van de Nationale digitale tweeling infrastructuur voegen we
 De data mesh architectuur gaat uit van een viertal primaire uitgangspunten, dit zijn:
 
 <figure id="Data-infra als platform">
-    <img src="/media/Data-infra als platform.jpg" alt="Data-infra als platform">
+    <img src="media/Data-infra als platform.jpg" alt="Data-infra als platform">
     <figcaption>Data-infra als platform</figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ De infrastructuur ondersteunt een federatieve aanpak met een verdeling van veran
 Met data als een product stellen we het dataproduct centraal. Het dataproduct is een ‘atomaire’ eenheid en heeft de metadata, ontstaansgeschiedenis, kwaliteit, e.d. allemaal bij het product zelf staan en heeft mechanismen om afnemers te informeren en consulteren.
 
 <figure id="Dataproduct">
-    <img src="/media/Dataproduct.jpg" alt="Dataproduct">
+    <img src="media/Dataproduct.jpg" alt="Dataproduct">
     <figcaption>Dataproduct</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ Met het datamesh concept passen we een mesh topologie[^2]  toe. Dit is een verma
 
 
 <figure id="Datamesh">
-    <img src="/media/Datamesh.jpg" alt="Datamesh">
+    <img src="media/Datamesh.jpg" alt="Datamesh">
     <figcaption>Datamesh</figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ Om een dataproduct te maken gebruiken we de data uit de bron op basis van servic
 De eigenaar van dataproduct heeft de zorgplicht dat de output data continu geleverd wordt conform de afspraken (SLO) zodat deze door andere dataproducten gebruikt kan worden. Dit vraagt een continue dialoog tussen de dataproduct-eigenaar en afnemers cq. afnemende dataproducten. 
 
 <figure id="Dataproduct eigenaar">
-    <img src="/media/Dataproduct eigenaar.jpg" alt="Dataproduct eigenaar">
+    <img src="media/Dataproduct eigenaar.jpg" alt="Dataproduct eigenaar">
     <figcaption>Dataproduct eigenaar</figcaption>
 </figure>
 
@@ -202,7 +202,7 @@ Een [dataproduct](https://www.digitaltwinconsortium.org/glossary/glossary.html#c
  Dataproducten bieden output data aan gebruikers of afnemende applicaties zoals bijvoorbeeld een viewer of een dashboard tool en is softwareproduct (tool) onafhankelijk.
 
 <figure id="Dataproduct bestaat uit">
-    <img src="/media/Dataproduct bestaat uit.jpg" alt="Dataproduct bestaat uit">
+    <img src="media/Dataproduct bestaat uit.jpg" alt="Dataproduct bestaat uit">
     <figcaption>Dataproduct bestaat uit</figcaption>
 </figure>
 
@@ -225,7 +225,7 @@ Een dataproduct bestaat uit:
  * Op basis van de input wordt output data ontwikkeld op basis van diverse (moderne) technieken zoals pipelines voor data transformatie, algoritmen voor data transformatie, streaming data-analyse, etc.; Op basis van de technieken worden dataproduct ontwikkelt en beheerd.  
 
 <figure id="Dataproduct ontwikkeling">
-    <img src="/media/Dataproduct ontwikkeling.jpg" alt="Dataproduct ontwikkeling">
+    <img src="media/Dataproduct ontwikkeling.jpg" alt="Dataproduct ontwikkeling">
     <figcaption>Dataproduct ontwikkeling</figcaption>
 </figure>
 
@@ -233,7 +233,7 @@ Een dataproduct bestaat uit:
 De dataproducten bestaan uit verschillende typen informatie. Operationele data of een model, het informatiemodel, begrippen of andere typen zoals ontstaansgeschiedenis, tijdslijnen, kwaliteit, etc. De typen variëren op basis van de aard van het dataproduct.
 
 <figure id="Dataproduct typen">
-    <img src="/media/Dataproduct typen.jpg" alt="Dataproduct typen">
+    <img src="media/Dataproduct typen.jpg" alt="Dataproduct typen">
     <figcaption>Dataproduct typen</figcaption>
 </figure>
 
@@ -241,7 +241,7 @@ De dataproducten bestaan uit verschillende typen informatie. Operationele data o
 Van een of meerdere dataproducten kan ook een nieuw dataproduct gemaakt worden. Dit kan een samenstelling zijn of het resultaat van een algoritme zoals een tijdelijke analyse, voorspelmodel, e.d. Dit nieuwe product kan ook weer een dataproduct worden dat door andere stakeholders gebruikt kan worden in hun ecosysteem. De dataproducten zijn permanent verbonden (vanuit de bron). Voor dataproducten geldt dat ze moeten voldoen aan constructieprincipes van het ecosysteem.
 
 <figure id="Dataproduct samenstelling">
-    <img src="/media/Dataproduct samenstelling.jpg" alt="Dataproduct samenstelling">
+    <img src="media/Dataproduct samenstelling.jpg" alt="Dataproduct samenstelling">
     <figcaption>Dataproduct samenstelling</figcaption>
 </figure>
 
@@ -249,7 +249,7 @@ Van een of meerdere dataproducten kan ook een nieuw dataproduct gemaakt worden. 
 Een dataproduct wordt ontwikkeld in een domein en heeft één product eigenaar. Een domein heeft een of meerdere dataproducten en eigenaren. 
 
 <figure id="Dataproducten domeinen">
-    <img src="/media/Dataproducten domeinen.jpg" alt="Dataproducten domeinen">
+    <img src="media/Dataproducten domeinen.jpg" alt="Dataproducten domeinen">
     <figcaption>Dataproducten domeinen</figcaption>
 </figure>
 
@@ -258,7 +258,7 @@ Informatie vraagstukken kunnen betrekkingen hebben om meerdere dataproducten van
 Hierin worden dataproducten in een keten gebruikt waarin een dataproduct een algoritme als transformatie technologie inzet.
 
 <figure id="Dataproduct keten">
-    <img src="/media/Dataproduct keten.jpg" alt="Dataproduct keten">
+    <img src="media/Dataproduct keten.jpg" alt="Dataproduct keten">
     <figcaption>Dataproduct keten</figcaption>
 </figure>
 
@@ -266,7 +266,7 @@ Hierin worden dataproducten in een keten gebruikt waarin een dataproduct een alg
 Dit kunnen we ook toepassen op een overkoepelend vraagstuk waarbij verschillende dataproducten zijn gebruikt. Bijvoorbeeld het vraagstuk of Nederland voldoende beschermd is tegen het water in geval van enorme regenval en smeltwater in de grote rivieren zoals de Maas en de Rijn. De dataproducten worden dan gebruikt in het domein water risico’s.
 
 <figure id="Domein water">
-    <img src="/media/Domein water.jpg" alt="Domein water">
+    <img src="media/Domein water.jpg" alt="Domein water">
     <figcaption>Domein water</figcaption>
 </figure>
 
@@ -274,7 +274,7 @@ Dit kunnen we ook toepassen op een overkoepelend vraagstuk waarbij verschillende
 Dataproducten hebben kenmerken of te wel ontwerpprincipes die toegepast moeten worden in de ontwikkeling van het dataproduct om te kunnen (mogen) aansluiten op het landelijke digitale tweeling eco-systeem nDFTL.
 
 <figure id="Dataproduct constructieprincipes">
-    <img src="/media/Dataproduct constructieprincipes.jpg" alt="Dataproduct constructieprincipes">
+    <img src="media/Dataproduct constructieprincipes.jpg" alt="Dataproduct constructieprincipes">
     <figcaption>Dataproduct ontwerpprincipes</figcaption>
 </figure>
 
@@ -427,7 +427,7 @@ We hebben een bijzonder domein. Dit is het domein van de geo(basis)registraties.
 
 
 <figure id="Datamesh view">
-    <img src="/media/Datamesh view.jpg" alt="Datamesh view">
+    <img src="media/Datamesh view.jpg" alt="Datamesh view">
     <figcaption>Datamesh view</figcaption>
 </figure>
 
@@ -437,7 +437,7 @@ Deze – vaak relatief statische – gegevens vormen een robuust fundament, waar
 Door de federatieve opzet zal iedere organisatie zelf moeten zorgen voor het ontsluiten van de data producten die ze willen delen met anderen. Dit delen gebeurt met services vanuit de bron. Voorwaarden hierbij zijn dat het vindbaar, begrijpelijk, betrouwbaar en waarheidsgetrouw, adresseerbaar, semantisch interoperabel, toegankelijk en veilig en natuurlijk waardevol is voor de gebruikers. De voorwaarden worden bij een federatieve opzet ingevuld door de bronhouder of aanbieder namens de bronhouder. Het is hierdoor zeer decentraal van opzet. Aan de bron worden de privileges toegekend wie wat mag. Deze federatieve aanpak kan alleen werken als we ons houden aan bepaalde afspraken. Deze worden met elkaar gemaakt en beheerd. 
 
 <figure id="Datamesh view stelsel">
-    <img src="/media/Datamesh view stelsel.jpg" alt="Datamesh view stelsel">
+    <img src="media/Datamesh view stelsel.jpg" alt="Datamesh view stelsel">
     <figcaption>Datamesh view stelsel</figcaption>
 </figure>
 
