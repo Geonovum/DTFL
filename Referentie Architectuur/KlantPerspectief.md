@@ -51,4 +51,6 @@ Met de Nationale DTFL voorzien we in een infrastructuur en een stelsel van afspr
  
 ### Het proces
 
-*Beschrijf het proces waarmee dit document is ontwikkeld*
+<aside class='note'>
+	<p>JB: Beschrijf het proces waarmee dit document is ontwikkeld</p>
+</aside>
