@@ -405,6 +405,14 @@ Deze gecombineerde modellen kunnen het resultaat zijn van bepaalde momentopnamen
 
 De organisatie kan dit zelf gebruiken en is vrij om het dataproduct weer beschikbaar te stellen voor hergebruik indien andere gebruikers hierom vragen.
 
+### De sociale dimensie van de Digitale Tweeling voor de Fysieke Leefomgeving
+
+Het concept van Digitale Tweeling wordt beschreven als de virtuale representatie (of de digitale tegenhanger) van een fysiek object of process. Wanneer we echter de Digitale Tweeling van de Fysieke Leefomgeving (met de nadruk op **Leef**omgeving) met de mens als deel van de tweeling is het belangrijk ook het **sociale** element mee te nemen in de Referentie Architectuur. De mens speelt immers een belangrijke rol in de use-cases: de leefomgeven is er voor en door de mens (en dier en bij uitbreiding het leefmilieu).
+
+De leefomgeving verschuift (met de inbreng van een Digitale Tweeling) van een sociaal-fysieke samenleving, waarin digitalisering beschouwd wordt als een ‘parallelle werkelijkheid’ en/of dat het een instrument is dat naar believen kan worden ingezet, naar een sociaal-fysiek-digitale samenleving. Hierin is digitaal onlosmakelijk verbonden met alle aspecten van ons sociaal-fysieke leven. De digitale tweeling krijgt naast de fysiek-digitale dimensie er een sociaal-digitale en sociaal-fysieke dimensie bij (het wordt als het ware een Digitale **Drieling**)
+
+De inbreng van het sociaal aspect heeft zo ook een impact op de ontwerpPrincipes: de digitale identiteit (wat we mogen zien/doen, gebaseerd op onze digitale identiteit), regels voor het beschermen van onze privacy, ethiek en duurzaamheid, middelen om te communiceren naar de burger (en omgekeerd). Deze mogen elementen moeten van de start meegenomen worden in de referentie architectuur en mogen geen nakomertje/bijzaak zijn die er achteraf bijgenomen wordt.
+
 **Voetnoten (tijdelijk)**
 
  * [^1] We zien de federatieve aanpak ook terug in de interbestuurlijke datastrategie van de overheid
