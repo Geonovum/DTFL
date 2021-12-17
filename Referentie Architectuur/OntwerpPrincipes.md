@@ -1,4 +1,64 @@
 ## Ontwerpprincipes
+
+De maatschappelijke behoefte enerzijds en technische mogelijkheden anderzijds jagen de inzet van digital twins aan. Maatschappelijke waarden, zoals van privacyborging, inclusiviteit, ethiek en informatiebeveiliging, stellen ook eisen aan de inrichting en werking van het digital twin stelsel. De combinatie van deze wensen en eisen dienen tot uitdrukking te komen in zaken als de governance van het stelsel en de organisatorische en technische inrichting ervan.
+
+In dit hoofdstuk gaat het hoofdzakelijk over de technische inrichting: de architectuur van het digital twin stelsel. De architecturale uitgangspunten of principes dienen de maatschappelijke wensen en eisen mogelijk te maken en omgekeerd: maatschappelijke eisen, waarden en wetgeving moeten door het digital twin stelsel worden gerespecteerd. Architecturale principes vormen dus de basis voor de inrichting van het stelsel dat tegemoetkomt aan eisen en wensen en rekening houdt met grenzen die de samenleving stelt. 
+
+Hoewel in deze referentie architectuur maximaal rekening is gehouden met actuele inzichten in maatschappelijke wensen, eisen en begrenzingen, de stand van de technologie en architecturale inzichten, zal door middel van versiebeheer het geheel van ontwerp- en constructieprincipes periodiek aangepast moeten worden aan gewijzigde omstandigheden. Architecturale ontwerpprincipes zijn dus kaderstellend en richtinggevend. Zij worden in hoofdstuk 5 verder uitgediept in concrete constructieprincipes en standaarden.
+
+### Basisprincipes
+
+<aside class='note'>
+    <p>GT: principes opgesteld door GB en besproken in overleg van 17-12-2021. Graag aanvullen</p>
+</aside>
+
+#### De architectuur van het digital twin stelsel is mede gebaseerd op architecturale kaders van de overheid en de facto kaders zoals gangbaar binnen bedrijven en organisaties.
+
+**Toelichting**
+
+De overheid kent een samenhangend kader voor architectuur, zoals de Nederlandse Overheid Referentie Architectuur en daarvan afgeleide architecturen voor onder meer Rijk, Provincies, Gemeenten en Waterschappen. De overheid kent ook andere ‘stelsels’ voor data-uitwisseling, zoals dat voor de Nederlandse Basisregistraties en in EU-verband bijvoorbeeld Inspire. Tenslotte is er ook veel wetgeving, die mede kaderstellend is voor de inrichting van het digital twin stelsel, zoals de Wet Open Overheid; de Algemene Verordening Gegevensbescherming (AVG), de Wet Hergebruik Overheidsinformatie en de Archiefwet. De architectuur van het digital twin stelsel volgt in beginsel deze wetgeving, architecturale kaders en best practices. Veel van de wensen, eisen en begrenzingen dienen via de principes uit dit document by design gerealiseerd te worden.
+
+#### De architectuur van het digital twin stelsel is gebaseerd op het data mesh basispatroon.
+
+**Toelichting**
+
+Data mesh is een architecturaal basispatroon, gebaseerd op vier principes:
+ * Domeingeoriënteerd gedecentraliseerd data-eigendom en -architectuur, 
+ * Data als een product, 
+ * Self-service data-infrastructuur als platform en 
+ * Federatieve componenten voor de werking van het stelsel. 
+
+#### De architectuur van het digital twin stelsel is gebaseerd op service oriëntatie.
+
+**Toelichting**
+
+Deelnemers aan het stelsel wisselen data en modellen uit via het beginsel van de service orientatie. Dat wil zeggen: Een samenspel van (gestandaardiseerde) vragen en antwoorden via een verbindende infrastructuur.
+
+#### De architectuur van het digital twin stelsel is maximaal gebaseerd op de toepassing van open standaarden.
+
+**Toelichting**
+
+Het stelsel staat open voor deelname vanuit overheid en private sector. Federatieve componenten van het stelsel worden via open standaarden vormgegeven. Daarnaast geldt een sterke aanbeveling voor deelnemende partijen om voor dataproducten eveneens gebruik te maken van open standaarden, teneinde de interoperabiliteit van het stelsel te maximaliseren. De architectuur van afzonderlijke digital twins binnen organisaties, kan uiteraard ook gebaseerd worden op open standaarden, maar om begrijpelijke redenen kunnen commeciele partijen hiervan afwijken.
+
+#### De architectuur van het digital twin stelsel gaat uit van de stelling: “de vervuiler vertaalt”.
+
+**Toelichting**
+
+Door deelnemers aangeboden dataproducten voldoen aan de uitwisselingsstandaarden (semantisch, technisch) zoals beschreven in deze referentie architectuur. Deze eis brengt met zich mee dat – indien een deelnemende organisatie intern afwijkende standaarden hanteert – deze zelf zorgt voor de transformatie naar de van toepassing zijnde uitwisselingsstandaard.
+
+#### Door deelnemers aan het stelsel aangeboden data (incl. in de vorm van modellen) kan te allen tijde verantwoording worden afgelegd over de herkomst en kwaliteit van data.
+
+**Toelichting**
+
+Het digital twin stelsel op basis van het data mesh principe leidt tot ketens van combineerbare data. Daarom is het essentieel dat afnemers van dataproducten nauwkeurige, op veldniveau, informatie krijgen over zaken als de herkomst van data (provenance), tijdstip van verwerving van data, betrouwbaarheid van data, geldigheid van data, vertrouwelijkheid van data, gebruikscondities van data en semantische duiding van data.
+
+#### Ook een principe over dataspaces in relatie tot data mesh.
+
+**Toelichting**
+
+(...)
+
+### Inleiding
 In de [inleiding](https://geonovum.github.io/DTFL/Referentie%20Architectuur/#inleiding) staat een schets van het [digitale tweeling stelsel](https://www.digitaltwinconsortium.org/glossary/glossary.html#digital-twin). We zagen al eerder dat dit opgebouwd is op basis van een combinatie van federatieve opslag van gegevens, modellen en bewerkingsfunctionaliteit, aangevuld met een aantal essentiële centrale, federatieve componenten, waardoor gegevens, modellen en bewerkingsfunctionaliteit over en weer gebruikt kunnen worden.
 
 In het vorige hoofdstuk staan algemene uitgangspunten of principes waaraan het stelsel moet voldoen. In dit hoofdstuk gaan we weer een laagje dieper. We gaan kijken naar de wijze waarop digitale tweeling mogelijk wordt voor deelnemende organisaties. Dit verwoorden we in ontwerpprincipes. De ontwerpprincipes worden toegepast in meerdere typen ontwerpdocumenten, zoals projectstartarchitecturen, solution architecturen, datacommunicatie architecturen, infrastructuur architecturen, etc.
@@ -393,8 +453,7 @@ Bovenstaande manier van werken is recursief. Het werkt ook zo voor de andere dom
 
 Met de data mesh view hebben we een stuk basisinfrastructuur waarmee we binnen een domein en tussen de domeinen het makkelijker maken om data producten te kunnen vinden, semantiek samenhang beter kunnen duiden en hergebruiken, op kwaliteit van services wordt gemonitord of op het gebruik van de standaarden. Ook een centrale trustvoorziening kan nodig zijn om toegangsaspecten binnen het stelsel goed te kunnen inrichten of andere dingen waarvan we met elkaar vinden dat deze nodig zijn.
 
-Samenwerkende organisaties binnen het stelsel, of beter nog, samenwerkende computers, dienen te weten bij welke organisatie bepaalde data, modellen en verwerkingscapaciteit aanwezig zijn. Daarvoor hebben we centrale wegwijzers of indexen nodig want bij een federatief stelsel zal de data product eigenaar metadata niet opnieuw opvoeren op de basisinfrastructuur. De metadata staat bij het data product en we maken geen onderscheid meer tussen metadata en data. Het is allemaal data geworden die via indexen gevonden wordt. Dergelijke indexen kunnen ook informatie bevatten over de toegankelijkheid van bepaalde dataproducten, modellen of verwerkingscapaciteit.
-Dit geeft wel aan dat het niet voldoen aan de randvoorwaarden ook zorgt voor het niet vindbaar zijn van het data product. Een federatieve infrastructuur kan niet zonder volwassen eigenaarschap.
+Samenwerkende organisaties binnen het stelsel, of beter nog, samenwerkende computers, dienen te weten bij welke organisatie bepaalde data, modellen en verwerkingscapaciteit aanwezig zijn. Daarvoor hebben we centrale wegwijzers of indexen nodig want bij een federatief stelsel zal de data product eigenaar metadata niet opnieuw opvoeren op de basisinfrastructuur. De metadata staat bij het data product en we maken geen onderscheid meer tussen metadata en data. Het is allemaal data geworden die via indexen gevonden wordt. Dergelijke indexen kunnen ook informatie bevatten over de toegankelijkheid van bepaalde dataproducten, modellen of verwerkingscapaciteit. Dit geeft wel aan dat het niet voldoen aan de randvoorwaarden ook zorgt voor het niet vindbaar zijn van het data product. Een federatieve infrastructuur kan niet zonder volwassen eigenaarschap.
 
 Een datacommunicatie-infrastructuur is uiteraard essentieel voor het transporteren van data. Deze infrastructuur bestaat op zijn beurt weer uit verschillende componenten en werkt op basis van veelal mondiale afspraken over toe te passen standaarden. Delen van deze infrastructuur vallen onder verantwoordelijkheid van private partijen, delen onder samenwerkingsverbanden en weer andere delen vallen onder de overheid. Digitale tweelingen maken gebruik van deze infrastructuur.  
 
@@ -409,7 +468,7 @@ De organisatie kan dit zelf gebruiken en is vrij om het dataproduct weer beschik
 
 Het concept van Digitale Tweeling wordt beschreven als de virtuale representatie (of de digitale tegenhanger) van een fysiek object of process. Wanneer we echter de Digitale Tweeling van de Fysieke Leefomgeving (met de nadruk op **Leef**omgeving) met de mens als deel van de tweeling is het belangrijk ook het **sociale** element mee te nemen in de Referentie Architectuur. De mens speelt immers een belangrijke rol in de use-cases: de leefomgeven is er voor en door de mens (en dier en bij uitbreiding het leefmilieu).
 
-De leefomgeving verschuift (met de inbreng van een Digitale Tweeling) van een sociaal-fysieke samenleving, waarin digitalisering beschouwd wordt als een ‘parallelle werkelijkheid’ en/of dat het een instrument is dat naar believen kan worden ingezet, naar een sociaal-fysiek-digitale samenleving. Hierin is digitaal onlosmakelijk verbonden met alle aspecten van ons sociaal-fysieke leven. De digitale tweeling krijgt naast de fysiek-digitale dimensie er een sociaal-digitale en sociaal-fysieke dimensie bij (het wordt als het ware een Digitale **Drieling**)
+De leefomgeving verschuift (met de inbreng van een Digitale Tweeling) van een sociaal-fysieke samenleving, waarin digitalisering beschouwd wordt als een ‘parallelle werkelijkheid’ en/of dat het een instrument is dat naar believen kan worden ingezet, naar een sociaal-fysiek-digitale samenleving. Hierin is digitaal onlosmakelijk verbonden met alle aspecten van ons sociaal-fysieke leven. De digitale tweeling krijgt naast de fysiek-digitale dimensie er een sociaal-digitale en sociaal-fysieke dimensie bij (het wordt als het ware een **Digitale Drieling**)
 
 De inbreng van het sociaal aspect heeft zo ook een impact op de ontwerpPrincipes: de digitale identiteit (wat we mogen zien/doen, gebaseerd op onze digitale identiteit), regels voor het beschermen van onze privacy, ethiek en duurzaamheid, middelen om te communiceren naar de burger (en omgekeerd). Deze mogen elementen moeten van de start meegenomen worden in de referentie architectuur en mogen geen nakomertje/bijzaak zijn die er achteraf bijgenomen wordt.
 
