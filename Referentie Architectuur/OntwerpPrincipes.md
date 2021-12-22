@@ -133,8 +133,7 @@ Ook een federatieve structuur heeft basisvoorzieningen nodig om dataproducten, m
 4. **Federatieve governance**
 Afsprakenstelsels zijn nodig om het geheel te kunnen laten werken. Dit betreft niet alleen standaarden voor het delen van data, data-producten, modellen maar ook ethiek, privacy, transparantie, e.d. Governance vraagstukken liggen op de gedeelde voorzieningen, in een federatief stelsel zijn de overige governance vraagstukken voor de domeinen. 
 
-Met het datamesh concept passen we een mesh topologie[^2]  toe. Dit is een vermaast netwerk waarin de dataproducten de nodes zijn van waaruit de data wordt doorgestuurd naar gebruikers, afnemende applicaties of andere dataproducten.
-
+Met het datamesh concept passen we een <span class="tooltip">mesh topologie <span class="tooltiptext">Mesh topologie zegt niets voor de onderliggende netwerk topologie dat gebruikt wordt.</span></span>toe. Dit is een vermaast netwerk waarin de dataproducten de nodes zijn van waaruit de data wordt doorgestuurd naar gebruikers, afnemende applicaties of andere dataproducten.
 
 <figure id="Datamesh">
     <img src="media/Datamesh.jpg" alt="Datamesh">
@@ -147,8 +146,7 @@ Om onderdeel te kunnen zijn van de Nationale Digitale Tweeling infrastructuur di
 
 ### Domein eigenaarschap
 
-Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan om continue verandering en schaalbaarheid te ondersteunen. Een domein[^3] heeft de verantwoordelijkheid voor dataproducten. Degene die de verantwoordelijkheid over de dataproducten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.
-
+Data mesh is in de kern gebaseerd op decentralisatie en verdeling van verantwoordelijkheid naar mensen die het dichtst bij de gegevens staan om continue verandering en schaalbaarheid te ondersteunen. Een <span class="tooltip">domein <span class="tooltiptext">Binnen de Europese Commissie noemen ze dit International Data Spaces (IDS)</span></span> heeft de verantwoordelijkheid voor dataproducten. Degene die de verantwoordelijkheid over de dataproducten hebben moeten in dialoog kunnen zijn met de afnemers. Dit lukt niet als de data vele malen wordt gekopieerd en binnen allerlei systemen een eigen context krijgen.
 
 #### Duidelijk eigenaarschap data
 
