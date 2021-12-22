@@ -13,14 +13,19 @@ Wie schrijft waaraan
 	GT: We werken nu vanuit takenlijst Teams
 </aside>
 
-Schrijversinstructie
+**Schrijversinstructie**
 
-Er zijn 3 manieren om teksten te markeren <r>rood</r>, <g>groen</g>, en als <m>Geel Gemarkeerd</m>
+**1 Markering**
 
-Laten we afspreken dat je in een paragraaf de tekst die je wil vervangen tussen een &lt;r&gt; en een &lt;/r&gt; zet <r>daardoor wordt de tekst rood</r>  
+Er zijn 3 manieren om teksten te markeren:
+ * <r>rood</r>: originele tekst (zet de originele tekst tussen een &lt;r&gt; en een &lt;/r&gt;: <r>daardoor wordt de tekst rood</r>.
+ * <g>groen</g>: nieuwe tekst (zet de test tussen een &lt;g&gt; en een &lt;/g&gt; <g>daardoor wordt de tekst groen</g>.
+ * <m>gele markering</m>: ter discussie (zet tekst die nog ter discussie staat tussen &lt;m&gt; en een &lt;/m&gt; <m>daardoor wordt de tekst geel gemarkeerd</m>.
+  
+**2 Voetnoten**
 
-Laten we afspreken dat je in een paragraaf de vervangende tekst tussen een &lt;g&gt; en een &lt;/g&gt; zet <g>daardoor wordt de tekst groen</h>  
+We gebruiken geen voetnoten in dit document. In plaats daarvan kun je gebruik maken van tooltiptext. Hiermee kun je één of meerdere woorden een aanvullende tekst meegegeven die niet in de lopende tekst thuishoort. De tekst verschijnt op het moment dat je met je muis over het woord beweegt.
 
-Laten we afspreken dat je in een paragraaf de tekst waarover je overleg wilt tussen een &lt;m&gt; en een &lt;/m&gt; <m>daardoor wordt de tekst geel gemarkeerd</m>  
+Op deze manier maak je een tooltip. In deze krijgt de term <span class="tooltip">geografisch informatiesysteem<span class="tooltiptext">Een geografisch informatiesysteem (meestal afgekort tot GIS) is een informatiesysteem waarmee (ruimtelijke) gegevens of informatie over geografische objecten, zogeheten geo-informatie kan worden opgeslagen, beheerd, bewerkt, geanalyseerd, geïntegreerd en gepresenteerd.</span></span> extra uitleg mee. 
 
 Dit werkt uiteraard alleen in Markdown!
