@@ -1,10 +1,20 @@
 ## Ontwerpprincipes
 
-<!-- ### Test hovertext
+### TEST VOETNOOT 
 
-<p>Move the mouse over text below</p>
-<p class="voetnoot">alalalalalajsdkl;faljkds;lfkj</p>
-<br> -->
+### Test
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Malesuada pellentesque elit eget gravida cum sociis. Neque vitae tempus quam pellentesque nec nam aliquam. Risus nec feugiat in fermentum posuere urna nec tincidunt. Duis at tellus at urna condimentum mattis pellentesque id. Ornare massa eget egestas purus viverra. 
+
+<div class="tooltip">Massa ultricies mi quis hendrerit dolor.
+    <span class="tooltiptext">Vel pretium lectus quam id leo in vitae.</span>
+</div>
+
+Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Lectus arcu bibendum at varius vel pharetra vel. Odio facilisis mauris sit amet massa vitae. Amet porttitor eget dolor morbi non arcu risus quis. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Laoreet id donec ultrices tincidunt. At augue eget arcu dictum. Donec massa sapien faucibus et molestie ac feugiat sed.
+
+Rhoncus aenean vel elit scelerisque. Habitant morbi tristique senectus et netus. Quis ipsum suspendisse ultrices gravida. Malesuada nunc vel risus commodo viverra. Ut lectus arcu bibendum at varius vel pharetra vel. Libero nunc consequat interdum varius sit amet mattis. Faucibus scelerisque eleifend donec pretium vulputate sapien. Erat nam at lectus urna duis. Erat nam at lectus urna duis convallis convallis tellus. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Lobortis elementum nibh tellus molestie nunc non blandit.
+
+
+### Inleiding
 
 De maatschappelijke behoefte enerzijds en technische mogelijkheden anderzijds jagen de inzet van digital twins aan. Maatschappelijke waarden, zoals van privacyborging, inclusiviteit, ethiek en informatiebeveiliging, stellen ook eisen aan de inrichting en werking van het digital twin stelsel. De combinatie van deze wensen en eisen dienen tot uitdrukking te komen in zaken als de governance van het stelsel en de organisatorische en technische inrichting ervan.
 
