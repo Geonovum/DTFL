@@ -102,9 +102,41 @@ m
   color: darkblue;
 }
 
-/*Definitie van hovertext*/
-/*.voetnoot:hover {
-  background-color: greenyellow;
-  padding: 0px 3px 0px 3px;
-  border-radius: 4px;
-}*/
+/*Definitie van tooltips*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 0;
+
+  position: absolute;
+  z-index: 1;
+
+  width: 120%;
+  top: 100%;
+  left: 50%;
+  margin-left: -60%;  /*Use half of the width (120/2 = 60), to center the tooltip*/ 
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%; /* At teh bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
