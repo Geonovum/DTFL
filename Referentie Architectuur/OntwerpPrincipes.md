@@ -202,7 +202,7 @@ Data als een product lijkt vanzelfsprekend omdat we dit naar ons gevoel al doen.
 
 De data als een product is een atomaire eenheid. Het is niet zo dat op andere plekken ‘metadata’ wordt opgeslagen van het dataproduct maar bij data mesh is al deze informatie aanwezig bij het dataproduct zelf. Dit past bij de federatieve aanpak.
 
-Een <span class="tooltiptext">data product<span class="tooltip">Een <a class="linkintooltiptext" href="https://www.digitaltwinconsortium.org/glossary/glossary.html#computational-representation">data product</a> komt overeen met <m>(...)</m>, maar we hanteren hier de termen uit <i>Data Mesh</i>)</span></span> kan bestaan uit:
+Een <span class="tooltip">data product<span class="tooltiptext">Een <a class="linkintooltiptext" href="https://www.digitaltwinconsortium.org/glossary/glossary.html#computational-representation">data product</a> komt overeen met <m>(...)</m>, maar we hanteren hier de termen uit <i>Data Mesh</i>)</span></span> kan bestaan uit:
 
  * Transactie data – data in transactionele werkprocessen zoals bijvoorbeeld topografie transacties, maar ook sensor data of events
  * Analytische data – dit is transactionele data dat gecombineerd, bewerkt, verrijkt en/of geaggregeerd is uit verschillende bronsystemen. Analytische data biedt nieuwe kennis en inzichten.
