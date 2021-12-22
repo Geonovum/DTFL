@@ -109,8 +109,7 @@ Om er voor te zorgen dat de Nationale digitale tweeling infrastructuur voldoet a
 <!-- Het concept [data mesh](https://martinfowler.com/articles/data-mesh-principles.html) heeft een architectuur die gebaseerd is op [federatieve oplossingen](https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2021/10/31/nl-digitaal-interbestuurlijke-datastrategie-nederland/nl-digitaal-interbestuurlijke-datastrategie-nederland.pdf)[^1] waar de data en het ondersteunen van opschalen centraal staat. Deze architectuur is gebaseerd op grote complexe domeinen, organisaties en stakeholders. -->
 
 <!-- alternatief -->
-Het concept [data mesh](https://martinfowler.com/articles/data-mesh-principles.html) heeft een architectuur die gebaseerd is op <span class="tooltip">federatieve oplossingen<span class="tooltiptext">We zien de federatieve aanpak ook terug in de interbestuurlijke datastrategie van de overheid<a href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2021/10/31/nl-digitaal-interbestuurlijke-datastrategie-nederland/nl-digitaal-interbestuurlijke-datastrategie-nederland.pdf">interbestuurlijke datastrategie van de overheid</a></span></span>.
-
+Het concept [data mesh](https://martinfowler.com/articles/data-mesh-principles.html) heeft een architectuur die gebaseerd is op <span class="tooltip">federatieve oplossingen<span class="tooltiptext">We zien de federatieve aanpak ook terug in de <a href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2021/10/31/nl-digitaal-interbestuurlijke-datastrategie-nederland/nl-digitaal-interbestuurlijke-datastrategie-nederland.pdf">interbestuurlijke datastrategie van de overheid</a></span></span>.
 
 Voor de architectuur van de Nationale digitale tweeling infrastructuur voegen we een aantal onderdelen toe aan het data mesh concept of vullen we het iets anders in maar in essentie hanteren we de data mesh architectuur als basis.
 
