@@ -133,7 +133,7 @@ Ook een federatieve structuur heeft basisvoorzieningen nodig om dataproducten, m
 4. **Federatieve governance**
 Afsprakenstelsels zijn nodig om het geheel te kunnen laten werken. Dit betreft niet alleen standaarden voor het delen van data, data-producten, modellen maar ook ethiek, privacy, transparantie, e.d. Governance vraagstukken liggen op de gedeelde voorzieningen, in een federatief stelsel zijn de overige governance vraagstukken voor de domeinen. 
 
-Met het datamesh concept passen we een <span class="tooltip">mesh topologie <span class="tooltiptext">Mesh topologie zegt niets voor de onderliggende netwerk topologie dat gebruikt wordt.</span></span>toe. Dit is een vermaast netwerk waarin de dataproducten de nodes zijn van waaruit de data wordt doorgestuurd naar gebruikers, afnemende applicaties of andere dataproducten.
+Met het datamesh concept passen we een <span class="tooltip">mesh topologie<span class="tooltiptext">Mesh topologie zegt niets voor de onderliggende netwerk topologie dat gebruikt wordt.</span></span> toe. Dit is een vermaast netwerk waarin de dataproducten de nodes zijn van waaruit de data wordt doorgestuurd naar gebruikers, afnemende applicaties of andere dataproducten.
 
 <figure id="Datamesh">
     <img src="media/Datamesh.jpg" alt="Datamesh">
@@ -192,7 +192,7 @@ De data heeft binnen het domein waarin ze zijn ontstaan een specifieke betekenis
 
 #### De domeinen hanteren de basisregistraties en relaties tussen de basisregistraties als fundament
 
-De (basis)registraties bestaan uit de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Topografie (BRT), Basisregistratie Adressen en Gebouwen (BAG), Basisregistratie Ondergrond (BRO), Basisregistratie Kadaster (BRK), Landelijke Voorziening Beeldmateriaal, 3D Basisvoorziening[^4]
+De <span class="tooltip">(basis)registraties<span class="tooltiptext"></span>Tijdens de uitvoering zullen de referentieregistraties aangepast worden op behoeften</span> bestaan uit de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Topografie (BRT), Basisregistratie Adressen en Gebouwen (BAG), Basisregistratie Ondergrond (BRO), Basisregistratie Kadaster (BRK), Landelijke Voorziening Beeldmateriaal, 3D Basisvoorziening.
 
 Het onderscheid dat we van oudsher hebben tussen operationele (veelal transactie-gebaseerde) en analytische data zal steeds meer vervallen. Analytische data maakt direct gebruik van de operationele data en levert vaak ook weer feedback op de operationele data. Analytische data kan weer operationele data zijn voor een ander nDTFL proces. We brengen data naar de modellen en modellen naar de data. Dit organisch stromen van data faciliteren we door de domein-structuur. We hanteren hier het concept van data als een product, zie volgende paragraaf.
 
@@ -202,7 +202,7 @@ Data als een product lijkt vanzelfsprekend omdat we dit naar ons gevoel al doen.
 
 De data als een product is een atomaire eenheid. Het is niet zo dat op andere plekken ‘metadata’ wordt opgeslagen van het dataproduct maar bij data mesh is al deze informatie aanwezig bij het dataproduct zelf. Dit past bij de federatieve aanpak.
 
-Een [dataproduct](https://www.digitaltwinconsortium.org/glossary/glossary.html#computational-representation)[^5] kan bestaan uit:
+Een <span class="tooltip"><a class="linkintooltiptext" href="https://www.digitaltwinconsortium.org/glossary/glossary.html#computational-representation">dataproduct</a><span class="tooltiptext">Een <i>data product</i> komt overeen met <m>(...)</m>, maar we hanteren hier de termen uit <i>Data Mesh</i>)</span></span> kan bestaan uit:
 
  * Transactie data – data in transactionele werkprocessen zoals bijvoorbeeld topografie transacties, maar ook sensor data of events
  * Analytische data – dit is transactionele data dat gecombineerd, bewerkt, verrijkt en/of geaggregeerd is uit verschillende bronsystemen. Analytische data biedt nieuwe kennis en inzichten.
@@ -432,8 +432,7 @@ De prioriteiten van de governance in data mesh zijn anders dan de traditionele g
 
 De nationale Digitale Tweeling bestaat niet 1 digitale tweeling maar uit een stelsel van digitale tweelingen. Deze digitale tweelingen zijn georganiseerd per domein. In een domein vinden stakeholders van bedrijfsleven, wetenschap, kenniscentra, overheid en burgers elkaar rondom bepaalde vraagstukken zoals luchtverontreiniging of leefbaarheid van de omgeving. De meeste domeinen bestaan al, nieuwe domeinen zullen ontstaan terwijl huidige domeinen veranderen of in een ander opgaan of verdwijnen. Dit is een sociaal maatschappelijk proces gebaseerd op waarde. Ieder domein is federatief van opzet en heeft zijn eigen afspraken, governance en financiering.
 
-We hebben een bijzonder domein. Dit is het domein van de geo(basis)registraties. Dit domein biedt de referentiegrondslag. Door gebruik te maken van de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Adressen en Gebouwen (BAG), 3D bestand van Nederland gebaseerd op de BGT en puntenwolken en andere referentieregistraties[^6]  hanteren de domeinen dezelfde referentiegrondslag waardoor de resultaten uit de domeinen met elkaar te vergelijken zijn.
-
+We hebben een bijzonder domein. Dit is het domein van de geo(basis)registraties. Dit domein biedt de referentiegrondslag. Door gebruik te maken van de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Adressen en Gebouwen (BAG), 3D bestand van Nederland gebaseerd op de BGT en puntenwolken en andere <span class="tooltip">referentieregistraties<span class="tooltiptext">Deze zullen gedurende de uitvoering nader worden ingevuld.</span></span> hanteren de domeinen dezelfde referentiegrondslag waardoor de resultaten uit de domeinen met elkaar te vergelijken zijn.
 
 <figure id="Datamesh view">
     <img src="media/Datamesh view.jpg" alt="Datamesh view">
