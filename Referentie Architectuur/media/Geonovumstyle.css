@@ -105,10 +105,10 @@ m
 /*Definitie van tooltips*/
 
 .tooltip:hover {
-  background-color: black;
-  padding: 0px 5px;
+  background-color: #697478;
+  /*padding: 0px 5px;*/
   content: 5px 0px;
-  border-radius: 5px;
+  border-radius: 3px;
   color: white;
   /*font-weight: bold;*/
 }
@@ -121,7 +121,7 @@ m
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  background-color: #f2f2f2;
+  background-color: #dce5e8;
   /*opacity: 90%;*/
   color: black;
   text-align: left;
@@ -130,21 +130,21 @@ m
   /*font-size: 0.85em;*/
   position: absolute;
   z-index: 1;
-  width: 120%;
+  width: 300px;
   top: 100%;
   left: 50%;
-  margin-left: -60%;  /*Use half of the width (120/2 = 60), to center the tooltip*/ 
+  margin-left: -150px;  /*Use half of the width (120/2 = 60), to center the tooltip*/
 }
 
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
-  bottom: 100%; /* At teh bottom of the tooltip */
+  bottom: 100%; /* At the bottom of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #f2f2f2 transparent;
+  border-color: transparent transparent #dce5e8 transparent;
 }
 
 .tooltip:hover .tooltiptext {
