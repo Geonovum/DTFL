@@ -6,6 +6,7 @@
 <div class="tooltip">Hover over me
 <span class="tooltiptext">Tooltip maar nu met een veel langere zin om te zien wat er dan gebeurt text</span>
 </div>
+<br>
 
 
 De maatschappelijke behoefte enerzijds en technische mogelijkheden anderzijds jagen de inzet van digital twins aan. Maatschappelijke waarden, zoals van privacyborging, inclusiviteit, ethiek en informatiebeveiliging, stellen ook eisen aan de inrichting en werking van het digital twin stelsel. De combinatie van deze wensen en eisen dienen tot uitdrukking te komen in zaken als de governance van het stelsel en de organisatorische en technische inrichting ervan.
