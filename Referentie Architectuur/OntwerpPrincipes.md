@@ -192,7 +192,7 @@ De data heeft binnen het domein waarin ze zijn ontstaan een specifieke betekenis
 
 #### De domeinen hanteren de basisregistraties en relaties tussen de basisregistraties als fundament
 
-De <span class="tooltip">(basis)registraties<span class="tooltiptext"></span>Tijdens de uitvoering zullen de referentieregistraties aangepast worden op behoeften</span> bestaan uit de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Topografie (BRT), Basisregistratie Adressen en Gebouwen (BAG), Basisregistratie Ondergrond (BRO), Basisregistratie Kadaster (BRK), Landelijke Voorziening Beeldmateriaal, 3D Basisvoorziening.
+De <span class="tooltip">(basis)registraties<span class="tooltiptext">Tijdens de uitvoering zullen de referentieregistraties aangepast worden op behoeften</span></span> bestaan uit de Basisregistratie Grootschalige Topografie (BGT), Basisregistratie Topografie (BRT), Basisregistratie Adressen en Gebouwen (BAG), Basisregistratie Ondergrond (BRO), Basisregistratie Kadaster (BRK), Landelijke Voorziening Beeldmateriaal, 3D Basisvoorziening.
 
 Het onderscheid dat we van oudsher hebben tussen operationele (veelal transactie-gebaseerde) en analytische data zal steeds meer vervallen. Analytische data maakt direct gebruik van de operationele data en levert vaak ook weer feedback op de operationele data. Analytische data kan weer operationele data zijn voor een ander nDTFL proces. We brengen data naar de modellen en modellen naar de data. Dit organisch stromen van data faciliteren we door de domein-structuur. We hanteren hier het concept van data als een product, zie volgende paragraaf.
 
