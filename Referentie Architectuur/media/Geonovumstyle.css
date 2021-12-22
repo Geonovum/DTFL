@@ -103,13 +103,6 @@ m
 }
 
 /*Definitie van tooltips*/
-.tooltip:hover {
-  background-color: lightgrey;
-  /*padding: 0px 5px;*/
-  content: 0px 5px;
-  border-radius: 5px;
-  /*font-weight: bold;*/
-}
 
 .tooltip {
   position: relative;
@@ -117,8 +110,26 @@ m
   border-bottom: 1px dotted black;
 }
 
-.tooltip .tooltiptext {
+.tooltip:hover {
+  background-color: lightgrey;
+  padding: 0px 5px;
+  content: 5px 0px;
+  border-radius: 5px;
+  /*font-weight: bold;*/
+}
 
+.linkintooltiptext {
+  color: #d3d5de;
+}
+
+.linkintooltiptext:hover {
+  background-color: #1e1e1f;
+  color:  white;
+  border-bottom:  2px solid #707070;
+  border-radius:  3px;
+}
+
+.tooltip .tooltiptext {
   visibility: hidden;
   background-color: black;
   opacity: 90%;
@@ -127,10 +138,8 @@ m
   border-radius: 6px;
   padding: 10px;
   /*font-size: 0.85em;*/
-
   position: absolute;
   z-index: 1;
-
   width: 120%;
   top: 100%;
   left: 50%;
