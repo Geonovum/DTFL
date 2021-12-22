@@ -84,23 +84,26 @@ td
 }
 
 /*-- Definitie van afwijkende tekst-kleuren ----------------------------------------*/
-r
-{
-  color: darkred;
-}
+r /*rood originele text*/
+  {
+    background-color: rgba(130, 33, 33, 0.1);
+    color: rgb(130, 33, 33);
+    border-radius: 3px;
+  }
 
-g
-{
-  color: darkgreen;
-}
+g /*groen voor nieuwe tekst*/
+  {
+    color: rgb(69, 127, 47);
+    background-color: rgba(69, 127, 47, 0.1);
+    border-radius: 3px;
+  }
 
-m
-{
-  /* border-color: red; */
-  /* border-style: solid; */
-  background-color: yellow;
-  color: darkblue;
-}
+m /*voor tekst ter discussie*/
+  {
+    background-color: rgb(255, 251, 122);
+    border-radius: 3px;
+    color: darkblue;
+  }
 
 /*Definitie van tooltips*/
 

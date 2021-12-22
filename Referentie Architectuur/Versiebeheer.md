@@ -24,8 +24,6 @@ Er zijn 3 manieren om teksten te markeren:
   
 **2 Voetnoten**
 
-We gebruiken geen voetnoten in dit document. In plaats daarvan kun je gebruik maken van tooltiptext. Hiermee kun je één of meerdere woorden een aanvullende tekst meegegeven die niet in de lopende tekst thuishoort. De tekst verschijnt op het moment dat je met je muis over het woord beweegt.
-
-Op deze manier maak je een tooltip. In deze krijgt de term <span class="tooltip">geografisch informatiesysteem<span class="tooltiptext">Een geografisch informatiesysteem (meestal afgekort tot GIS) is een informatiesysteem waarmee (ruimtelijke) gegevens of informatie over geografische objecten, zogeheten geo-informatie kan worden opgeslagen, beheerd, bewerkt, geanalyseerd, geïntegreerd en gepresenteerd.</span></span> extra uitleg mee. 
+Deze documentatie gebruikt **geen voetnoten**. In plaats daarvan kun je gebruik maken van **tooltiptext**. Hiermee kun je één of meerdere woorden een aanvullende tekst meegegeven die niet in de lopende tekst thuishoort. De tekst verschijnt op het moment dat je met je muis over het woord beweegt. In deze zin krijgt de term <span class="tooltip">Geografisch Informatiesysteem<span class="tooltiptext">Een geografisch informatiesysteem (meestal afgekort tot GIS) is een informatiesysteem waarmee (ruimtelijke) gegevens of informatie over geografische objecten, zogeheten geo-informatie kan worden opgeslagen, beheerd, bewerkt, geanalyseerd, geïntegreerd en gepresenteerd.</span></span> extra uitleg mee. 
 
 Dit werkt uiteraard alleen in Markdown!
