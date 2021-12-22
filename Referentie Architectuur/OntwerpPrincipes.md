@@ -3,13 +3,13 @@
 ### TEST VOETNOOT 
 
 ### Test
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Malesuada pellentesque elit eget gravida cum sociis. Neque vitae tempus quam pellentesque nec nam aliquam. Risus nec feugiat in fermentum posuere urna nec tincidunt. Duis at tellus at urna condimentum mattis pellentesque id. Ornare massa eget egestas purus viverra. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Malesuada pellentesque elit eget gravida cum sociis. Neque vitae tempus quam pellentesque nec nam aliquam. Risus nec feugiat in fermentum posuere urna nec tincidunt. Duis at tellus at urna condimentum mattis pellentesque id. Ornare massa eget egestas purus viverra.
 
-<div class="tooltip">Massa ultricies mi quis hendrerit dolor.
-    <span class="tooltiptext">Vel pretium lectus quam id leo in vitae.</span>
-</div>
-
-Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Lectus arcu bibendum at varius vel pharetra vel. Odio facilisis mauris sit amet massa vitae. Amet porttitor eget dolor morbi non arcu risus quis. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Laoreet id donec ultrices tincidunt. At augue eget arcu dictum. Donec massa sapien faucibus et molestie ac feugiat sed.
+<span class="tooltip">Massa ultricies mi quis hendrerit dolor.
+   <span class="tooltiptext">Vel pretium lectus quam id leo in vitae. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Lectus arcu bibendum at varius vel pharetra vel.
+      <strong>Odio facilisis mauris sit amet massa vitae</strong>.
+   Amet porttitor eget dolor morbi non arcu risus quis. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Laoreet id donec ultrices tincidunt. At augue eget arcu dictum. Donec massa sapien faucibus et molestie ac feugiat sed.</span>
+</span>
 
 Rhoncus aenean vel elit scelerisque. Habitant morbi tristique senectus et netus. Quis ipsum suspendisse ultrices gravida. Malesuada nunc vel risus commodo viverra. Ut lectus arcu bibendum at varius vel pharetra vel. Libero nunc consequat interdum varius sit amet mattis. Faucibus scelerisque eleifend donec pretium vulputate sapien. Erat nam at lectus urna duis. Erat nam at lectus urna duis convallis convallis tellus. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Lobortis elementum nibh tellus molestie nunc non blandit.
 
@@ -171,7 +171,7 @@ De dataproducten hebben een eigenaar en deze is hierop aanspreekbaar. Een datapr
 
 Om een dataproduct te maken gebruiken we de data uit de bron op basis van services. Alleen de bron heeft de juiste, meest actuele versie van de data en bevat alle context. De eigenaar van de data wijst afnemers de juiste weg en faciliteert ze, waar nodig, bij het benaderen van de bron.
 
-#### 	De brondata past op de afnemersbehoeften 
+####  De brondata past op de afnemersbehoeften 
 
 De eigenaar van dataproduct heeft de zorgplicht dat de output data continu geleverd wordt conform de afspraken (SLO) zodat deze door andere dataproducten gebruikt kan worden. Dit vraagt een continue dialoog tussen de dataproduct-eigenaar en afnemers cq. afnemende dataproducten. 
 
@@ -184,7 +184,7 @@ De eigenaar van dataproduct heeft de zorgplicht dat de output data continu gelev
 
 Domeinen kunnen op verschillende manieren georganiseerd zijn. Dit is vrij en naar behoefte van het werkveld. Denk bijvoorbeeld aan verticale kennisdomeinen zoals luchtverontreiniging of horizontale domeinen als sensoren. De DTFL schrijft de inrichting niet voor dit is een sociaal maatschappelijk proces dat continue in beweging zal zijn en alleen kan bestaan als dit waarde toevoegt voor de betrokken stakeholders en daarmee verbonden is met lange termijn eigenaarschap vanuit het domein. In de praktijk bestaan de meeste domeinen al. In de nDTFL brengen we deze in beeld.
 
-#### 	We schrijven geen domeinen voor
+####  We schrijven geen domeinen voor
 
 De inrichting van de domeinen is een sociaal maatschappelijk proces gebaseerd op de behoeften van stakeholders.
 In de domeinen bestaat enorm veel data. Hoe houden we dit bij elkaar in een wereld van decentralisatie en domeinen die hun eigen context(en) van de gegevens nodig hebben? De data mesh hanteert hiervoor de volgende aanpak:
@@ -201,7 +201,7 @@ Data Mesh onderkent Domain Driven Design ([DDD](https://en.wikipedia.org/wiki/Do
 
 Domeinen gebruiken, vanwege het taak-specifieke karakter vaak om goede redenen, verschillende begrippen in een andere betekenis of dezelfde begrippen met een verschillende betekenis. Zo kan een ‘klant’ in het ene domein vergelijkbaar zijn met wat in een ander domein ‘cliënt’ wordt genoemd. Andersom kan het begrip ‘klant’ in meerdere domeinen worden gebruikt maar een, ietwat of sterk, verschillend betekenis hebben. DDD hecht daarom veel belang aan het zorgvuldig afbakenen van wat wel en niet tot een domein behoort (‘bounded context’) en benadrukt dat begrippen een domeingebonden betekenis hebben.
 
-#### 	Er bestaan meerdere contexten van de werkelijkheid
+####  Er bestaan meerdere contexten van de werkelijkheid
 
 De data heeft binnen het domein waarin ze zijn ontstaan een specifieke betekenis. Binnen de nDTFL hebben we een bijzonder domein. Dit is het domein van de basisregistraties. Basisregistraties zijn context onafhankelijk en zijn het fundament onder de data uit de domeinen. Zonder fundament hanteren de domeinen verschillende referenties en kunnen we de resultaten niet meer met elkaar vergelijken. Denk aan het gebruik van topografie die op een andere plek ligt dan de Basisregistratie Grootschalige Topografie (BGT).
 
