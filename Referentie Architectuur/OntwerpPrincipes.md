@@ -7,6 +7,7 @@
 <span class="tooltiptext">Tooltip maar nu met een veel langere zin om te zien wat er dan gebeurt text</span>
 </div>
 
+
 De maatschappelijke behoefte enerzijds en technische mogelijkheden anderzijds jagen de inzet van digital twins aan. Maatschappelijke waarden, zoals van privacyborging, inclusiviteit, ethiek en informatiebeveiliging, stellen ook eisen aan de inrichting en werking van het digital twin stelsel. De combinatie van deze wensen en eisen dienen tot uitdrukking te komen in zaken als de governance van het stelsel en de organisatorische en technische inrichting ervan.
 
 In dit hoofdstuk gaat het hoofdzakelijk over de technische inrichting: de architectuur van het digital twin stelsel. De architecturale uitgangspunten of principes dienen de maatschappelijke wensen en eisen mogelijk te maken en omgekeerd: maatschappelijke eisen, waarden en wetgeving moeten door het digital twin stelsel worden gerespecteerd. Architecturale principes vormen dus de basis voor de inrichting van het stelsel dat tegemoetkomt aan eisen en wensen en rekening houdt met grenzen die de samenleving stelt. 
