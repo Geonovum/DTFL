@@ -102,4 +102,9 @@ m
   color: darkblue;
 }
 
-
+/*Definitie van hovertext*/
+div:hover {
+  background-color: greenyellow;
+  padding: 0px 5px 0px 5px;
+  border-radius: 4px;
+}
