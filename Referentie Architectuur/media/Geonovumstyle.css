@@ -126,7 +126,7 @@ m
   text-align: left;
   border-radius: 6px;
   padding: 10px;
-  font-size: 0.6em;
+  /*font-size: 0.85em;*/
 
   position: absolute;
   z-index: 1;
@@ -150,3 +150,4 @@ m
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
