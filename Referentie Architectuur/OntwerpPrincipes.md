@@ -1,7 +1,5 @@
 ## Ontwerpprincipes
 
-### TEST VOETNOOT 
-
 ### Test
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Malesuada pellentesque elit eget gravida cum sociis. Neque vitae tempus quam pellentesque nec nam aliquam. Risus nec feugiat in fermentum posuere urna nec tincidunt. Duis at tellus at urna condimentum mattis pellentesque id. Ornare massa eget egestas purus viverra. <span class="tooltip">Massa ultricies mi quis hendrerit dolor.<span class="tooltiptext">Vel pretium lectus quam id leo in vitae. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Lectus arcu bibendum at varius vel pharetra vel.<strong>Odio facilisis mauris sit amet massa vitae</strong>. Amet porttitor eget dolor morbi non arcu risus quis. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Laoreet id donec ultrices tincidunt. At augue eget arcu dictum. Donec massa sapien faucibus et molestie ac feugiat sed.</span></span>
 
@@ -107,7 +105,11 @@ De architectuur bestaat uit generieke componenten die [FAIR](https://www.go-fair
 
 Om er voor te zorgen dat de Nationale digitale tweeling infrastructuur voldoet aan de FAIR richtlijnen introduceren we een nieuw concept “data mesh” waarmee we tevens ook de complexiteit ordenen.
 
-Het concept [data mesh](https://martinfowler.com/articles/data-mesh-principles.html) heeft een architectuur die gebaseerd is op [federatieve oplossingen](https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2021/10/31/nl-digitaal-interbestuurlijke-datastrategie-nederland/nl-digitaal-interbestuurlijke-datastrategie-nederland.pdf)[^1] waar de data en het ondersteunen van opschalen centraal staat. Deze architectuur is gebaseerd op grote complexe domeinen, organisaties en stakeholders.
+<!-- origineel -->
+<!-- Het concept [data mesh](https://martinfowler.com/articles/data-mesh-principles.html) heeft een architectuur die gebaseerd is op [federatieve oplossingen](https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2021/10/31/nl-digitaal-interbestuurlijke-datastrategie-nederland/nl-digitaal-interbestuurlijke-datastrategie-nederland.pdf)[^1] waar de data en het ondersteunen van opschalen centraal staat. Deze architectuur is gebaseerd op grote complexe domeinen, organisaties en stakeholders. -->
+
+<!-- alternatief -->
+Het concept [data mesh](https://martinfowler.com/articles/data-mesh-principles.html) heeft een architectuur die gebaseerd is op <span class="tooltip">federatieve oplossingen<span class="tooltiptext">We zien de federatieve aanpak ook terug in de interbestuurlijke datastrategie van de overheid<a href="https://www.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2021/10/31/nl-digitaal-interbestuurlijke-datastrategie-nederland/nl-digitaal-interbestuurlijke-datastrategie-nederland.pdf">interbestuurlijke datastrategie van de overheid</a></span></span>.
 
 
 Voor de architectuur van de Nationale digitale tweeling infrastructuur voegen we een aantal onderdelen toe aan het data mesh concept of vullen we het iets anders in maar in essentie hanteren we de data mesh architectuur als basis.
@@ -481,12 +483,3 @@ Een organisatie beschikt over de nodige hulpmiddelen, tooling, voor het manipule
 Deze gecombineerde modellen kunnen het resultaat zijn van bepaalde momentopnamen, maar in toenemende mate zijn we in staat om ook met direct aan de werkelijkheid ontleende data (realtime) te werken, waardoor een digitale tweeling van dit deel van de fysieke leefomgeving ontstaat. Met de data producten is het dus mogelijk om complexe modellen en visualisaties samen te stellen. Denk hierbij aan het samenstellen van dynamische modellen die het gedrag van verkeersdeelnemers voorspellen in geval van een wegafsluiting of de gevolgen voor fijnstof en geluid bij de verbreding van een weg.
 
 De organisatie kan dit zelf gebruiken en is vrij om het dataproduct weer beschikbaar te stellen voor hergebruik indien andere gebruikers hierom vragen.
-
-**Voetnoten (tijdelijk)**
-
- * [^1] We zien de federatieve aanpak ook terug in de interbestuurlijke datastrategie van de overheid
- * [^2] Mesh topologie zegt niets voor de onderliggende netwerk topologie dat gebruikt wordt.
- * [^3] Binnen de Europese Commissie noemen ze dit dataspaces
- * [^4] Tijdens de uitvoering zullen de referentieregistraties aangepast worden op behoeften
- * [^5] Komt overeen met (echter we hanteren hier de termen uit data mesh)
- * [^6] Deze zullen gedurende de uitvoering nader worden ingevuld.
