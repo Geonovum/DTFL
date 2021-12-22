@@ -1,10 +1,10 @@
 ## Ontwerpprincipes
 
-### Test hovertext
+<!-- ### Test hovertext
 
 <p>Move the mouse over text below</p>
 <p class="voetnoot">alalalalalajsdkl;faljkds;lfkj</p>
-<br>
+<br> -->
 
 De maatschappelijke behoefte enerzijds en technische mogelijkheden anderzijds jagen de inzet van digital twins aan. Maatschappelijke waarden, zoals van privacyborging, inclusiviteit, ethiek en informatiebeveiliging, stellen ook eisen aan de inrichting en werking van het digital twin stelsel. De combinatie van deze wensen en eisen dienen tot uitdrukking te komen in zaken als de governance van het stelsel en de organisatorische en technische inrichting ervan.
 
