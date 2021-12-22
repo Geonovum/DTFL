@@ -3,6 +3,7 @@
 ### Test hovertext
 
 <p>Move the mouse over text below</p>
+<p class="voetnoot">alalalalalajsdkl;faljkds;lfkj</p>
 <div class="tooltip">Hover over me
 <span class="tooltiptext">Tooltip maar nu met een veel langere zin om te zien wat er dan gebeurt text</span>
 </div>
