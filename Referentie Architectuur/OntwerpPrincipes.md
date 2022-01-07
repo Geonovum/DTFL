@@ -272,6 +272,14 @@ Hierin worden dataproducten in een keten gebruikt waarin een dataproduct een alg
 </figure>
 
 
+Op een andere schematische manier uitgedrukt.
+
+<figure id="dataproduct keten">
+    <img src="media/dataproduct keten.png" alt="dataproduct keten">
+    <figcaption>flow van dataproducten</figcaption>
+</figure>
+
+
 Dit kunnen we ook toepassen op een overkoepelend vraagstuk waarbij verschillende dataproducten zijn gebruikt. Bijvoorbeeld het vraagstuk of Nederland voldoende beschermd is tegen het water in geval van enorme regenval en smeltwater in de grote rivieren zoals de Maas en de Rijn. De dataproducten worden dan gebruikt in het domein water risico’s.
 
 <figure id="Domein water">
@@ -285,6 +293,14 @@ Dataproducten hebben kenmerken of te wel ontwerpprincipes die toegepast moeten w
 <figure id="Dataproduct constructieprincipes">
     <img src="media/Dataproduct constructieprincipes.jpg" alt="Dataproduct constructieprincipes">
     <figcaption>Dataproduct ontwerpprincipes</figcaption>
+</figure>
+
+
+De recursiviteit van data mesh.
+
+<figure id="recursiviteit">
+    <img src="media/recursiviteit.png" alt="recursiviteit">
+    <figcaption>recursiviteit van data mesh</figcaption>
 </figure>
 
 
